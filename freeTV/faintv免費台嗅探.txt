@@ -1,4 +1,4 @@
-faintv,#genre#
+Fain TV,#genre#
 中視新聞台,video://http://www.faintv.com/channel/12922			
 華視新聞台,video://http://www.faintv.com/channel/12891			
 台視新聞台,video://http://www.faintv.com/channel/19366			
@@ -113,3 +113,4 @@ MOMO運動綜合台(VIP),video://http://www.faintv.com/channel/14009
 博斯運動二台(VIP),video://http://www.faintv.com/channel/124			
 統一獅經典回看,video://http://www.faintv.com/channel/16732			
 富邦悍將經典回看,video://http://www.faintv.com/channel/16731					
+
