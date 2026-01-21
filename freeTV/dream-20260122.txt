@@ -1,3 +1,157 @@
+飯店直播源,#genre#
+公視,http://tw.护法.cloudns.ch:21096/mk.php?id=live1201
+Trace Sport Stars,http://tw.护法.cloudns.ch:21096/mk.php?id=live1003
+DISCOVERY,http://tw.护法.cloudns.ch:21096/mk.php?id=live1002
+旅遊生活,http://tw.护法.cloudns.ch:21096/mk.php?id=live1005
+動物星球,http://tw.护法.cloudns.ch:21096/mk.php?id=live1004
+momo親子台,http://tw.护法.cloudns.ch:21096/mk.php?id=live1007
+東森幼幼HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1008
+ANIMAX 卡通動畫頻道,http://tw.护法.cloudns.ch:21096/mk.php?id=live1060
+龍華卡通台,http://tw.护法.cloudns.ch:21096/mk.php?id=custom29
+緯來綜合HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1044
+八大第一HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1043
+八大綜合HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1019
+三立台灣HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1021
+三立都會HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1020
+韓國娛樂台,http://tw.护法.cloudns.ch:21096/mk.php?id=live1024
+東森綜合HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1041
+超視HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1180
+中天綜合HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1022
+中天娛樂HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1023
+東風衛視,http://tw.护法.cloudns.ch:21096/mk.php?id=live1195
+MUCH TV,http://tw.护法.cloudns.ch:21096/mk.php?id=live1189
+東森戲劇HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1042
+八大戲劇HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1057
+TVBS歡樂HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1018
+緯來戲劇,http://tw.护法.cloudns.ch:21096/mk.php?id=live1186
+緯來日本HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1026
+Taiwan Plus,http://tw.护法.cloudns.ch:21096/mk.php?id=live1238
+年代新聞,http://tw.护法.cloudns.ch:21096/mk.php?id=live1192
+東森新聞HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1014
+三立新聞HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1016
+TVBS新聞HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1051
+TVBS HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1251
+非凡新聞,http://tw.护法.cloudns.ch:21096/mk.php?id=live1013
+非凡商業,http://tw.护法.cloudns.ch:21096/mk.php?id=live1012
+東森財經HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1017
+壹新聞,http://tw.护法.cloudns.ch:21096/mk.php?id=live1242
+CNBC,http://tw.护法.cloudns.ch:21096/mk.php?id=live1063
+Bloomberg News,http://tw.护法.cloudns.ch:21096/mk.php?id=live1066
+NHK世界HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1027
+鏡電視新聞台,http://tw.护法.cloudns.ch:21096/mk.php?id=live1031
+好萊塢電影HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1025
+緯來電影HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1183
+HBO,http://tw.护法.cloudns.ch:21096/mk.php?id=live1029
+AXN,http://tw.护法.cloudns.ch:21096/mk.php?id=live1054
+CINEMAX HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1030
+AMC 電影台,http://tw.护法.cloudns.ch:21096/mk.php?id=live1032
+寵物頻道,http://tw.护法.cloudns.ch:21096/mk.php?id=live1040
+緯來育樂HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1045
+緯來體育HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1011
+博斯運動一,http://tw.护法.cloudns.ch:21096/mk.php?id=live1225
+momo 綜合台,http://tw.护法.cloudns.ch:21096/mk.php?id=live1248
+DAZN 1,http://tw.护法.cloudns.ch:21096/mk.php?id=live1069
+DAZN 2,http://tw.护法.cloudns.ch:21096/mk.php?id=live1072
+廈門衛視,http://tw.护法.cloudns.ch:21096/mk.php?id=live1033
+海峽衛視,http://tw.护法.cloudns.ch:21096/mk.php?id=live1035
+
+
+
+立视(限),#genre#
+民視,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv002
+民視第一台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv003
+民視新聞台,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv13
+民視台灣台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv001
+民視影劇台,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv09
+民視旅遊台,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv07
+民視綜藝台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv004
+中視,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv040
+中視新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv074
+中天新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv009
+華視,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv041
+華視新聞,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv052
+靖天綜合台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv046
+靖天國際台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv063
+靖天戲劇台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv058
+靖天日本台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv047
+靖天映畫台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv055
+靖天卡通台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv044
+靖天育樂台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv062
+靖天資訊台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv065
+靖天電影台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv061
+靖天歡樂台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv054
+龍華偶像台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang12
+龍華卡通台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang01
+龍華戲劇台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang18
+龍華日韓台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang11
+龍華經典台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang21
+龍華電影台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang03
+龍華洋片台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang02
+靖洋戲劇台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv045
+靖洋卡通NiceBingo,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv057
+寰宇新聞台,http://lasvgas.zabc.net:8080/litv.php?id=litv-longturn14
+寰宇新聞台灣台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv156
+寰宇財經台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv158
+TVBS精采台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv067
+八大精彩台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv034
+八大綜藝台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv039
+ELTA娛樂台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv070
+ELTV生活英語,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang20
+東森新聞,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv152
+東森財經新聞,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv153
+鏡電視新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv075
+亞洲旅遊台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv076
+GINXEsportsTV,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv053
+時尚運動X,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv014
+智林體育台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv101
+TraceSports,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv077
+影迷數位電影台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv011
+AMC電影台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv017
+公視戲劇台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv042
+采昌影劇台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv049
+台灣戲劇台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang22
+影迷數位紀實台,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv15
+達文西頻道,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv018
+Classica古典樂,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv059
+MezzoLive,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv083
+豬哥亮歌廳秀,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv006
+TraceUrban,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv082
+韓國娛樂台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv016
+ArirangTV,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv079
+MCE 我的歐洲電影,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv10
+第1商業台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv104
+Pet Club TV,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv110
+Smart知識台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang19
+視納華仁紀實頻道,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv013
+客家電視台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv043
+好消息,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv16
+好消息2台,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv17
+國會頻道1,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv084
+國會頻道2,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv085
+民視,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv155
+中視經典台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv080
+中視菁采台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv064
+中天亞洲台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv109
+TVBS,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv073
+TVBS新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv072
+TVBS歡樂台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv068
+台視,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv066
+台視新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv051
+台視財經台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv056
+博斯運動一台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang07
+博斯運動二台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang08
+博斯無限台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang10
+博斯無限二台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang13
+博斯網球台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang09
+博斯高球台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang05
+博斯高球二台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang06
+博斯魅力台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang04
+非凡新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv010
+非凡商業台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv048
+VOA美國之音,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv03
+
+
+
 央视频(FY),#genre#
 cctv1,http://jp.护法.cloudns.ch/ysp.php?id=0
 cctv2,http://jp.护法.cloudns.ch/ysp.php?id=1
@@ -223,7 +377,7 @@ PopC,http://mytvsuper.webn.cc:2052/stream/mytv/popc/master.m3u8?u=yhy&p=447c04d6
 爱自然,http://mytvsuper.webn.cc:2052/stream/mytv/null-3/master.m3u8?u=yhy&p=447c04d6fbd1b6db532939627946d3ee4532fbe69a842ccfe439df51e0fff326
 Animax,http://mytvsuper.webn.cc:2052/stream/mytv/animax/master.m3u8?u=yhy&p=447c04d6fbd1b6db532939627946d3ee4532fbe69a842ccfe439df51e0fff326
 
-油管新闻,#genre#
+YT新闻,#genre#
 台視新聞 TTV NEWS,http://dbmhufa.zabc.net:2086/tsfile/live/1001_1.m3u8?key=h6i98xc5
 中視新聞 HD直播頻道｜Taiwan CTV news HD Live,http://dbmhufa.zabc.net:2086/tsfile/live/1002_1.m3u8?key=wy97fw1a
 華視新聞 CH52,http://dbmhufa.zabc.net:2086/tsfile/live/1003_1.m3u8?key=dxgqct1z
@@ -462,159 +616,10 @@ NOW爆谷台,http://74.91.26.218:82/live/nowbg.m3u8
 小公视,http://74.91.26.218:82/live/ptsse.m3u8
 
 
-立视(限),#genre#
-民視,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv002
-民視第一台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv003
-民視新聞台,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv13
-民視台灣台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv001
-民視影劇台,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv09
-民視旅遊台,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv07
-民視綜藝台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv004
-中視,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv040
-中視新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv074
-中天新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv009
-華視,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv041
-華視新聞,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv052
-靖天綜合台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv046
-靖天國際台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv063
-靖天戲劇台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv058
-靖天日本台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv047
-靖天映畫台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv055
-靖天卡通台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv044
-靖天育樂台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv062
-靖天資訊台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv065
-靖天電影台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv061
-靖天歡樂台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv054
-龍華偶像台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang12
-龍華卡通台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang01
-龍華戲劇台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang18
-龍華日韓台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang11
-龍華經典台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang21
-龍華電影台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang03
-龍華洋片台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang02
-靖洋戲劇台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv045
-靖洋卡通NiceBingo,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv057
-寰宇新聞台,http://lasvgas.zabc.net:8080/litv.php?id=litv-longturn14
-寰宇新聞台灣台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv156
-寰宇財經台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv158
-TVBS精采台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv067
-八大精彩台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv034
-八大綜藝台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv039
-ELTA娛樂台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv070
-ELTV生活英語,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang20
-東森新聞,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv152
-東森財經新聞,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv153
-鏡電視新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv075
-亞洲旅遊台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv076
-GINXEsportsTV,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv053
-時尚運動X,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv014
-智林體育台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv101
-TraceSports,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv077
-影迷數位電影台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv011
-AMC電影台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv017
-公視戲劇台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv042
-采昌影劇台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv049
-台灣戲劇台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang22
-影迷數位紀實台,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv15
-達文西頻道,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv018
-Classica古典樂,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv059
-MezzoLive,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv083
-豬哥亮歌廳秀,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv006
-TraceUrban,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv082
-韓國娛樂台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv016
-ArirangTV,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv079
-MCE 我的歐洲電影,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv10
-第1商業台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv104
-Pet Club TV,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv110
-Smart知識台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang19
-視納華仁紀實頻道,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv013
-客家電視台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv043
-好消息,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv16
-好消息2台,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv17
-國會頻道1,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv084
-國會頻道2,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv085
-民視,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv155
-中視經典台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv080
-中視菁采台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv064
-中天亞洲台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv109
-TVBS,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv073
-TVBS新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv072
-TVBS歡樂台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv068
-台視,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv066
-台視新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv051
-台視財經台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv056
-博斯運動一台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang07
-博斯運動二台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang08
-博斯無限台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang10
-博斯無限二台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang13
-博斯網球台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang09
-博斯高球台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang05
-博斯高球二台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang06
-博斯魅力台,http://lasvgas.zabc.net:8080/litv.php?id=litv-xinchuang04
-非凡新聞台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv010
-非凡商業台,http://lasvgas.zabc.net:8080/litv.php?id=4gtv-4gtv048
-VOA美國之音,http://lasvgas.zabc.net:8080/litv.php?id=litv-ftv03
 
 
-蓝山大饭店,#genre#
-飯店介紹-藍山大飯店,http://tw.护法.cloudns.ch:21096/mk.php?id=custom19
-公視,http://tw.护法.cloudns.ch:21096/mk.php?id=live1201
-Trace Sport Stars,http://tw.护法.cloudns.ch:21096/mk.php?id=live1003
-DISCOVERY,http://tw.护法.cloudns.ch:21096/mk.php?id=live1002
-旅遊生活,http://tw.护法.cloudns.ch:21096/mk.php?id=live1005
-動物星球,http://tw.护法.cloudns.ch:21096/mk.php?id=live1004
-momo親子台,http://tw.护法.cloudns.ch:21096/mk.php?id=live1007
-東森幼幼HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1008
-ANIMAX 卡通動畫頻道,http://tw.护法.cloudns.ch:21096/mk.php?id=live1060
-龍華卡通台,http://tw.护法.cloudns.ch:21096/mk.php?id=custom29
-緯來綜合HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1044
-八大第一HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1043
-八大綜合HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1019
-三立台灣HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1021
-三立都會HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1020
-韓國娛樂台,http://tw.护法.cloudns.ch:21096/mk.php?id=live1024
-東森綜合HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1041
-超視HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1180
-中天綜合HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1022
-中天娛樂HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1023
-東風衛視,http://tw.护法.cloudns.ch:21096/mk.php?id=live1195
-MUCH TV,http://tw.护法.cloudns.ch:21096/mk.php?id=live1189
-東森戲劇HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1042
-八大戲劇HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1057
-TVBS歡樂HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1018
-緯來戲劇,http://tw.护法.cloudns.ch:21096/mk.php?id=live1186
-緯來日本HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1026
-Taiwan Plus,http://tw.护法.cloudns.ch:21096/mk.php?id=live1238
-年代新聞,http://tw.护法.cloudns.ch:21096/mk.php?id=live1192
-東森新聞HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1014
-三立新聞HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1016
-TVBS新聞HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1051
-TVBS HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1251
-非凡新聞,http://tw.护法.cloudns.ch:21096/mk.php?id=live1013
-非凡商業,http://tw.护法.cloudns.ch:21096/mk.php?id=live1012
-東森財經HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1017
-壹新聞,http://tw.护法.cloudns.ch:21096/mk.php?id=live1242
-CNBC,http://tw.护法.cloudns.ch:21096/mk.php?id=live1063
-Bloomberg News,http://tw.护法.cloudns.ch:21096/mk.php?id=live1066
-NHK世界HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1027
-鏡電視新聞台,http://tw.护法.cloudns.ch:21096/mk.php?id=live1031
-好萊塢電影HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1025
-緯來電影HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1183
-HBO,http://tw.护法.cloudns.ch:21096/mk.php?id=live1029
-AXN,http://tw.护法.cloudns.ch:21096/mk.php?id=live1054
-CINEMAX HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1030
-AMC 電影台,http://tw.护法.cloudns.ch:21096/mk.php?id=live1032
-寵物頻道,http://tw.护法.cloudns.ch:21096/mk.php?id=live1040
-緯來育樂HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1045
-緯來體育HD,http://tw.护法.cloudns.ch:21096/mk.php?id=live1011
-博斯運動一,http://tw.护法.cloudns.ch:21096/mk.php?id=live1225
-momo 綜合台,http://tw.护法.cloudns.ch:21096/mk.php?id=live1248
-DAZN 1,http://tw.护法.cloudns.ch:21096/mk.php?id=live1069
-DAZN 2,http://tw.护法.cloudns.ch:21096/mk.php?id=live1072
-廈門衛視,http://tw.护法.cloudns.ch:21096/mk.php?id=live1033
-海峽衛視,http://tw.护法.cloudns.ch:21096/mk.php?id=live1035
 
-国内4K,#genre#
+對岸4K,#genre#
 湖南卫视4K,https://migu.188766.xyz/?migutoken=04f7f52d09dd41c332450e6a2c85092f&id=%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%864K&pp=1
 浙江卫视4K,https://migu.188766.xyz/?migutoken=7b4d3f7a82d8375953db8e332ac3ba7d&id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%864K&pp=1
 东方卫视4K,https://migu.188766.xyz/?migutoken=28427d7c64f312884b75ec3333ed2d6a&id=dfws&type=sz
@@ -622,83 +627,7 @@ DAZN 2,http://tw.护法.cloudns.ch:21096/mk.php?id=live1072
 深圳卫视4K,https://migu.188766.xyz/?migutoken=cebbc4d1fc5248fb5ac884647851a0e0&id=%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86&pp=1
 苏州4K,https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 河北4K,https://event.pull.hebtv.com:443/live/live101.m3u8
-福建广电,#genre#
-CCTV-1,http://150.138.92.209:2026/fj.php?aid=1174
-CCTV-2,http://150.138.92.209:2026/fj.php?aid=1180
-CCTV-3,http://150.138.92.209:2026/fj.php?aid=1181
-CCTV-4,http://150.138.92.209:2026/fj.php?aid=1182
-CCTV-5,http://150.138.92.209:2026/fj.php?aid=1183
-CCTV-5+,http://150.138.92.209:2026/fj.php?aid=1184&n=cctv5plushd_2000
-CCTV-6,http://150.138.92.209:2026/fj.php?aid=1185
-CCTV-7,http://150.138.92.209:2026/fj.php?aid=4023
-CCTV-8,http://150.138.92.209:2026/fj.php?aid=1186
-CCTV-9,http://150.138.92.209:2026/fj.php?aid=1187
-CCTV-10,http://150.138.92.209:2026/fj.php?aid=6016
-CCTV-11,http://150.138.92.209:2026/fj.php?aid=4024
-CCTV-12,http://150.138.92.209:2026/fj.php?aid=4025
-CCTV-13,http://150.138.92.209:2026/fj.php?aid=6017
-CCTV-14,http://150.138.92.209:2026/fj.php?aid=4026
-CCTV-15,http://150.138.92.209:2026/fj.php?aid=4027
-CCTV-16,http://150.138.92.209:2026/fj.php?aid=1184&n=cctv16hd_2000
-CCTV-17,http://150.138.92.209:2026/fj.php?aid=4028
-黑龙江卫视,http://150.138.92.209:2026/fj.php?aid=4036
-辽宁卫视,http://150.138.92.209:2026/fj.php?aid=4035
-北京卫视,http://150.138.92.209:2026/fj.php?aid=1194
-天津卫视,http://150.138.92.209:2026/fj.php?aid=4030
-山东卫视,http://150.138.92.209:2026/fj.php?aid=1191
-江苏卫视,http://150.138.92.209:2026/fj.php?aid=1196
-浙江卫视,http://150.138.92.209:2026/fj.php?aid=1192
-安徽卫视,http://150.138.92.209:2026/fj.php?aid=4031
-东方卫视,http://150.138.92.209:2026/fj.php?aid=1193
-湖北卫视,http://150.138.92.209:2026/fj.php?aid=4033
-湖南卫视,http://150.138.92.209:2026/fj.php?aid=1190
-东南卫视,http://150.138.92.209:2026/fj.php?aid=4032&n=dnwshd_2000
-厦门卫视,http://150.138.92.209:2026/fj.php?aid=1202
-广东卫视,http://150.138.92.209:2026/fj.php?aid=4029
-深圳卫视,http://150.138.92.209:2026/fj.php?aid=1195
-福建导视,http://150.138.92.209:2026/fj.php?aid=1176
-福建综合,http://150.138.92.209:2026/fj.php?aid=6018
-福建新闻,http://150.138.92.209:2026/fj.php?aid=6018&n=fjxwhd_2000
-福建电视剧,http://150.138.92.209:2026/fj.php?aid=6018&n=fjdsjhd_2000
-福建教育,http://150.138.92.209:2026/fj.php?aid=6025
-福州,http://150.138.92.209:2026/fj.php?aid=6015
-福州2套,http://150.138.92.209:2026/fj.php?aid=4021&n=fz2hd_2000
-福州3套,http://150.138.92.209:2026/fj.php?aid=1178&n=fz3hd_2000
-福州4套,http://150.138.92.209:2026/fj.php?aid=4022&n=fz4hd_2000
-福州马尾,http://150.138.92.209:2026/fj.php?aid=4022&n=fzmw_1200
-福州闽侯,http://150.138.92.209:2026/fj.php?aid=4022&n=fzmh_1200
-福州闽清,http://150.138.92.209:2026/fj.php?aid=4022&n=fzmq_1200
-厦门,http://150.138.92.209:2026/fj.php?aid=1202&n=xm1hd_2000
-厦门2套,http://150.138.92.209:2026/fj.php?aid=1202&n=xm2hd_2000
-厦门3套,http://150.138.92.209:2026/fj.php?aid=1202&n=xm3hd_2000
-三明,http://150.138.92.209:2026/fj.php?aid=1203
-宁德,http://150.138.92.209:2026/fj.php?aid=1205
-宁德2套,http://150.138.92.209:2026/fj.php?aid=1206&n=nd2hd_2000
-莆田,http://150.138.92.209:2026/fj.php?aid=6020
-莆田公共,http://150.138.92.209:2026/fj.php?aid=6021
-泉州,http://150.138.92.209:2026/fj.php?aid=6019
-泉州3套,http://150.138.92.209:2026/fj.php?aid=5200&n=qz3hd_2000
-泉州4套,http://150.138.92.209:2026/fj.php?aid=5201&n=qz4hd_2000
-漳州,http://150.138.92.209:2026/fj.php?aid=1204
-漳州2套,http://150.138.92.209:2026/fj.php?aid=2477&n=zz2hd_2000
-龙岩,http://150.138.92.209:2026/fj.php?aid=6022
-平潭,http://150.138.92.209:2026/fj.php?aid=6024
-南平,http://150.138.92.209:2026/fj.php?aid=6023
-CHC家庭影院,http://150.138.92.209:2026/fj.php?aid=4048
-CHC动作电影,http://150.138.92.209:2026/fj.php?aid=4049
-CHC影迷电影,http://150.138.92.209:2026/fj.php?aid=1197
-凤凰资讯台,http://150.138.92.209:2026/fj.php?aid=4038
-凤凰中文台,http://150.138.92.209:2026/fj.php?aid=4037
-金鹰卡通,http://150.138.92.209:2026/fj.php?aid=4047
 
 
-群友需求,#genre#
-WOWOW Live,http://hufa.zabc.net:2086/tsfile/live/1001_1.m3u8?key=7b2ys2fd
-重温经典,http://150.138.92.209:2026/cwjd.php
-五星体育,https://other.ottiptv.cc/wxty.m3u8
-星影台,http://74.91.26.218:82/live/nowxy.m3u8
 
-
-更多精采内容,#genre#
-请按遥控器菜单键在下方点击Dream切换列表,https://sns-video-default.xhscdn.com/stream/79/110/258/01e8be57a9bbcc944f03700199278a8589_258.mp4
 
