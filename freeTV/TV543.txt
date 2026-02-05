@@ -336,62 +336,10 @@ Freeman台灣,http://106.107.237.222:5051/ofiii95/index.m3u8?token=t5oeSW08QAHcn
 
 
 
-酒店,#genre#
-民視HD,http://220.134.196.147:9574/http/61.219.99.20:8081/hls/85/80/Ftv4max.m3u8
-DISCOVERY,http://220.134.196.147:8516/http/61.219.99.20:8081/hls/71/813/ch44.m3u8
-旅遊生活,http://220.134.196.147:8557/http/61.219.99.20:8081/hls/70/812/ch38.m3u8
-動物星球,http://220.134.196.147:8540/http/61.219.99.20:8081/hls/70/812/ch37.m3u8
-亞洲旅遊,http://220.134.196.147:8579/http/61.219.99.20:8081/hls/76/818/ch61.m3u8
-MOMO親子台,http://220.134.196.147:8517/http/61.219.99.20:8081/hls/90/80/momo4max.m3u8
-東森幼幼HD,http://220.134.196.147:9588/http/61.219.99.20:8081/hls/63/805/ch09.m3u8
-龍華卡通台,http://220.134.196.147:8568/http/61.219.99.20:8068/hls/14/80/cstv14.m3u8
-緯來綜合HD,http://220.134.196.147:8533/http/61.219.99.20:8081/hls/68/810/ch32.m3u8
-八大第一HD,http://220.134.196.147:8505/http/61.219.99.20:8081/hls/66/808/ch22.m3u8
-八大綜合HD,http://220.134.196.147:8518/http/61.219.99.20:8081/hls/66/808/ch21.m3u8
-三立台灣HD,http://220.134.196.147:8513/http/61.219.99.20:8081/hls/65/807/ch20.m3u8
-三立都會HD,http://220.134.196.147:8503/http/61.219.99.20:8081/hls/65/807/ch19.m3u8
-東森綜合HD,http://220.134.196.147:9553/http/61.219.99.20:8081/hls/63/805/ch12.m3u8
-中天娛樂HD,http://220.134.196.147:8509/http/61.219.99.20:8081/hls/67/809/ch26.m3u8
-東風衛視,http://220.134.196.147:8537/http/61.219.99.20:8081/hls/68/810/ch31.m3u8
-八大戲劇HD,http://220.134.196.147:8552/http/61.219.99.20:8081/hls/66/808/ch23.m3u8
-緯來日本HD,http://220.134.196.147:8565/http/61.219.99.20:8081/hls/69/811/ch34.m3u8
-非凡商業HD,http://220.134.196.147:8511/http/61.219.99.20:8081/hls/74/816/ch56.m3u8
-壹新聞,http://220.134.196.147:8501/http/61.219.99.20:8081/hls/66/808/ch24.m3u8
-好萊塢電影HD,http://220.134.196.147:8543/http/61.219.99.20:8081/hls/74/816/ch55.m3u8
-緯來電影HD,http://220.134.196.147:8574/http/61.219.99.20:8081/hls/69/811/ch35.m3u8
-AXN,http://220.134.196.147:8526/http/61.219.99.20:8081/hls/71/813/ch43.m3u8
-CINEMAX HD,http://220.134.196.147:8535/http/61.219.99.20:8081/hls/71/813/ch42.m3u8
-寵物頻道,http://220.134.196.147:8532/http/59.120.8.187:8078/hls/40/80/pettv.m3u8
-緯來育樂HD,http://220.134.196.147:8547/http/59.120.8.187:8081/hls/68/810/ch30.m3u8
-緯來體育HD,http://220.134.196.147:8553/http/59.120.8.187:8081/hls/67/809/ch28.m3u8
-momo綜合台,http://220.134.196.147:8575/http/59.120.8.187:8081/hls/76/818/momo_max.m3u8
-DAZN 2,http://220.134.196.147:9119/http/59.120.8.187:8078/hls/26/80/esport2.m3u8
-廈門衛視,http://220.134.196.147:8573/http/59.120.8.187:8078/hls/42/80/xmtv.m3u8
-CCTV4-中央衛視,http://220.134.196.147:8559/http/59.120.8.187:8078/hls/42/80/cctv4.m3u8
-海峽衛視,http://220.134.196.147:8550/http/59.120.8.187:8078/hls/42/80/fjttv.m3u8
-浙江衛視,http://220.134.196.147:8512/http/59.120.8.187:8078/hls/41/80/zhejiang.m3u8
-湖南衛視,http://220.134.196.147:8563/http/59.120.8.187:8078/hls/41/80/huana.m3u8
-鳯凰衛視資訊,http://220.134.196.147:8577/http/59.120.8.187:8078/hls/20/80/phoenixif.m3u8
-鳯凰衛視中文,http://220.134.196.147:8578/http/59.120.8.187:8078/hls/21/80/phoenixch.m3u8
 
 
 
 
-
-GPT-香港,#genre#
-翡翠台,http://106.107.237.222:5050/smart.php?id=jade_twn&token=885252
-翡翠台,http://106.107.237.222:5050/smart.php?id=Jade_xue&token=885252
-明珠台,http://106.107.237.222:5050/smart.php?id=pearl_twn&token=885252
-无线新闻,http://106.107.237.222:5050/smart.php?id=inews_twn&token=885252
-TVBPLUS,http://106.107.237.222:5050/smart.php?id=j2_twn&token=885252
-ViuTV,http://106.107.237.222:5050/smart.php?id=viu1_twn&token=885252
-ViuTV 6,http://106.107.237.222:5050/smart.php?id=viusix_twn&token=885252
-RTHK 31,http://106.107.237.222:5050/smart.php?id=rhk31_twn&token=885252
-RTHK 32,http://106.107.237.222:5050/smart.php?id=rhk32_twn&token=885252
-HOY TV,http://106.107.237.222:5050/smart.php?id=hoycaijing_twn&token=885252
-凤凰中文,http://106.107.237.222:5050/smart.php?id=phoenixtv_hd&token=885252
-凤凰资讯,http://106.107.237.222:5050/smart.php?id=phoenixinfo_hd&token=885252
-凤凰香港,http://106.107.237.222:5050/smart.php?id=hkphoenix_twn&token=885252
 GPT-台湾,#genre#
 台视 HD,http://106.107.237.222:5050/smart.php?id=ttv_taiwan&token=885252
 台视新闻,http://106.107.237.222:5050/smart.php?id=ttvnews_twn&token=885252
@@ -476,6 +424,20 @@ CINEMAX,http://106.107.237.222:5050/smart.php?id=cinemax_twn&token=885252
 博斯网球台,http://106.107.237.222:5050/smart.php?id=bositennis_twn&token=885252
 博斯无限台,http://106.107.237.222:5050/smart.php?id=bosiunlimited_twn&token=885252
 好消息 2,http://106.107.237.222:5050/smart.php?id=good2_twn&token=885252
+GPT-香港,#genre#
+翡翠台,http://106.107.237.222:5050/smart.php?id=jade_twn&token=885252
+翡翠台,http://106.107.237.222:5050/smart.php?id=Jade_xue&token=885252
+明珠台,http://106.107.237.222:5050/smart.php?id=pearl_twn&token=885252
+无线新闻,http://106.107.237.222:5050/smart.php?id=inews_twn&token=885252
+TVBPLUS,http://106.107.237.222:5050/smart.php?id=j2_twn&token=885252
+ViuTV,http://106.107.237.222:5050/smart.php?id=viu1_twn&token=885252
+ViuTV 6,http://106.107.237.222:5050/smart.php?id=viusix_twn&token=885252
+RTHK 31,http://106.107.237.222:5050/smart.php?id=rhk31_twn&token=885252
+RTHK 32,http://106.107.237.222:5050/smart.php?id=rhk32_twn&token=885252
+HOY TV,http://106.107.237.222:5050/smart.php?id=hoycaijing_twn&token=885252
+凤凰中文,http://106.107.237.222:5050/smart.php?id=phoenixtv_hd&token=885252
+凤凰资讯,http://106.107.237.222:5050/smart.php?id=phoenixinfo_hd&token=885252
+凤凰香港,http://106.107.237.222:5050/smart.php?id=hkphoenix_twn&token=885252
 GPT-央视,#genre#
 CCTV-1 综合,http://106.107.237.222:5050/smart.php?id=cctv1&token=885252
 CCTV-2 财经,http://106.107.237.222:5050/smart.php?id=cctv2&token=885252
@@ -891,6 +853,50 @@ Skysports EPL,http://106.107.237.222:5050/smart.php?id=tiankongepl&token=885252
 Skysports Main Event,http://106.107.237.222:5050/smart.php?id=tiankongmain&token=885252
 Skysports News,http://106.107.237.222:5050/smart.php?id=tiankongnews&token=885252
 Al-Jazeera,http://106.107.237.222:5050/smart.php?id=aljazeera_twn&token=885252
+
+
+
+酒店,#genre#
+民視HD,http://220.134.196.147:9574/http/61.219.99.20:8081/hls/85/80/Ftv4max.m3u8
+DISCOVERY,http://220.134.196.147:8516/http/61.219.99.20:8081/hls/71/813/ch44.m3u8
+旅遊生活,http://220.134.196.147:8557/http/61.219.99.20:8081/hls/70/812/ch38.m3u8
+動物星球,http://220.134.196.147:8540/http/61.219.99.20:8081/hls/70/812/ch37.m3u8
+亞洲旅遊,http://220.134.196.147:8579/http/61.219.99.20:8081/hls/76/818/ch61.m3u8
+MOMO親子台,http://220.134.196.147:8517/http/61.219.99.20:8081/hls/90/80/momo4max.m3u8
+東森幼幼HD,http://220.134.196.147:9588/http/61.219.99.20:8081/hls/63/805/ch09.m3u8
+龍華卡通台,http://220.134.196.147:8568/http/61.219.99.20:8068/hls/14/80/cstv14.m3u8
+緯來綜合HD,http://220.134.196.147:8533/http/61.219.99.20:8081/hls/68/810/ch32.m3u8
+八大第一HD,http://220.134.196.147:8505/http/61.219.99.20:8081/hls/66/808/ch22.m3u8
+八大綜合HD,http://220.134.196.147:8518/http/61.219.99.20:8081/hls/66/808/ch21.m3u8
+三立台灣HD,http://220.134.196.147:8513/http/61.219.99.20:8081/hls/65/807/ch20.m3u8
+三立都會HD,http://220.134.196.147:8503/http/61.219.99.20:8081/hls/65/807/ch19.m3u8
+東森綜合HD,http://220.134.196.147:9553/http/61.219.99.20:8081/hls/63/805/ch12.m3u8
+中天娛樂HD,http://220.134.196.147:8509/http/61.219.99.20:8081/hls/67/809/ch26.m3u8
+東風衛視,http://220.134.196.147:8537/http/61.219.99.20:8081/hls/68/810/ch31.m3u8
+八大戲劇HD,http://220.134.196.147:8552/http/61.219.99.20:8081/hls/66/808/ch23.m3u8
+緯來日本HD,http://220.134.196.147:8565/http/61.219.99.20:8081/hls/69/811/ch34.m3u8
+非凡商業HD,http://220.134.196.147:8511/http/61.219.99.20:8081/hls/74/816/ch56.m3u8
+壹新聞,http://220.134.196.147:8501/http/61.219.99.20:8081/hls/66/808/ch24.m3u8
+好萊塢電影HD,http://220.134.196.147:8543/http/61.219.99.20:8081/hls/74/816/ch55.m3u8
+緯來電影HD,http://220.134.196.147:8574/http/61.219.99.20:8081/hls/69/811/ch35.m3u8
+AXN,http://220.134.196.147:8526/http/61.219.99.20:8081/hls/71/813/ch43.m3u8
+CINEMAX HD,http://220.134.196.147:8535/http/61.219.99.20:8081/hls/71/813/ch42.m3u8
+寵物頻道,http://220.134.196.147:8532/http/59.120.8.187:8078/hls/40/80/pettv.m3u8
+緯來育樂HD,http://220.134.196.147:8547/http/59.120.8.187:8081/hls/68/810/ch30.m3u8
+緯來體育HD,http://220.134.196.147:8553/http/59.120.8.187:8081/hls/67/809/ch28.m3u8
+momo綜合台,http://220.134.196.147:8575/http/59.120.8.187:8081/hls/76/818/momo_max.m3u8
+DAZN 2,http://220.134.196.147:9119/http/59.120.8.187:8078/hls/26/80/esport2.m3u8
+廈門衛視,http://220.134.196.147:8573/http/59.120.8.187:8078/hls/42/80/xmtv.m3u8
+CCTV4-中央衛視,http://220.134.196.147:8559/http/59.120.8.187:8078/hls/42/80/cctv4.m3u8
+海峽衛視,http://220.134.196.147:8550/http/59.120.8.187:8078/hls/42/80/fjttv.m3u8
+浙江衛視,http://220.134.196.147:8512/http/59.120.8.187:8078/hls/41/80/zhejiang.m3u8
+湖南衛視,http://220.134.196.147:8563/http/59.120.8.187:8078/hls/41/80/huana.m3u8
+鳯凰衛視資訊,http://220.134.196.147:8577/http/59.120.8.187:8078/hls/20/80/phoenixif.m3u8
+鳯凰衛視中文,http://220.134.196.147:8578/http/59.120.8.187:8078/hls/21/80/phoenixch.m3u8
+
+
+
+
 
 
 大人,#genre#
