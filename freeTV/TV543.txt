@@ -1,0 +1,942 @@
+106,#genre#
+
+amc 電影台,http://106.107.234.186:50007/4gtv-4gtv017/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+Arirang TV,http://106.107.234.186:50007/4gtv-4gtv079/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+BLOOMBERG TV,http://106.107.234.186:50007/4gtv-live059/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+CI 罪案偵查頻道,http://106.107.234.186:50007/4gtv-live027/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+Cinema World,http://106.107.234.186:50007/4gtv-live069/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+CLASSICA古典樂,http://106.107.234.186:50007/4gtv-4gtv059/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+CNBC Asia 財經台,http://106.107.234.186:50007/4gtv-live130/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+DayStar,http://106.107.234.186:50007/daystar/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+DreamWorks,http://106.107.234.186:50007/4gtv-live017/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+DW德國之聲,http://106.107.234.186:50007/4gtv-live071/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+ELTA生活旅遊,http://106.107.234.186:50007/4gtv-live120/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+ELTA娛樂,http://106.107.234.186:50007/4gtv-4gtv070/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+ELTV生活英語台,http://106.107.234.186:50007/4gtv-live132/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+ELTV生活英語台,http://106.107.234.186:50007/of-litv-xinchuang20/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+FRANCE24 英文台,http://106.107.234.186:50007/4gtv-live146/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+fun探索娛樂台,http://106.107.234.186:50007/4gtv-live011/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+GagaOOLala 精選LGBTQ+好劇,http://106.107.234.186:50007/4gtv-live139/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+GINX Esports TV,http://106.107.234.186:50007/4gtv-4gtv053/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+Global Trekker,http://106.107.234.186:50007/4gtv-live112/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+HITS頻道,http://106.107.234.186:50007/4gtv-live620/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+INULTRA,http://106.107.234.186:50007/4gtv-live096/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+Lifetime,http://106.107.234.186:50007/4gtv-live029/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+LiveABC互動英語頻道,http://106.107.234.186:50007/4gtv-live030/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+LOVE NATURE,http://106.107.234.186:50007/4gtv-live208/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+LUXE TV,http://106.107.234.186:50007/4gtv-live121/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+MagellanTV頻道,http://106.107.234.186:50007/4gtv-live123/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+MCE我的歐洲電影,http://106.107.234.186:50007/litv-ftv10/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+Mezzo Live HD,http://106.107.234.186:50007/4gtv-4gtv083/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+MOMO親子,http://106.107.234.186:50007/4gtv-live107/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+NHK 新聞資訊台,http://106.107.234.186:50007/4gtv-live168/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+Nick Jr.,http://106.107.234.186:50007/4gtv-live032/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+Nickelodeon,http://106.107.234.186:50007/4gtv-live105/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+ROCK Action,http://106.107.234.186:50007/4gtv-live138/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+ROCK Entertainment,http://106.107.234.186:50007/4gtv-live080/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+SBN 全球財經台,http://106.107.234.186:50007/4gtv-live060/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+Smart知識台,http://106.107.234.186:50007/litv-xinchuang19/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+TRACE Sport Stars,http://106.107.234.186:50007/4gtv-4gtv077/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+TRACE Urban,http://106.107.234.186:50007/4gtv-4gtv082/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+TV5MONDE Style,http://106.107.234.186:50007/4gtv-live122/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+TVBS,http://106.107.234.186:50007/media-live073/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+TVBS新聞台,http://106.107.234.186:50007/media-live072/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+TVBS精采台,http://106.107.234.186:50007/4gtv-4gtv067/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+TVBS歡樂台,http://106.107.234.186:50007/4gtv-4gtv068/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+人間衛視,http://106.107.234.186:50007/4gtv-live008/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+八大精彩,http://106.107.234.186:50007/4gtv-4gtv034/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+八大綜藝,http://106.107.234.186:50007/4gtv-4gtv039/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+三立iNEWS,http://106.107.234.186:50007/4gtv-live089/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+三立iNEWS,http://106.107.234.186:50007/iNEWS/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+三立綜合台,http://106.107.234.186:50007/4gtv-live207/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+大愛二台,http://106.107.234.186:50007/4gtv-live106/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+大愛電視,http://106.107.234.186:50007/4gtv-live007/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+中天新聞台,http://106.107.234.186:50007/4gtv-4gtv009/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+中天新聞台,http://106.107.234.186:50007/4gtv-live409/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+中天新聞台,http://106.107.234.186:50007/of-4gtv-4gtv009/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+中視,http://106.107.234.186:50007/4gtv-4gtv040/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+中視,http://106.107.234.186:50007/of-4gtv-4gtv040/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+中視新聞台,http://106.107.234.186:50007/4gtv-4gtv074/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+中視新聞台,http://106.107.234.186:50007/of-4gtv-4gtv074/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+公視戲劇,http://106.107.234.186:50007/4gtv-4gtv042/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+半島國際新聞台,http://106.107.234.186:50007/4gtv-live157/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+台灣戲劇台,http://106.107.234.186:50007/litv-xinchuang22/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+民視,http://106.107.234.186:50007/4gtv-4gtv002/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+民視台灣台,http://106.107.234.186:50007/4gtv-4gtv001/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+民視旅遊,http://106.107.234.186:50007/litv-ftv07/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+民視第一台,http://106.107.234.186:50007/4gtv-4gtv003/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+民視新聞,http://106.107.234.186:50007/litv-ftv13/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+民視綜藝,http://106.107.234.186:50007/4gtv-4gtv004/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+民視影劇,http://106.107.234.186:50007/litv-ftv09/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+好消息,http://106.107.234.186:50007/litv-ftv16/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+好消息,http://106.107.234.186:50007/of-litv-ftv16/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+好消息2台,http://106.107.234.186:50007/litv-ftv17/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+好消息2台,http://106.107.234.186:50007/of-litv-ftv17/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+車迷 TV,http://106.107.234.186:50007/4gtv-live201/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+亞洲旅遊,http://106.107.234.186:50007/4gtv-4gtv076/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+亞洲旅遊,http://106.107.234.186:50007/of-4gtv-4gtv076/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+幸福空間居家台,http://106.107.234.186:50007/4gtv-live206/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+東森財經新聞,http://106.107.234.186:50007/4gtv-4gtv153/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+東森新聞,http://106.107.234.186:50007/4gtv-4gtv152/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+東森購物一台,http://106.107.234.186:50007/4gtv-live047/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+東森購物一台,http://106.107.234.186:50007/of-4gtv-4gtv102/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+東森購物二台,http://106.107.234.186:50007/4gtv-live046/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+東森購物二台,http://106.107.234.186:50007/of-4gtv-4gtv103/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+東森購物三台,http://106.107.234.186:50007/4gtv-live048/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+東森購物四台,http://106.107.234.186:50007/4gtv-live049/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+采昌影劇,http://106.107.234.186:50007/4gtv-4gtv049/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+金光布袋戲,http://106.107.234.186:50007/4gtv-live144/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+客家電視,http://106.107.234.186:50007/4gtv-4gtv043/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+倪珍播新聞,http://106.107.234.186:50007/nnews-zh/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+原住民族電視台,http://106.107.234.186:50007/4gtv-live014/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+時尚運動X,http://106.107.234.186:50007/4gtv-4gtv014/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+國會頻道1台,http://106.107.234.186:50007/4gtv-4gtv084/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+國會頻道1台,http://106.107.234.186:50007/of-4gtv-4gtv084/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+國會頻道2台,http://106.107.234.186:50007/4gtv-4gtv085/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+國會頻道2台,http://106.107.234.186:50007/of-4gtv-4gtv085/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+第1商業台,http://106.107.234.186:50007/4gtv-4gtv104/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+智林體育,http://106.107.234.186:50007/4gtv-4gtv101/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+華視,http://106.107.234.186:50007/4gtv-4gtv041/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+華視,http://106.107.234.186:50007/of-4gtv-4gtv041/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+華視新聞台,http://106.107.234.186:50007/4gtv-4gtv052/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+華視新聞台,http://106.107.234.186:50007/of-4gtv-4gtv052/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+視納華仁紀實頻道,http://106.107.234.186:50007/4gtv-4gtv013/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+新唐人亞太台,http://106.107.234.186:50007/4gtv-live050/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+經典卡通台,http://106.107.234.186:50007/4gtv-live022/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+經典電影台,http://106.107.234.186:50007/4gtv-live021/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+達文西頻道,http://106.107.234.186:50007/4gtv-4gtv018/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+電影原聲台 CMusic,http://106.107.234.186:50007/4gtv-live031/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖天日本,http://106.107.234.186:50007/4gtv-4gtv047/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖天卡通,http://106.107.234.186:50007/4gtv-4gtv044/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖天育樂,http://106.107.234.186:50007/4gtv-4gtv062/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖天映畫,http://106.107.234.186:50007/4gtv-4gtv055/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖天國際,http://106.107.234.186:50007/4gtv-4gtv063/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖天資訊,http://106.107.234.186:50007/4gtv-4gtv065/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖天電影,http://106.107.234.186:50007/4gtv-4gtv061/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖天綜合,http://106.107.234.186:50007/4gtv-4gtv046/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖天戲劇,http://106.107.234.186:50007/4gtv-4gtv058/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖天歡樂,http://106.107.234.186:50007/4gtv-4gtv054/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖洋卡通,http://106.107.234.186:50007/4gtv-4gtv057/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+靖洋戲劇,http://106.107.234.186:50007/4gtv-4gtv045/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+滾動力 Rollor,http://106.107.234.186:50007/4gtv-live012/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+精選動漫台,http://106.107.234.186:50007/4gtv-live024/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+影迷數位紀實台,http://106.107.234.186:50007/litv-ftv15/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+影迷數位電影台,http://106.107.234.186:50007/4gtv-4gtv011/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+豬哥亮歌廳秀,http://106.107.234.186:50007/4gtv-4gtv006/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+寰宇財經,http://106.107.234.186:50007/of-4gtv-4gtv158/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+寰宇新聞,http://106.107.234.186:50007/litv-longturn14/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+寰宇新聞,http://106.107.234.186:50007/of-litv-longturn14/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+寰宇新聞台灣台,http://106.107.234.186:50007/4gtv-4gtv156/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+寰宇新聞台灣台,http://106.107.234.186:50007/of-4gtv-4gtv156/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+歷史頻道,http://106.107.234.186:50007/4gtv-live026/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+龍華日韓,http://106.107.234.186:50007/litv-xinchuang11/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+龍華卡通,http://106.107.234.186:50007/litv-xinchuang01/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+龍華洋片,http://106.107.234.186:50007/litv-xinchuang02/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+龍華偶像,http://106.107.234.186:50007/litv-xinchuang12/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+龍華經典,http://106.107.234.186:50007/litv-xinchuang21/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+龍華電影,http://106.107.234.186:50007/litv-xinchuang03/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+龍華戲劇,http://106.107.234.186:50007/litv-xinchuang18/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+韓國娛樂台,http://106.107.234.186:50007/4gtv-4gtv016/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+鏡電視新聞台,http://106.107.234.186:50007/4gtv-4gtv075/index.m3u8?token=uBF072o50neVhXYcjwrPOHu4vq8Alzv4KA0uXmulfJlKWcFejaWN3eDdPMJkNziU
+
+
+
+
+
+
+offi,#genre#
+中天新聞台,http://106.107.237.222:5051/4gtv-4gtv009/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+中視,http://106.107.237.222:5051/4gtv-4gtv040/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+華視,http://106.107.237.222:5051/4gtv-4gtv041/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+華視新聞,http://106.107.237.222:5051/4gtv-4gtv052/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+中視新聞,http://106.107.237.222:5051/4gtv-4gtv074/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+亞洲旅遊台,http://106.107.237.222:5051/4gtv-4gtv076/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+國會頻道1台,http://106.107.237.222:5051/4gtv-4gtv084/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+國會頻道2台,http://106.107.237.222:5051/4gtv-4gtv085/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+東森購物1台,http://106.107.237.222:5051/4gtv-4gtv102/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+東森購物2台,http://106.107.237.222:5051/4gtv-4gtv103/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+第1商業台,http://106.107.237.222:5051/4gtv-4gtv104/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+寰宇新聞台灣台,http://106.107.237.222:5051/4gtv-4gtv156/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+寰宇財經台,http://106.107.237.222:5051/4gtv-4gtv158/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+DayStar,http://106.107.237.222:5051/daystar/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+三立新聞iNEWS,http://106.107.237.222:5051/iNEWS/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+好消息,http://106.107.237.222:5051/litv-ftv16/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+好消息2台,http://106.107.237.222:5051/litv-ftv17/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+寰宇新聞台,http://106.107.237.222:5051/litv-longturn14/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+龍華卡通台,http://106.107.237.222:5051/litv-xinchuang01/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+龍華洋片台,http://106.107.237.222:5051/litv-xinchuang02/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+龍華電影台,http://106.107.237.222:5051/litv-xinchuang03/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+龍華日韓台,http://106.107.237.222:5051/litv-xinchuang11/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+龍華偶像台,http://106.107.237.222:5051/litv-xinchuang12/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+龍華戲劇台,http://106.107.237.222:5051/litv-xinchuang18/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+Smart知識台,http://106.107.237.222:5051/litv-xinchuang19/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+ELTV生活英語台,http://106.107.237.222:5051/litv-xinchuang20/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+龍華經典台,http://106.107.237.222:5051/litv-xinchuang21/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+台灣戲劇台,http://106.107.237.222:5051/litv-xinchuang22/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+倪珍播新聞,http://106.107.237.222:5051/nnews-zh/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+
+
+長安十二時辰,http://106.107.237.222:5051/ofiii100/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+韶華若錦,http://106.107.237.222:5051/ofiii101/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+白髮,http://106.107.237.222:5051/ofiii102/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+三國,http://106.107.237.222:5051/ofiii103/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+武媚娘傳奇,http://106.107.237.222:5051/ofiii104/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+長樂曲,http://106.107.237.222:5051/ofiii105/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+軍師聯盟,http://106.107.237.222:5051/ofiii106/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+軍師聯盟2 虎嘯龍吟,http://106.107.237.222:5051/ofiii107/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+國色芳華,http://106.107.237.222:5051/ofiii108/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+落花時節又逢君《2/4即將下架》,http://106.107.237.222:5051/ofiii109/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+楚喬傳《2/4即將下架》,http://106.107.237.222:5051/ofiii110/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+倚天屠龍記 2019,http://106.107.237.222:5051/ofiii111/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+宴遇永安,http://106.107.237.222:5051/ofiii112/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+步步驚心,http://106.107.237.222:5051/ofiii113/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+九重紫,http://106.107.237.222:5051/ofiii114/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+私藏浪漫,http://106.107.237.222:5051/ofiii115/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+去有風的地方,http://106.107.237.222:5051/ofiii116/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+佔有姜西,http://106.107.237.222:5051/ofiii117/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+深情眼,http://106.107.237.222:5051/ofiii118/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+以家人之名,http://106.107.237.222:5051/ofiii119/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+愛上你治癒我,http://106.107.237.222:5051/ofiii120/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+我的差評女友,http://106.107.237.222:5051/ofiii121/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+不眠日,http://106.107.237.222:5051/ofiii122/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+三十而已,http://106.107.237.222:5051/ofiii123/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+小丈夫,http://106.107.237.222:5051/ofiii124/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+綜藝大集合,http://106.107.237.222:5051/ofiii125/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+豬哥壹級棒,http://106.107.237.222:5051/ofiii126/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+鬼話連篇,http://106.107.237.222:5051/ofiii127/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+醫師好辣,http://106.107.237.222:5051/ofiii128/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+WTO姐妹會,http://106.107.237.222:5051/ofiii129/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+公視金獎台,http://106.107.237.222:5051/ofiii13/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+金頭腦,http://106.107.237.222:5051/ofiii130/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+全民星攻略,http://106.107.237.222:5051/ofiii131/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+醫學大聯盟,http://106.107.237.222:5051/ofiii132/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+台灣啟示錄,http://106.107.237.222:5051/ofiii133/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+法眼黑與白,http://106.107.237.222:5051/ofiii134/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+天才衝衝衝,http://106.107.237.222:5051/ofiii135/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+天才答不答,http://106.107.237.222:5051/ofiii136/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+我愛大小姐,http://106.107.237.222:5051/ofiii137/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+名模出任務,http://106.107.237.222:5051/ofiii139/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+木曜4超玩 一日系列,http://106.107.237.222:5051/ofiii140/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+月曜1起玩,http://106.107.237.222:5051/ofiii141/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+一字千金,http://106.107.237.222:5051/ofiii142/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+超級同學會,http://106.107.237.222:5051/ofiii143/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+麥卡貝網路電視,http://106.107.237.222:5051/ofiii144/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+回到20歲,http://106.107.237.222:5051/ofiii145/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+白雪公主非死不可,http://106.107.237.222:5051/ofiii146/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+好搭檔,http://106.107.237.222:5051/ofiii147/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+月升之江《2/4即將下架》,http://106.107.237.222:5051/ofiii148/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+台灣靈異事件,http://106.107.237.222:5051/ofiii150/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+包青天 1993版,http://106.107.237.222:5051/ofiii151/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+我的婆婆怎麼那麼可愛,http://106.107.237.222:5051/ofiii152/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+村裡來了個暴走女外科,http://106.107.237.222:5051/ofiii153/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+一把青,http://106.107.237.222:5051/ofiii154/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+茶金,http://106.107.237.222:5051/ofiii155/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+苦力,http://106.107.237.222:5051/ofiii156/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+俗女養成記,http://106.107.237.222:5051/ofiii157/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+麻醉風暴,http://106.107.237.222:5051/ofiii158/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+雖然等級只有1級但固有技能是最強的,http://106.107.237.222:5051/ofiii159/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+空中英語教室HD頻道,http://106.107.237.222:5051/ofiii16/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+擁有超常技能的異世界流浪美食家,http://106.107.237.222:5051/ofiii160/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+離開A級隊伍的我,http://106.107.237.222:5051/ofiii161/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+在異世界獲得超強能力的我,http://106.107.237.222:5051/ofiii162/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+第一神拳,http://106.107.237.222:5051/ofiii163/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+刀劍神域(中文版),http://106.107.237.222:5051/ofiii164/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+蠟筆小新(中文版),http://106.107.237.222:5051/ofiii165/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+我們這一家,http://106.107.237.222:5051/ofiii166/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+獵人(中文版),http://106.107.237.222:5051/ofiii167/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+中華一番(中文版),http://106.107.237.222:5051/ofiii168/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+隊長小翼(中文版),http://106.107.237.222:5051/ofiii169/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+SPY X FAMILY 間諜家家酒,http://106.107.237.222:5051/ofiii170/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+SPY X FAMILY 間諜家家酒(中文版),http://106.107.237.222:5051/ofiii171/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+無職轉生，到了異世界就拿出真本事,http://106.107.237.222:5051/ofiii172/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+一拳超人(中文版),http://106.107.237.222:5051/ofiii173/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+夏目友人帳,http://106.107.237.222:5051/ofiii174/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+怪醫黑傑克TV(中文版),http://106.107.237.222:5051/ofiii175/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+惡魔奶爸(中文版),http://106.107.237.222:5051/ofiii176/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+鋼之鍊金術師,http://106.107.237.222:5051/ofiii177/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+JOJO 的奇妙冒險,http://106.107.237.222:5051/ofiii178/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+葬送的芙莉蓮,http://106.107.237.222:5051/ofiii179/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+史上最強弟子兼一(中文版),http://106.107.237.222:5051/ofiii180/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+膽大黨,http://106.107.237.222:5051/ofiii183/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+新忍者哈特利,http://106.107.237.222:5051/ofiii184/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+科學小飛俠,http://106.107.237.222:5051/ofiii185/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+城市獵人,http://106.107.237.222:5051/ofiii186/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+超人力霸王台,http://106.107.237.222:5051/ofiii187/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+生命的贏家,http://106.107.237.222:5051/ofiii192/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+轉角遇到愛,http://106.107.237.222:5051/ofiii197/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+白袍之戀,http://106.107.237.222:5051/ofiii198/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+我的老師叫小賀,http://106.107.237.222:5051/ofiii199/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+大新聞大爆卦,http://106.107.237.222:5051/ofiii201/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+寰宇全視界,http://106.107.237.222:5051/ofiii204/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+大大平評理,http://106.107.237.222:5051/ofiii207/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+政治琳龍SAY,http://106.107.237.222:5051/ofiii208/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+台灣最前線,http://106.107.237.222:5051/ofiii209/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+台灣向前行,http://106.107.237.222:5051/ofiii210/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+民視異言堂,http://106.107.237.222:5051/ofiii211/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+新聞觀測站,http://106.107.237.222:5051/ofiii212/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+電動車時代,http://106.107.237.222:5051/ofiii215/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+SiCAR愛車酷,http://106.107.237.222:5051/ofiii216/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+狂人日誌,http://106.107.237.222:5051/ofiii217/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+脖子解說 Mr. Neck,http://106.107.237.222:5051/ofiii218/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+哆啦Ａ夢台,http://106.107.237.222:5051/ofiii22/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+新哆啦A夢(中文版),http://106.107.237.222:5051/ofiii23/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+歡迎光琳,http://106.107.237.222:5051/ofiii230/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+咱的城 咱的市 咱台灣的味,http://106.107.237.222:5051/ofiii231/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+舌尖之福,http://106.107.237.222:5051/ofiii232/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+非凡大探索,http://106.107.237.222:5051/ofiii234/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+台灣1001個故事,http://106.107.237.222:5051/ofiii235/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+詹姆士出走料理,http://106.107.237.222:5051/ofiii236/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+進擊的台灣,http://106.107.237.222:5051/ofiii237/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+世界第一等,http://106.107.237.222:5051/ofiii238/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+台灣第一等,http://106.107.237.222:5051/ofiii239/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+新哆啦A夢(中文版)2台,http://106.107.237.222:5051/ofiii24/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+溢遊未盡,http://106.107.237.222:5051/ofiii240/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+台灣真善美,http://106.107.237.222:5051/ofiii241/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+請問今晚住誰家,http://106.107.237.222:5051/ofiii242/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+早餐中國,http://106.107.237.222:5051/ofiii243/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+溢起趣打卡,http://106.107.237.222:5051/ofiii244/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+台灣壹百種味道,http://106.107.237.222:5051/ofiii245/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+中國美食大探索,http://106.107.237.222:5051/ofiii246/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+中國旅遊大探索,http://106.107.237.222:5051/ofiii247/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+秘境不思溢,http://106.107.237.222:5051/ofiii248/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+紓壓雷雨聲,http://106.107.237.222:5051/ofiii250/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+療癒下雨聲,http://106.107.237.222:5051/ofiii251/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+放鬆的爵士午後,http://106.107.237.222:5051/ofiii252/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+夏日陽光海浪聲,http://106.107.237.222:5051/ofiii254/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+大自然流水聲,http://106.107.237.222:5051/ofiii255/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+東森娛樂台,http://106.107.237.222:5051/ofiii32/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+中天亞洲精采台,http://106.107.237.222:5051/ofiii36/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+經典劇場,http://106.107.237.222:5051/ofiii38/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+短劇馬拉松,http://106.107.237.222:5051/ofiii39/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+Yes娛樂,http://106.107.237.222:5051/ofiii47/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+掏掏新聞,http://106.107.237.222:5051/ofiii50/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+國際大小事,http://106.107.237.222:5051/ofiii55/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+第1財經,http://106.107.237.222:5051/ofiii64/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+Golden 強片台,http://106.107.237.222:5051/ofiii70/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+周星馳台,http://106.107.237.222:5051/ofiii73/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+歐飛電影台,http://106.107.237.222:5051/ofiii74/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+歐飛動作電影台,http://106.107.237.222:5051/ofiii75/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+Golden影迷台,http://106.107.237.222:5051/ofiii76/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+劉德華台,http://106.107.237.222:5051/ofiii77/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+香港天王台,http://106.107.237.222:5051/ofiii78/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+全民星攻略 知識開箱,http://106.107.237.222:5051/ofiii81/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+Focus探索新知台,http://106.107.237.222:5051/ofiii82/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+鄉民大學問,http://106.107.237.222:5051/ofiii83/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+地球檔案庫,http://106.107.237.222:5051/ofiii84/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+社會NOW什麼,http://106.107.237.222:5051/ofiii85/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+啦啦隊獨家專訪,http://106.107.237.222:5051/ofiii88/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+泰可愛旋風,http://106.107.237.222:5051/ofiii89/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+演唱會直擊,http://106.107.237.222:5051/ofiii91/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+健康問良醫,http://106.107.237.222:5051/ofiii92/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+ASMR行車紀錄,http://106.107.237.222:5051/ofiii94/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+Freeman台灣,http://106.107.237.222:5051/ofiii95/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+饕客揪愛吃,http://106.107.237.222:5051/ofiii96/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+人氣動漫預告,http://106.107.237.222:5051/ofiii97/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+九九敬老頻道,http://106.107.237.222:5051/ofiii99/index.m3u8?token=t5oeSW08QAHcnt7M70-d0H_vpL3nOSHnjtNzi8hmX7aLNmO_lKpAppZ0B2tnrhaR
+
+
+
+酒店,#genre#
+民視HD,http://220.134.196.147:9574/http/61.219.99.20:8081/hls/85/80/Ftv4max.m3u8
+DISCOVERY,http://220.134.196.147:8516/http/61.219.99.20:8081/hls/71/813/ch44.m3u8
+旅遊生活,http://220.134.196.147:8557/http/61.219.99.20:8081/hls/70/812/ch38.m3u8
+動物星球,http://220.134.196.147:8540/http/61.219.99.20:8081/hls/70/812/ch37.m3u8
+亞洲旅遊,http://220.134.196.147:8579/http/61.219.99.20:8081/hls/76/818/ch61.m3u8
+MOMO親子台,http://220.134.196.147:8517/http/61.219.99.20:8081/hls/90/80/momo4max.m3u8
+東森幼幼HD,http://220.134.196.147:9588/http/61.219.99.20:8081/hls/63/805/ch09.m3u8
+龍華卡通台,http://220.134.196.147:8568/http/61.219.99.20:8068/hls/14/80/cstv14.m3u8
+緯來綜合HD,http://220.134.196.147:8533/http/61.219.99.20:8081/hls/68/810/ch32.m3u8
+八大第一HD,http://220.134.196.147:8505/http/61.219.99.20:8081/hls/66/808/ch22.m3u8
+八大綜合HD,http://220.134.196.147:8518/http/61.219.99.20:8081/hls/66/808/ch21.m3u8
+三立台灣HD,http://220.134.196.147:8513/http/61.219.99.20:8081/hls/65/807/ch20.m3u8
+三立都會HD,http://220.134.196.147:8503/http/61.219.99.20:8081/hls/65/807/ch19.m3u8
+東森綜合HD,http://220.134.196.147:9553/http/61.219.99.20:8081/hls/63/805/ch12.m3u8
+中天娛樂HD,http://220.134.196.147:8509/http/61.219.99.20:8081/hls/67/809/ch26.m3u8
+東風衛視,http://220.134.196.147:8537/http/61.219.99.20:8081/hls/68/810/ch31.m3u8
+八大戲劇HD,http://220.134.196.147:8552/http/61.219.99.20:8081/hls/66/808/ch23.m3u8
+緯來日本HD,http://220.134.196.147:8565/http/61.219.99.20:8081/hls/69/811/ch34.m3u8
+非凡商業HD,http://220.134.196.147:8511/http/61.219.99.20:8081/hls/74/816/ch56.m3u8
+壹新聞,http://220.134.196.147:8501/http/61.219.99.20:8081/hls/66/808/ch24.m3u8
+好萊塢電影HD,http://220.134.196.147:8543/http/61.219.99.20:8081/hls/74/816/ch55.m3u8
+緯來電影HD,http://220.134.196.147:8574/http/61.219.99.20:8081/hls/69/811/ch35.m3u8
+AXN,http://220.134.196.147:8526/http/61.219.99.20:8081/hls/71/813/ch43.m3u8
+CINEMAX HD,http://220.134.196.147:8535/http/61.219.99.20:8081/hls/71/813/ch42.m3u8
+寵物頻道,http://220.134.196.147:8532/http/59.120.8.187:8078/hls/40/80/pettv.m3u8
+緯來育樂HD,http://220.134.196.147:8547/http/59.120.8.187:8081/hls/68/810/ch30.m3u8
+緯來體育HD,http://220.134.196.147:8553/http/59.120.8.187:8081/hls/67/809/ch28.m3u8
+momo綜合台,http://220.134.196.147:8575/http/59.120.8.187:8081/hls/76/818/momo_max.m3u8
+DAZN 2,http://220.134.196.147:9119/http/59.120.8.187:8078/hls/26/80/esport2.m3u8
+廈門衛視,http://220.134.196.147:8573/http/59.120.8.187:8078/hls/42/80/xmtv.m3u8
+CCTV4-中央衛視,http://220.134.196.147:8559/http/59.120.8.187:8078/hls/42/80/cctv4.m3u8
+海峽衛視,http://220.134.196.147:8550/http/59.120.8.187:8078/hls/42/80/fjttv.m3u8
+浙江衛視,http://220.134.196.147:8512/http/59.120.8.187:8078/hls/41/80/zhejiang.m3u8
+湖南衛視,http://220.134.196.147:8563/http/59.120.8.187:8078/hls/41/80/huana.m3u8
+鳯凰衛視資訊,http://220.134.196.147:8577/http/59.120.8.187:8078/hls/20/80/phoenixif.m3u8
+鳯凰衛視中文,http://220.134.196.147:8578/http/59.120.8.187:8078/hls/21/80/phoenixch.m3u8
+
+
+
+
+
+GPT-香港,#genre#
+翡翠台,http://106.107.237.222:5050/smart.php?id=jade_twn&token=885252
+翡翠台,http://106.107.237.222:5050/smart.php?id=Jade_xue&token=885252
+明珠台,http://106.107.237.222:5050/smart.php?id=pearl_twn&token=885252
+无线新闻,http://106.107.237.222:5050/smart.php?id=inews_twn&token=885252
+TVBPLUS,http://106.107.237.222:5050/smart.php?id=j2_twn&token=885252
+ViuTV,http://106.107.237.222:5050/smart.php?id=viu1_twn&token=885252
+ViuTV 6,http://106.107.237.222:5050/smart.php?id=viusix_twn&token=885252
+RTHK 31,http://106.107.237.222:5050/smart.php?id=rhk31_twn&token=885252
+RTHK 32,http://106.107.237.222:5050/smart.php?id=rhk32_twn&token=885252
+HOY TV,http://106.107.237.222:5050/smart.php?id=hoycaijing_twn&token=885252
+凤凰中文,http://106.107.237.222:5050/smart.php?id=phoenixtv_hd&token=885252
+凤凰资讯,http://106.107.237.222:5050/smart.php?id=phoenixinfo_hd&token=885252
+凤凰香港,http://106.107.237.222:5050/smart.php?id=hkphoenix_twn&token=885252
+GPT-台湾,#genre#
+台视 HD,http://106.107.237.222:5050/smart.php?id=ttv_taiwan&token=885252
+台视新闻,http://106.107.237.222:5050/smart.php?id=ttvnews_twn&token=885252
+台视综合,http://106.107.237.222:5050/smart.php?id=ttvzhonghe&token=885252
+中视 HD,http://106.107.237.222:5050/smart.php?id=zhongshihd_twn&token=885252
+中视新闻,http://106.107.237.222:5050/smart.php?id=zhongshinews_twn&token=885252
+中视经典,http://106.107.237.222:5050/smart.php?id=zhongshi_twn&token=885252
+华视 HD,http://106.107.237.222:5050/smart.php?id=ctshd_twn&token=885252
+公视 HD,http://106.107.237.222:5050/smart.php?id=ctv_taiwan&token=885252
+公视台语台,http://106.107.237.222:5050/smart.php?id=ctv2_twn&token=885252
+三立台湾台,http://106.107.237.222:5050/smart.php?id=sanlitaiwan&token=885252
+三立都会台,http://106.107.237.222:5050/smart.php?id=sanlidouhui_twn&token=885252
+三立综合台,http://106.107.237.222:5050/smart.php?id=sanlizhonghe&token=885252
+三立戏剧台,http://106.107.237.222:5050/smart.php?id=sanlixiju_twn&token=885252
+东森新闻台,http://106.107.237.222:5050/smart.php?id=ettvnews&token=885252
+东森财经新闻台,http://106.107.237.222:5050/smart.php?id=ettvcaijing_twn&token=885252
+东森综合台,http://106.107.237.222:5050/smart.php?id=ettvzhonghe&token=885252
+东森戏剧台,http://106.107.237.222:5050/smart.php?id=ettvdrama&token=885252
+东森电影台,http://106.107.237.222:5050/smart.php?id=ettvmovie&token=885252
+东森洋片台,http://106.107.237.222:5050/smart.php?id=ettvwestern&token=885252
+东森幼幼台,http://106.107.237.222:5050/smart.php?id=yoyo_twn&token=885252
+东森超视,http://106.107.237.222:5050/smart.php?id=ettvsuper&token=885252
+TVBS HD,http://106.107.237.222:5050/smart.php?id=tvbs&token=885252
+TVBS 新闻台,http://106.107.237.222:5050/smart.php?id=tvbs_n&token=885252
+TVBS 欢乐台,http://106.107.237.222:5050/smart.php?id=tvbshuanle_twn&token=885252
+民视 HD,http://106.107.237.222:5050/smart.php?id=ftvhd_taiwan&token=885252
+民视新闻台,http://106.107.237.222:5050/smart.php?id=ftvnew_taiwan&token=885252
+民视台湾台,http://106.107.237.222:5050/smart.php?id=ftvtaiwan_twn&token=885252
+中天综合,http://106.107.237.222:5050/smart.php?id=ctizhonghe&token=885252
+中天娱乐,http://106.107.237.222:5050/smart.php?id=ctient&token=885252
+中天亚洲,http://106.107.237.222:5050/smart.php?id=ctiasia_twn&token=885252
+中天新闻,http://106.107.237.222:5050/smart.php?id=ctinews&token=885252
+寰宇新闻台,http://106.107.237.222:5050/smart.php?id=huanyuxinwen_twn&token=885252
+寰宇财经台,http://106.107.237.222:5050/smart.php?id=huanyutaiwan_twn&token=885252
+八大第一台,http://106.107.237.222:5050/smart.php?id=badafirst&token=885252
+八大综合台,http://106.107.237.222:5050/smart.php?id=badazhonghe&token=885252
+八大戏剧台,http://106.107.237.222:5050/smart.php?id=badadrama&token=885252
+八大娱乐台,http://106.107.237.222:5050/smart.php?id=badaentertain&token=885252
+纬来体育,http://106.107.237.222:5050/smart.php?id=videolandsport&token=885252
+纬来精彩,http://106.107.237.222:5050/smart.php?id=videolandspecial_twn&token=885252
+纬来日本,http://106.107.237.222:5050/smart.php?id=videolandjapan&token=885252
+纬来电影,http://106.107.237.222:5050/smart.php?id=videolandmovie&token=885252
+纬来综合,http://106.107.237.222:5050/smart.php?id=videolandzonghe&token=885252
+纬来育乐,http://106.107.237.222:5050/smart.php?id=videolandyule&token=885252
+爱尔达综合台,http://106.107.237.222:5050/smart.php?id=eltazonghe_twn&token=885252
+爱尔达影剧台,http://106.107.237.222:5050/smart.php?id=eltayingju_twn&token=885252
+爱尔达体育1台,http://106.107.237.222:5050/smart.php?id=eltasport1_twn&token=885252
+爱尔达体育2台,http://106.107.237.222:5050/smart.php?id=eltasport2_twn&token=885252
+爱尔达体育3台,http://106.107.237.222:5050/smart.php?id=eltasport3_twn&token=885252
+非凡新闻,http://106.107.237.222:5050/smart.php?id=feifannews_twn&token=885252
+年代新闻,http://106.107.237.222:5050/smart.php?id=niandainews_twn&token=885252
+龙华戏剧,http://106.107.237.222:5050/smart.php?id=lunghuaxiju_twn&token=885252
+龙华偶像,http://106.107.237.222:5050/smart.php?id=lunghuaidol_twn&token=885252
+龙华电影,http://106.107.237.222:5050/smart.php?id=xingwei_movie&token=885252
+龙华洋片,http://106.107.237.222:5050/smart.php?id=lunghuawestern_twn&token=885252
+龙华经典,http://106.107.237.222:5050/smart.php?id=lunghuajingdian_twn&token=885252
+靖天国际,http://106.107.237.222:5050/smart.php?id=jingtianintl_twn&token=885252
+靖天卡通,http://106.107.237.222:5050/smart.php?id=jingtiancartoon_twn&token=885252
+大愛電視,http://106.107.237.222:5050/smart.php?id=daai_twn&token=885252
+大愛二台,http://106.107.237.222:5050/smart.php?id=daai2_twn&token=885252
+EYE 旅游台,http://106.107.237.222:5050/smart.php?id=eyetvtravel_twn&token=885252
+EYE 戏剧台,http://106.107.237.222:5050/smart.php?id=eyetvxiju_twn&token=885252
+亚洲美食,http://106.107.237.222:5050/smart.php?id=afc_twn&token=885252
+美食星球,http://106.107.237.222:5050/smart.php?id=foodplanet_twn&token=885252
+TLC旅遊生活,http://106.107.237.222:5050/smart.php?id=tlc_twn&token=885252
+亚洲旅游台,http://106.107.237.222:5050/smart.php?id=asiatravel_twn&token=885252
+Arirang,http://106.107.237.222:5050/smart.php?id=arirang_twn&token=885252
+AXN Taiwan,http://106.107.237.222:5050/smart.php?id=axn_twn&token=885252
+MTV Live,http://106.107.237.222:5050/smart.php?id=mtvhd_twn&token=885252
+HBO_HD,http://106.107.237.222:5050/smart.php?id=hbohd_twn&token=885252
+HBO_HITS,http://106.107.237.222:5050/smart.php?id=hbohit_twn&token=885252
+CINEMAX,http://106.107.237.222:5050/smart.php?id=cinemax_twn&token=885252
+好萊塢電影台,http://106.107.237.222:5050/smart.php?id=hollywoodmovies_twn&token=885252
+卫视电影台,http://106.107.237.222:5050/smart.php?id=weishimovie_twn&token=885252
+龙祥时代,http://106.107.237.222:5050/smart.php?id=lungxiangtime_twn&token=885252
+美亚电影,http://106.107.237.222:5050/smart.php?id=meiyamovie_twn&token=885252
+華藝綜合,http://106.107.237.222:5050/smart.php?id=weishichinese_twn&token=885252
+博斯运动一台,http://106.107.237.222:5050/smart.php?id=bosisport1_twn&token=885252
+博斯运动二台,http://106.107.237.222:5050/smart.php?id=bosisport2_twn&token=885252
+博斯高球一台,http://106.107.237.222:5050/smart.php?id=bosigolf1_twn&token=885252
+博斯高球二台,http://106.107.237.222:5050/smart.php?id=bosigolf2_twn&token=885252
+博斯网球台,http://106.107.237.222:5050/smart.php?id=bositennis_twn&token=885252
+博斯无限台,http://106.107.237.222:5050/smart.php?id=bosiunlimited_twn&token=885252
+好消息 2,http://106.107.237.222:5050/smart.php?id=good2_twn&token=885252
+GPT-央视,#genre#
+CCTV-1 综合,http://106.107.237.222:5050/smart.php?id=cctv1&token=885252
+CCTV-2 财经,http://106.107.237.222:5050/smart.php?id=cctv2&token=885252
+CCTV-3 综艺,http://106.107.237.222:5050/smart.php?id=cctv3&token=885252
+CCTV-4 中文国际,http://106.107.237.222:5050/smart.php?id=Cctv4&token=885252
+CCTV-4 中文国际,http://106.107.237.222:5050/smart.php?id=cctv4&token=885252
+CCTV-5 体育,http://106.107.237.222:5050/smart.php?id=cctv5&token=885252
+CCTV-6 电影,http://106.107.237.222:5050/smart.php?id=cctv6&token=885252
+CCTV-7 国防军事,http://106.107.237.222:5050/smart.php?id=cctv7&token=885252
+CCTV-8 电视剧,http://106.107.237.222:5050/smart.php?id=cctv8hd&token=885252
+CCTV-9 记录,http://106.107.237.222:5050/smart.php?id=cctv9hd&token=885252
+CCTV-10 科教,http://106.107.237.222:5050/smart.php?id=cctv10hd&token=885252
+CCTV-11 戏曲,http://106.107.237.222:5050/smart.php?id=cctv11&token=885252
+CCTV-12 社会与法,http://106.107.237.222:5050/smart.php?id=cctv12&token=885252
+CCTV-13 新闻,http://106.107.237.222:5050/smart.php?id=cctv13&token=885252
+CCTV-14 少儿,http://106.107.237.222:5050/smart.php?id=cctv14&token=885252
+CCTV-15 音乐,http://106.107.237.222:5050/smart.php?id=cctv15&token=885252
+CCTV-16 奥林匹克,http://106.107.237.222:5050/smart.php?id=cctv16&token=885252
+CCTV-17 农业农村,http://106.107.237.222:5050/smart.php?id=cctv17&token=885252
+CCTV-5+ 体育赛事,http://106.107.237.222:5050/smart.php?id=cctv5plus&token=885252
+湖南卫视,http://106.107.237.222:5050/smart.php?id=hunan_twn&token=885252
+浙江卫视,http://106.107.237.222:5050/smart.php?id=zhejiang_twn&token=885252
+江苏卫视,http://106.107.237.222:5050/smart.php?id=jiangsu_twn&token=885252
+东方卫视,http://106.107.237.222:5050/smart.php?id=dongfangweishi_twn&token=885252
+北京卫视,http://106.107.237.222:5050/smart.php?id=beijing&token=885252
+深圳卫视,http://106.107.237.222:5050/smart.php?id=shenzhen&token=885252
+广东卫视,http://106.107.237.222:5050/smart.php?id=guangdongweishi_twn&token=885252
+大湾区卫视,http://106.107.237.222:5050/smart.php?id=nanfang_twn&token=885252
+珠江台,http://106.107.237.222:5050/smart.php?id=zhujiang&token=885252
+东南卫视,http://106.107.237.222:5050/smart.php?id=fujian&token=885252
+广西卫视,http://106.107.237.222:5050/smart.php?id=guangxi&token=885252
+湖北卫视,http://106.107.237.222:5050/smart.php?id=hubei&token=885252
+四川卫视,http://106.107.237.222:5050/smart.php?id=sichuan_twn&token=885252
+CGTN,http://106.107.237.222:5050/smart.php?id=CGTN&token=885252
+GPT-电影,#genre#
+CCTV-6,http://106.107.237.222:5050/smart.php?id=cctv6&token=885252
+AXN Taiwan,http://106.107.237.222:5050/smart.php?id=axn_twn&token=885252
+HBO_HD,http://106.107.237.222:5050/smart.php?id=hbohd_twn&token=885252
+HBO_HITS,http://106.107.237.222:5050/smart.php?id=hbohit_twn&token=885252
+CINEMAX,http://106.107.237.222:5050/smart.php?id=cinemax_twn&token=885252
+好萊塢電影台,http://106.107.237.222:5050/smart.php?id=hollywoodmovies_twn&token=885252
+东森电影,http://106.107.237.222:5050/smart.php?id=ettvmovie&token=885252
+东森洋片,http://106.107.237.222:5050/smart.php?id=ettvwestern&token=885252
+龙华电影,http://106.107.237.222:5050/smart.php?id=xingwei_movie&token=885252
+龙华洋片,http://106.107.237.222:5050/smart.php?id=lunghuawestern_twn&token=885252
+龙祥时代,http://106.107.237.222:5050/smart.php?id=lungxiangtime_twn&token=885252
+美亚电影,http://106.107.237.222:5050/smart.php?id=meiyamovie_twn&token=885252
+卫视电影台,http://106.107.237.222:5050/smart.php?id=weishimovie_twn&token=885252
+天映频道,http://106.107.237.222:5050/smart.php?id=Celestial&token=885252
+天映频道,http://106.107.237.222:5050/smart.php?id=Celestialindo&token=885252
+天映经典,http://106.107.237.222:5050/smart.php?id=Celestial2&token=885252
+Animax,http://106.107.237.222:5050/smart.php?id=Animax&token=885252
+Movies Now HD,http://106.107.237.222:5050/smart.php?id=moviesnow_raj&token=885252
+Star Movies HD,http://106.107.237.222:5050/smart.php?id=starmovies_raj&token=885252
+Hits,http://106.107.237.222:5050/smart.php?id=Hits&token=885252
+Warner TV,http://106.107.237.222:5050/smart.php?id=WarnerTV&token=885252
+HBO HD,http://106.107.237.222:5050/smart.php?id=Hbo&token=885252
+HBO Signature,http://106.107.237.222:5050/smart.php?id=Hbosignature&token=885252
+HBO Family,http://106.107.237.222:5050/smart.php?id=Hbofamily&token=885252
+HBO Hits,http://106.107.237.222:5050/smart.php?id=Hbohitshd&token=885252
+Cinemax,http://106.107.237.222:5050/smart.php?id=Cinemax&token=885252
+Dreamworks,http://106.107.237.222:5050/smart.php?id=Dreamworks&token=885252
+SCM,http://106.107.237.222:5050/smart.php?id=Weishimovie&token=885252
+Thrill,http://106.107.237.222:5050/smart.php?id=Thrill&token=885252
+Hits Movie,http://106.107.237.222:5050/smart.php?id=Hitsmovie&token=885252
+One,http://106.107.237.222:5050/smart.php?id=One&token=885252
+tvN Movie,http://106.107.237.222:5050/smart.php?id=Tvnmovie&token=885252
+Axn HD,http://106.107.237.222:5050/smart.php?id=Axn&token=885252
+Paramount Network,http://106.107.237.222:5050/smart.php?id=Paramountnetwork&token=885252
+Astrol Kplus,http://106.107.237.222:5050/smart.php?id=Kplus&token=885252
+Rock Actions,http://106.107.237.222:5050/smart.php?id=Rockaction&token=885252
+Rock Entertainment,http://106.107.237.222:5050/smart.php?id=Rockentertain&token=885252
+GPT-记录,#genre#
+Natgeo_HD,http://106.107.237.222:5050/smart.php?id=natgeohd_twn&token=885252
+NatGeo_Wild HD,http://106.107.237.222:5050/smart.php?id=natgeowild_twn&token=885252
+Animal_Planet,http://106.107.237.222:5050/smart.php?id=animalplanet_twn&token=885252
+Discovery Asia,http://106.107.237.222:5050/smart.php?id=discoverytwn_twn&token=885252
+CI,http://106.107.237.222:5050/smart.php?id=ci_twn&token=885252
+Asia Travel,http://106.107.237.222:5050/smart.php?id=asiatravel_twn&token=885252
+Discovery HD,http://106.107.237.222:5050/smart.php?id=discoveryhd_twn&token=885252
+亚洲美食,http://106.107.237.222:5050/smart.php?id=afc_twn&token=885252
+美食星球,http://106.107.237.222:5050/smart.php?id=foodplanet_twn&token=885252
+亚洲TLC,http://106.107.237.222:5050/smart.php?id=tlc_twn&token=885252
+NatGeo HD,http://106.107.237.222:5050/smart.php?id=Natgeo&token=885252
+Fashion TV,http://106.107.237.222:5050/smart.php?id=fashiontv_twn&token=885252
+History,http://106.107.237.222:5050/smart.php?id=History&token=885252
+BBC Earth HD,http://106.107.237.222:5050/smart.php?id=bbcearth_twn&token=885252
+BBC Earth Lifestyle,http://106.107.237.222:5050/smart.php?id=bbclifestyle_twn&token=885252
+MTV Live,http://106.107.237.222:5050/smart.php?id=mtvhd_twn&token=885252
+NatGeo Wild HD,http://106.107.237.222:5050/smart.php?id=Natgeowild&token=885252
+Animal Planet (Eng),http://106.107.237.222:5050/smart.php?id=AnimalPlanet&token=885252
+TLC,http://106.107.237.222:5050/smart.php?id=Tlc&token=885252
+Foodnetwork Hd,http://106.107.237.222:5050/smart.php?id=Foodnetwork&token=885252
+HGTV,http://106.107.237.222:5050/smart.php?id=HGTV&token=885252
+亚洲旅游台,http://106.107.237.222:5050/smart.php?id=asiatravel_twn&token=885252
+GPT-新闻,#genre#
+Skynews,http://106.107.237.222:5050/smart.php?id=skynews_twn&token=885252
+ABC News,http://106.107.237.222:5050/smart.php?id=abcnews_glo&token=885252
+东森财经新闻,http://106.107.237.222:5050/smart.php?id=ettvcaijing_twn&token=885252
+CBS HD,http://106.107.237.222:5050/smart.php?id=cbshd_glo&token=885252
+CBSN HD,http://106.107.237.222:5050/smart.php?id=cbsn_glo&token=885252
+France 24,http://106.107.237.222:5050/smart.php?id=france24_twn&token=885252
+DW (Deutsch),http://106.107.237.222:5050/smart.php?id=dw_twn&token=885252
+NHK World,http://106.107.237.222:5050/smart.php?id=nhkworld_japan&token=885252
+Fox News,http://106.107.237.222:5050/smart.php?id=foxnews_twn&token=885252
+CGTN,http://106.107.237.222:5050/smart.php?id=cgtn&token=885252
+CNN International,http://106.107.237.222:5050/smart.php?id=Cnn&token=885252
+CNN backup,http://106.107.237.222:5050/smart.php?id=cnn_twn&token=885252
+CNBC,http://106.107.237.222:5050/smart.php?id=cnbc_twn&token=885252
+CNA,http://106.107.237.222:5050/smart.php?id=cna&token=885252
+BBC World News,http://106.107.237.222:5050/smart.php?id=bbcnews_twn&token=885252
+BBC World News,http://106.107.237.222:5050/smart.php?id=Bbcnews&token=885252
+Bloomberg News,http://106.107.237.222:5050/smart.php?id=bloomberg_twn&token=885252
+Al-Jazeera,http://106.107.237.222:5050/smart.php?id=aljazeera_twn&token=885252
+GPT-儿童,#genre#
+Baby TV Eng,http://106.107.237.222:5050/smart.php?id=babytv&token=885252
+CBeebies,http://106.107.237.222:5050/smart.php?id=Cbeebies&token=885252
+Kids TV,http://106.107.237.222:5050/smart.php?id=kidstv&token=885252
+Momo TV,http://106.107.237.222:5050/smart.php?id=momo1_twn&token=885252
+Animax,http://106.107.237.222:5050/smart.php?id=Animax&token=885252
+Baby TV,http://106.107.237.222:5050/smart.php?id=babytv_twn&token=885252
+MiaoMi,http://106.107.237.222:5050/smart.php?id=MiaoMi&token=885252
+靖天卡通,http://106.107.237.222:5050/smart.php?id=jingtiancartoon_twn&token=885252
+东森幼幼,http://106.107.237.222:5050/smart.php?id=yoyo_twn&token=885252
+Cartoon Network,http://106.107.237.222:5050/smart.php?id=Cn&token=885252
+Nickelodeon,http://106.107.237.222:5050/smart.php?id=Nickelodeon&token=885252
+Nick Jr,http://106.107.237.222:5050/smart.php?id=Nickjr&token=885252
+GPT-体育,#genre#
+Astro Premier League 1,http://106.107.237.222:5050/smart.php?id=go_assp1&token=885252
+Astro EPL 1 backup,http://106.107.237.222:5050/smart.php?id=go_assp1x&token=885252
+Astro Premier League 2,http://106.107.237.222:5050/smart.php?id=go_assp2&token=885252
+Astro Grandstand,http://106.107.237.222:5050/smart.php?id=go_assp3&token=885252
+Astro Football,http://106.107.237.222:5050/smart.php?id=go_assp4&token=885252
+Astro Sports Plus,http://106.107.237.222:5050/smart.php?id=go_sportsplus&token=885252
+Astro Badminton 1,http://106.107.237.222:5050/smart.php?id=go_badminton1&token=885252
+Astro Badminton 2,http://106.107.237.222:5050/smart.php?id=go_badminton2&token=885252
+Astro W-Sports,http://106.107.237.222:5050/smart.php?id=go_assp5&token=885252
+Supersports 1,http://106.107.237.222:5050/smart.php?id=Assp1&token=885252
+Supersports 2,http://106.107.237.222:5050/smart.php?id=Assp2&token=885252
+Supersports 3,http://106.107.237.222:5050/smart.php?id=Assp3&token=885252
+Supersports 4,http://106.107.237.222:5050/smart.php?id=Assp4&token=885252
+WWE,http://106.107.237.222:5050/smart.php?id=wwe&token=885252
+Fight Sports,http://106.107.237.222:5050/smart.php?id=Fs&token=885252
+NBA TV,http://106.107.237.222:5050/smart.php?id=Nba&token=885252
+Astro Cricket,http://106.107.237.222:5050/smart.php?id=Acricket&token=885252
+Astro Golf,http://106.107.237.222:5050/smart.php?id=agolf&token=885252
+Tnt Sports 1,http://106.107.237.222:5050/smart.php?id=6fac0aaead&token=885252
+TNT Sports 2,http://106.107.237.222:5050/smart.php?id=d9a76a79cc&token=885252
+TNT Sports 3,http://106.107.237.222:5050/smart.php?id=5fea4d73db&token=885252
+TNT Sports 4,http://106.107.237.222:5050/smart.php?id=tntsport4&token=885252
+Sony Ten 1,http://106.107.237.222:5050/smart.php?id=ten1_raj&token=885252
+Sony Ten 2,http://106.107.237.222:5050/smart.php?id=ten2_raj&token=885252
+Sony Ten 3,http://106.107.237.222:5050/smart.php?id=ten3_raj&token=885252
+SPOTV 1 HD,http://106.107.237.222:5050/smart.php?id=go_spotv&token=885252
+SPO TV 2,http://106.107.237.222:5050/smart.php?id=go_spotv2&token=885252
+Skysports F1,http://106.107.237.222:5050/smart.php?id=tiankongf1&token=885252
+Skysports Cricket,http://106.107.237.222:5050/smart.php?id=tiankongcricket&token=885252
+Skysports EPL,http://106.107.237.222:5050/smart.php?id=tiankongepl&token=885252
+Skysports Main Event,http://106.107.237.222:5050/smart.php?id=tiankongmain&token=885252
+Skysports News,http://106.107.237.222:5050/smart.php?id=tiankongnews&token=885252
+Skysports Mix,http://106.107.237.222:5050/smart.php?id=tiankongmix&token=885252
+CCTV-5 体育频道,http://106.107.237.222:5050/smart.php?id=cctv5&token=885252
+CCTV-5+ 体育赛事 HD,http://106.107.237.222:5050/smart.php?id=cctv5plus&token=885252
+爱尔达体育2台,http://106.107.237.222:5050/smart.php?id=eltasport2_twn&token=885252
+爱尔达体育3台,http://106.107.237.222:5050/smart.php?id=eltasport3_twn&token=885252
+Rugby Pass TV,http://106.107.237.222:5050/smart.php?id=Rugbypasstv&token=885252
+RTM Sports HD,http://106.107.237.222:5050/smart.php?id=Rtmsport&token=885252
+Arena,http://106.107.237.222:5050/smart.php?id=Arena&token=885252
+Arena 2,http://106.107.237.222:5050/smart.php?id=Arena2&token=885252
+BolaArena 1,http://106.107.237.222:5050/smart.php?id=bolaarena1&token=885252
+BolaArena 2,http://106.107.237.222:5050/smart.php?id=bolaarena2&token=885252
+Astro Beinsports 1,http://106.107.237.222:5050/smart.php?id=astrobein1&token=885252
+Astro Beinsports 2,http://106.107.237.222:5050/smart.php?id=astrobein2&token=885252
+Astro Beinsports 3,http://106.107.237.222:5050/smart.php?id=astrobein3&token=885252
+GPT-新加坡,#genre#
+Channel 5,http://106.107.237.222:5050/smart.php?id=channel5hd&token=885252
+Channel 8,http://106.107.237.222:5050/smart.php?id=channel8hd&token=885252
+Suria,http://106.107.237.222:5050/smart.php?id=suria&token=885252
+Channel U,http://106.107.237.222:5050/smart.php?id=channelu&token=885252
+Vasantham,http://106.107.237.222:5050/smart.php?id=vasantham&token=885252
+CNA,http://106.107.237.222:5050/smart.php?id=cna&token=885252
+CNA backup,http://106.107.237.222:5050/smart.php?id=cna_twn&token=885252
+MeWatch Ch 5,http://106.107.237.222:5050/smart.php?id=Mewatch_ch5&token=885252
+MeWatch Ch 8,http://106.107.237.222:5050/smart.php?id=Mewatch_ch8&token=885252
+MeWatch Ch U,http://106.107.237.222:5050/smart.php?id=Mewatch_chU&token=885252
+MeWatch Suria,http://106.107.237.222:5050/smart.php?id=Mewatch_Suria&token=885252
+MeWatch Vasantham,http://106.107.237.222:5050/smart.php?id=Mewatch_Vasantham&token=885252
+MeWatch CNA,http://106.107.237.222:5050/smart.php?id=Mewatch_cna&token=885252
+GPT-马来西亚,#genre#
+TV1,http://106.107.237.222:5050/smart.php?id=TV1&token=885252
+TV1 backup,http://106.107.237.222:5050/smart.php?id=TV1_backup&token=885252
+TV2,http://106.107.237.222:5050/smart.php?id=TV2&token=885252
+TV3,http://106.107.237.222:5050/smart.php?id=TV3&token=885252
+TV3 SD,http://106.107.237.222:5050/smart.php?id=TV3_mega&token=885252
+NTV7,http://106.107.237.222:5050/smart.php?id=NTV7&token=885252
+TV8,http://106.107.237.222:5050/smart.php?id=TV8&token=885252
+TV9,http://106.107.237.222:5050/smart.php?id=TV9&token=885252
+Ria,http://106.107.237.222:5050/smart.php?id=Ria-0&token=885252
+Ria-3,http://106.107.237.222:5050/smart.php?id=Ria_backup&token=885252
+Al-Hijrah,http://106.107.237.222:5050/smart.php?id=Alhijrah&token=885252
+Al-Hijrah backup,http://106.107.237.222:5050/smart.php?id=Alhijrah_backup&token=885252
+Awani,http://106.107.237.222:5050/smart.php?id=Awani&token=885252
+Bernama,http://106.107.237.222:5050/smart.php?id=Bernama&token=885252
+Prima,http://106.107.237.222:5050/smart.php?id=Prima-0&token=885252
+Prima backup,http://106.107.237.222:5050/smart.php?id=AAprima1&token=885252
+Prima backup 2,http://106.107.237.222:5050/smart.php?id=AAprima&token=885252
+Ceria,http://106.107.237.222:5050/smart.php?id=Ceria&token=885252
+Astro MTV,http://106.107.237.222:5050/smart.php?id=AstroMTV&token=885252
+Mecca Live HD,http://106.107.237.222:5050/smart.php?id=quran_mido&token=885252
+Madinah HD,http://106.107.237.222:5050/smart.php?id=sunnah_mido&token=885252
+Oasis,http://106.107.237.222:5050/smart.php?id=Oasis&token=885252
+HBO HD,http://106.107.237.222:5050/smart.php?id=Hbo&token=885252
+HBO Signature,http://106.107.237.222:5050/smart.php?id=Hbosignature&token=885252
+HBO Hits,http://106.107.237.222:5050/smart.php?id=Hbohitshd&token=885252
+NatGeo Wild HD,http://106.107.237.222:5050/smart.php?id=Natgeowild&token=885252
+Cartoon Network,http://106.107.237.222:5050/smart.php?id=Cn&token=885252
+Nickelodeon,http://106.107.237.222:5050/smart.php?id=Nickelodeon&token=885252
+Nick Jr,http://106.107.237.222:5050/smart.php?id=Nickjr&token=885252
+Dreamworks,http://106.107.237.222:5050/smart.php?id=Dreamworks&token=885252
+Siar,http://106.107.237.222:5050/smart.php?id=Siar&token=885252
+Citra,http://106.107.237.222:5050/smart.php?id=AAcitra&token=885252
+Citra backup,http://106.107.237.222:5050/smart.php?id=AAcitra1&token=885252
+Sensasi,http://106.107.237.222:5050/smart.php?id=Sensasi&token=885252
+Aura,http://106.107.237.222:5050/smart.php?id=Aura&token=885252
+Rania,http://106.107.237.222:5050/smart.php?id=Rania&token=885252
+KBS World,http://106.107.237.222:5050/smart.php?id=KBS&token=885252
+Boo,http://106.107.237.222:5050/smart.php?id=Boo&token=885252
+Awesome TV,http://106.107.237.222:5050/smart.php?id=Dsangat&token=885252
+Astro Sonypix,http://106.107.237.222:5050/smart.php?id=Asonypix&token=885252
+Sony HD,http://106.107.237.222:5050/smart.php?id=SetOne&token=885252
+TvN,http://106.107.237.222:5050/smart.php?id=TVN&token=885252
+AEC,http://106.107.237.222:5050/smart.php?id=AEC&token=885252
+华丽台 HD （Wah Lai Toi）,http://106.107.237.222:5050/smart.php?id=Wlt&token=885252
+欢喜台 HD （Hua Hee Tai）,http://106.107.237.222:5050/smart.php?id=Huahee&token=885252
+Astro QJ,http://106.107.237.222:5050/smart.php?id=Quanjia&token=885252
+TVB Jade,http://106.107.237.222:5050/smart.php?id=Tvbjade&token=885252
+TVB Asia,http://106.107.237.222:5050/smart.php?id=Tvbasia&token=885252
+TVB Entertainment,http://106.107.237.222:5050/smart.php?id=Tvbentertainment&token=885252
+TVB Classic,http://106.107.237.222:5050/smart.php?id=Tvbclassic&token=885252
+AOD,http://106.107.237.222:5050/smart.php?id=Aodhd&token=885252
+One,http://106.107.237.222:5050/smart.php?id=One&token=885252
+TVB 星河台 Xing He,http://106.107.237.222:5050/smart.php?id=Xinhe&token=885252
+爱奇艺 iQiyi,http://106.107.237.222:5050/smart.php?id=Qiyi&token=885252
+Animal Planet (Eng),http://106.107.237.222:5050/smart.php?id=AnimalPlanet&token=885252
+tvN Movie,http://106.107.237.222:5050/smart.php?id=Tvnmovie&token=885252
+CNN backup,http://106.107.237.222:5050/smart.php?id=cnn_twn&token=885252
+Celestial Classic,http://106.107.237.222:5050/smart.php?id=Celestial2&token=885252
+CNBC,http://106.107.237.222:5050/smart.php?id=cnbc_twn&token=885252
+TLC,http://106.107.237.222:5050/smart.php?id=Tlc&token=885252
+CNA,http://106.107.237.222:5050/smart.php?id=cna&token=885252
+BBC World News,http://106.107.237.222:5050/smart.php?id=bbcnews_twn&token=885252
+Foodnetwork Hd,http://106.107.237.222:5050/smart.php?id=Foodnetwork&token=885252
+HGTV,http://106.107.237.222:5050/smart.php?id=HGTV&token=885252
+Goshop,http://106.107.237.222:5050/smart.php?id=Goshop&token=885252
+Celestial Movies HD,http://106.107.237.222:5050/smart.php?id=Celestial&token=885252
+Axn HD,http://106.107.237.222:5050/smart.php?id=Axn&token=885252
+Paramount Network,http://106.107.237.222:5050/smart.php?id=Paramountnetwork&token=885252
+Astrol Kplus,http://106.107.237.222:5050/smart.php?id=Kplus&token=885252
+AFC 亚洲旅游台,http://106.107.237.222:5050/smart.php?id=asiatravel_twn&token=885252
+Rock Actions,http://106.107.237.222:5050/smart.php?id=Rockaction&token=885252
+Bloomberg News,http://106.107.237.222:5050/smart.php?id=bloomberg_twn&token=885252
+Al-Jazeera,http://106.107.237.222:5050/smart.php?id=aljazeera_twn&token=885252
+Rock Entertainment,http://106.107.237.222:5050/smart.php?id=Rockentertain&token=885252
+RTM Sports HD,http://106.107.237.222:5050/smart.php?id=Rtmsport&token=885252
+Arena,http://106.107.237.222:5050/smart.php?id=Arena&token=885252
+Arena 2,http://106.107.237.222:5050/smart.php?id=Arena2&token=885252
+BolaArena 1,http://106.107.237.222:5050/smart.php?id=Bolaarena1&token=885252
+BolaArena 2,http://106.107.237.222:5050/smart.php?id=Bolaarena2&token=885252
+Astro LOL,http://106.107.237.222:5050/smart.php?id=Astro_lol&token=885252
+Astro Rusi,http://106.107.237.222:5050/smart.php?id=Rusi&token=885252
+WION,http://106.107.237.222:5050/smart.php?id=Wion&token=885252
+RTM Asean,http://106.107.237.222:5050/smart.php?id=Rtmasean&token=885252
+GPT-印尼,#genre#
+TVRI National,http://106.107.237.222:5050/smart.php?id=TVRI&token=885252
+RCTI,http://106.107.237.222:5050/smart.php?id=Rcti&token=885252
+Kompass TV,http://106.107.237.222:5050/smart.php?id=Kompass&token=885252
+Berita Satu,http://106.107.237.222:5050/smart.php?id=BeritaSatu_eko&token=885252
+Indosiar HD,http://106.107.237.222:5050/smart.php?id=Indosiar&token=885252
+AnTV,http://106.107.237.222:5050/smart.php?id=Antv&token=885252
+MNC TV,http://106.107.237.222:5050/smart.php?id=Mnctv&token=885252
+Trans 7,http://106.107.237.222:5050/smart.php?id=Trans7_eko&token=885252
+Transtv,http://106.107.237.222:5050/smart.php?id=Transtv&token=885252
+JTV,http://106.107.237.222:5050/smart.php?id=JTV_eko&token=885252
+Metro TV,http://106.107.237.222:5050/smart.php?id=metrotv_eko&token=885252
+Cinemax,http://106.107.237.222:5050/smart.php?id=Cinemax&token=885252
+SCTV,http://106.107.237.222:5050/smart.php?id=SCTV&token=885252
+Tvone,http://106.107.237.222:5050/smart.php?id=Tvone&token=885252
+TVMU,http://106.107.237.222:5050/smart.php?id=TVMU_eko&token=885252
+GTV,http://106.107.237.222:5050/smart.php?id=Gtv&token=885252
+RTV,http://106.107.237.222:5050/smart.php?id=Rtv&token=885252
+Jak TV,http://106.107.237.222:5050/smart.php?id=JakTV&token=885252
+iNews TV,http://106.107.237.222:5050/smart.php?id=Inewstv&token=885252
+Daai TV,http://106.107.237.222:5050/smart.php?id=DaaiTV&token=885252
+Net TV,http://106.107.237.222:5050/smart.php?id=NetTV&token=885252
+Animax,http://106.107.237.222:5050/smart.php?id=Animax&token=885252
+EWTN,http://106.107.237.222:5050/smart.php?id=Ewtn&token=885252
+AlQuran AlKareem,http://106.107.237.222:5050/smart.php?id=AlQuran&token=885252
+Tawaf TV,http://106.107.237.222:5050/smart.php?id=TawafTV&token=885252
+Vision Prime,http://106.107.237.222:5050/smart.php?id=VisionPrime&token=885252
+Muslim TV,http://106.107.237.222:5050/smart.php?id=MuslimTV&token=885252
+Music TV,http://106.107.237.222:5050/smart.php?id=MusicTV&token=885252
+Lifestyle&Fashion,http://106.107.237.222:5050/smart.php?id=Lifestyle&token=885252
+Entertain,http://106.107.237.222:5050/smart.php?id=Entertain&token=885252
+Hits,http://106.107.237.222:5050/smart.php?id=Hits&token=885252
+Warner TV,http://106.107.237.222:5050/smart.php?id=WarnerTV&token=885252
+SCM,http://106.107.237.222:5050/smart.php?id=Weishimovie&token=885252
+Thrill,http://106.107.237.222:5050/smart.php?id=Thrill&token=885252
+Fight Sports,http://106.107.237.222:5050/smart.php?id=Fs&token=885252
+Hits Movie,http://106.107.237.222:5050/smart.php?id=Hitsmovie&token=885252
+One,http://106.107.237.222:5050/smart.php?id=One&token=885252
+tvN Movie,http://106.107.237.222:5050/smart.php?id=Tvnmovie&token=885252
+Celestial Movies HD,http://106.107.237.222:5050/smart.php?id=Celestialindo&token=885252
+Rock Actions,http://106.107.237.222:5050/smart.php?id=Rockaction&token=885252
+Rock Entertainment,http://106.107.237.222:5050/smart.php?id=Rockentertain&token=885252
+GPT-印度,#genre#
+Sun TV HD,http://106.107.237.222:5050/smart.php?id=Suntv&token=885252
+Star Vijay,http://106.107.237.222:5050/smart.php?id=Starvijay&token=885252
+Colors Tamil,http://106.107.237.222:5050/smart.php?id=Colorstam&token=885252
+Sun Music,http://106.107.237.222:5050/smart.php?id=Sunmusic&token=885252
+Astro Sunlife,http://106.107.237.222:5050/smart.php?id=Sunlife&token=885252
+Astro Vaanavil,http://106.107.237.222:5050/smart.php?id=Vaanavil&token=885252
+Zee Tamil,http://106.107.237.222:5050/smart.php?id=Zeetamil&token=885252
+Zee Business,http://106.107.237.222:5050/smart.php?id=Zeebusiness&token=885252
+News 18 Tamil,http://106.107.237.222:5050/smart.php?id=news18tamil_raj&token=885252
+Adithya,http://106.107.237.222:5050/smart.php?id=Adithya&token=885252
+Makkal TV,http://106.107.237.222:5050/smart.php?id=Makkaltv&token=885252
+Zee Action,http://106.107.237.222:5050/smart.php?id=Zeeaction&token=885252
+Astro KTV,http://106.107.237.222:5050/smart.php?id=Astroktv&token=885252
+Zee TV HD,http://106.107.237.222:5050/smart.php?id=Zeetvhd&token=885252
+Zee Cinema HD,http://106.107.237.222:5050/smart.php?id=Zeecinemahd&token=885252
+Color HD,http://106.107.237.222:5050/smart.php?id=Colorhd&token=885252
+Starplus HD,http://106.107.237.222:5050/smart.php?id=Starplushd&token=885252
+Picture HD,http://106.107.237.222:5050/smart.php?id=Npicture&token=885252
+Zee News,http://106.107.237.222:5050/smart.php?id=Zeenews&token=885252
+Asianet,http://106.107.237.222:5050/smart.php?id=asianet_raj&token=885252
+Asianet News,http://106.107.237.222:5050/smart.php?id=asianetnews_raj&token=885252
+Discovery World Tamil,http://106.107.237.222:5050/smart.php?id=discoveryworldtam_raj&token=885252
+History Tamil,http://106.107.237.222:5050/smart.php?id=historytam_raj&token=885252
+NatGeo Tamil,http://106.107.237.222:5050/smart.php?id=natgeotamil_raj&token=885252
+Natgeo Wild Tamil,http://106.107.237.222:5050/smart.php?id=natgeowildtamil_raj&token=885252
+Astro Sonypix,http://106.107.237.222:5050/smart.php?id=Asonypix&token=885252
+Discovery Kids Tamil,http://106.107.237.222:5050/smart.php?id=discoverykidtamil_raj&token=885252
+Discovery Tamil,http://106.107.237.222:5050/smart.php?id=discoverytamil_raj&token=885252
+Sony Yay Tamil,http://106.107.237.222:5050/smart.php?id=sonyyaytam_raj&token=885252
+Sun TV India,http://106.107.237.222:5050/smart.php?id=suntv_raj&token=885252
+Starmaa HD,http://106.107.237.222:5050/smart.php?id=starmaa_raj&token=885252
+Starmaa Movies HD,http://106.107.237.222:5050/smart.php?id=starmaamovies_raj&token=885252
+Bollyone,http://106.107.237.222:5050/smart.php?id=Bollyone&token=885252
+Astro Sunmusic,http://106.107.237.222:5050/smart.php?id=Sunmusic&token=885252
+Vijay Super,http://106.107.237.222:5050/smart.php?id=vijaysuper_raj&token=885252
+Vellithirai,http://106.107.237.222:5050/smart.php?id=Vellithirai&token=885252
+GPT-泰国,#genre#
+Channel 3 Thailand,http://106.107.237.222:5050/smart.php?id=ch3_pat&token=885252
+Channel 5 Thailand,http://106.107.237.222:5050/smart.php?id=ch5_pat&token=885252
+Channel 7 Thailand,http://106.107.237.222:5050/smart.php?id=ch7_pat&token=885252
+MCOT HD Thailand-1,http://106.107.237.222:5050/smart.php?id=mcot_pat&token=885252
+PPTV Thailand1,http://106.107.237.222:5050/smart.php?id=pptv_pat&token=885252
+Thai Thai,http://106.107.237.222:5050/smart.php?id=thaithai_pat&token=885252
+Amarin,http://106.107.237.222:5050/smart.php?id=amarin_pat&token=885252
+Ch 8,http://106.107.237.222:5050/smart.php?id=ch8_pat&token=885252
+GmmOne,http://106.107.237.222:5050/smart.php?id=gmmone_pat&token=885252
+Mono,http://106.107.237.222:5050/smart.php?id=mono_pat&token=885252
+Thairath,http://106.107.237.222:5050/smart.php?id=thairath_pat&token=885252
+tpbs,http://106.107.237.222:5050/smart.php?id=tpbs_pat&token=885252
+Workpoint,http://106.107.237.222:5050/smart.php?id=workpoint_pat&token=885252
+Gmm Channel,http://106.107.237.222:5050/smart.php?id=gmmchannel_pat&token=885252
+Nation,http://106.107.237.222:5050/smart.php?id=nation_pat&token=885252
+Tnn24,http://106.107.237.222:5050/smart.php?id=tnn24_pat&token=885252
+Nbt,http://106.107.237.222:5050/smart.php?id=nbt_pat&token=885252
+New,http://106.107.237.222:5050/smart.php?id=new_pat&token=885252
+TPTV,http://106.107.237.222:5050/smart.php?id=tptv_pat&token=885252
+GPT-英国,#genre#
+BBC 1,http://106.107.237.222:5050/smart.php?id=bbc1_antik&token=885252
+BBC 2,http://106.107.237.222:5050/smart.php?id=bbc2_antik&token=885252
+CBBC,http://106.107.237.222:5050/smart.php?id=cbbc_antik&token=885252
+More4,http://106.107.237.222:5050/smart.php?id=more4_antik&token=885252
+Freesports,http://106.107.237.222:5050/smart.php?id=freesports_antik&token=885252
+Skynews,http://106.107.237.222:5050/smart.php?id=skynews_twn&token=885252
+Pick TV,http://106.107.237.222:5050/smart.php?id=picktv_antik&token=885252
+itv 1,http://106.107.237.222:5050/smart.php?id=itv1_antik&token=885252
+itv 2,http://106.107.237.222:5050/smart.php?id=itv2_antik&token=885252
+Euronews,http://106.107.237.222:5050/smart.php?id=euronews_antik&token=885252
+Channel 4,http://106.107.237.222:5050/smart.php?id=channel4_antik&token=885252
+NatGeo HD,http://106.107.237.222:5050/smart.php?id=Natgeo&token=885252
+CBeebies,http://106.107.237.222:5050/smart.php?id=Cbeebies&token=885252
+History,http://106.107.237.222:5050/smart.php?id=History&token=885252
+Kids TV,http://106.107.237.222:5050/smart.php?id=KidsTV&token=885252
+France 24,http://106.107.237.222:5050/smart.php?id=france24_twn&token=885252
+DW (Deutsch),http://106.107.237.222:5050/smart.php?id=dw_twn&token=885252
+BBC Earth HD,http://106.107.237.222:5050/smart.php?id=bbcearth_twn&token=885252
+BBC Earth Lifestyle,http://106.107.237.222:5050/smart.php?id=bbclifestyle_twn&token=885252
+MTV Live,http://106.107.237.222:5050/smart.php?id=mtvhd_twn&token=885252
+Star Movies HD,http://106.107.237.222:5050/smart.php?id=starmovies_raj&token=885252
+NHK World,http://106.107.237.222:5050/smart.php?id=nhkworld_japan&token=885252
+Warner TV,http://106.107.237.222:5050/smart.php?id=WarnerTV&token=885252
+HBO HD,http://106.107.237.222:5050/smart.php?id=Hbo&token=885252
+NatGeo Wild HD,http://106.107.237.222:5050/smart.php?id=Natgeowild&token=885252
+Nickelodeon,http://106.107.237.222:5050/smart.php?id=Nickelodeon&token=885252
+Nick Jr,http://106.107.237.222:5050/smart.php?id=Nickjr&token=885252
+Thrill,http://106.107.237.222:5050/smart.php?id=Thrill&token=885252
+CGTN,http://106.107.237.222:5050/smart.php?id=CGTN&token=885252
+Hits Movie,http://106.107.237.222:5050/smart.php?id=Hitsmovie&token=885252
+Animal Planet (Eng),http://106.107.237.222:5050/smart.php?id=AnimalPlanet&token=885252
+CNBC,http://106.107.237.222:5050/smart.php?id=cnbc_twn&token=885252
+TLC,http://106.107.237.222:5050/smart.php?id=Tlc&token=885252
+BBC World News,http://106.107.237.222:5050/smart.php?id=bbcworldnews_antik&token=885252
+HGTV,http://106.107.237.222:5050/smart.php?id=HGTV&token=885252
+Axn HD,http://106.107.237.222:5050/smart.php?id=Axn&token=885252
+Skysports F1,http://106.107.237.222:5050/smart.php?id=tiankongf1&token=885252
+Skysports Cricket,http://106.107.237.222:5050/smart.php?id=tiankongcricket&token=885252
+Bloomberg News,http://106.107.237.222:5050/smart.php?id=bloomberg_twn&token=885252
+Skysports EPL,http://106.107.237.222:5050/smart.php?id=tiankongepl&token=885252
+Skysports Main Event,http://106.107.237.222:5050/smart.php?id=tiankongmain&token=885252
+Skysports News,http://106.107.237.222:5050/smart.php?id=tiankongnews&token=885252
+Al-Jazeera,http://106.107.237.222:5050/smart.php?id=aljazeera_twn&token=885252
+
+
+大人,#genre#
+完美,https://ppt.cc/fgXIWx
+松1,https://ppt.cc/fEFVsx
+松2,https://ppt.cc/fOaEIx
+驚豔,https://ppt.cc/fmpKVx
+驚艷,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
+潘朵拉完美,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
+松視1台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+松視2台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
+松視3台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
+驚艷,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
+潘朵拉完美,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
+松視1台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+松視2台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
+极限电影台(免翻),http://hls-pull-wicketpw.speedws.com/live/54chYry9vAWtsOExIxsLhxuUuFhuPFtkfPnibH3YsC6PAb5RfP.flv
+极限电影台(梯子),https://z88.ubtvfans.com/live/rx2/405/edbcd09f2865ec906139ec4677a87d4e/index.m3u8
+极限电影台(梯子),https://z88.ubtvfans.com/live/rx3/2909/e8831e8b236d26de96babfcb64ab28ad/index.m3u8
+极限电影台(梯子),http://lc.aacalive.com:26789/i/ghjnvq5o/8c855fdf/index.m3u8
+极限电影台(梯子),https://z88.ubtvfans.com/live/rx3/2909/b559f5319cf679f02c321cdd4dd9d88c/index.m3u8
+彩虹E台(梯子),http://z88.ubtvfans.com/live/rx4/2935/b2216e8fc2323f8a0a275e7c62df8732/index.m3u8
+彩虹E台(梯子),http://lc.aacalive.com:26789/i/ghjnvq5o/8c855daa/index.m3u8
+彩虹K(梯子),https://z88.ubtvfans.com/live/rx2/415/6babc0f5085a850b99b33c0a22186200/index.m3u8
+HAPPY(梯子),http://z88.ubtvfans.com/live/rx3/2908/bc0aa6ce3602ddcd50c5e522a53cb857/index.m3u8
+Brazzers TV(梯子),http://z88.ubtvfans.com/live/rx4/3076/e9fb14dec2b1a56964a84ee20c1fc9e4/index.m3u8
+奧視2台(梯子),http://125.227.210.55:8203/VideoInput/play.ts
+香蕉台HD(梯子),https://z88.ubtvfans.com/live/rx3/2930/93c025a5c3be7d05709f0b84a89082ca/index.m3u8
+驚艷台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
+驚艷台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
+驚艷台,http://lc.aacalive.com:26789/i/ghjnvq5o/mdfdc123/index.m3u8
+潘朵拉完美,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
+潘朵拉完美,http://z3.ubtvfans.com/live/rx3/410/66c109fb88bb7a37dc95ee016b973074/index.m3u8
+潘朵拉完美,http://z88.ubtvfans.com/live/rx4/2932/0b07c2cd5bc42fdcffd64abab1f96e44/index.m3u8
+松视1,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+松视1,http://lc.aacalive.com:26789/i/ghjnvq5o/8c85giea/index.m3u8
+松视1,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=TYoFnl&tk=EuWQIWwVA7n1
+松视2,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
+松视2,http://lc.aacalive.com:26789/i/ghjnvq5o/8c85fsaf/index.m3u8
+松视2,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=HU6ied&tk=EuWQIWwVA7n1
+松視3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
+松視3,https://z88.ubtvfans.com/live/rx2/404/d4cddf5dd02c52c1eced8dd7f0b2ccb0/index.m3u8
+松視3,http://z3.ubtvfans.com/live/rx3/404/57ed7bfbbca3bc4f719e9d9519a4f409/index.m3u8
+九州惊艳,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
+九州潘朵啦,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
+九州彩虹,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
+九州松1,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+九州松2,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
+九州松3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
