@@ -1,11 +1,5 @@
-WBC,#genre#
-Elta體育1台,http://106.107.242.199/hls/1_0.m3u8
-Elta體育2台,rtmp://106.107.234.156/live/livestream.m3u8
-Elta體育3台,http://142.171.248.206:8080/live/livestream.flv
-緯來體育台,http://220.134.196.147:8553/http/59.120.8.187:8081/hls/67/809/ch28.m3u8
-緯來育樂,http://220.134.196.147:8547/http/59.120.8.187:8081/hls/68/810/ch30.m3u8
-非凡新聞台,rtmp://f13h.mine.nu/sat/tv581
-四季,#genre#
+
+綜合其他,#genre#
 民視第一台,http://106.107.242.141:50007/4gtv-live403/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
 民視第一台,http://106.107.242.141:50007/4gtv-4gtv003/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
 民視台灣台,http://106.107.242.141:50007/4gtv-live401/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
