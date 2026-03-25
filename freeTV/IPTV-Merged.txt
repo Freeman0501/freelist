@@ -1,162 +1,168 @@
+WBC,#genre#
+Elta體育1台,http://106.107.242.199/hls/1_0.m3u8
+Elta體育2台,rtmp://106.107.234.156/live/livestream.m3u8
+Elta體育3台,http://142.171.248.206:8080/live/livestream.flv
+緯來體育台,http://220.134.196.147:8553/http/59.120.8.187:8081/hls/67/809/ch28.m3u8
+緯來育樂,http://220.134.196.147:8547/http/59.120.8.187:8081/hls/68/810/ch30.m3u8
+非凡新聞台,rtmp://f13h.mine.nu/sat/tv581
 四季,#genre#
-
-amc 電影台,http://49.213.188.67:5055/4gtv-4gtv017/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-ARIRANG阿裡郎頻道,http://49.213.188.67:5055/4gtv-4gtv079/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-BLOOMBERG TV,http://49.213.188.67:5055/4gtv-live059/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-CI 罪案偵查頻道,http://49.213.188.67:5055/4gtv-live027/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-Cinema World,http://49.213.188.67:5055/4gtv-live069/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-CLASSICA古典樂,http://49.213.188.67:5055/4gtv-4gtv059/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-CNBC Asia 財經台,http://49.213.188.67:5055/4gtv-live130/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-DayStar,http://49.213.188.67:5055/daystar/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-DreamWorks 夢工廠動畫,http://49.213.188.67:5055/4gtv-live017/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-DW德國之聲,http://49.213.188.67:5055/4gtv-live071/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-ELTA生活旅遊,http://49.213.188.67:5055/4gtv-live120/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-ELTA娛樂,http://49.213.188.67:5055/4gtv-4gtv070/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-ELTV生活英語台,http://49.213.188.67:5055/litv-xinchuang20/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-ELTV生活英語台,http://49.213.188.67:5055/of-litv-xinchuang20/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-FashionTV 時尚頻道,http://49.213.188.67:5055/4gtv-live085/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-FRANCE24 英文台,http://49.213.188.67:5055/4gtv-live146/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-fun探索娛樂台,http://49.213.188.67:5055/4gtv-live011/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-GINX Esports TV,http://49.213.188.67:5055/4gtv-4gtv053/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-Global Trekker,http://49.213.188.67:5055/4gtv-live112/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-History 歷史頻道,http://49.213.188.67:5055/4gtv-live026/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-HITS頻道,http://49.213.188.67:5055/4gtv-live620/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-INULTRA,http://49.213.188.67:5055/4gtv-live096/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-KLT-靖天國際台,http://49.213.188.67:5055/4gtv-4gtv063/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-Lifetime 娛樂頻道,http://49.213.188.67:5055/4gtv-live029/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-LiveABC互動英語頻道,http://49.213.188.67:5055/4gtv-live030/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-Love Nature,http://49.213.188.67:5055/4gtv-live208/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-LUXE TV Channel,http://49.213.188.67:5055/4gtv-live121/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-MagellanTV頻道,http://49.213.188.67:5055/4gtv-live123/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-Mezzo Live HD,http://49.213.188.67:5055/4gtv-4gtv083/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-MOMO親子,http://49.213.188.67:5055/4gtv-live107/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-My Cinema Europe HD 我的歐洲電影,http://49.213.188.67:5055/litv-ftv10/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-NHK 新聞資訊台,http://49.213.188.67:5055/4gtv-live168/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-NICE TV 靖天歡樂台,http://49.213.188.67:5055/4gtv-4gtv054/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-Nick Jr. 兒童頻道,http://49.213.188.67:5055/4gtv-live032/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-ROCK Action,http://49.213.188.67:5055/4gtv-live138/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-ROCK Entertainment,http://49.213.188.67:5055/4gtv-live080/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-ROCK Xstream搖滾極限頻道,http://49.213.188.67:5055/4gtv-live124/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-SBN 全球財經台,http://49.213.188.67:5055/4gtv-live060/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-Smart知識台,http://49.213.188.67:5055/litv-xinchuang19/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-TRACE Sport Stars,http://49.213.188.67:5055/4gtv-4gtv077/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-TRACE Urban,http://49.213.188.67:5055/4gtv-4gtv082/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-TV5MONDE STYLE HD 生活時尚,http://49.213.188.67:5055/4gtv-live122/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-TVBS,http://49.213.188.67:5055/4gtv-4gtv073/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-TVBS新聞台,http://49.213.188.67:5055/media-live072/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-TVBS精采台,http://49.213.188.67:5055/4gtv-4gtv067/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-TVBS歡樂台,http://49.213.188.67:5055/4gtv-4gtv068/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-人間衛視,http://49.213.188.67:5055/4gtv-live008/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-八大精彩,http://49.213.188.67:5055/4gtv-4gtv034/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-八大綜藝,http://49.213.188.67:5055/4gtv-4gtv039/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-三立iNEWS,http://49.213.188.67:5055/4gtv-live089/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-三立新聞iNEWS,http://49.213.188.67:5055/iNEWS/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-三立綜合台,http://49.213.188.67:5055/4gtv-live207/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-大愛二台,http://49.213.188.67:5055/4gtv-live106/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-大愛電視,http://49.213.188.67:5055/4gtv-live007/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-中天新聞台,http://49.213.188.67:5055/4gtv-4gtv009/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-中天新聞台,http://49.213.188.67:5055/4gtv-live409/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-中天新聞台,http://49.213.188.67:5055/of-4gtv-4gtv009/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-中視,http://49.213.188.67:5055/4gtv-4gtv040/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-中視,http://49.213.188.67:5055/of-4gtv-4gtv040/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-中視新聞,http://49.213.188.67:5055/4gtv-4gtv074/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-中視新聞,http://49.213.188.67:5055/4gtv-live474/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-中視新聞,http://49.213.188.67:5055/of-4gtv-4gtv074/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-公視戲劇,http://49.213.188.67:5055/4gtv-4gtv042/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-半島國際新聞台,http://49.213.188.67:5055/4gtv-live157/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-台灣戲劇台,http://49.213.188.67:5055/litv-xinchuang22/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-尼克兒童頻道,http://49.213.188.67:5055/4gtv-live105/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視,http://49.213.188.67:5055/4gtv-4gtv002/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視,http://49.213.188.67:5055/4gtv-live215/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視台灣台,http://49.213.188.67:5055/4gtv-4gtv001/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視台灣台,http://49.213.188.67:5055/4gtv-live401/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視旅遊,http://49.213.188.67:5055/litv-ftv07/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視第一台,http://49.213.188.67:5055/4gtv-4gtv003/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視第一台,http://49.213.188.67:5055/4gtv-live403/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視新聞,http://49.213.188.67:5055/4gtv-live413/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視新聞,http://49.213.188.67:5055/litv-ftv13/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視綜藝,http://49.213.188.67:5055/4gtv-4gtv004/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-民視影劇,http://49.213.188.67:5055/litv-ftv09/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-好消息,http://49.213.188.67:5055/litv-ftv16/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-好消息,http://49.213.188.67:5055/of-litv-ftv16/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-好消息2台,http://49.213.188.67:5055/litv-ftv17/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-好消息2台,http://49.213.188.67:5055/of-litv-ftv17/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-車迷 TV,http://49.213.188.67:5055/4gtv-live201/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-亞洲旅遊,http://49.213.188.67:5055/4gtv-4gtv076/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-亞洲旅遊,http://49.213.188.67:5055/of-4gtv-4gtv076/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-幸福空間居家台,http://49.213.188.67:5055/4gtv-live206/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-東森財經新聞,http://49.213.188.67:5055/4gtv-4gtv153/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-東森新聞,http://49.213.188.67:5055/4gtv-4gtv152/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-東森購物一台,http://49.213.188.67:5055/4gtv-live047/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-東森購物一台,http://49.213.188.67:5055/of-4gtv-4gtv102/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-東森購物二台,http://49.213.188.67:5055/4gtv-live046/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-東森購物二台,http://49.213.188.67:5055/of-4gtv-4gtv103/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-東森購物三台,http://49.213.188.67:5055/4gtv-live048/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-東森購物四台,http://49.213.188.67:5055/4gtv-live049/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-采昌影劇,http://49.213.188.67:5055/4gtv-4gtv049/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-金光布袋戲,http://49.213.188.67:5055/4gtv-live144/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-客家電視,http://49.213.188.67:5055/4gtv-4gtv043/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-倪珍播新聞,http://49.213.188.67:5055/nnews-zh/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-原住民族電視台,http://49.213.188.67:5055/4gtv-live014/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-時尚運動X,http://49.213.188.67:5055/4gtv-4gtv014/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-時尚運動X,http://49.213.188.67:5055/4gtv-live411/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-國會頻道1台,http://49.213.188.67:5055/4gtv-4gtv084/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-國會頻道1台,http://49.213.188.67:5055/of-4gtv-4gtv084/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-國會頻道2台,http://49.213.188.67:5055/4gtv-4gtv085/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-國會頻道2台,http://49.213.188.67:5055/of-4gtv-4gtv085/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-第1商業台,http://49.213.188.67:5055/4gtv-4gtv104/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-智林體育,http://49.213.188.67:5055/4gtv-4gtv101/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-華視,http://49.213.188.67:5055/4gtv-4gtv041/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-華視,http://49.213.188.67:5055/of-4gtv-4gtv041/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-華視新聞,http://49.213.188.67:5055/4gtv-4gtv052/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-華視新聞,http://49.213.188.67:5055/4gtv-live452/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-華視新聞,http://49.213.188.67:5055/of-4gtv-4gtv052/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-視納華仁紀實頻道,http://49.213.188.67:5055/4gtv-4gtv013/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-新唐人亞太台,http://49.213.188.67:5055/4gtv-live050/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-經典卡通台,http://49.213.188.67:5055/4gtv-live022/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-經典電影台,http://49.213.188.67:5055/4gtv-live021/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-達文西頻道,http://49.213.188.67:5055/4gtv-4gtv018/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-電影原聲台CMusic,http://49.213.188.67:5055/4gtv-live031/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-靖天日本,http://49.213.188.67:5055/4gtv-4gtv047/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-靖天卡通,http://49.213.188.67:5055/4gtv-4gtv044/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-靖天育樂,http://49.213.188.67:5055/4gtv-4gtv062/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-靖天映畫,http://49.213.188.67:5055/4gtv-4gtv055/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-靖天資訊,http://49.213.188.67:5055/4gtv-4gtv065/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-靖天電影,http://49.213.188.67:5055/4gtv-4gtv061/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-靖天綜合,http://49.213.188.67:5055/4gtv-4gtv046/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-靖天戲劇,http://49.213.188.67:5055/4gtv-4gtv058/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-靖洋卡通Nice Bingo,http://49.213.188.67:5055/4gtv-4gtv057/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-靖洋戲劇,http://49.213.188.67:5055/4gtv-4gtv045/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-滾動力 Rollor,http://49.213.188.67:5055/4gtv-live012/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-精選動漫台,http://49.213.188.67:5055/4gtv-live024/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-影迷數位紀實台,http://49.213.188.67:5055/litv-ftv15/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-影迷數位電影台,http://49.213.188.67:5055/4gtv-4gtv011/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-豬哥亮歌廳秀,http://49.213.188.67:5055/4gtv-4gtv006/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-寰宇財經,http://49.213.188.67:5055/of-4gtv-4gtv158/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-寰宇新聞,http://49.213.188.67:5055/4gtv-live408/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-寰宇新聞,http://49.213.188.67:5055/litv-longturn14/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-寰宇新聞,http://49.213.188.67:5055/of-litv-longturn14/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-寰宇新聞台灣台,http://49.213.188.67:5055/4gtv-4gtv156/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-寰宇新聞台灣台,http://49.213.188.67:5055/of-4gtv-4gtv156/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-龍華日韓,http://49.213.188.67:5055/litv-xinchuang11/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-龍華卡通,http://49.213.188.67:5055/litv-xinchuang01/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-龍華洋片,http://49.213.188.67:5055/litv-xinchuang02/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-龍華偶像,http://49.213.188.67:5055/litv-xinchuang12/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-龍華經典,http://49.213.188.67:5055/litv-xinchuang21/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-龍華電影,http://49.213.188.67:5055/litv-xinchuang03/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-龍華戲劇,http://49.213.188.67:5055/litv-xinchuang18/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-韓國娛樂台,http://49.213.188.67:5055/4gtv-4gtv016/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-鏡電視新聞台,http://49.213.188.67:5055/4gtv-4gtv075/index.m3u8?token=6KbdNACKhDb49Tp25UUURSUe55uCWTmIOvvzHBsQzYYaNXhYO3Jmmh0ZgVBjIMD6
-
-
-
-
-
-
+民視第一台,http://106.107.242.141:50007/4gtv-live403/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+民視第一台,http://106.107.242.141:50007/4gtv-4gtv003/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+民視台灣台,http://106.107.242.141:50007/4gtv-live401/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+民視台灣台,http://106.107.242.141:50007/4gtv-4gtv001/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+民視,http://106.107.242.141:50007/4gtv-live215/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+民視,http://106.107.242.141:50007/4gtv-4gtv002/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+大愛電視,http://106.107.242.141:50007/4gtv-live007/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+中視,http://106.107.242.141:50007/4gtv-4gtv040/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+華視,http://106.107.242.141:50007/4gtv-4gtv041/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+三立綜合台,http://106.107.242.141:50007/4gtv-live207/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+客家電視,http://106.107.242.141:50007/4gtv-4gtv043/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+靖天綜合,http://106.107.242.141:50007/4gtv-4gtv046/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+靖天日本,http://106.107.242.141:50007/4gtv-4gtv047/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+新唐人亞太台,http://106.107.242.141:50007/4gtv-live050/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+ARIRANG阿里郎頻道,http://106.107.242.141:50007/4gtv-4gtv079/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+原住民族電視台,http://106.107.242.141:50007/4gtv-live014/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+東森購物四台,http://106.107.242.141:50007/4gtv-live049/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+東森購物一台,http://106.107.242.141:50007/4gtv-live047/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+東森購物二台,http://106.107.242.141:50007/4gtv-live046/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+靖天育樂,http://106.107.242.141:50007/4gtv-4gtv062/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+KLT-靖天國際台,http://106.107.242.141:50007/4gtv-4gtv063/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+NICE TV 靖天歡樂台,http://106.107.242.141:50007/4gtv-4gtv054/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+靖天資訊,http://106.107.242.141:50007/4gtv-4gtv065/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+韓國娛樂台,http://106.107.242.141:50007/4gtv-4gtv016/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+東森購物三台,http://106.107.242.141:50007/4gtv-live048/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+好消息,http://106.107.242.141:50007/litv-ftv16/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+好消息2台,http://106.107.242.141:50007/litv-ftv17/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+大愛二台,http://106.107.242.141:50007/4gtv-live106/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+人間衛視,http://106.107.242.141:50007/4gtv-live008/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+國會頻道1台,http://106.107.242.141:50007/4gtv-4gtv084/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+國會頻道2台,http://106.107.242.141:50007/4gtv-4gtv085/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+中視,http://106.107.242.141:50007/of-4gtv-4gtv040/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+華視,http://106.107.242.141:50007/of-4gtv-4gtv041/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+好消息,http://106.107.242.141:50007/of-litv-ftv16/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+好消息2台,http://106.107.242.141:50007/of-litv-ftv17/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+國會頻道1台,http://106.107.242.141:50007/of-4gtv-4gtv084/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+國會頻道2台,http://106.107.242.141:50007/of-4gtv-4gtv085/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+東森購物一台,http://106.107.242.141:50007/of-4gtv-4gtv102/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+東森購物二台,http://106.107.242.141:50007/of-4gtv-4gtv103/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+DayStar,http://106.107.242.141:50007/daystar/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+音樂綜藝,#genre#
+八大綜藝,http://106.107.242.141:50007/4gtv-4gtv039/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+TVBS精采台,http://106.107.242.141:50007/4gtv-4gtv067/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+ELTA娛樂,http://106.107.242.141:50007/4gtv-4gtv070/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+民視綜藝,http://106.107.242.141:50007/4gtv-4gtv004/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+豬哥亮歌廳秀,http://106.107.242.141:50007/4gtv-4gtv006/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+TVBS歡樂台,http://106.107.242.141:50007/4gtv-4gtv068/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+電影原聲台CMusic,http://106.107.242.141:50007/4gtv-live031/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+TRACE Urban,http://106.107.242.141:50007/4gtv-4gtv082/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+Mezzo Live HD,http://106.107.242.141:50007/4gtv-4gtv083/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+CLASSICA古典樂,http://106.107.242.141:50007/4gtv-4gtv059/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+八大精彩,http://106.107.242.141:50007/4gtv-4gtv034/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+生活旅遊,#genre#
+Global Trekker,http://106.107.242.141:50007/4gtv-live112/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+Lifetime 娛樂頻道,http://106.107.242.141:50007/4gtv-live029/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+INULTRA,http://106.107.242.141:50007/4gtv-live096/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+民視旅遊,http://106.107.242.141:50007/litv-ftv07/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+滾動力 Rollor,http://106.107.242.141:50007/4gtv-live012/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+亞洲旅遊,http://106.107.242.141:50007/4gtv-4gtv076/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+fun探索娛樂台,http://106.107.242.141:50007/4gtv-live011/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+幸福空間居家台,http://106.107.242.141:50007/4gtv-live206/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+Love Nature,http://106.107.242.141:50007/4gtv-live208/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+ELTA生活旅遊,http://106.107.242.141:50007/4gtv-live120/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+LUXE TV Channel,http://106.107.242.141:50007/4gtv-live121/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+TV5MONDE STYLE HD 生活時尚,http://106.107.242.141:50007/4gtv-live122/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+MagellanTV頻道,http://106.107.242.141:50007/4gtv-live123/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+FashionTV 時尚頻道,http://106.107.242.141:50007/4gtv-live085/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+亞洲旅遊,http://106.107.242.141:50007/of-4gtv-4gtv076/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+SMART知識台,http://106.107.242.141:50007/litv-xinchuang19/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+兒童卡通,#genre#
+LiveABC互動英語頻道,http://106.107.242.141:50007/4gtv-live030/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+達文西頻道,http://106.107.242.141:50007/4gtv-4gtv018/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+ELTV生活英語台,http://106.107.242.141:50007/litv-xinchuang20/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+Nick Jr. 兒童頻道,http://106.107.242.141:50007/4gtv-live032/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+尼克兒童頻道,http://106.107.242.141:50007/4gtv-live105/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+DreamWorks 夢工廠動畫,http://106.107.242.141:50007/4gtv-live017/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+靖天卡通,http://106.107.242.141:50007/4gtv-4gtv044/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+靖洋卡通Nice Bingo,http://106.107.242.141:50007/4gtv-4gtv057/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+MOMO親子,http://106.107.242.141:50007/4gtv-live107/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+經典卡通台,http://106.107.242.141:50007/4gtv-live022/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+精選動漫台,http://106.107.242.141:50007/4gtv-live024/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+ELTV生活英語台,http://106.107.242.141:50007/of-litv-xinchuang20/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+龍華卡通台,http://106.107.242.141:50007/litv-xinchuang01/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+新聞財經,#genre#
+鏡電視新聞台,http://106.107.242.141:50007/4gtv-4gtv075/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+東森新聞,http://106.107.242.141:50007/4gtv-4gtv152/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+華視新聞,http://106.107.242.141:50007/4gtv-live452/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+華視新聞,http://106.107.242.141:50007/4gtv-4gtv052/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+民視新聞,http://106.107.242.141:50007/4gtv-live413/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+民視新聞,http://106.107.242.141:50007/litv-ftv13/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+三立iNEWS,http://106.107.242.141:50007/4gtv-live089/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+東森財經新聞,http://106.107.242.141:50007/4gtv-4gtv153/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+中視新聞,http://106.107.242.141:50007/4gtv-live474/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+中視新聞,http://106.107.242.141:50007/4gtv-4gtv074/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+中天新聞台,http://106.107.242.141:50007/4gtv-4gtv009/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+中天新聞台,http://106.107.242.141:50007/4gtv-live409/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+BLOOMBERG TV,http://106.107.242.141:50007/4gtv-live059/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+寰宇新聞,http://106.107.242.141:50007/4gtv-live408/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+寰宇新聞,http://106.107.242.141:50007/litv-longturn14/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+寰宇新聞台灣台,http://106.107.242.141:50007/4gtv-4gtv156/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+SBN 全球財經台,http://106.107.242.141:50007/4gtv-live060/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+NHK 新聞資訊台,http://106.107.242.141:50007/4gtv-live168/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+TVBS,http://106.107.242.141:50007/media-live073/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+TVBS,http://106.107.242.141:50007/4gtv-4gtv073/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+TVBS新聞台,http://106.107.242.141:50007/media-live072/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+TVBS新聞台,http://106.107.242.141:50007/4gtv-4gtv072/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+FRANCE24 英文台,http://106.107.242.141:50007/4gtv-live146/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+半島國際新聞台,http://106.107.242.141:50007/4gtv-live157/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+CNBC Asia 財經台,http://106.107.242.141:50007/4gtv-live130/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+DW德國之聲,http://106.107.242.141:50007/4gtv-live071/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+中視新聞,http://106.107.242.141:50007/of-4gtv-4gtv074/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+華視新聞,http://106.107.242.141:50007/of-4gtv-4gtv052/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+中天新聞台,http://106.107.242.141:50007/of-4gtv-4gtv009/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+寰宇新聞,http://106.107.242.141:50007/of-litv-longturn14/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+寰宇新聞台灣台,http://106.107.242.141:50007/of-4gtv-4gtv156/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+寰宇財經,http://106.107.242.141:50007/of-4gtv-4gtv158/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+第1商業台,http://106.107.242.141:50007/4gtv-4gtv104/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+三立新聞iNEWS,http://106.107.242.141:50007/iNEWS/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+倪珍播新聞,http://106.107.242.141:50007/nnews-zh/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+電影戲劇,#genre#
+ROCK Entertainment,http://106.107.242.141:50007/4gtv-live080/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+公視戲劇,http://106.107.242.141:50007/4gtv-4gtv042/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+民視影劇,http://106.107.242.141:50007/litv-ftv09/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+HITS頻道,http://106.107.242.141:50007/4gtv-live620/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+靖天戲劇,http://106.107.242.141:50007/4gtv-4gtv058/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+靖洋戲劇,http://106.107.242.141:50007/4gtv-4gtv045/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+ROCK Xstream搖滾極限頻道,http://106.107.242.141:50007/4gtv-live124/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+金光布袋戲,http://106.107.242.141:50007/4gtv-live144/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+ROCK Action,http://106.107.242.141:50007/4gtv-live138/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+采昌影劇,http://106.107.242.141:50007/4gtv-4gtv049/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+靖天映畫,http://106.107.242.141:50007/4gtv-4gtv055/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+靖天電影,http://106.107.242.141:50007/4gtv-4gtv061/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+影迷數位電影台,http://106.107.242.141:50007/4gtv-4gtv011/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+amc 電影台,http://106.107.242.141:50007/4gtv-4gtv017/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+Cinema World,http://106.107.242.141:50007/4gtv-live069/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+My Cinema Europe HD 我的歐洲電影,http://106.107.242.141:50007/litv-ftv10/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+經典電影台,http://106.107.242.141:50007/4gtv-live021/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+台灣戲劇台,http://106.107.242.141:50007/litv-xinchuang22/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+龍華洋片台,http://106.107.242.141:50007/litv-xinchuang02/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+龍華電影台,http://106.107.242.141:50007/litv-xinchuang03/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+龍華日韓台,http://106.107.242.141:50007/litv-xinchuang11/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+龍華偶像台,http://106.107.242.141:50007/litv-xinchuang12/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+龍華戲劇台,http://106.107.242.141:50007/litv-xinchuang18/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+龍華經典台,http://106.107.242.141:50007/litv-xinchuang21/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+體育競技,#genre#
+TRACE Sport Stars,http://106.107.242.141:50007/4gtv-4gtv077/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+智林體育,http://106.107.242.141:50007/4gtv-4gtv101/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+時尚運動X,http://106.107.242.141:50007/4gtv-live411/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+時尚運動X,http://106.107.242.141:50007/4gtv-4gtv014/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+車迷 TV,http://106.107.242.141:50007/4gtv-live201/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+GINX Esports TV,http://106.107.242.141:50007/4gtv-4gtv053/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+紀實探索,#genre#
+History 歷史頻道,http://106.107.242.141:50007/4gtv-live026/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+CI 罪案偵查頻道,http://106.107.242.141:50007/4gtv-live027/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+視納華仁紀實頻道,http://106.107.242.141:50007/4gtv-4gtv013/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
+影迷數位紀實台,http://106.107.242.141:50007/litv-ftv15/index.m3u8?token=paRB1qzz5JGDrYExQG4ThSDlb2bZC3L5oA5MrdhbH2bnHKkRkAkfIh4MTtVyleR4
 未整理,#genre#
-
-
-
 中視HD,http://211.23.114.106:8534/http/61.219.99.20:8081/hls/88/80/Ctv4max.m3u8
 華視HD,http://211.23.114.106:8504/http/61.219.99.20:8081/hls/89/80/Cts4max.m3u8
 民視HD,http://211.23.114.106:8501/http/61.219.99.20:8081/hls/85/80/Ftv4max.m3u8
@@ -275,619 +281,249 @@ CCTV4-中央衛視,http://220.134.196.147:8559/http/59.120.8.187:8078/hls/42/80/
 湖南衛視,http://220.134.196.147:8563/http/59.120.8.187:8078/hls/41/80/huana.m3u8
 鳯凰衛視資訊,http://220.134.196.147:8577/http/59.120.8.187:8078/hls/20/80/phoenixif.m3u8
 鳯凰衛視中文,http://220.134.196.147:8578/http/59.120.8.187:8078/hls/21/80/phoenixch.m3u8
-
-🇨🇳 中國 | China,#genre#
-CCTV-1 綜合,https://smt.goiptv.us.ci/cctv1/playlist.m3u8
-CCTV-2 財經,https://smt.goiptv.us.ci/cctv2/playlist.m3u8
-CCTV-3 綜藝,https://smt.goiptv.us.ci/cctv3/playlist.m3u8
-CCTV-4 中文國際,https://smt.goiptv.us.ci/Cctv4/playlist.m3u8
-CCTV-4 中文國際 (備:1),https://smt.goiptv.us.ci/cctv4/playlist.m3u8
-CCTV-6 電影,https://smt.goiptv.us.ci/cctv6/playlist.m3u8
-CCTV-7 軍事農業,https://smt.goiptv.us.ci/cctv7/playlist.m3u8
-CCTV-8 電視劇,https://smt.goiptv.us.ci/cctv8hd/playlist.m3u8
-CCTV-9 紀錄,https://smt.goiptv.us.ci/cctv9hd/playlist.m3u8
-CCTV-10 科教,https://smt.goiptv.us.ci/cctv10hd/playlist.m3u8
-CCTV-11 戲曲,https://smt.goiptv.us.ci/cctv11/playlist.m3u8
-CCTV-12 社會與法,https://smt.goiptv.us.ci/cctv12/playlist.m3u8
-CCTV-14 少兒,https://smt.goiptv.us.ci/cctv14/playlist.m3u8
-CCTV-15 音樂,https://smt.goiptv.us.ci/cctv15/playlist.m3u8
-湖南衛視,https://smt.goiptv.us.ci/hunan_twn/playlist.m3u8
-浙江衛視,https://smt.goiptv.us.ci/zhejiang_twn/playlist.m3u8
-江蘇衛視,https://smt.goiptv.us.ci/jiangsu_twn/playlist.m3u8
-CCTV-13 新聞與頻道,https://smt.goiptv.us.ci/cctv13/playlist.m3u8
-深圳衛視,https://smt.goiptv.us.ci/shenzhen/playlist.m3u8
-福建東南衛視,https://smt.goiptv.us.ci/fujian/playlist.m3u8
-廣東南方衛視,https://smt.goiptv.us.ci/nanfang_twn/playlist.m3u8
-廣東衛視,https://smt.goiptv.us.ci/guangdongweishi_twn/playlist.m3u8
-北京衛視,https://smt.goiptv.us.ci/beijing/playlist.m3u8
-珠江台,https://smt.goiptv.us.ci/zhujiang/playlist.m3u8
-廣西衛視,https://smt.goiptv.us.ci/guangxi/playlist.m3u8
-CGTN,https://smt.goiptv.us.ci/CGTN/playlist.m3u8
-湖北衛視,https://smt.goiptv.us.ci/hubei/playlist.m3u8
-四川衛視,https://smt.goiptv.us.ci/sichuan_twn/playlist.m3u8
-CCTV-5 體育,https://smt.goiptv.us.ci/cctv5/playlist.m3u8
-CCTV-5+ 體育,https://smt.goiptv.us.ci/cctv5plus/playlist.m3u8
-東方衛視,https://smt.goiptv.us.ci/dongfangweishi_twn/playlist.m3u8
-鳳凰衛視,https://smt.goiptv.us.ci/phoenixtv_hd/playlist.m3u8
-鳳凰資訊,https://smt.goiptv.us.ci/phoenixinfo_hd/playlist.m3u8
-
-🇭🇰 香港 | Hong Kong,#genre#
-翡翠台,https://smt.goiptv.us.ci/jade_twn/playlist.m3u8
-翡翠台 (Back up 1),https://smt.goiptv.us.ci/jade_xue/playlist.m3u8
-iNews 互動新聞台,https://smt.goiptv.us.ci/inews_twn/playlist.m3u8
-J 2,https://smt.goiptv.us.ci/j2_twn/playlist.m3u8
-珍珠台,https://smt.goiptv.us.ci/pearl_twn/playlist.m3u8
-鳳凰香港,https://smt.goiptv.us.ci/hkphoenix_twn/playlist.m3u8
-無線財經資訊台,https://smt.goiptv.us.ci/hoycaijing_twn/playlist.m3u8
-RHK 31,https://smt.goiptv.us.ci/rhk31_twn/playlist.m3u8
-VIUTV1,https://smt.goiptv.us.ci/viu1_twn/playlist.m3u8
-RHK 32,https://smt.goiptv.us.ci/rhk32_twn/playlist.m3u8
-TVB Asia,https://smt.goiptv.us.ci/Tvbasia/playlist.m3u8
-鳳凰衛視,https://smt.goiptv.us.ci/phoenixtv_hd/playlist.m3u8
-鳳凰資訊,https://smt.goiptv.us.ci/phoenixinfo_hd/playlist.m3u8
-TVB Entertainment,https://smt.goiptv.us.ci/Tvbentertainment/playlist.m3u8
-TVB Classic,https://smt.goiptv.us.ci/Tvbclassic/playlist.m3u8
-Viu6,https://smt.goiptv.us.ci/viusix_twn/playlist.m3u8
-
-🇹🇼 台灣 | Taiwan,#genre#
-TVBS 歡樂台,https://smt.goiptv.us.ci/tvbshuanle_twn/playlist.m3u8
-TVBS HD,https://smt.goiptv.us.ci/tvbs/playlist.m3u8
-中天娛樂 CTI Entertaiment,https://smt.goiptv.us.ci/ctient/playlist.m3u8
-中天綜合 CTI Metro,https://smt.goiptv.us.ci/ctizhonghe/playlist.m3u8
-中天亞洲台,https://smt.goiptv.us.ci/ctiasia_twn/playlist.m3u8
-台視 TTV HD,https://smt.goiptv.us.ci/ttv_taiwan/playlist.m3u8
-台視綜合台,https://smt.goiptv.us.ci/ttvzhonghe/playlist.m3u8
-中視 HD,https://smt.goiptv.us.ci/zhongshihd_twn/playlist.m3u8
-民視 HD,https://smt.goiptv.us.ci/ftvhd_taiwan/playlist.m3u8
-民視台灣台,https://smt.goiptv.us.ci/ftvtaiwan_twn/playlist.m3u8
-華視 CTS HD,https://smt.goiptv.us.ci/ctshd_twn/playlist.m3u8
-公視 CTV,https://smt.goiptv.us.ci/ctv18_twn/playlist.m3u8
-八大第一 GTV First,https://smt.goiptv.us.ci/badafirst/playlist.m3u8
-八大綜合 GTV Metro,https://smt.goiptv.us.ci/badazhonghe/playlist.m3u8
-八大戲劇 GTV Drama,https://smt.goiptv.us.ci/badadrama/playlist.m3u8
-八大娛樂 GTV Entertainment,https://smt.goiptv.us.ci/badaentertain/playlist.m3u8
-HBO_HD,https://smt.goiptv.us.ci/hbohd_twn/playlist.m3u8
-HBO_HITS,https://smt.goiptv.us.ci/hbohits_twn/playlist.m3u8
-HBO Signature Taiwan,https://smt.goiptv.us.ci/hbosignature_twn/playlist.m3u8
-Hollywood Movies,https://smt.goiptv.us.ci/hollywoodmovies_twn/playlist.m3u8
-三立台灣 Sanli Taiwan,https://smt.goiptv.us.ci/sanlitaiwan/playlist.m3u8
-三立戲劇台,https://smt.goiptv.us.ci/sanlixiju_twn/playlist.m3u8
-三立綜合 Sanli Metro,https://smt.goiptv.us.ci/sanlizhonghe/playlist.m3u8
-三立都會台,https://smt.goiptv.us.ci/sanlidouhui_twn/playlist.m3u8
-東森綜合 ETTV Metro,https://smt.goiptv.us.ci/ettvzhonghe/playlist.m3u8
-東森戲劇 ETTV Drama,https://smt.goiptv.us.ci/ettvdrama/playlist.m3u8
-公視2,https://smt.goiptv.us.ci/ctv2_twn/playlist.m3u8
-大愛1台,https://smt.goiptv.us.ci/daai_twn/playlist.m3u8
-龍華戲劇 Lunghua Drama,https://smt.goiptv.us.ci/lunghuaxiju_twn/playlist.m3u8
-龍華經典台,https://smt.goiptv.us.ci/lunghuajingdian_twn/playlist.m3u8
-龍華偶像,https://smt.goiptv.us.ci/lunghuaidol_twn/playlist.m3u8
-AXN Taiwan,https://smt.goiptv.us.ci/axn_twn/playlist.m3u8
-靖天國際台,https://smt.goiptv.us.ci/jingtianintl_twn/playlist.m3u8
-CINEMAX,https://smt.goiptv.us.ci/cinemax_twn/playlist.m3u8
-年代新聞,https://smt.goiptv.us.ci/niandainews_twn/playlist.m3u8
-緯來日本台,https://smt.goiptv.us.ci/videolandjapan/playlist.m3u8
-緯來電影台,https://smt.goiptv.us.ci/videolandmovie/playlist.m3u8
-緯來體育台,https://smt.goiptv.us.ci/videolandsport/playlist.m3u8
-緯來綜合台,https://smt.goiptv.us.ci/videolandzonghe/playlist.m3u8
-緯來育樂,https://smt.goiptv.us.ci/videolandmax/playlist.m3u8
-緯來精彩,https://smt.goiptv.us.ci/videolandtv/playlist.m3u8
-DW (Deutsch),https://smt.goiptv.us.ci/dw_twn/playlist.m3u8
-好消息 2,https://smt.goiptv.us.ci/good2_twn/playlist.m3u8
-大愛2台,https://smt.goiptv.us.ci/daai2_twn/playlist.m3u8
-亞洲美食,https://smt.goiptv.us.ci/afc_twn/playlist.m3u8
-亞洲旅遊 TLC Asia,https://smt.goiptv.us.ci/tlc_twn/playlist.m3u8
-東森電影 ETTV Movie,https://smt.goiptv.us.ci/ettvmovie/playlist.m3u8
-阿里郎 Arirang,https://smt.goiptv.us.ci/arirang_twn/playlist.m3u8
-博斯運動 1,https://smt.goiptv.us.ci/bosisport1_twn/playlist.m3u8
-博斯運動 2,https://smt.goiptv.us.ci/bosisport2_twn/playlist.m3u8
-博斯高球2 HD,https://smt.goiptv.us.ci/bosigolf2_twn/playlist.m3u8
-博斯網球 HD,https://smt.goiptv.us.ci/bositennis_twn/playlist.m3u8
-東森洋片 ETTV Western,https://smt.goiptv.us.ci/ettvwestern/playlist.m3u8
-龍華洋片 Lunghua Western,https://smt.goiptv.us.ci/lunghuawestern_twn/playlist.m3u8
-博斯無限,https://smt.goiptv.us.ci/bosiunlimited_twn/playlist.m3u8
-MTV Live,https://smt.goiptv.us.ci/mtvhd_twn/playlist.m3u8
-龍祥時代,https://smt.goiptv.us.ci/lungxiangtime_twn/playlist.m3u8
-EYETV 旅遊,https://smt.goiptv.us.ci/eyetvtravel_twn/playlist.m3u8
-靖天卡通台,https://smt.goiptv.us.ci/jingtiancartoon_twn/playlist.m3u8
-EYETV 戲劇,https://smt.goiptv.us.ci/eyetvxiju_twn/playlist.m3u8
-衛視中文台 Star Movies Chinese,https://smt.goiptv.us.ci/weishichinese_twn/playlist.m3u8
-東森幼幼 Yoyo TV,https://smt.goiptv.us.ci/yoyo_twn/playlist.m3u8
-美亞電影,https://smt.goiptv.us.ci/meiyamovie_twn/playlist.m3u8
-愛爾達戲劇台,https://smt.goiptv.us.ci/eltadrama_twn/playlist.m3u8
-TVBS News 新聞台,https://smt.goiptv.us.ci/tvbs_n/playlist.m3u8
-Asia Food Network,https://smt.goiptv.us.ci/Afc/playlist.m3u8
-東森新聞 ETTV News,https://smt.goiptv.us.ci/ettvnews/playlist.m3u8
-東森財經新聞 ETTV Business,https://smt.goiptv.us.ci/ettvcaijing_twn/playlist.m3u8
-中天新聞 CTI News,https://smt.goiptv.us.ci/ctinews/playlist.m3u8
-非凡新聞台,https://smt.goiptv.us.ci/feifannews_twn/playlist.m3u8
-台視新聞台 TTV News,https://smt.goiptv.us.ci/ttvnews_twn/playlist.m3u8
-Elta體育1台,https://smt.goiptv.us.ci/eltasport1_twn/playlist.m3u8
-Elta體育2台,https://smt.goiptv.us.ci/eltasport2_twn/playlist.m3u8
-Elta體育3台,https://smt.goiptv.us.ci/eltasport3_twn/playlist.m3u8
-民視新聞台 FTV News,https://smt.goiptv.us.ci/ftvnew_taiwan/playlist.m3u8
-寰宇新聞台,https://smt.goiptv.us.ci/huanyuxinwen_twn/playlist.m3u8
-中視新聞台,https://smt.goiptv.us.ci/zhongshinews_twn/playlist.m3u8
-DAZN 1,https://smt.goiptv.us.ci/dazn1_twn/playlist.m3u8
-DAZN 2,https://smt.goiptv.us.ci/dazn2_twn/playlist.m3u8
-探索頻道,https://smt.goiptv.us.ci/discoverych_twn/playlist.m3u8
-
-🇯🇵 日本 | Japan,#genre#
-NHK-総合-2,https://smt.goiptv.us.ci/nhkg_japan/playlist.m3u8
-NHK-E,https://smt.goiptv.us.ci/nhke_japan/playlist.m3u8
-テレビ朝日 Asahi TV,https://smt.goiptv.us.ci/asahitv_japan/playlist.m3u8
-JET 綜合,https://smt.goiptv.us.ci/jettv_japan/playlist.m3u8
-テレビ東京 Tokyo TV,https://smt.goiptv.us.ci/tokyotv_japan/playlist.m3u8
-TOKYOMX,https://smt.goiptv.us.ci/tokyomx_japan/playlist.m3u8
-NHKBS1,https://smt.goiptv.us.ci/nhkbs1_japan/playlist.m3u8
-NHKBSプレミア Premium,https://smt.goiptv.us.ci/nhkpremium_japan/playlist.m3u8
-BSジャパン 181,https://smt.goiptv.us.ci/bs181_japan/playlist.m3u8
-BSフジ BS Fuji,https://smt.goiptv.us.ci/bsfuji_japan/playlist.m3u8
-CNA Japan,https://smt.goiptv.us.ci/cna_japan/playlist.m3u8
-BS-TBS,https://smt.goiptv.us.ci/bstbs_japan/playlist.m3u8
-NHK Oaska,https://smt.goiptv.us.ci/nhkosaka_japan/playlist.m3u8
-NHK World,https://smt.goiptv.us.ci/nhkworld_japan/playlist.m3u8
-
-🇰🇷 韓國 | South Korea,#genre#
-Arirang HD,https://smt.goiptv.us.ci/arirang_twn/playlist.m3u8
-Yonhap News,https://smt.goiptv.us.ci/yonhapnews_korea/playlist.m3u8
-CBS,https://smt.goiptv.us.ci/cbs_korea/playlist.m3u8
-EBS 1,https://smt.goiptv.us.ci/ebs1_korea/playlist.m3u8
-EBS2,https://smt.goiptv.us.ci/ebs2_korea/playlist.m3u8
-EBS Plus2,https://smt.goiptv.us.ci/ebsplus2_korea/playlist.m3u8
-SBS Plus,https://smt.goiptv.us.ci/sbsplus_korea/playlist.m3u8
-YTN,https://smt.goiptv.us.ci/ytn_korea/playlist.m3u8
-KBS World 24,https://smt.goiptv.us.ci/kbsworld24_korea/playlist.m3u8
-YTN Science,https://smt.goiptv.us.ci/ytnscience_korea/playlist.m3u8
-YTN Korean,https://smt.goiptv.us.ci/ytnkorean_korea/playlist.m3u8
-YTN DMB,https://smt.goiptv.us.ci/ytndmb_korea/playlist.m3u8
-Apps TV,https://smt.goiptv.us.ci/appongoogle_korea/playlist.m3u8
-All the Kpop,https://smt.goiptv.us.ci/allthekpop_korea/playlist.m3u8
-J the Kpop,https://smt.goiptv.us.ci/jthekpop_korea/playlist.m3u8
-EBS Kids,https://smt.goiptv.us.ci/ebskids_korea/playlist.m3u8
-CGNTV,https://smt.goiptv.us.ci/cgntv_korea/playlist.m3u8
-
-🇸🇬 新加坡 | Singapore,#genre#
-Channel 5,https://smt.goiptv.us.ci/Channel5HD/playlist.m3u8
-Channel 5 backup,https://smt.goiptv.us.ci/Mewatch_ch5/playlist.m3u8
-Channel 8,https://smt.goiptv.us.ci/Channel8HD/playlist.m3u8
-Channel 8 backup,https://smt.goiptv.us.ci/Mewatch_ch8/playlist.m3u8
-Channel U,https://smt.goiptv.us.ci/ChannelU/playlist.m3u8
-Channel U backup,https://smt.goiptv.us.ci/Mewatch_chU/playlist.m3u8
-Suria,https://smt.goiptv.us.ci/Suria/playlist.m3u8
-Suria backup,https://smt.goiptv.us.ci/Mewatch_Suria/playlist.m3u8
-Vasantham,https://smt.goiptv.us.ci/Vasantham/playlist.m3u8
-Vasantham backup,https://smt.goiptv.us.ci/Mewatch_Vasantham/playlist.m3u8
-CNA backup1,https://smt.goiptv.us.ci/Mewatch_cna/playlist.m3u8
-CNA backup2,https://smt.goiptv.us.ci/cna_twn/playlist.m3u8
-CNN,https://smt.goiptv.us.ci/Cnn/playlist.m3u8
-CNN backup,https://smt.goiptv.us.ci/cnn_twn/playlist.m3u8
-CNA,https://smt.goiptv.us.ci/cna/playlist.m3u8
-
-🇲🇾 馬來西亞 | Malaysia,#genre#
-TV1,https://smt.goiptv.us.ci/TV1/playlist.m3u8
-TV1 backup,https://smt.goiptv.us.ci/TV1_backup/playlist.m3u8
-TV2,https://smt.goiptv.us.ci/TV2/playlist.m3u8
-TV3,https://smt.goiptv.us.ci/TV3/playlist.m3u8
-TV3 SD,https://smt.goiptv.us.ci/TV3_mega/playlist.m3u8
-TV3 backup,https://smt.goiptv.us.ci/TV3_backup/playlist.m3u8
-TV3 backup2,https://smt.goiptv.us.ci/TV3_1/playlist.m3u8
-TV5,https://smt.goiptv.us.ci/TV5/playlist.m3u8
-NTV7,https://smt.goiptv.us.ci/NTV7/playlist.m3u8
-8TV,https://smt.goiptv.us.ci/TV8/playlist.m3u8
-TV9,https://smt.goiptv.us.ci/TV9/playlist.m3u8
-Al-Hijrah,https://smt.goiptv.us.ci/Alhijrah/playlist.m3u8
-Quran,https://smt.goiptv.us.ci/quran_mido/playlist.m3u8
-Sunnah,https://smt.goiptv.us.ci/sunnah_mido/playlist.m3u8
-Bernama,https://smt.goiptv.us.ci/Bernama/playlist.m3u8
-Awani,https://smt.goiptv.us.ci/Awani/playlist.m3u8
-Ceria,https://smt.goiptv.us.ci/Ceria/playlist.m3u8
-Oasis,https://smt.goiptv.us.ci/Oasis/playlist.m3u8
-Boo,https://smt.goiptv.us.ci/Boo/playlist.m3u8
-Citra,https://smt.goiptv.us.ci/AAcitra1/playlist.m3u8
-Citra backup,https://smt.goiptv.us.ci/AAcitra1/playlist.m3u8
-Prima,https://smt.goiptv.us.ci/Prima/playlist.m3u8
-Prima backup,https://smt.goiptv.us.ci/AAprima/playlist.m3u8
-Ria,https://smt.goiptv.us.ci/Ria-0/playlist.m3u8
-Ria-3,https://smt.goiptv.us.ci/Ria_backup/playlist.m3u8
-Awesome TV,https://smt.goiptv.us.ci/Dsangat/playlist.m3u8
-Aura,https://smt.goiptv.us.ci/Aura/playlist.m3u8
-Sensasi,https://smt.goiptv.us.ci/Sensasi/playlist.m3u8
-Siar,https://smt.goiptv.us.ci/Siar/playlist.m3u8
-Rania,https://smt.goiptv.us.ci/Rania/playlist.m3u8
-WION,https://smt.goiptv.us.ci/Wion/playlist.m3u8
-Astro MTV,https://smt.goiptv.us.ci/AstroMTV/playlist.m3u8
-Arena,https://smt.goiptv.us.ci/Arena/playlist.m3u8
-Arena 2,https://smt.goiptv.us.ci/Arena2/playlist.m3u8
-Arena Bola 1,https://smt.goiptv.us.ci/Bolaarena1/playlist.m3u8
-Arena Bola 2,https://smt.goiptv.us.ci/Bolaarena2/playlist.m3u8
-NatGeo_Wild HD,https://smt.goiptv.us.ci/Natgeowild/playlist.m3u8
-RTM Sports HD,https://smt.goiptv.us.ci/Rtmsport/playlist.m3u8
-Animal_Planet,https://smt.goiptv.us.ci/AnimalPlanet/playlist.m3u8
-HBO Family,https://smt.goiptv.us.ci/Hbofamily/playlist.m3u8
-Showcase,https://smt.goiptv.us.ci/Showcase/playlist.m3u8
-RTM Asean,https://smt.goiptv.us.ci/Rtmasean/playlist.m3u8
-HGTV,https://smt.goiptv.us.ci/HGTV/playlist.m3u8
-Astro Badminton,https://smt.goiptv.us.ci/go_badminton1/playlist.m3u8
-Astro Badminton 2,https://smt.goiptv.us.ci/go_badminton2/playlist.m3u8
-TLC,https://smt.goiptv.us.ci/Tlc/playlist.m3u8
-Foodnetwork Hd,https://smt.goiptv.us.ci/Foodnetwork/playlist.m3u8
-Axn HD,https://smt.goiptv.us.ci/Axn/playlist.m3u8
-HBO HD,https://smt.goiptv.us.ci/Hbo/playlist.m3u8
-HBO Signature,https://smt.goiptv.us.ci/Hbosignature/playlist.m3u8
-HBO Hits,https://smt.goiptv.us.ci/Hbohitshd/playlist.m3u8
-Dreamworks,https://smt.goiptv.us.ci/Dreamworks/playlist.m3u8
-Nickelodeon,https://smt.goiptv.us.ci/Nickelodeon/playlist.m3u8
-Nick Jr,https://smt.goiptv.us.ci/Nickjr/playlist.m3u8
-Cartoon Network,https://smt.goiptv.us.ci/Cn/playlist.m3u8
-Asia Food Network,https://smt.goiptv.us.ci/Afc/playlist.m3u8
-Animal Planet (Eng),https://smt.goiptv.us.ci/AnimalPlanet/playlist.m3u8
-NatGeo Wild HD,https://smt.goiptv.us.ci/Natgeowild/playlist.m3u8
-TvN,https://smt.goiptv.us.ci/TVN/playlist.m3u8
-KBS World,https://smt.goiptv.us.ci/KBS/playlist.m3u8
-Sony HD,https://smt.goiptv.us.ci/SetOne/playlist.m3u8
-tvN Movie,https://smt.goiptv.us.ci/Tvnmovie/playlist.m3u8
-Astrol Kplus,https://smt.goiptv.us.ci/Kplus/playlist.m3u8
-One,https://smt.goiptv.us.ci/One/playlist.m3u8
-AEC,https://smt.goiptv.us.ci/AEC/playlist.m3u8
-AOD,https://smt.goiptv.us.ci/Aodhd/playlist.m3u8
-華麗台 HD (Wah Lai Toi),https://smt.goiptv.us.ci/Wlt/playlist.m3u8
-歡喜台 HD(Hua Hee Tai),https://smt.goiptv.us.ci/Huahee/playlist.m3u8
-Astro QJ,https://smt.goiptv.us.ci/Quanjia/playlist.m3u8
-TVB Jade,https://smt.goiptv.us.ci/Tvbjade/playlist.m3u8
-愛奇藝 iQiyi,https://smt.goiptv.us.ci/Qiyi/playlist.m3u8
-TVB 星河台  Xing He,https://smt.goiptv.us.ci/Xinhe/playlist.m3u8
-Discovery Asia,https://smt.goiptv.us.ci/Discoveryasia/playlist.m3u8
-Dmax,https://smt.goiptv.us.ci/Dmax/playlist.m3u8
-TVB Asia,https://smt.goiptv.us.ci/Tvbasia/playlist.m3u8
-TVB Entertainment,https://smt.goiptv.us.ci/Tvbentertainment/playlist.m3u8
-TVB Classic,https://smt.goiptv.us.ci/Tvbclassic/playlist.m3u8
-Celestial Classic,https://smt.goiptv.us.ci/Celestial2/playlist.m3u8
-Celestial Movies HD,https://smt.goiptv.us.ci/Celestial/playlist.m3u8
-Rock Actions,https://smt.goiptv.us.ci/Rockaction/playlist.m3u8
-Rock Entertainment,https://smt.goiptv.us.ci/Rockentertain/playlist.m3u8
-Bollyone,https://smt.goiptv.us.ci/Bollyone/playlist.m3u8
-Astro Sunmusic,https://smt.goiptv.us.ci/Sunmusic/playlist.m3u8
-Thangathirai,https://smt.goiptv.us.ci/Thangathirai/playlist.m3u8
-Vinmeen,https://smt.goiptv.us.ci/Vinmeen/playlist.m3u8
-Vellithirai,https://smt.goiptv.us.ci/Vellithirai/playlist.m3u8
-Astro LOL,https://smt.goiptv.us.ci/Astro_lol/playlist.m3u8
-Al_Jazeera,https://smt.goiptv.us.ci/Aljazeera/playlist.m3u8
-CNN,https://smt.goiptv.us.ci/Cnn/playlist.m3u8
-CNN backup,https://smt.goiptv.us.ci/cnn_twn/playlist.m3u8
-BBC World News,https://smt.goiptv.us.ci/Bbcnews/playlist.m3u8
-CNBC,https://smt.goiptv.us.ci/Cnbc/playlist.m3u8
-Bloomberg TV,https://smt.goiptv.us.ci/Bloomberg/playlist.m3u8
-CNA,https://smt.goiptv.us.ci/cna/playlist.m3u8
-DW,https://smt.goiptv.us.ci/Dw/playlist.m3u8
-France 24,https://smt.goiptv.us.ci/France24/playlist.m3u8
-Eurosport,https://smt.goiptv.us.ci/Eurosport/playlist.m3u8
-Skynews,https://smt.goiptv.us.ci/Skynews/playlist.m3u8
-NHK Premium,https://smt.goiptv.us.ci/NHKpremium/playlist.m3u8
-
-🇹🇭 泰國 | Thailand,#genre#
-Channel 3 Thailand,https://smt.goiptv.us.ci/ch3_pat/playlist.m3u8
-Channel 5 Thailand,https://smt.goiptv.us.ci/ch5_pat/playlist.m3u8
-Channel 7 Thailand,https://smt.goiptv.us.ci/ch7_pat/playlist.m3u8
-MCOT HD Thailand-1,https://smt.goiptv.us.ci/mcot_pat/playlist.m3u8
-PPTV Thailand1,https://smt.goiptv.us.ci/pptv_pat/playlist.m3u8
-Thai Thai,https://smt.goiptv.us.ci/thaithai_pat/playlist.m3u8
-Amarin,https://smt.goiptv.us.ci/amarin_pat/playlist.m3u8
-Ch 8,https://smt.goiptv.us.ci/ch8_pat/playlist.m3u8
-GmmOne,https://smt.goiptv.us.ci/gmmone_pat/playlist.m3u8
-Mono,https://smt.goiptv.us.ci/mono_pat/playlist.m3u8
-Thairath,https://smt.goiptv.us.ci/thairath_pat/playlist.m3u8
-tpbs,https://smt.goiptv.us.ci/tpbs_pat/playlist.m3u8
-Workpoint,https://smt.goiptv.us.ci/workpoint_pat/playlist.m3u8
-Gmm Channel,https://smt.goiptv.us.ci/gmmchannel_pat/playlist.m3u8
-Nation,https://smt.goiptv.us.ci/nation_pat/playlist.m3u8
-Tnn24,https://smt.goiptv.us.ci/tnn24_pat/playlist.m3u8
-Nbt,https://smt.goiptv.us.ci/nbt_pat/playlist.m3u8
-New,https://smt.goiptv.us.ci/new_pat/playlist.m3u8
-TPTV,https://smt.goiptv.us.ci/tptv_pat/playlist.m3u8
-Test 1,https://smt.goiptv.us.ci/AAA1/playlist.m3u8
-Test 2,https://smt.goiptv.us.ci/AAA2/playlist.m3u8
-Test 3,https://smt.goiptv.us.ci/AAA3/playlist.m3u8
-Test 4,https://smt.goiptv.us.ci/AAA4/playlist.m3u8
-Test 5,https://smt.goiptv.us.ci/AAA5/playlist.m3u8
-
-🇻🇳 越南 | Vietnam,#genre#
-ANTV,https://smt.goiptv.us.ci/vtn_antv/playlist.m3u8
-VTV 1,https://smt.goiptv.us.ci/vtn_vtv1/playlist.m3u8
-VTV 3,https://smt.goiptv.us.ci/vtn_vtv3/playlist.m3u8
-VTV 4,https://smt.goiptv.us.ci/vtn_vtv4/playlist.m3u8
-VTV 6,https://smt.goiptv.us.ci/vtn_vtv6/playlist.m3u8
-HTV 7,https://smt.goiptv.us.ci/vtn_htv7/playlist.m3u8
-HTV 9,https://smt.goiptv.us.ci/vtn_htv9/playlist.m3u8
-THVL HD,https://smt.goiptv.us.ci/vtn_thvl/playlist.m3u8
-TBKTV,https://smt.goiptv.us.ci/vtn_tbktv/playlist.m3u8
-BTV HD,https://smt.goiptv.us.ci/vtn_btvhd/playlist.m3u8
-CTV HD,https://smt.goiptv.us.ci/vtn_ctvhd/playlist.m3u8
-
-🇮🇩 印度尼西亞 | Indonesia,#genre#
-TVRi National,https://smt.goiptv.us.ci/TVRI/playlist.m3u8
-RCTI,https://smt.goiptv.us.ci/Rcti/playlist.m3u8
-Kompass TV,https://smt.goiptv.us.ci/Kompass/playlist.m3u8
-Berita Satu,https://smt.goiptv.us.ci/BeritaSatu_eko/playlist.m3u8
-Indosiar HD,https://smt.goiptv.us.ci/Indosiar/playlist.m3u8
-Metro TV,https://smt.goiptv.us.ci/metrotv_eko/playlist.m3u8
-SCTV,https://smt.goiptv.us.ci/SCTV/playlist.m3u8
-AnTV,https://smt.goiptv.us.ci/Antv/playlist.m3u8
-MNC TV,https://smt.goiptv.us.ci/Mnctv/playlist.m3u8
-Trans 7,https://smt.goiptv.us.ci/Trans7_eko/playlist.m3u8
-Transtv,https://smt.goiptv.us.ci/Transtv/playlist.m3u8
-JTV,https://smt.goiptv.us.ci/JTV_eko/playlist.m3u8
-Cinemax,https://smt.goiptv.us.ci/Cinemax/playlist.m3u8
-Tvone,https://smt.goiptv.us.ci/Tvone/playlist.m3u8
-TVMU,https://smt.goiptv.us.ci/TVMU_eko/playlist.m3u8
-GTV,https://smt.goiptv.us.ci/Gtv/playlist.m3u8
-RTV,https://smt.goiptv.us.ci/Rtv/playlist.m3u8
-Jak TV,https://smt.goiptv.us.ci/JakTV/playlist.m3u8
-iNews TV,https://smt.goiptv.us.ci/Inewstv/playlist.m3u8
-Daai TV,https://smt.goiptv.us.ci/DaaiTV/playlist.m3u8
-Net TV,https://smt.goiptv.us.ci/NetTV/playlist.m3u8
-Animax,https://smt.goiptv.us.ci/Animax/playlist.m3u8
-EWTN,https://smt.goiptv.us.ci/Ewtn/playlist.m3u8
-AlQuran AlKareem,https://smt.goiptv.us.ci/Alkareem/playlist.m3u8
-Tawaf TV,https://smt.goiptv.us.ci/TawafTV/playlist.m3u8
-Vision Prime,https://smt.goiptv.us.ci/VisionPrime/playlist.m3u8
-Muslim TV,https://smt.goiptv.us.ci/MuslimTV/playlist.m3u8
-Music TV,https://smt.goiptv.us.ci/MusicTV/playlist.m3u8
-Lifestyle&Fashion,https://smt.goiptv.us.ci/Lifestyle/playlist.m3u8
-Entertain,https://smt.goiptv.us.ci/Entertain/playlist.m3u8
-Hits,https://smt.goiptv.us.ci/Hits/playlist.m3u8
-Warner TV,https://smt.goiptv.us.ci/WarnerTV/playlist.m3u8
-Fight Sports,https://smt.goiptv.us.ci/Fs/playlist.m3u8
-SCM,https://smt.goiptv.us.ci/Weishimovie/playlist.m3u8
-Thrill,https://smt.goiptv.us.ci/Thrill/playlist.m3u8
-Hits Movie,https://smt.goiptv.us.ci/Hitsmovie/playlist.m3u8
-tvN Movie,https://smt.goiptv.us.ci/Tvnmovie/playlist.m3u8
-One,https://smt.goiptv.us.ci/One/playlist.m3u8
-天映頻道Celestial Movies,https://smt.goiptv.us.ci/Celestialindo/playlist.m3u8
-Rock Actions,https://smt.goiptv.us.ci/Rockaction/playlist.m3u8
-Rock Entertainment,https://smt.goiptv.us.ci/Rockentertain/playlist.m3u8
-
-🇮🇳 印度 | India,#genre#
-Sun TV HD,https://smt.goiptv.us.ci/Suntv/playlist.m3u8
-Star Vijay,https://smt.goiptv.us.ci/Starvijay/playlist.m3u8
-Colors Tamil,https://smt.goiptv.us.ci/Colorstam/playlist.m3u8
-Sun Music,https://smt.goiptv.us.ci/Sunmusic/playlist.m3u8
-Astro Sunlife,https://smt.goiptv.us.ci/Sunlife/playlist.m3u8
-Astro Vaanavil,https://smt.goiptv.us.ci/Vaanavil/playlist.m3u8
-Zee Tamil,https://smt.goiptv.us.ci/Zeetamil/playlist.m3u8
-Zee Business,https://smt.goiptv.us.ci/Zeebusiness/playlist.m3u8
-News 18 Tamil,https://smt.goiptv.us.ci/news18tamil_raj/playlist.m3u8
-Adithya,https://smt.goiptv.us.ci/Adithya/playlist.m3u8
-Makkal TV,https://smt.goiptv.us.ci/Makkaltv/playlist.m3u8
-Zee Action,https://smt.goiptv.us.ci/Zeeaction/playlist.m3u8
-Astro KTV,https://smt.goiptv.us.ci/Astroktv/playlist.m3u8
-Zee TV HD,https://smt.goiptv.us.ci/Zeetvhd/playlist.m3u8
-Zee Cinema HD,https://smt.goiptv.us.ci/Zeecinemahd/playlist.m3u8
-Color HD,https://smt.goiptv.us.ci/Colorhd/playlist.m3u8
-Starplus HD,https://smt.goiptv.us.ci/Starplushd/playlist.m3u8
-Picture HD,https://smt.goiptv.us.ci/Npicture/playlist.m3u8
-Zee News,https://smt.goiptv.us.ci/Zeenews/playlist.m3u8
-Asianet,https://smt.goiptv.us.ci/asianet_raj/playlist.m3u8
-Asianet News,https://smt.goiptv.us.ci/asianetnews_raj/playlist.m3u8
-Discovery World Tamil,https://smt.goiptv.us.ci/discoveryworldtam_raj/playlist.m3u8
-History Tamil,https://smt.goiptv.us.ci/historytam_raj/playlist.m3u8
-NatGeo Tamil,https://smt.goiptv.us.ci/natgeotamil_raj/playlist.m3u8
-Natgeo Wild Tamil,https://smt.goiptv.us.ci/natgeowildtamil_raj/playlist.m3u8
-Discovery Kids Tamil,https://smt.goiptv.us.ci/discoverykidtamil_raj/playlist.m3u8
-Sony Yay Tamil,https://smt.goiptv.us.ci/sonyyaytam_raj/playlist.m3u8
-Sun TV India,https://smt.goiptv.us.ci/suntv_raj/playlist.m3u8
-Starmaa HD,https://smt.goiptv.us.ci/starmaa_raj/playlist.m3u8
-Starmaa Movies HD,https://smt.goiptv.us.ci/starmaamovies_raj/playlist.m3u8
-Vijay Super,https://smt.goiptv.us.ci/vijaysuper_raj/playlist.m3u8
-Bollyone,https://smt.goiptv.us.ci/Bollyone/playlist.m3u8
-Astro Sunmusic,https://smt.goiptv.us.ci/Sunmusic/playlist.m3u8
-Thangathirai,https://smt.goiptv.us.ci/Thangathirai/playlist.m3u8
-Vinmeen,https://smt.goiptv.us.ci/Vinmeen/playlist.m3u8
-Vellithirai,https://smt.goiptv.us.ci/Vellithirai/playlist.m3u8
-Sony Pictures HD,https://smt.goiptv.us.ci/sonypix/playlist.m3u8
-
-🇬🇧 英國 | United Kingdom,#genre#
-BBC 1,https://smt.goiptv.us.ci/bbc1_antik/playlist.m3u8
-BBC 2,https://smt.goiptv.us.ci/bbc2_antik/playlist.m3u8
-CBBC,https://smt.goiptv.us.ci/cbbc_antik/playlist.m3u8
-More4,https://smt.goiptv.us.ci/more4_antik/playlist.m3u8
-Freesports,https://smt.goiptv.us.ci/freesports_antik/playlist.m3u8
-Pick TV,https://smt.goiptv.us.ci/picktv_antik/playlist.m3u8
-itv 1,https://smt.goiptv.us.ci/itv1_antik/playlist.m3u8
-itv 2,https://smt.goiptv.us.ci/itv2_antik/playlist.m3u8
-CGTN,https://smt.goiptv.us.ci/CGTN/playlist.m3u8
-Euronews,https://smt.goiptv.us.ci/euronews_antik/playlist.m3u8
-Channel 4,https://smt.goiptv.us.ci/channel4_antik/playlist.m3u8
-DW (Deutsch),https://smt.goiptv.us.ci/dw_twn/playlist.m3u8
-NatGeo HD,https://smt.goiptv.us.ci/Natgeo/playlist.m3u8
-CBeebies,https://smt.goiptv.us.ci/Cbeebies/playlist.m3u8
-History,https://smt.goiptv.us.ci/History/playlist.m3u8
-Kids TV,https://smt.goiptv.us.ci/KidsTV/playlist.m3u8
-BBC Earth HD,https://smt.goiptv.us.ci/bbcearth_twn/playlist.m3u8
-BBC Earth Lifestyle,https://smt.goiptv.us.ci/bbclifestyle_twn/playlist.m3u8
-MTV Live,https://smt.goiptv.us.ci/mtvhd_twn/playlist.m3u8
-Star Movies HD,https://smt.goiptv.us.ci/starmovies_raj/playlist.m3u8
-NHK World,https://smt.goiptv.us.ci/nhkworld_japan/playlist.m3u8
-Warner TV,https://smt.goiptv.us.ci/WarnerTV/playlist.m3u8
-Thrill,https://smt.goiptv.us.ci/Thrill/playlist.m3u8
-HGTV,https://smt.goiptv.us.ci/HGTV/playlist.m3u8
-TLC,https://smt.goiptv.us.ci/Tlc/playlist.m3u8
-Axn HD,https://smt.goiptv.us.ci/Axn/playlist.m3u8
-HBO HD,https://smt.goiptv.us.ci/Hbo/playlist.m3u8
-Hits Movie,https://smt.goiptv.us.ci/Hitsmovie/playlist.m3u8
-Nickelodeon,https://smt.goiptv.us.ci/Nickelodeon/playlist.m3u8
-Nick Jr,https://smt.goiptv.us.ci/Nickjr/playlist.m3u8
-Al-Jazeera,https://smt.goiptv.us.ci/aljazeera_twn/playlist.m3u8
-Animal Planet (Eng),https://smt.goiptv.us.ci/AnimalPlanet/playlist.m3u8
-Bloomberg News,https://smt.goiptv.us.ci/bloomberg_twn/playlist.m3u8
-NatGeo Wild HD,https://smt.goiptv.us.ci/Natgeowild/playlist.m3u8
-BBC World News,https://smt.goiptv.us.ci/bbcworldnews_antik/playlist.m3u8
-CNBC,https://smt.goiptv.us.ci/Cnbc/playlist.m3u8
-France 24,https://smt.goiptv.us.ci/france24_twn/playlist.m3u8
-Skynews,https://smt.goiptv.us.ci/skynews_twn/playlist.m3u8
-
-⚽ 體育頻道 | Sports,#genre#
-Astro PL 1,https://smt.goiptv.us.ci/Assp1/playlist.m3u8
-Astro PL 1 (Back Up 1),https://smt.goiptv.us.ci/go_assp1/playlist.m3u8
-Astro PL 1 (Back Up 2),https://smt.goiptv.us.ci/go_assp1x/playlist.m3u8
-Astro W-Sports,https://smt.goiptv.us.ci/go_assp5/playlist.m3u8
-Astro PL 2,https://smt.goiptv.us.ci/go_assp2/playlist.m3u8
-WWE,https://smt.goiptv.us.ci/Wwe/playlist.m3u8
-博斯高球2 HD,https://smt.goiptv.us.ci/bosigolf2_twn/playlist.m3u8
-博斯網球 HD,https://smt.goiptv.us.ci/bositennis_twn/playlist.m3u8
-Fight Sports,https://smt.goiptv.us.ci/Fs/playlist.m3u8
-NBA TV,https://smt.goiptv.us.ci/Nba/playlist.m3u8
-Arena,https://smt.goiptv.us.ci/Arena/playlist.m3u8
-Arena 2,https://smt.goiptv.us.ci/Arena2/playlist.m3u8
-Arena Bola 1,https://smt.goiptv.us.ci/Bolaarena1/playlist.m3u8
-Arena Bola 2,https://smt.goiptv.us.ci/Bolaarena2/playlist.m3u8
-Astro Golf,https://smt.goiptv.us.ci/Agolf/playlist.m3u8
-RTM Sports HD,https://smt.goiptv.us.ci/Rtmsport/playlist.m3u8
-Astro Football,https://smt.goiptv.us.ci/go_assp4/playlist.m3u8
-Astro Football (Back Up 1),https://smt.goiptv.us.ci/Assp4/playlist.m3u8
-Astro Badminton,https://smt.goiptv.us.ci/go_badminton1/playlist.m3u8
-Astro Badminton 2,https://smt.goiptv.us.ci/go_badminton2/playlist.m3u8
-SPOTV 1 HD,https://smt.goiptv.us.ci/go_spotv/playlist.m3u8
-SPO TV 2,https://smt.goiptv.us.ci/go_spotv2/playlist.m3u8
-CCTV-5 體育,https://smt.goiptv.us.ci/cctv5/playlist.m3u8
-CCTV-5+ 體育,https://smt.goiptv.us.ci/cctv5plus/playlist.m3u8
-Supersports 2,https://smt.goiptv.us.ci/Assp2/playlist.m3u8
-Astro Grandstand,https://smt.goiptv.us.ci/go_assp3/playlist.m3u8
-Astro Cricket,https://smt.goiptv.us.ci/Acricket/playlist.m3u8
-Tnt Sports 1,https://smt.goiptv.us.ci/tntsport1/playlist.m3u8
-Astro Grandstand (Back Up 1),https://smt.goiptv.us.ci/Assp3/playlist.m3u8
-TNT Sports 2,https://smt.goiptv.us.ci/tntsport2/playlist.m3u8
-TNT Sports 3,https://smt.goiptv.us.ci/tntsport3/playlist.m3u8
-TNT Sports 4,https://smt.goiptv.us.ci/tntsport4/playlist.m3u8
-Astro Sports Plus,https://smt.goiptv.us.ci/go_sportsplus/playlist.m3u8
-Elta體育1台,https://smt.goiptv.us.ci/eltasport1_twn/playlist.m3u8
-Elta體育2台,https://smt.goiptv.us.ci/eltasport2_twn/playlist.m3u8
-Elta體育3台,https://smt.goiptv.us.ci/eltasport3_twn/playlist.m3u8
-Rugby Pass TV,https://smt.goiptv.us.ci/Rugbypasstv/playlist.m3u8
-Astro Beinsports 1,https://smt.goiptv.us.ci/Astrobein1/playlist.m3u8
-Astro Beinsports 2,https://smt.goiptv.us.ci/Astrobein2/playlist.m3u8
-Astro Beinsports 3,https://smt.goiptv.us.ci/Astrobein3/playlist.m3u8
-Skysports Cricket,https://smt.goiptv.us.ci/tiankongcricket/playlist.m3u8
-Skysports EPL,https://smt.goiptv.us.ci/tiankongepl/playlist.m3u8
-Skysports F1,https://smt.goiptv.us.ci/tiankongf1/playlist.m3u8
-Skysports Golf,https://smt.goiptv.us.ci/tiankonggolf/playlist.m3u8
-Skysports Main Event,https://smt.goiptv.us.ci/tiankongmain/playlist.m3u8
-Skysports Mix,https://smt.goiptv.us.ci/tiankongmix/playlist.m3u8
-Skysports Racing,https://smt.goiptv.us.ci/tiankongracing/playlist.m3u8
-DAZN 1,https://smt.goiptv.us.ci/dazn1_twn/playlist.m3u8
-DAZN 2,https://smt.goiptv.us.ci/dazn2_twn/playlist.m3u8
-Eurosport,https://smt.goiptv.us.ci/Eurosport/playlist.m3u8
-
-🎬 電影頻道 | Movies,#genre#
-CCTV-6 電影,https://smt.goiptv.us.ci/cctv6/playlist.m3u8
-HBO_HD,https://smt.goiptv.us.ci/hbohd_twn/playlist.m3u8
-HBO_HITS,https://smt.goiptv.us.ci/hbohits_twn/playlist.m3u8
-HBO Signature Taiwan,https://smt.goiptv.us.ci/hbosignature_twn/playlist.m3u8
-Hollywood Movies,https://smt.goiptv.us.ci/hollywoodmovies_twn/playlist.m3u8
-AXN Taiwan,https://smt.goiptv.us.ci/axn_twn/playlist.m3u8
-CINEMAX,https://smt.goiptv.us.ci/cinemax_twn/playlist.m3u8
-Cinemax,https://smt.goiptv.us.ci/Cinemax/playlist.m3u8
-大愛2台,https://smt.goiptv.us.ci/daai2_twn/playlist.m3u8
-東森電影 ETTV Movie,https://smt.goiptv.us.ci/ettvmovie/playlist.m3u8
-東森洋片 ETTV Western,https://smt.goiptv.us.ci/ettvwestern/playlist.m3u8
-龍華洋片 Lunghua Western,https://smt.goiptv.us.ci/lunghuawestern_twn/playlist.m3u8
-Animax,https://smt.goiptv.us.ci/Animax/playlist.m3u8
-龍祥時代,https://smt.goiptv.us.ci/lungxiangtime_twn/playlist.m3u8
-Movies Now HD,https://smt.goiptv.us.ci/moviesnow_raj/playlist.m3u8
-Star Movies HD,https://smt.goiptv.us.ci/starmovies_raj/playlist.m3u8
-衛視中文台 Star Movies Chinese,https://smt.goiptv.us.ci/weishichinese_twn/playlist.m3u8
-Hits,https://smt.goiptv.us.ci/Hits/playlist.m3u8
-Warner TV,https://smt.goiptv.us.ci/WarnerTV/playlist.m3u8
-美亞電影,https://smt.goiptv.us.ci/meiyamovie_twn/playlist.m3u8
-SCM,https://smt.goiptv.us.ci/Weishimovie/playlist.m3u8
-Thrill,https://smt.goiptv.us.ci/Thrill/playlist.m3u8
-HBO Family,https://smt.goiptv.us.ci/Hbofamily/playlist.m3u8
-Axn HD,https://smt.goiptv.us.ci/Axn/playlist.m3u8
-HBO HD,https://smt.goiptv.us.ci/Hbo/playlist.m3u8
-HBO Signature,https://smt.goiptv.us.ci/Hbosignature/playlist.m3u8
-HBO Hits,https://smt.goiptv.us.ci/Hbohitshd/playlist.m3u8
-Dreamworks,https://smt.goiptv.us.ci/Dreamworks/playlist.m3u8
-Hits Movie,https://smt.goiptv.us.ci/Hitsmovie/playlist.m3u8
-tvN Movie,https://smt.goiptv.us.ci/Tvnmovie/playlist.m3u8
-Astrol Kplus,https://smt.goiptv.us.ci/Kplus/playlist.m3u8
-One,https://smt.goiptv.us.ci/One/playlist.m3u8
-天映頻道Celestial Movies,https://smt.goiptv.us.ci/Celestialindo/playlist.m3u8
-Celestial Classic,https://smt.goiptv.us.ci/Celestial2/playlist.m3u8
-Rock Actions,https://smt.goiptv.us.ci/Rockaction/playlist.m3u8
-Rock Entertainment,https://smt.goiptv.us.ci/Rockentertain/playlist.m3u88
-
-📜 紀錄頻道 | Documentary,#genre#
-CI,https://smt.goiptv.us.ci/ci_twn/playlist.m3u8
-Asia Travel,https://smt.goiptv.us.ci/asiatravel_twn/playlist.m3u8
-亚洲美食,https://smt.goiptv.us.ci/afc_twn/playlist.m3u8
-NatGeo HD,https://smt.goiptv.us.ci/Natgeo/playlist.m3u8
-Fashion TV,https://smt.goiptv.us.ci/fashiontv_twn/playlist.m3u8
-History,https://smt.goiptv.us.ci/History/playlist.m3u8
-BBC Earth HD,https://smt.goiptv.us.ci/bbcearth_twn/playlist.m3u8
-BBC Earth Lifestyle,https://smt.goiptv.us.ci/bbclifestyle_twn/playlist.m3u8
-亚洲旅游 TLC Asia,https://smt.goiptv.us.ci/tlc_twn/playlist.m3u8
-MTV Live,https://smt.goiptv.us.ci/mtvhd_twn/playlist.m3u8
-NatGeo_Wild HD,https://smt.goiptv.us.ci/Natgeowild/playlist.m3u8
-Animal_Planet,https://smt.goiptv.us.ci/AnimalPlanet/playlist.m3u8
-HGTV,https://smt.goiptv.us.ci/HGTV/playlist.m3u8
-TLC,https://smt.goiptv.us.ci/Tlc/playlist.m3u8
-Foodnetwork Hd,https://smt.goiptv.us.ci/Foodnetwork/playlist.m3u8
-Asia Food Network,https://smt.goiptv.us.ci/Afc/playlist.m3u8
-Animal Planet (Eng),https://smt.goiptv.us.ci/AnimalPlanet/playlist.m3u8
-NatGeo Wild HD,https://smt.goiptv.us.ci/Natgeowild/playlist.m3u8
-Discovery Asia,https://smt.goiptv.us.ci/Discoveryasia/playlist.m3u8
-Dmax,https://smt.goiptv.us.ci/Dmax/playlist.m3u8
-探索频道,https://smt.goiptv.us.ci/discoverych_twn/playlist.m3u8
-
-📰 新聞頻道 | News,#genre#
-ABC News,https://smt.goiptv.us.ci/abcnews_glo/playlist.m3u8
-iNews 互動新聞台,https://smt.goiptv.us.ci/inews_twn/playlist.m3u8
-CBS HD,https://smt.goiptv.us.ci/cbshd_glo/playlist.m3u8
-CBSN HD,https://smt.goiptv.us.ci/cbsn_glo/playlist.m3u8
-CCTV-13 新聞與頻道,https://smt.goiptv.us.ci/cctv13/playlist.m3u8
-CGTN,https://smt.goiptv.us.ci/CGTN/playlist.m3u8
-DW (Deutsch),https://smt.goiptv.us.ci/dw_twn/playlist.m3u8
-Fox News,https://smt.goiptv.us.ci/foxnews_twn/playlist.m3u8
-NHK World,https://smt.goiptv.us.ci/nhkworld_japan/playlist.m3u8
-TVBS News 新聞台,https://smt.goiptv.us.ci/tvbs_n/playlist.m3u8
-Al-Jazeera,https://smt.goiptv.us.ci/aljazeera_twn/playlist.m3u8
-Bloomberg News,https://smt.goiptv.us.ci/bloomberg_twn/playlist.m3u8
-東森新聞 ETTV News,https://smt.goiptv.us.ci/ettvnews/playlist.m3u8
-東森財經新聞 ETTV Business,https://smt.goiptv.us.ci/ettvcaijing_twn/playlist.m3u8
-中天新聞 CTI News,https://smt.goiptv.us.ci/ctinews/playlist.m3u8
-非凡新聞台,https://smt.goiptv.us.ci/feifannews_twn/playlist.m3u8
-台視新聞台 TTV News,https://smt.goiptv.us.ci/ttvnews_twn/playlist.m3u8
-民視新聞台 FTV News,https://smt.goiptv.us.ci/ftvnew_taiwan/playlist.m3u8
-Al_Jazeera,https://smt.goiptv.us.ci/Aljazeera/playlist.m3u8
-寰宇新聞台,https://smt.goiptv.us.ci/huanyuxinwen_twn/playlist.m3u8
-中視新聞台,https://smt.goiptv.us.ci/zhongshinews_twn/playlist.m3u8
-CNN,https://smt.goiptv.us.ci/Cnn/playlist.m3u8
-CNN backup,https://smt.goiptv.us.ci/cnn_twn/playlist.m3u8
-BBC World News,https://smt.goiptv.us.ci/Bbcnews/playlist.m3u8
-BBC World News,https://smt.goiptv.us.ci/Bbcnews/playlist.m3u8
-CNBC,https://smt.goiptv.us.ci/Cnbc/playlist.m3u8
-Bloomberg TV,https://smt.goiptv.us.ci/Bloomberg/playlist.m3u8
-CNA,https://smt.goiptv.us.ci/cna/playlist.m3u8
-DW,https://smt.goiptv.us.ci/Dw/playlist.m3u8
-France 24,https://smt.goiptv.us.ci/france24_twn/playlist.m3u8
-France 24,https://smt.goiptv.us.ci/France24/playlist.m3u8
-Skynews,https://smt.goiptv.us.ci/Skynews/playlist.m3u8
-Skynews,https://smt.goiptv.us.ci/skynews_twn/playlist.m3u8
-NHK Premium,https://smt.goiptv.us.ci/NHKpremium/playlist.m3u8
-
-🧸 兒童頻道 | Kids,#genre#
-Baby TV Eng,https://smt.goiptv.us.ci/Ind_babytv/playlist.m3u8
-CBeebies,https://smt.goiptv.us.ci/Cbeebies/playlist.m3u8
-Kids TV,https://smt.goiptv.us.ci/KidsTV/playlist.m3u8
-Momo TV,https://smt.goiptv.us.ci/momo1_twn/playlist.m3u8
-Animax,https://smt.goiptv.us.ci/Animax/playlist.m3u8
-Baby TV,https://smt.goiptv.us.ci/babytv_twn/playlist.m3u8
-MiaoMi,https://smt.goiptv.us.ci/MiaoMi/playlist.m3u8
-靖天卡通台,https://smt.goiptv.us.ci/jingtiancartoon_twn/playlist.m3u8
-东森幼幼 Yoyo TV,https://smt.goiptv.us.ci/yoyo_twn/playlist.m3u8
-Nickelodeon,https://smt.goiptv.us.ci/Nickelodeon/playlist.m3u8
-Nick Jr,https://smt.goiptv.us.ci/Nickjr/playlist.m3u8
-Cartoon Network,https://smt.goiptv.us.ci/Cn/playlist.m3u8
-
+大陸频道,#genre#
+CCTV-1HD,http://107.150.60.122/live/cctv1hd.m3u8
+CCTV-2HD,http://107.150.60.122/live/cctv2hd.m3u8
+CCTV-3HD,http://107.150.60.122/live/cctv3hd.m3u8
+CCTV-4HD,http://107.150.60.122/live/cctv4hd.m3u8
+CCTV-5HD,http://107.150.60.122/live/cctv5hd.m3u8
+CCTV-6HD,http://107.150.60.122/live/cctv6hd.m3u8
+CCTV-7HD,http://107.150.60.122/live/cctv7hd.m3u8
+CCTV-8HD,http://107.150.60.122/live/cctv8hd.m3u8
+CCTV-9HD,http://107.150.60.122/live/cctv9hd.m3u8
+CCTV-10HD,http://107.150.60.122/live/cctv10hd.m3u8
+CCTV-11HD,http://107.150.60.122/live/cctv11hd.m3u8
+CCTV-12HD,http://107.150.60.122/live/cctv12hd.m3u8
+CCTV-13HD,http://107.150.60.122/live/cctv13hd.m3u8
+CCTV-14HD,http://107.150.60.122/live/cctv14hd.m3u8
+CCTV-15HD,http://107.150.60.122/live/cctv15hd.m3u8
+CCTV-16HD,http://107.150.60.122/live/cctv16hd.m3u8
+CCTV-17HD,http://107.150.60.122/live/cctv17hd.m3u8
+CCTV-5+HD,http://107.150.60.122/live/cctv5p.m3u8
+CCTV-4K超高清,http://107.150.60.122/live/cctv4k.m3u8
+CCTV-8K超高清,http://107.150.60.122/live/cctv8k.m3u8
+湖南卫视HD,http://107.150.60.122/live/hnwshd.m3u8
+东方卫视HD,http://107.150.60.122/live/dfwshd.m3u8
+浙江卫视HD,http://107.150.60.122/live/zjwshd.m3u8
+江苏卫视HD,http://107.150.60.122/live/jswshd.m3u8
+重庆卫视HD,http://107.150.60.122/live/cqwshd.m3u8
+东南卫视HD,http://107.150.60.122/live/dnwshd.m3u8
+广西卫视HD,http://107.150.60.122/live/gxwshd.m3u8
+湖北卫视HD,http://107.150.60.122/live/hbwshd.m3u8
+辽宁卫视HD,http://107.150.60.122/live/lnwshd.m3u8
+山东卫视HD,http://107.150.60.122/live/sdwshd.m3u8
+天津卫视HD,http://107.150.60.122/live/tjwshd.m3u8
+陕西卫视HD,http://107.150.60.122/live/snwshd.m3u8
+广东卫视HD,http://107.150.60.122/live/gdwshd.m3u8
+深圳卫视HD,http://107.150.60.122/live/szwshd.m3u8
+青海卫视,http://107.150.60.122/live/qhws.m3u8
+西藏卫视,http://107.150.60.122/live/xzws.m3u8
+大湾区卫视,http://107.150.60.122/live/nfws.m3u8
+CCTV-央视文化精品,http://107.150.60.122/live/ysjp.m3u8
+CCTV-卫生健康,http://107.150.60.122/live/wsjk.m3u8
+北京卡酷少儿,http://107.150.60.122/live/btvkk.m3u8
+中央新影-发现之旅,http://107.150.60.122/live/fxzl.m3u8
+中央新影-老故事,http://107.150.60.122/live/lgs.m3u8
+中国教育3,http://107.150.60.122/live/cetv3.m3u8
+广东珠江,http://107.150.60.122/live/gdzj.m3u8
+广东体育,http://107.150.60.122/live/gdty.m3u8
+广东新闻,http://107.150.60.122/live/gdxw.m3u8
+广西影视,http://107.150.60.122/live/gxys.m3u8
+广西综艺旅游,http://107.150.60.122/live/gxzy.m3u8
+广西都市,http://107.150.60.122/live/gxds.m3u8
+广西新闻,http://107.150.60.122/live/gxxw.m3u8
+广西国际,http://107.150.60.122/live/gxgj.m3u8
+湖北综合,http://107.150.60.122/live/hbzh.m3u8
+湖北经视,http://107.150.60.122/live/hbjs.m3u8
+湖北影视,http://107.150.60.122/live/hbys.m3u8
+湖北教育,http://107.150.60.122/live/hbjy.m3u8
+湖北垄上,http://107.150.60.122/live/hbls.m3u8
+湖北生活,http://107.150.60.122/live/hbty.m3u8
+湖南娱乐,http://107.150.60.122/live/hnyl.m3u8
+湖南教育,http://107.150.60.122/live/hnjy.m3u8
+吉林都市,http://107.150.60.122/live/jlds.m3u8
+吉林综艺文化,http://107.150.60.122/live/jlfz.m3u8
+吉林生活,http://107.150.60.122/live/jlsh.m3u8
+新疆汉语影视,http://107.150.60.122/live/xjtv6.m3u8
+新疆汉语体育健康,http://107.150.60.122/live/xjtv7.m3u8
+江西少儿家庭,http://107.150.60.122/live/jxtv6.m3u8
+江西新闻频道,http://107.150.60.122/live/jxtv7.m3u8
+成龙电影,http://107.150.60.122/live/lbcl.m3u8
+周润发电影,http://107.150.60.122/live/lbzrf.m3u8
+周星驰电影,http://107.150.60.122/live/lbzxc.m3u8
+林正英影院,http://107.150.60.122/live/lblzy.m3u8
+LiTV,#genre#
+民视台湾台,https://gptapi.passwdword.xyz/live/encrypted/Mjc4MDFkYjhiNjg5MTdmMWRjNmYwYTMxMDEzODcyOTY6OTMxMDk2N2NkMTJhNTIwM2VlYWVmODVkZjIwMjEwOTk2MTNmMThjN2Q1NjQwNzlmM2NkZGYzZWNjN2YzZDliYjYzMjAzOGIwN2M4ZDY5ZTNmNWQwOWU0YTM1MmE4ZjczMmMyNTIwNDU3Y2EyNTE5OGNkNmNkNWRmYWIxNWYyMmNiOTdmOTkwMjk4MmYzMTk5OWIzMmNkZDMzNzQ4ZmU4Njk5NGRmNDg0NWFhMzE1MTg3Mjc2ODUzM2YwMzc1NjU1NDlhNzk0ZTE2ODUyMjBjNjU4YmNkNDFkMDRlY2U1YWM3N2Q1NDY0OTYxNjI0ZDYzOTliZmVjYzRjNTNlZjI0NGJmZGRmYzVkNWYyYWJjODYzZGEwMTQ1OWMzMjA4OWQ5NDZkMzg1MGE2NDE4YzY1MjI3OTk1OGNmNjYyYjQ3ZmFjOTM3NDQyYzA5ODIzMmM1YmNiY2YwNTBlYWU2OTM0NzU3MjA0NjhjN2M5MTYxMGI4Zjc4MTExNTE3ODg2ZjdiM2U2N2U4MjhiNWFlZTI1NTgxMzdkODhhNDYxMWIzMDQ?username=tg_0ypy6s61
+民视,https://gptapi.passwdword.xyz/live/encrypted/Njk3N2FmYzEyYjM0YzNjM2I4N2UwNTg5OTNmM2YyNTY6MzNkYjJiMzkwNGE4ZGIyOTliYWFiMmU2ZjMzM2YzOWJhNTU3YWMxMzQzNTdlNWNhNjk1Yjc2NjZiYmRjNzhmMmEyZGY5MmMxZjM1MDBlZDZiZTk3ZGM4ZDViNDIwZDliZGJhNTIzZGRmZGM2ODQxMWE0NDRiOTIwNjc1Zjg0ZjU4M2Y5YjA0MGE1YzQzMWZlNzg4Yzk1OTk3ZTVkN2JiNjVlMTI2OGFmNzdhOGZhYWY3NDJlODU5OTQ0ZmRkYjgwYjZiMTc1Y2RjMjI2OWJhZTc0NDg0YjA4ODc3MTFhZWU2NjJhMTY3NGVmOWI4OTVkYWY5YjdmZWU4NWZjYTRmZTNiZmMzYmU2YWMxMzJjODg3YWYzMTg5MDkyZjlhZjg5NjVjNjcxZjMwNDk5NzliZjJhODIxYmYyM2U2MWMwNDdlYjkwZTQ4ZGUxYjc3ODMyMjU4YjliZWY1YmMzOGQ1NTI2NmUwZjhmMzhjYjBmMjFhMzQyNjhiNzliYjk0MGRlOThmZmMyNzIxNjQ1YWE2OGNiNjk0YTRmODVlY2FhODE?username=tg_0ypy6s61
+民视第一台,https://gptapi.passwdword.xyz/live/encrypted/N2U0NDdiY2E0OWEyZGQ1MWRjMjNiMzdiOWE0NGNhYmY6NzQ3YTQxYmE5YzM0ZGNlM2QwNzEwYTNkNzM0NzJjZGUwMWIwOWIzYzhmYzkyMjJiMzI0MmNkZmU1MTBjYzEyZGJlNTdjNmEyOWRkOTc4OTkxZmU0YzE3NTM0MmM5OWRlODM0Njg1ZjcyZTc4OTZkZGFiZmE4YWQyNGIzNTAwZWYzZTQzMmU0OWUxNzg5YmQ3MTQ0MjY5NWNmNDkyMzBhZTE4MjdjNzFlZmZjOGJjNGE2MThmYTExYzRjODU5MGFlZjdhYzU5ZmY0MjM0MjVjMWI5ZTRhYTc0MjIwZDgzMGM2ZDBmNzNmMjQ3NTIwZDgyNzI0ZTYwNjQzOWM2OGNmODQ3NTBhNjVjM2VjOTgxYTMwMzk5MzI5ZGRlOGE1NGJlZmUyZTE5ZTM1MzFlNjE3M2FmYzFlYjUxOGM4OWIyYmZhZDEwNGVmMTBmNmY1YThiNWJmZDEzOTViN2M5MDQ0ZjdkNzFiZjA4YzU1MjdjMjhhNGQ0ZGVlMGI2ZjRhMTg5MmI2YjFmM2EzMjA2MDZjMzFlNzY5ZmM3MmRmZDdjYjM?username=tg_0ypy6s61
+民视综艺,https://gptapi.passwdword.xyz/live/encrypted/NGVmZjcyNjJhOTJkZTRlNTY5MWM2NGZlNDAyNmJkNjA6MWYwMTQzODZhMGRmNThiZWNhNzljYjMzYjU4YzFlMjJjZDNiNDAyOTNiMmQ0MmUxMzU4ZTY3MjdhMWY3YjczZjg1ZWQyNWM2YThlYWZjODAxMTQ0NmNkZDFiMzZiOGQxYWM2ZTg3OGQ4YzY1ZmEwODNjMzRkZjc5NGUxMWNiMzlhYjVmMGVlN2VmOWM0OTA0MmJhY2ZlZWE5MmVkOGIwZTNiZWE0NzA4OTU1NDUzMzc2MzY4MGYwOGZjYzA3NjM1ZWEzZGEwNDMzODZkYTAxZjdjYjk2Yjk1Yjg0YTFlMDkyMzRiZWUyYzIxNGY1MzY2MjcwMzk0NzI2NjhhZDljOTg3ZWRiNTljNTZlNmEwYzI4ZDMzZWFhOTBlMjVhOTQxYTU1NTY3OWU3NWI1Mzg4MjVlMGNmYzg1NDQ5Y2E1MmFhMWQzMGQxMDE2YmU2YmFmZDllYThmNDIyMzQyOTAzYTVjMGNlNTk2MmJmNTEyZjFmY2U2NTE0MWEyY2RiZWIxY2Y4YzA3NjNhNGM1YzcxOWI2YmQ0OTRiYTg5OTRhNGQ?username=tg_0ypy6s61
+猪哥亮歌厅秀,https://gptapi.passwdword.xyz/live/encrypted/MTdlNmY2Yzc3YWMyNjAxYzJkNmJiNDJjMzVmYmEyYTg6M2Q5MWU0NmU1MTdhODFjZTNlYzVkNjZjMTI0MDIyYzk5YTNkZTFhYTI5ZWQ0MTNlM2M4MzExMTVjNDA1MjZhOWMyZmFjNGE3MGJlZmFmNmU4NTc3NGZkYjYyM2U4OGVjMTk5OGVkMTM4YzgxMzg3M2ZmNGM2ZjlhNGFjMGJiYWQ2YzQ3ZGU3ZWE2NmE4MjRmNTkzYWQxMWFkY2E5YTgyYWU1NWY3MjAyMzRlOWQwZTA1MTRjY2Q2YzAxZjkyNDU4NDkyZjE1YjVlMmQ2ODcyNTM2YTFiYzZiYTllZDViNGY3YTZjNGU5YTkwNTlhODYzNjJhOWFkMjRjODA4YTRlZTBiYTk4NDA0MDE2NzY4OWY2NjI4NmJjMTYzMjBhZmRkYzYyMzhlNjUxOWJlN2QwNzgwYThmMjQzMDY1NmViNzlmY2NjOWRiY2M0ZjM5OGZlN2M4YTYzY2Y5M2U1ZjE5YmU3YWRhY2RhYjkzNDBiYjdiNzE0N2ExYzJiYTVmNzVkZTZhZWM3Y2QzZjY5NzIxNTY4ZjIxYWYwZTMzMjg3MjQ?username=tg_0ypy6s61
+中天新闻,https://gptapi.passwdword.xyz/live/encrypted/MDJhY2Q3ZGY5OTAwMTc0OTk5ZDNkYmI2NmJiMDk2NjA6YjI5OTJkMWQxNzZlMjgyNzA1OWFiNGNhNjE2MGUyOTA5NzQzNTkyMjA2OTE1MzI4MDYyYWU1NTVjMTE0MzY1NzczNWI2NWExNDZkN2UyNzg5NTk5ZmQwYjlhOTEyMDBmNTQwMjkzYzJkZmFiM2I2YzFiN2MzMGVjMWU4MTFlYjgxZWQzY2RmYzlhMGNkZjkzY2I4MDhmMTE2NzBkZDI0Y2NlYWNlZmJmMjk0ODkyYjYwMGE0NGY5OGU3ZWM5YzJhMmM4Nzk2YmM4MDQzNWM3ZjAzNmE0NWE4NGMzNDNkNDJjYzcxYmZhZjgzYWVmNDgxYTRiNGYyNGUyMDUwNjM2NDczOGIzNmYyNWY1Yjc5MzAwNjMzNTA3YTgzYjBiMGZmZjU5YTk3ZjYwZWRmMTMxNzhjY2M5NDJhZGM5ZTJhNTBiZDQ3ODllZGNjM2EzNzg1M2ZlY2NiZjc4N2YzNGFiOWNhNDRmZjQzYmZlMjY0OWZkMmJjM2ZlNGNjOWQ1ODA5YjQzNGIyNDJmOWM4YWMzMzFkZGQ4MWFlZWQ1MDUzMzg?username=tg_0ypy6s61
+非凡新闻,https://gptapi.passwdword.xyz/live/encrypted/ZWY5M2E5ZTVkMmM3ZmYyMGM3NzU1MzFhNzIzOGFlNDM6ZjU5MzVmNzNkNTUyYWE3YjBjODg2OTJkZDMwMGRjYzRhMGYwMzJjZTFlOTJiYWNhOWQ3YzQzOWI0ZWE2NjBjMDMzOThiOTQyMzUwMWNmMjlhNjJhMTEyNTk5NzQ1MzM2MGY1YWI0MTY0MGI3MDU3MDZhNTNjNDMzY2JiMmNlNjcyMGM1OTY4NTE3NDAzN2IxZDUyZjUzYThjNzY0ZDlkMjg2ZjE2NTBiMGNmOTE2OGFiZjIyMTIwMDZiZWVlNTFkYTlkNWI1ODg1MTRiZDhhMzk5ZjI3Y2U3YzRjMWIwNmJmNmU0Yjg0ZTllNmYzMzE4ZjEyOWZiNjNhNzM1YzViMjhmODhiNzFhMTBkNzI0MjQyYTBlNGI1Yzg0NTQ3NGVmMTZjYzRmYTFlYzhkOTA5YWI2OTRlNmYxZDQwMWVkMzc5YmY0ZjE1ZGZhZWQ5YjcyYjY5YTU1NmJkMmE0NGU0MTQ3NmZkMWQ2OGZmODk2OWY5MzZiODJlN2QxMDY5ODlhYjk1ZGFjZTA0NGNmY2FiZDljNmY5ZGMwMWYzYWU4YWE?username=tg_0ypy6s61
+影迷數位電影台,https://gptapi.passwdword.xyz/live/encrypted/YTdjMjY5MTAwYjUyMzNhODc3ZTA5YTczNTA5ZDQ2YTI6ZmE2MWM2NjA5NWVlNDY1MDBlYzZjMjEzOTJmZGE4YjkzMGE3Nzg4Yjg4NTViYzgzMzYzYTM2ODUxNWEwYTljYTMyMmZiMTRjMWRiYmY0ZGMxNTZmZDg5YjQwNjg3OGMyYWY5NjliNDJkMDZlNzhlZDhhMzhiNzg5Mjc0NGI2NWQzZDI4MDliOWRjMjNkNjc0ODNlOTFkMjAxZTZhMDgzN2FlOWYxMzk3OWMwMWM5YjhiYjA4ZjQwNTViNmJlYjBlMzVkZTNlZDZkZDRhZmVlMzEzYTRmZDgzOTk2ODgxNDE2ZWY1NGJhNTFiYWE5NTUyMjBiYzE2OGMzOThkZjI5NzljYjA0NTA5OWRjYTJmMDFkZWY1YmM2MmRkNGNkYzI3YjIyYzJlYzE2OTBhNjc3MTZlOWEwYjE4YmYxODdjOTc4NTcxZTRiZWNjZDIxZTAwNDBhN2U2MTE4ZTM3Y2IwNDdlYTBiNDQxZDM3ODc1MjQwMWM4N2I2MTUzNTU1MDJkMjllMzNiNmQ1MGNmYmRmZmE5OWI2NWQ3MzE3ZjM5YmM?username=tg_0ypy6s61
+台灣戲劇台,https://gptapi.passwdword.xyz/live/encrypted/NDg0MmM3ODM5NTgyY2RkMDMxYzhkMTJkMWI5NjI0YjE6YzlmOWZjYjI1NTdmMTFkNGI0ZjIwMzQ3MzJmNTI2MWVlOTM2YTQyMDFmZWQ4M2IwOTJjOTgwM2RjYjZmOWEyNTM4NmU2YWNhMzE0ZWY0Y2ZiYmU0YjFkZjQ1ZDhiYmVhNWQ0YTRmNzM2NjlkYjEzMWQ5MTcyNWQ0YjMxYjRmZWU0OGY3MGRjMWViNDJhZmRlNjdhNGZkYjE0MmYzODhmZTg3MzZiN2YxNDZjNzY0N2UxOTQyNmVlNTY4N2U0YWMzZTAzZTIyNWYxZDM4OGJkMjVjNjFlMjg5NDAyM2U0MDg1NWMyODhkYTFmYjcwZDg0ZjMzOWY2NjgyODRjMWE4ODJhZDcyNmE0ZTIzYTU3MjU4OTJhY2NkZmRjOGI5ODBjMDdmNTQzNDZiY2JlMThhZDliNzc0YTg2ZDIzMmEzYzU1NGJiZDQzMzM2NzE1NTcwMjdlNTM3OTJlNzg4MDBlOTkwNTI2MDI1ZjQxNTUwMmQyYTk5M2I1N2ZmZTU2ODliOTdjZDZkYmM5ZjhkMDE1MzVhODQ0OWMxNmVkZmYzY2U1MGQwOWQ3OTBkYmNhOGZmYWZjNGU3ZDM4MTU0YzgzNQ?username=tg_0ypy6s61
+亞洲旅遊台,https://gptapi.passwdword.xyz/live/encrypted/ZjU4OGEwYzQxYjcxMzcwNjdkYTM0ZjMxZmQxMDc2N2Q6MzMwMmI4NzFhNDI4MjlmNzg4ZDQxODI1YjgyNDg0MmVlYTZkMDQ3YzhkMTk3MzNlMGQzMDBiOTk0MThlYTQxZGUyZTAwOWM0MmRlYTZjODNjYmJkNzllMjAwOWJiOWEzMGRkNWJlNzM4YzUwNjczYjFmYzgwZWZmNjc4NzE3ZDIwMDdhODU0NGE4MjdmMjI1OWZiMjk1OWJlMDYwMjU2NjQ5NjgyNzBhOGQ0Y2RlNTg0YjcxNGZiYjFiNzUyNGYyODFjMDVkMjdjYWUzYWYxNWY2ZjQzNmZhMjZkNWVkOTkwMmY3ZDc0NzgwMmM1ZDAyMzA1MWUxYzZlMWNjNjRkZWZmZDQ5ZmVlMDU5OWU3NDQwZTljNDRkZGZlZDFhNWQyZDVmMDA2ZWM2ODE3NWYyNzM1MDQzNTQzMjMyNzgzZTM5ZjY4ZGUxMTBmZDc0NjYxZmQ0ODJkYmU5ODE5ZDMwZjI4YjU1MDczNjJkNTNlZjIwODk5NTBkMGFhNTMzZDc0ZWU4Y2QwOGMxM2FhN2U0MzgzOTdjODRlYjRmODM5NmU?username=tg_0ypy6s61
+視納華仁紀實頻道,https://gptapi.passwdword.xyz/live/encrypted/YzA2NWI3ODJmZjc3ZmU5NDZmMzQyNTk3ZjIzYzQxM2Q6MjcyMGUwMTgwNDNkMTZiY2QxNTY2MzU5M2Q5NGQwZTRjNDkyMzZiYTZlYzI3ZWJlMzU4ZjVmMWEyNWQ4ZTk5MjBkZjQwOTE4OGU0NjdlYWUxMWNmYTExNjllYzViYzk5ZmFjMTE2MzQ2ODFkMTc0MDUxYjU2OWRhNmMyYjlmY2I1MjBhN2MxODdmZmFiZWYyYWE1ZmJlMTJjZmUyZGQyMmUyY2E4N2VmZTBmMWVlZmM2ZjNjMWE2NThiODc4YjNhOTU4NGRhYjVmMDU3MjJiOTgzY2VhYzk4ZWQ1Zjc2ZDg0Mzc2MzNhNDdiNjU1ZWYxYTkzMTJjMGFjZjQ3YWM3NmY5YWRmOGIxYzMwYTRiNzkzZmNjYjU5ZTY1MDhhZjQ0NWRlMmYwMmM1Nzg3YTNkYmU2ODIzODA0YjZlNDM4YTMzMDgzMTBjOWUzNjhlNDU2MzJiNmRjN2M5ZmJlYTVmODYyZjQ0NzBkMmEwOWQ0NGYyYzg2ZTZiYjc0YTE3OTllMWNiYzQzYTBmZWEzZGJiZjY5MmNjYjgxOTI3MDg5NzY?username=tg_0ypy6s61
+时尚运动X,https://gptapi.passwdword.xyz/live/encrypted/NjQ2ZWIyYjBjMzhhMzNmM2IzNGY5OWVkMWUxOTE0NmQ6OThlMGJhMTgwZmEwZjk4NjVjMjA2YWNiY2NiNDIxY2YxZjQxMTI5NDA4ODkzYWVkNTc2N2YwMDdmZjIzMTdiYmRlYTMwNmU5OWJkNTgzNGUyZmYxM2YzNTgwYzg1ZDRiZTcwMTg3MWRjYzI4ZjE5YzAzNGUxYzU4ZDE2ZWJiNjI5OTMwMzg0YWZkZTdjODYyNWI1Y2EyYTJhZjM5YjhiMzdlMTY2ZjhjODYyOGE1NGZmZTQ0MTM3OWE4N2UzZmU3MzkxZDkxMDFhY2YwZTY0YWZkZmY0ZDY0ZmZiNTNlYTMwYjczNGFhY2ZjMjZhOTZiNzAwMGY0ZmFmMGEwZjYyNWNjOGUyMzFhNjc5MTc4NTNkOGYxNGE2MmZjMWQ5MWJlNzBjYjNiMzEyYWFhODE5M2UzMjhmODIxNTJmMWZkNzQzYTc5Zjg3ZjQ2NjExZmY1ZmE2YWM0NjkzYmQyYzZlMzUxMDQ0MTI4Y2JmMDc2NTk0ZTdiNWI2NDYyYmYzMGZhYmQyNTU5OGQ0ZDQwNmI2NDk5MGI4NGQyMGFhZDZiYTM?username=tg_0ypy6s61
+GLOBETROTTER,https://gptapi.passwdword.xyz/live/encrypted/NTQ3Y2NmNGNkMWI0YzZkNmFiNDEyY2EyMjNhYjhjZmE6NGM4M2U3YzliM2JiMDc2YjcyODZkYWExYmI4ZDAyODRjNGJhZmJhMzgyY2Q5ZWZiMjg2Y2FhNDU1OTVlYTc5ZjFjMDQ1NmVmNzQ3MjM5NjczMGUzZjMwZTk4ZTU0NWVhNmFmY2U2ZDE0OGU3MzNiODdkYTUxYmYzMzU1YWY1NzA3OWI5ZTI1NmMyZmIxNDcwOGU1NmI1NzZlNmM5MjE4NGU3ZmY3YTlhZDNmNTk3YjljMTc3MThiM2JjMWMzZDFjMmVlNzZiYjYwNGJkNzQzODQ1NzNiYWNlMDg5OThmOTVmNzZjOGRlMjE1MTU0OTZjNWEyMDUxYTdmZDJjZjFkZDNlMWFmOWFhMDBlM2VhZGVmZjZjZGFiYWFhZGU1ZjBmODJmMDg5MGVkN2Q3NTIwZTdiZTM4ZWJiM2U1NjA0MTcyM2Y2MTBhNzFmYjJlMjNlOTlmYjU4YTM2YzljMTdjOWExMjliNDE0MTFjYzIyMmUwNzk3MmU0MDg5NzZhNWYxMDkzOTYzYWJlM2IxYmYwOTA5ZTcyZDE1ZjY5MDQ3NjQ?username=tg_0ypy6s61
+amc电影台,https://gptapi.passwdword.xyz/live/encrypted/NDliN2ZlNWU4YWNhOTcyMjVmYjE5MTQzNDgyNDA4YTI6ZjQ2YTM3MjhlYWZkOWI4YmRjN2I5YzllNzRkZWQ1NDU4YWE1ZDY0YzkzNmM4MzI5NDczMDgzMjczNzhiOGFlYmM5YjNiYWE0NTVkY2I4NGJkMmFiMjE2N2Q2YmE2MjVjZDQxNjc5N2I1ZDM5MDUzMThhNjdjNDFlZDBmNzFhOTJmYzBkOWRjYWIxOTk2OGZlN2UzZTg1ZWM4YTBlNzlmMTNlMWNhMTE1ZDJkMTJkZjM1MDUwMmQwNmQ1OWVkYzY0ZTg0ZDRkNDlmYTQzYjNhNmYyOWViMmIzOTdlMmEzY2Y0ZjU4ZDU3OTFiMDIxNmRmNjJlYWJmNjVkNDc4ZTJjMzk0YTYxZTUwNWVlMzUzYWQzZmIwYzI2N2IzZGNlYmQyOTcxMzc1YmI0NDkwNjRlY2Y2ZjY2ZjkxMjE3ZWNkM2NiNjQ2MzlhMGIwMTRlMGY2OTI1ZDA3NDhkYzk0Mzc0ZmJhYjQ2MGVlMTg5ODlhMmI3ODM5YzRkYjk3Mjc3Yjc5Y2MzODVlZjM1YjRjMmNiMGRhOWI4ZmY1OTY3NmZkYzA?username=tg_0ypy6s61
+达文西频道,https://gptapi.passwdword.xyz/live/encrypted/NWZkMDUzMWQ2MjdkMjIzNmE5ZmU2YzQ3MWI1OWQwN2Y6N2UyNzQ1MTQxNDQzNGFiOWM5MmQ4ZTQxNTg1MjM4ZmE2MWMwNTBiYzMyOGFmNjdhOWFiMDhhN2ZiOWI5MDg4NjJiM2Y1MTQzN2E5MDk0NGFiMTA0MWNjZGM3MDg4MjI1NGUzNWZlZTVlNjY2ZGM4M2FlMTZjMjNkOTkzNTQyOTdmNDEyYmYyYmM0NmViNjEzOWEyNzdmNTQ5NTdmNjEyZjA2ZjI3ZDExM2RmMDEyYTdjZWI3Zjg2NjI2N2IzYmRkNDU4NzI5OTc1MDEwN2ZkOWFjYjEyOTFhMmMxZjBhODMwZTdlZjEwMzVhMmRhNjg1YWE0NTZjMzdlMzZlNzUyZTY5YTY3MGU0NDYwMWVhYTIyNGQ3YTMzNTQxNDFmZDgwM2UyYmZhMDk0NWFjMDJlYjFjNTczNGJjZTUyZGZlZWIyZTRmOTk2ZWE5OGQwOTJiMTIzMDVjM2ZjNDdkYjI4NmZkYTJiODBlYTJjY2QzNjMyYzk2NTdlNmEwYWU2NzYzYjZhNzY1ZjFiMWQ5MzVjMjJmNzE2MDdiM2Q0OWQwZjk?username=tg_0ypy6s61
+八大精彩台,https://gptapi.passwdword.xyz/live/encrypted/OGUwYTlkMjBkYWQ1NDhmNjk1ZmE2Y2YxZWE3YzVmMGM6OGJhMmQ1YmFkMzc2MTdmOTU1M2ZmMjIzMmViMTk2YTJjZDZiNGM1ODg4OTgzMjFiZmI1ZjgwZWI5ODAzZThhZjE1ZWRlNDI3OTI1NGZlOTVmNWU4YzI2OGUwNDY3YTAyZWZlNGY4Yjk5NDczN2VmYTg3YzljMjc1ZDViZDkzMDczZTQ5MzBiMjliYWEwMDgxMmNiMDk4MjFjYzU3NWU3MjBkMjczN2Y5MGI0ZjA3ZjYyOTViNWUzYTY0ZDA1N2ZhN2MwMGU1ZDk4ODc0OTRjOTM3NWMzNzQzMzY4YzJhNWM2OWYzMTcwZjc5MzEwMjY5OGM0NzkzYWY2YWE4OWUyYTgxNWU4OGZjN2E5ZTYyZjcwMjZkYmExMmIzZDVlZjI5YjcwZDU4YzM1ZTgzOGY1MzBkNzhlOTM0NzA0N2U2NmEzNzk4ZmUzZmU3ZWU5ZWM0MDlhMDUyNDlkYWJjZTYzMzljNGRiMDhmYzUyNGUwYWZmZDRlYjRkODFjNmIzOGJkZDZhMzkwN2FmYjlkNTJmZjlkMjdlZjk5ZjIzMjc0ZTA?username=tg_0ypy6s61
+八大综艺台,https://gptapi.passwdword.xyz/live/encrypted/MTAyZDEzY2EzYzcyZDUyMzA2MTM2YWRhOTYwZTczYWE6YWE1OGM5NDMwZWJlMjU1MTI5NDNhODBmMDY0MTU4NzkzMjdmN2Y5OWIwZWQzZGQ4ZjY4Yzc1YmJmNDBjY2Q4ZjY2MjdiMzQ2NTQ0Njg3MjkyOTQzYjM1YjIxODdiMjZjNzI3ZTNmZjQxZThjYzg3YThkMTY4MDM3NjVlNjAxNjU3MWY5MTEwNTc5ZmM5YjhiOWY2NzAwMTEwOTg0ZWE5MDRhZTI5ODUzNzM3NDVkNjBlM2I0ZmFlZDAxM2M3MDk2MGY1YzVjN2E1YTI2Zjg5Y2M0ZGFhMDllYjI4OGI4YWU3NDk5MzBmNTAyZmE1OWU4NTc4MDFjYzdhNjNkYzc1MzViYWRkMGI3MGE2YTFlMTgzZDhmNWFkZmMxMzE4Yzc1Y2JjZTRlZWFkMDQyZGMwZGRlNTNjZTQ0YThkYjc4NjZiNWNjYTkyM2VmZWUwYmY4YzRkY2M2MzU1OTg2YzI2MWU1MzhjYjQ5YTU4M2YwNTE3MmE4OWU3YmM3NzFjZTU1NTAzMGFhODZjYmRiODY0ZjE3ODhhMjYyZmZhZTc5MGQ?username=tg_0ypy6s61
+中视,https://gptapi.passwdword.xyz/live/encrypted/YmE0MmM1NTg2NDRkNGZjMGM0YjRiZDBiZDAzMTM0ZjA6ZDMyZGY3NDI5NjMyY2VkZTEyZDU5OWVkYzMzNGFjYjcwZWRiMGM4ZWVmZGMwOWNhNmMxNGRjMjE4MWM1NDc2OTYxY2Y3Yzc1ZTBmNzNjMGZiM2FkMmRmNzU1ZDY2YWMyNmU0ZTY5MTU0ODM4YzA1NjU0NDdiZDQ4NjkyYmIxOTA3MDA2MTQ1NWNiM2ExODEzZGZiNjE2ZDI5ZjBkN2IwZTM1NmQ0Mzc1MGM4NWEzNTg3NzQ5OGNhYzhkYTcxMzA2ZmI2ODgyNWZjNTVmMDRlMzJkNTczNWVjZWJmMjEzOTExZDVhODRjNDEzOGYxMjZkMTdjMzQyOWM1MjE2MGQ0MjQ0YTg1NjhmNDUxMWQ3MmI0ZTNlNmM1OGMyMWQ0ODkyZWQ3YjlmYWU1N2NjMGU4MDU3NDhmMjZlMmYwMTdhMDYyYTAyMWIwZjYxYjdlYzRlMzk2NzA3ZjA3ZWQ2MWM4ZjVmNmQ1N2VmNDExZjE2ZTk4OGMwNDk3ZmY1MDJmZTE5ZDM4YTUzNjUxZTIzNzY5YWQyOTBhYTNjOTBkZDRkYmI?username=tg_0ypy6s61
+华视,https://gptapi.passwdword.xyz/live/encrypted/ZmYzNmY3YWI3MDI2MDIxNWRhZWFhMmNhNzgxYWM4Nzc6NWY0MWU5ZGQ2Y2U3NDUzYjc4ODYwMGEyMjFiNmEwYjA5M2Y1NmM4ZmFiYmUyMzU2Mjg4ZjkxNjYxMDJjOGJhOTUyZTY4YWY0NmZkMzFmNDJhZDA3NDRhNjBkZjI1ODkyOWMwMzc3YjMyNzYyZjJhM2E2M2E4NjE4ZmM4NmZhY2JmMjI2M2Q5MWVlODBkNDUyYTU0MWRkMTY0ZjNhOThhM2E1YTYyOTc5NzY0ZjMyNzNiNjc4NmVhYjVmNGEyMTc0MmRmMmJlMjU3ZWQ5ZWM5ZjZmMDI1YmRhYTUyNDAwOWQ1YzJiYThmYjQyMDRmMjEyYjNjMTM5YjZhYjljODRmMzZjYWMwMmViYjQ2OTkxMTczYTIwNWVkNGRhZjNiZTI0ZDI1NjU3ODhhNTU4ZGNkY2E5MDI4NTliNzkyYzdiM2VjY2Q5MDNjNDQzNjZlMjVjNjNhNzAyNmIyZjFkYzkxZTBjOWViOGEzNTc5OWEwOTFlMWIwNWQ0YWM5N2NmOWM0OTU4ZTk2NDRlYmE2YjhmY2MxNjhkYjUyNGRlNmY5NTU?username=tg_0ypy6s61
+公视戏剧,https://gptapi.passwdword.xyz/live/encrypted/OWI1NTViOWEyMWEwZjBhYjA4Nzc2ZmNlY2UyMTU0MGM6Njg3OGU5ODBhMTZiY2JmMWVhODQxYzQ4YTYxZjk4ODZlMTY5ZDI3NWU1YjI2NGQwNTE0MjFmNGI3YzAyYWEwYzc3OGEzMWE1OGM1ZDRkMDc2NGYyNGNkOTRmMmFmYjVjOGRmNDYxNGE3ZGQ0NTkxZmUxNTVlOTM3MzUzMTc2YmUyN2EyNDUzOWY0YzAzY2I0NjkzMTEwYjIwMTI1YzAzYjZjM2FkMzczOGE3MTNlNDM0OWQxZWE2NDMwZDI4YWEyMjZlMjM5NzdlYThiYWQ3OTk1ZmJmNzE5ZTY0OWFhMjE5NGUwNDQ5MjEwZmNlYTgwNzliZmM2YTI4ODU2Njk1MTMyNzVlMmU5YTUyZjYxZTUwODQ3MGMxYTRlNTJjNTk2ZDdjMWY4ODc5MjIxMTM1MjFmZGRkZmU0MzllYjg1N2IyYTlmYzY2OWRlMWI2OThiMzgxNjY0MWJhMmM4OWM3MmU2NzVjYWZkYzY3ZWFlOWM1ZjBmMmNlZGIzODc3ODdiY2ExYjBkM2QzZDc4ZGViMzU3YTQ0NDJmODJmY2ZmMDM?username=tg_0ypy6s61
+客家电视台,https://gptapi.passwdword.xyz/live/encrypted/OGUxYWU4YTZkNGUxN2FmODRmODY0MDA3NWJmZmQxZTk6NmE0N2Y5NTMzMDZhMTM5ZDFkNmI0ZjIzN2NiYTNiOWI2YmFmMDAwMzE2MTdjOWFlZjkwZGM1NWRmZTYwYTExYmMwOGZhOTNjMjVhOWM5ZmFmMjM4ZjAyNzk2YTcwODk5NTQwYzQzNmM0NGUzZDg0MjI5M2M4NGI2MzkxNzMxNTliOTQxMWZiZTY1YTExYWU5NTVkZTdlMTZhYTEzYTM5NTgxNjg2NDBjZTRhMDgxNjZhZWZhYjgzYzFmZmUwZTg4YTcwYTYxOGI4ZjgzMTE2Mjk3ZTdlMzE3OWE4Mjk3NzUwNjc4ZGY2YTc2NTczN2ZkNjQ5MDYyMzRjZDUzN2MzYzZjYTNlM2FhNjM1ZWE5YjM1NTUxYjM2MDM3MzU4NGRiYzA2OWRkMzFjZWQ1M2UzNWFkNmFjZmM0YzBiNWYxNmYyNzRmYTFmZDYxZTIzYzM0MzBlYTEwNmRlZWQyMDA1NmNkZGVlYjU5ODg1NGI2NzQ3MTk3MWUyY2UwZWFmZTUxYTEyMTlhZGFhZmM0YjAwNWZkZTM0ZDc1NTMyZmY2YzY?username=tg_0ypy6s61
+靖天卡通台,https://gptapi.passwdword.xyz/live/encrypted/NGViMTkxMDY0Y2RjM2IwN2I1MmM1MGJhNjQwNjFlZTU6NjVkODkxYzU4Nzk2NzA2NDhmOTNhYzI5NTlhMTE2ZGYzMjM3ZTRkN2YxOTFiYjBmZDhkNTE5ZDA3Yjk3NDhhYTQ5OGZmMGQxNDZmNWY0MTIzN2YyMjYyZmIxMmNjMzkxMjkzOWJjZmVmNWVkMWFjYWYyMDFiODM5YTI2YzYzMzlmODQ5ZmUyY2ZiODllZjFmNTVjODEyOGM1OWY4ZmRiMzQyMDJjMzgxMTE0ODExOGJjMmJiZWY4ZmI3Njc0ZDkxOWMyNDViODMyMTdlMzM1OGJkM2QyODIzMjU4ODUxY2U5ZWQ4MGRiYzRiYWYxYjM5MTgyMmUwYTQ0ZDc2NmIwNTI0NzVkMjFkOWFmYWFhMTRkMGNlNTlkZDU1MDRhNzk4OTUyYzFkMzI2ZDczOTg0MWVkNzJhODBkMjZmNmE3OGMwZjBlYzNkYzE5OTUzZjk5MzA5YWFhNGM0Nzc1NzU1ZTllMGRkOTJiYmI1MTYyYmEyMjM1NWU5ZjQ3MGE1Zjk4OGM1YjIyMGI0YjdmNDkwNzgzYmMwNDY1NjE4MDAyZDI?username=tg_0ypy6s61
+靖洋戏剧台,https://gptapi.passwdword.xyz/live/encrypted/Y2IxMWVkZmMzNWJmOWU5MmYwYmQ2NjkxMTZiYWZhNjc6YmM2MjA0NDI5YWJlZjZiY2YwNjNmMWExZWIzNDRlMDllNjJjY2QxY2Q1MDMyMjhkYzQyMjViOTkzNjNmODQyZGRjZWMzZTRmOGJjZGJlODllOWUzM2I0ZmM3Y2M2NmJhY2ZmOWJiMDI0NmQ0ODI3NjM3M2NkMzI0NDVjNTg5ZDMzNTNiMjlhMDRiNDA0ZTI5OGJkYjJjMjQzYjVkYzI0MTFmZDkwNTIwNGRjNjUzYTJiN2UxMDA3ZDZlMTM5ZmI1ZmI4YWJlNzM3M2FjZGQ3MmVmM2M1YjUzZTJkYWM0MDdhYzhiNWZhYjVkYTMwN2ZkNGUyN2Q0Mjk5MjU4NWVhZGNkZGU2Y2ZhMGYzYzdiOWJjYWE5NTllZmFlZTg0OGVmZDNkMWIzNTE3Yjk5NGZjZTU2YzNkZjhmMGI2Y2ZkMDczOTUzODM3OWY2ZDYwMjVhNGNmZDc1NDdkMTQxMDkyYjQ4MzVlM2Q4ZTI5NDNjNDZjNWNkZWRmMGRiNzM0YTdiOTI0NDZjMTM3NDFmNWY3NGJkMzE0ZTJhODI1NmE4YTQ?username=tg_0ypy6s61
+靖天综合台,https://gptapi.passwdword.xyz/live/encrypted/OGM5NjViYWVmMmFiMjJlMWJlNGQ1YzM5ZWVkY2FhNzk6ZGQ5MzAxNDdiZjcxM2QyNTEzMTczYmRkNzFjNjA5N2RkNjhmYTlhZDgxOWZkNGIyN2ZjY2E2ZmU2YTRjZGIyYzE5NGVhYWY4MjZlZWEyNmMzMmVmNTlhMDlkZWM5ZWUxMzBlYTlhZTAxNjQ1ZDk2MGMzOTUzMDkxOWRkZjk2Yjg1YWY1ZjUxZWJmZWViYmVhMmU0NTBmNDA0NjgzM2MzMGQwOGU1ODRmZjlkNTkzMTE0MDkzZjBiZGMxMzE4MjFmYWZiOGM2MTQ5YmFhN2NiMDZmMGQ1YWMwZTgxNGIyOTE1MzFlZTk4Y2MzZTU4OGRiMTgzMTkzZjMwNTVhNjhjODc3MWEzYmEzN2IyZTUxZjhkMWM5ZmIwYzk2MWM4ODUxM2JiZTIzYTcyMTZhYmIzN2E0ZmVlYzAyNmZjMTU1YmEzYWY2MzE2ZjU4MmU3ZWI3ZjQxMTdhMWIwNzBkNmY1NTA3OGQ0MWMxY2I1NTJmOWZiOWIxMjcxZWRmMGU4MTE3Y2I1OTkzYzc0YWVkMzM5YTVhYmMxODJlNjJiM2VkNjQ?username=tg_0ypy6s61
+靖天日本台,https://gptapi.passwdword.xyz/live/encrypted/ZDA4MDgwZGFkYTdhOTUxZjlhZjQxZjAwN2I0OWQwMTU6ZGU3NTBmMzkwYjBjMTAzNmZhMDk2OTdlMmMzNGVhZmQyZjgzNzM5NzcyZjYxNWNlODNjZGU1YmExN2E1Y2QyYTViY2ZiZmI2NjllZWVkMTQ3YjVhNWYxZjQ5MWVhZTg5MTIzNThkMjVhY2U1NWE2ZGVhNjllZDNjMzFmNjZhNTZhNTJmZWI2M2ViYjIxY2ZhNWY5NTk5MjkxY2UzZjg4YTE3MzU5MmRjN2U3YWM0YjlkMGI4ZWY0NjBjNGJjNzI5YmM4NjczZTFlMGEwNWZlNzQ3MDMxY2Y3NjRkMDkzMGE2MjMwNzRlZjQwYWQ2M2JjMWZhMjg0MGVmMGJiNjJjMTY3ZGYxZWE3NGZmYWE5ODM3NTA0MjNhYjI0MjVkOWIwNTZjZWJkOGRmMDVhY2MwMTljZjM2MDY4ODFjMDNkMDFhZDYwZDA1NjcxZmJjYTQxNTQzZTQ4ZmJiNTEwNDExOTY4ZjhkNGE2MDU1YWQ3ODdmYmU1M2IzMDk3OTU4ZTY3ZDgxYjU2YTdiYjRlZjAzZjIwNmU3NGE1OGU4YWY5NWU?username=tg_0ypy6s61
+非凡商业,https://gptapi.passwdword.xyz/live/encrypted/N2MxYjhlOGIxMDhmYjgyZGIwNmM3NjVkM2Q4MDUwYWE6MWY5NjFmMjlhODUzYmJlODQ3MWZmZjlhMDhjY2ViYTA3MTk0Mzc1ZGVjYzIzMjU2NmQ4NDBjZGE0ZDQwZTgyMTA0OWQzOTk1NmZkODM2YjU1NjQ1OGE4ZDA1YTMxMmUyNzFlMmI4YTQ0YzZhNTk2OTBjMGI2NDA4MjYwZTUyZGRlZTk1Mzg3YWE0MmQwMzFkNDY4ZmMzM2M4YjZlZmIzNWM3ZTk0YjY4NzE2MDVlOTg4MTBkYzJhNjBlZDJlZTNlZWFjYzI3ZGMyOGI0MDVmYjY2MzVhYWM5ODJmOTNlODNmMzAwZmUwZDEyOGJlZGE4N2EyMTgxYzk4ZGU5ZjY1ZGEzYzc5MjcyYTFjY2ZlMWNkYWI1ODkwMmFiOTY0NWQ2ZDg3M2NiOWMxMTgwMjNmYTA0NTEyYjQ4MWUwZDA0ZGU0NTJhMGY0MmYxM2IxNzNmM2VmYjM3MzdkYTFkZDYyNjc2MTM4ZGVmMzU5YzBhMWYwYjU1NTllMDU0OTk4OTYwODAyZDE0MWIxMWJlZWNlZDdhYjU0ZmI4MzNjMzdkYjA?username=tg_0ypy6s61
+采昌影剧,https://gptapi.passwdword.xyz/live/encrypted/NDdiNDk3MmExNzM3YzQ0N2JkYTk2NmY4ZWFlNDAwNjI6YzFiMzNhZjMzOTdhZGJmOWMyNjU0NmFjZjQ1NDdhYjVlOWM1NzdmMzc4NzFhNzdkN2JmNTRlYmQxOTcxYjJiOTc3NGQxMTFkYjNkY2Q4YThhNjRiMTAzMGQ3YTA3MmQxYjY3ZDFlM2IyOGFhZWY0N2FhNmMwMWUxM2Y1NTY4YzY2ZDdjOGViNWYzOGZiZjkzODYyYTZlN2ViYmVkN2E5NTA1OThhNWQ5OGZmMDgxNjU4ZmQ0MDk5NzNlNjg3ZmM3MzRjMWI1MmE0MzU2MThmN2VmNjhlNzc5ZDg4MGY0NzNiZDc0ZjRmYzE5MmRlMjJjNDRlZDQ4ZTMwYjQ3MTc4ZmNkNTg2MDEwYTQ1NDRlOWFmYTgyYTQzZWRjMjFkZmJjMmNiN2E5YTVhMTMwNmJiOGM0Mzk5OTdhNTk1NTJmNzA3NGJmZDRmYmY4YWE2NDE3MGE3OTQwZmQ5MWYwOTI3NzZlYWUwMWI2Y2Y5NGVhMjQzNDFmNzU2YzU3ZjMwYjNmY2RmMTM1ZGUzN2UwN2EyMzZiZDlkZmQzMTJiMmZlYzE?username=tg_0ypy6s61
+台视新闻,https://gptapi.passwdword.xyz/live/encrypted/YzY3OTUyZWJlZGYyNzlkNDM3NWY5YWEwMWExNTg5Yjc6MGU4ZWU4OWVkNDg5MzIwMmE4Nzg1MmFkZDhlMzg1YjYxNjU5MGIxZjlkZjRlMmMwMTc3OWZjNDA5Zjg1N2JiNWYxNmM5ZTNjNjdiNWY0MjVlY2JmMDZkYTFlMzJhYzYxZDgzNjk1ZGZmYTc4NGRiNzg1MDM2MmJjN2NjNzQ1Yzg0M2EwY2Y0YTZkZjFiYjVkNTI5M2Q0NGU3MzIwYjU0ZjE1YjJlZDYxMTQwMmJkNzQ0Mzc3M2NlYjIxMWU3YTZmMGI3YTQ4MjBkNTY0NTU4OTVhZGFkN2RkOGIyZDFmZjMzNmU4Y2VlMTE3N2NmMTgwOTJkZmE1NWY1YzI5MzljNTUyMWI3ZmViZjU0MTYzNGYzODY4NjdjMGMwYzY1NGU1MGMyMTYzNGQyZTE0NmI1Y2UwNTI1MDZkMzBlYmEzZDRlOThmNmE4Y2ZjMTExNzA1YTUxMzA5YjEyNTQ4M2Y4ZWM4MjJiOGU5NjA4NDgwZjc0MTY4M2ZiZDM2NjZkNzcxOTNhMzA3Y2UxMTBhN2VhZGFmMGY2ZDJjNzYyMjQ1MWI?username=tg_0ypy6s61
+华视新闻,https://gptapi.passwdword.xyz/live/encrypted/YTkwOTA1OTFlMzhiYTljNjdlMTM5YmRlZGRiNWY3ZmU6NDE2YzFhZjkzMDFiNDJlNGJmMjEwZjFhMGFmZDVhZmMwMjc0YmRkZWI4ZjE0ZjYzOTE4MDJjMjI2YTQzNzBmNTMyMmNkOTI5MWQzZmIyNDlmM2Y1Y2ZhNjk4MWM1MGFhY2FmYjYwMjYyZWZhYzE4NmU1NDM3MzNjMWVhYmZlMjczZjRlMTcwZTRiMWM1MjAwMDUwZDFlYjYxYTQ1NTdjMzliY2VmY2MxNmU0NGUyYTdlMDYwMDM3NTE0NDFlOGY0NzJlODkyMTJmNDljNzc4ZDBiNWNkMzdmZGIzYmEzZWUzMWY4ZTU5NmUzODQ5YTFlZTAzNDhkYzA2Mjc4MGMxZmUwYWE1ZjY1M2RiNjcxNjIwMmNlZGY5ODQ1NGMwOTdlMTMwM2NjYzkzMzgwN2IzNjgwYmM1YTgxMzZjM2NiNmIwNzc2MDg1ODZkMDYwNmJjOGIxZjAxYmNkNGU0ZWVjN2U0ZmY5NDc3ZmVjZTUzY2UzYjA3Y2MwMTI4YWRiMTBjOTcwOTA2ZGUxZTFiMzM5YTg5NDQ4N2EzN2ViODFlYTg?username=tg_0ypy6s61
+GinxTV,https://gptapi.passwdword.xyz/live/encrypted/NjI2ZWI5Yzg1Nzc0MGJiYzM0MjMxYzc1MTg2NGQ1NjI6YjA5OGI3NjljMDFkMTc3OTJhY2ViYzAzMjI2YjkyYTk2NWQyNDUwMTZlM2NlNGQ5MzNlZTM2YmQ0MmUwMDk1YzkyN2Y5YWI4MDY1NzNjY2Q1NGYwZTkzZWVmZjA1MTJhMGJiNDc3OWVkYTU4OGY3OWFmZDc4NzlmYzYzNzczYThlYjg1ZDQ4MGUyYmI3YTY0Y2I5Y2RkMDNkYWE4YjcwMzE0OTY4ZmVmYjNkNmRiMjczNTVjNDU1NmJkZDI5ZjI4YzdjYzdkMWEwYWE4Yjg0Yzc2N2E0MDhmZTc0OWY4MmUxOTEwNTY5NzFlYjZkN2U5ZGZmOWIyZTBmZGJlMTQ0YWI2YjQ2NTFkNzg3ZTIzNmFhZmEzZTg1YjgxYzRmNmQ3MTRiMGVhZjQ0YjNhNjJmM2I4NTVjOTdjZDk4OGUwOGE5NTczZTkzZjc3YWYwZTBjNWQ4MGEzNmNmNDI5ZjAyMmQxM2ZlNGU0NDgwNTkxMTkzNjYzZDY3MTQzNmRmM2I2MjJmNjA0YWQxOTNhMjQ3MmE2ZTg1MmFhNmIwYTI0ZGU?username=tg_0ypy6s61
+靖天欢乐台,https://gptapi.passwdword.xyz/live/encrypted/NDBiZWVjZjUwMmZhZmNjMWFiYjc0M2YyZjI4NzgzYzU6MmIyZTQ2NTBiNTI5NDIxZTdiYmU4YmQwMmI5NjgyYzM4YjU2NmZhOGIzN2Q3NGRmMjRiMjZhZGFmNjhjZjU2NWI3YTA4NTM5ODE4ZWIxYTQ3MjJiNmNmODAyMTFmMTUxZDg4M2NiY2FkOTkzMGVlYmY3YjZlZWYxYjA2N2IwMjE3YTRlMGE1NjZhMjYwMGY2NTI5NzY4ODVmZWRmODE5YTE2NDc4MzY0YjE4OWQ1MjFkYTRkYjRjNzQyMjMyZDUzYzA0NjI0NWE5Yjk3YjA4ZWYxNDIwMjliZGQxYjFmMDhjZmM2YWQwNmQ5YmU4YThkYTZjN2RlZjQ5ZjkyZWNlMTBlMmRiN2Y3OTU0YjBjMWYxYjFhYWYzMGY3OTQ2YzY2ZmY0ZTI4ZGQwMTMzNzI1NDNiNmQxMDZhYTNkYjUwNjVlMjIwNDkxZTk4Y2MxY2E5ZDk2YzI2ZTFkNzIyYjZiYmRmZDdjYjVhMWUwNDE0ZmY3MDM5YzU5MWJlMDVkNDJkMjkwYzJmZTNkNGY3OTcyOTgyNzgzNjFkYmJmOWI1OGQ?username=tg_0ypy6s61
+靖天映画,https://gptapi.passwdword.xyz/live/encrypted/Y2JjNmU0ZDYwMjhlMzg4OWQ1YTQ2YTYxNzUxNjkwZDU6YzFhMTRjYjE2YTM4OGQyNjczM2M1NTQ3NTIyYWI5OGY0ZGMzOThjNTFiYzEwZGMwZjQwNzYyNzM0YmFiMGQxOTlhMjBkNzRjMzNjM2NhNDk0MmZmNTFmOGM4ZTcwMGNiNmVhZjkyNzFhYWUzOTY5YmEwNjMyODFhYTIzMmQ2NWVjYmY3NTI0ODI1M2NiOTA3ZTkxODMwZDFjMjBmZjUxMjE1ZTM5OWFjZjA4M2QwZjllMzU0NWM5YThiOWIyNmIzMDUzOTIyMWY1MjY0YTYwNGEyYzY4YTlmNTRjMzQ3N2RlNTFlZDI0MGU5NzJhMDdmYTAzZmVmOTllZWQ5ZTc0MDQ5NWYxMDc4MTZiNWZhMzk1ZmMzZWU0MDU1ODBkNGNkNDg3MzE0NDcwYTAwNGU1NjU2ZDFmNzIwNTdiNTIzOGM0YWEyMTE3YmQ4ODUwZWQwMTk0NWRhMGE2MDA4MzA4NTRjNGIzY2I2YzRlNjBiMWE2MDUwMGEyYWVmZWRlNTlkZWVhMjYwYWQwNWE4YzdmMTZlNDBiMmI3NzIwMTdjZmY?username=tg_0ypy6s61
+台视财经,https://gptapi.passwdword.xyz/live/encrypted/ODM4MDBmM2RkN2RmZWE0NGZmYTk2YTQwZmQ3ZTBhYzU6OGIzZDM5YjAyMDNlYjNjODRhMGM1ZjkwY2U0Mjc4NGQyNzdlMzU1MzBhNzc5M2JmMWViNjJlNzI5YmU4Zjg0MmM3YzgwMDM2YTk1NGQ2MjQwOTcyOTBjNzUzY2NiNWRhZDE1ZjE3OWIxZjQ0NjgzZDA0NmE3OGI5MzY2MjI2MDA1NDRmYmFhMzU3NjZhZDYzNTNhOWE0NjhkYWY4ZTIyNDM3Mjc5OGRmNjJiZjQ0MzE3NTYxM2RlYzBmODVlNzFlZTg2Yzg3MWZiYzkwOTI1Nzk4ZmNkY2JlZjdlYmUyZmQ4ZmZjNGI1MDJhM2Q0Yjk0MDllMjI4YzRiMDlkOWY0MThlNmQyNzljMDUwN2I3ODMwZGU2ODM0YTBiZjRmZTMxMDI2MzA4NmIyMjk0YWQyODkyNDQ4NzA0YWQ2OTFhYzg3M2JkODkxODE1MmQxZmVhZWNlZDdhZjE2YTlhYjYyYTJhZmFmMDk1YWI5ZTM3ZjE5OTQzZjRlYTliZDU3MTU3OGViY2E1MDQ3NjcxNmQ2N2M3NzQzYzc4MjNiNGVmN2M?username=tg_0ypy6s61
+靖洋卡通台,https://gptapi.passwdword.xyz/live/encrypted/MjkzMjg5ZmE4Y2EyZDZkZTE5MTRlMjQxNmE1ZWE4YmI6NmRhM2ZmOGYzM2MwMTFiOTJhYTE5OTViN2E0YjE2ZmM0OWM5YzRjOTlhMjlhZjg1MTAyMDk0YzNkMjJmYzI1YWExY2U4N2Y2N2RmMTU5ZjNjMmNhMjQ1ZjYyZDIwNzQwZDVmNTZjMzgzMTA1ZjBhYjM4YmQ1ZWEzZDE0MjI4OTRmOGVhNDRjMDRkY2JkNjllNGZjYmM5NTllMTQ4OTU5ZDQzNDMwMzhhYzAwZTAzMWMzYjk2ZjQ2OWRhZTQzYzI1NjY3NmNlYzY0MGZhZDg4ZWNkMjYzOTBmMzhkNDkxNmQzZTZhMDAzZjRmNjcxZGI1YTI0N2ZjYzc1MmRmNWY3MzMxOTZjMDNmMWZmZjMxZmZkMWFlODZlZTkyNDlhMjBiNzQyODU1NzEzNjIzNzc5ZmJiNWNhOWFhYzQ3ODI1NWE4ZWM5MDg0YjkwOGJhY2RjMzNhZWFjYmI5NTBiNGI3N2RmZDM2YjMwMDczN2Q3NzJjNGEyZjk4ZTU3ZDZjODdiYjI0ODRlOGFhZGM4NDMwYmEwNWQ2NjMwYTAyMjA4NzA?username=tg_0ypy6s61
+靖天戏剧台,https://gptapi.passwdword.xyz/live/encrypted/ZThjZmQxZWI4NTZlNjI0YzljY2YyYmNkNzdjNmJmMzQ6OWY1ZTM1NTZmZTMxZjAxNDNmOTY5ZjE5YmMwNzQ4ZTQ0MGYyNmZhMjAzNjkxYTk2ZGZhMjY5MjQ0MjhhMDA3Zjk1OWZjY2Y0YzRiZmU4YjBjMmM4YzA4ZTUxZThjNjNlMWNhOWFmYjYyMzU5NWFiOTI2NDZhMjE1OWU5MGZiYmM2NTliNTIzNGE4ZGQyYmU3OTAxYzFhMDZhYzYxZjgzZGU0ZjBlYjA1M2UzYzU0YWZiOTgxMzBlYjY3ZWViN2NmZDM1MWU3NjcxZjY0NGQ5MjI4YTlkNWRiYzBkYTI4ZTczYjkzOTViYzcxNjRhZmE2MTllNjI3MDdkODQ4MjliOTY4NmU0ZmQ1MWEyZmY5MGJmNjkyMWY3OWYwN2ZmMzUxZThkMjExM2YwNDRkMDFmODg5Njk4YTI0MTk2YjcyMzdiYWRjODJjMWQxM2Y2MmYyZGY4YTI1NzU0Njk3Yzg1ZDZkZTM4ZmYyNGQ2Mzg4NmQ4MzIxZjBlYzAxMjMzNmIyYTQzZDU3M2M3MWE1ZDkxNDhjOGQwYTlkZjMyZGE2NTI?username=tg_0ypy6s61
+古典音乐台,https://gptapi.passwdword.xyz/live/encrypted/ZmQxNjY3ZTY2ZDhjNDYxNmI4ZWZhNzM1NDQ0MmM4Mjc6ODJjN2Q4YzBhYjQzNDAyNTQzODBiNGQxNGMzNmZiMDE4OWY2NDc0ZWUxMjViMjMxMmJhNjNjZTI1OTU5OGY0ODY5MjNlMjUwYjJhZjVhYjYyNjMwZTMzMzIwNDhjYTk1NWE1MGE1YTczYWQ0NzI2ZDdhNzA1ZTQxODJhMzhhZmU4MzJlMWMwZDUwMTgxZWJlZDgwNzBlN2NmNzE1MTQzMjgwZGViZmFjNzdkZjJjM2U0Njc1MWI1YWE3M2IzZDc0NzFkNzBkMjg2YjQ0ZGIyM2NmNTQwMGM4ODg4MzdiZTk2YWYxNWNkYjUwNjUyOTU2ZGRhMDIzZDZjMmE4Yjg5NDcxZWE4ZGNlNTBmNTcyN2I1ZTM5MmNkZWVkYmMxNzhiM2NhNmQwNjg2M2Q0NmJmOGJjYWJlYjNhM2Q0NDBmZDRiYzYwNmY1OGEzYWI1MjNmZjI0ODdhNTkwNmI2NGNjMDA0ZjUyZDk2MTdjMjFhNTQ1NjIxODMyMzhlNjVmMjUwOGQ4ODk2M2MxODU4NjM2ZTg0ZjNhMjMzOTE3MWVkZjY?username=tg_0ypy6s61
+靖天电影台,https://gptapi.passwdword.xyz/live/encrypted/NTFkNjAzNGE3NjZiOTE5YWY5NTcxNzYyOGYzYjA0Mzg6MWZmZTdlYTE4OWNiYzZkOWVkZDVhZTQ5N2ZiZjljZTEyMWE5YmU3ZmVjYjdlNWQyZjIxYzkxODQ2ODczYzQ1ODIyZDZhYzQ0ZmQwYzEzMjg5NmRlNWVjZmJjODUwZWViMGJiYTljODMxMzI0OGUzMjFmMjRiMWZhNmY2ZjllNGUxZTUzYmNlNzhjNGMwNGM5YjE0MWI0MzY4MzI1NmJkZGU5ZmQ5YzEzOGZjYjM0YTk0MTMzYjU4ODMxNzU3ZDIzZjNjZjgyMDhiMDlmODViN2RhZTAyM2M5MjAwNzE5NWIwMWQzZDZjZWZmYTE4MDRjNjZkZTEzM2U2NjU4MTNlNjk0MTFiMzU5ZDQ4OTBkYzlmMGExZTAwY2JhNDE4ODA0YmMyOWQ3MTUyODY5MjI0MDc2MzQ1ZWY3NzViNjgzNTQ0MDExNWJhZGIxNTZkNDA3NGZmN2M4M2MzN2M3MWUyMzkyYzNmZDI0YWRmMmJkN2MwOWJmMzhhNTE4YzczOTdiMzY5ODA2MmMyMWY1ZWRjNmMzNTAzMTczOTI1ODMwMGQ?username=tg_0ypy6s61
+靖天育乐台,https://gptapi.passwdword.xyz/live/encrypted/Nzg3NTY3NWE1ZGUzNzkwODlhOGEzY2Y1ZWZjMzYyNTg6ODVkNTAwOGFkNWQzMWU1YzAxNzlhYjYzZmM0MzY3MmQ0MzJjMTJiNzIzOTA0NmE1MWU1NmVlMjU2YjM5YTMzNzJlNDkwNzM3NWYxMjE5OWMyY2E3YzA4Njc2ZGU1MGM5NDBkZThiODZmNGE2YzYwMTM2ZTM3M2QzZDk4MmNiZGU0YjI1MzRiMjg3Njc2OGI4ZDZmZTMyZjAyZmY1OTQwZmVmMWFjNjgwMDE0NWE4YzQwNTcyMjc5ZDZiN2FkMTc4ZDIwNjg4YWU3Zjg1YzVhMWE5NGE0NzEzYmU5NzA5ZmZkMGEwNWZkMjRhZmM4ZTM2ZjU0MDI3YzdmYzU5YTBkZTkwYmNlOTAxZGM4MTExZTFhNzFmMzAwNjlmMGUyOWE0MTdmZjNiY2M5NDNhMDc2ZWIwYWRjNzYyZWUxYWYyMWU4MDNjZDMxMzY3NGIyM2I4OGVhOGNiYjE3ZmVhOWQzNGY3NGIyNDIwODZmNjMyNDE3OTBjOWEwMTQ2ZmM2M2E3MDllMjYzYjVlYjEzZDZkNWI1NDE2ZTJjYWNhOWFjMGU?username=tg_0ypy6s61
+靖天国际台,https://gptapi.passwdword.xyz/live/encrypted/NTgyNGU1ZTFkZjIwNmE1OWY4ZDBmNDk2MmZiMTgwMjY6MzhlNDhiZTFiYzFlYjgzZWY0NDc2ZDFmOTk2ZjI1YTM3YzcxODNkM2QzZWRkMTU3NDdiZDcyOWRmN2U1ODA0YmM3ZGQyM2Q3YjQ1NDE5M2UxNjJkZDZhMjVmYmFiYTk1ZmJjYTMyNmVmMzAxZmMxNDMyOTI0NTNlNDNhNmZlZTgzMGNjMTViYmYyYzhhYTQwMzEwMWQ4OWNiYjM0M2UwYWU0NjQ1OWRmZThmN2NhODE2MzRiNGM2ZGIxMmI3NmFlZjA0NzhjNTgxMjFjZmM4YzFkYzFmYWVjMGRhYmEyZWVjY2RhZWJjODUzYzJkMjhjYTZjMzU0MDQ0NDkxMjA3ZDg4Njg3NDM4ZDBmNTlmZjA4MDE0MDc3NGQ4MTlhZmNiNDJmYTcyMjQ5MDBhZTIwYTA5N2E3MzEyNWI4Mjk0ZDc5NTZjYjVkMWI1YjY0MDRmOTk2MGU1ODAxNjEzNzU4NDI1MWVhNDYxZGFmMTU1MWZmMDcwNTlhNDRkOTQ2Y2RmMTczNDVhM2Y5MDUwMDlmN2E2NWRhMDI2ZGQ3YmQ3MDI?username=tg_0ypy6s61
+中视菁采,https://gptapi.passwdword.xyz/live/encrypted/NGRmNWE2YjJlYTMyZDYxNTkzNDcxOThhYjJmNjhhZDY6ZmU0YWJmYzFhNzU1ODg2YzVjOTY0MGRmMTgzZTRiMGQyMGY5ZmUzN2I1NDQyZjE3MzU3ZjA5MWJlYjFhMzNjZDE1YzQ0ZDIyYmMyN2VkM2I3YWFjZGQ5YWM0NTUzZGJmMWQ4NzkwZDY0N2FiM2QwMDUwZThkNmE2NmQyMTBkZDJkYWY2NzAzYTcwMTg3YTcxOTBkYTljNDBiMmMxMzY4ZDA1ZGQzOTdlZmQwNDVmYWY1NTNkNDk3Y2UwZjRhMDdlMWYxYjVjOThiZTI1MWZmNjA5OGM1ZjEwYmY2MmFlMzQwY2RiMjE2MmEwMjRhM2E4YmM3NDkwNDQyNmZhZDFiMTk4NGQyZDZjNmMxNzhlMzcwNWUzZTY3ZWYwYTgyMzRkYjA4OGE2NjM5ODZhZWFhY2VmMmM5Yzk5YzNiODUzYTJiNmJiOTRlOTg3NTcwOTM1MzBlNmQ5ZWI5ODYwNTA2OWYwZWNkYjVhMTI3MmRiN2VjMWE5MTcxMDg2YzlhN2NmMDk4NjZlYjUyY2JmZmZiN2M4ZWVkNjk1M2VhZWQ0MTc?username=tg_0ypy6s61
+靖天资讯台,https://gptapi.passwdword.xyz/live/encrypted/MTYwOWFkYjg2MjBkMGQ3NTY2ZTUwZWJkZWU1MTFjOTA6MjAxN2Y1ZGMwOWVhY2JkNGNmOTY5YjdlMDk4M2E3ODlmMjJiMTliNTIzNGJmMjNiNWFmNzI1OWY5ZWE5NzhjZGFkMzZmNWY2NzhjZDRmYWY0ZWY1ZTAxN2NjOWEyZmJiMjk4ZTA3MmNiNzYyZTNmZTJlZDZjZWU0ZGYyYTMyMGIxYzE4MzAxNTIxMjc0ZTdmM2ZmNWQyOWRlZGZkZjg0NDg4NGJlYmJmNDVlMWFmN2UxZGRmYTExMGM0NzllZWU1N2Q2YTgxYTAxMTU5MGViOTgyNzlkZDc0MTJkNmUxOTViYjA0ZDNhZmUzNjI0ZmRlNmY2YzJhODkxOWFkNzQ2MmMzMzRkYzJjZDE1OTE5OTU4Yzg0ZWM1NmE4YzllZjk2YmQzZTdiZGNhNjk4NzEyY2QxYjg2NjJkYjQzZjc5MWI0NGMxNGRkYjZlYjk5YzVmOWNhODE5MzIxODcyZDc3NjI2N2U3OTdlZWQ4MDNkMmJiNzk3N2FiZjA0OWVkNjI4NTcxMjg4NGU4MzA0MTgzZDQ4YzM3ZTQ1ZGE3Y2QwZWI?username=tg_0ypy6s61
+台视,https://gptapi.passwdword.xyz/live/encrypted/ZmI3MTMxZGM5NTIxNmExYjFhOTViZGJjY2UyZDljNTE6YzU2MDgwZmM3ZWRiMjE2ZmQ1Y2VhY2UzNmNkYzU4OGQ0ZTA3NDFmNTVjOWJiYWI3Nzc3M2UzYzIwZGM4NDdlYzE0NzMxMGRkODhlZjE4ZDRkYjg1MDI1OTkxOTA2ODBiYWI1MDkyMTQ4ODA2MjY0MGIyNTUzYTgwOWQwODliY2NkY2FkZjgzZDFlZjI3ODQ1ZTk4NTE4M2VkYTU4M2Q2MjE5MjdlYTZlZGRlOGE4YmI0YjAxNzg0ODRjNzRlYmI5OGQyZDZmYTc3NzUyYmVkZmI2MzdlODVhYmU0ODM2NDQzZWYzNDA0YWM0NjBkNTBlYWY4OGVhY2ZjODc2Y2Q4NjIxYjNmMDY3MWQ3OWY4YzI0NjdkZWM1ODY5YWY2YmRiNTE0M2M2MDhkZWUwMTBjNzNjNDMyMWFlOWMxN2NmMDYxMzAwZGE2NjQ2ZWE2OTUxYjE1NWFiYzJlNWExNzFkNmNjNjIwZGE4ZjE2OGFjZWFhMDcwODViZDc5MGQzYmRiNDVlZTlhZWE4YTc5NzdhMWVhODZkMjZlYTk2Y2ExM2E?username=tg_0ypy6s61
+tvbs精采台,https://gptapi.passwdword.xyz/live/encrypted/MmU1MGU0YzZmYTYxMzBiYzQwMTcxNTA1OGI4Mzc3Yzc6YjYyNjVkZTgyNmI5ZThlZDcwMThjODJhMzRmOTgyM2QwNTA3N2MwNTE4NmZjNzQ0NGJlMjA4MDA3ZjA5NjhiY2ZhZGFjMGZjNWI1ZWIyNGY0NDRkMTIwZDhjYTE4OTIzODA1NzM2Mjg0ZTFjMjMzYTkzNWQyOTliNzBjZjUxZTI5Y2Y3YmZjODA3ZTEwNTdlYTRlNzEyYjJiOGQ0ODk5MzgyMDY3MWRmYWQ5MjA1ZTc0YWI5MjMzNDI0MjMyZmYzOTI4MmMyNWVkNWY2N2VjZjMwY2U5MzRhMzQ5NTZhNGEwMTk5OTYyZTdmOWQzZTI2ZThjMzMzMzRhODcxNWVlODg1MzczYWY3NWQ4ZTg0ODIyZDE3N2QzMmRjYTE0MTE1ZTk4MjFlOTliODRmYmQ2OGNmNmZkNDQ2NDBkZjljZTQ4ODYwOTJlZDExODI3ZDlhZGQ3MzI0ZjMwYzRhZWMwNThiODA1NTRjY2ZjYjBjNWY2MDY4ZWE5M2YxYjljOWIzNGIwMDkzMWQ3NzNjYzk2NWYzZDZhZTJlNzRmYjQwNzA?username=tg_0ypy6s61
+tvbs欢乐台,https://gptapi.passwdword.xyz/live/encrypted/ZDc5ZWQ4MjcwOTJjM2M5M2Q4MjViY2Y2MjNjYmE1ZmQ6ZDNkNzBmMDYwMGFhMjcwNDg4NjRlZTcwMTFiMTg0YmE4ODA5MTdiNjc0NzdhZjg1NGUzZGQ4OGFhMGI4NzUwNmIxOTJkOWU1YzNkNTgwMmI5ZWE5N2RiMTkzYzBiMGJkN2VhOWJiZDk3ZmZkODdiZGEwNzQ5MTJmYjk4MDk1ZGM5OGU0NjYzOWY5Y2NlMmEzMGQ5ZDcwZmEwZDM3ZjFlNWMxZWM5N2FkMWQ3YzdmMGIyNGIzNjFmMTVlYzNlODA0NTAxYWIyYTkwOTNhODc5YTY5YTI3ZjIzY2JmZWNjYjY4OGI5OTU0ZjdhOWViNjQxNmU0MmJmMzEzZTkxYWFiYmI0YmI5OTY4ZTIzYzQ1NDMwOTE1MzJmOGVhYWEwMzc5ZTZiMDNkNGE5MDNhZGJmZGE0M2VmMTFiMDVkNjYwMWRhZDExODE0OTM2YWJiMWIyMGM4OWEwNDc5YTM3NDJlYjEyZGY4NmQ5ZjIxNjAzMzhiZGY4YjYzNGVjMWZhYzkyZTA3ZjczOTllMWZkYWU2ZmU2OWQ3YTVjNjM3MDAwNGM?username=tg_0ypy6s61
+爱尔达娱乐,https://gptapi.passwdword.xyz/live/encrypted/YjdiMWY5ZDFkNTczYzI2MGYwM2YyNjY0ZjljNmIzY2Q6NTM0MzNmNWVjZDUxNGM5NzY5NGRiODJlYzFkZjAzM2ViNTY2YmNhNDZhYjUzMTY1YWU2YzRkZTMxY2QyZTlhODZlY2NhOTA0Nzc4YzI5NGZkZDViZWU0OTdhYzVmNGRkNjBhNDQxYjllMzViMzdmZTcwMjZlODBmMTkxYmFhOTE4N2FkMDNlNjNkMDA4MDZkYTM2M2VmOWM3ZThkYTc3NTU3NDg2MzdjOTgyODg4YmNiNDczNTJmNmZmODMwN2U2MzI3YWQ1ZmRmMWM2ZTM4MzM1NzRkZGE2NjRkOTc4ZjM2ZjgwNGFmOGFhNWNhNzY4NWU0Yjg5ZTk1YjVmMjA2NTdmNmJmZmJkNjFlNTg3NWRiM2NhOGFhNzI2NDYyNjhhZDBjNzkwOWM0ZmRiYTZiNGFhYjEwNDEyOWZkNjQzYzBmMzFhYjA2ZTExODIzZmFmZTJlNWU1ZDMyYmI4MWI0MDMwM2U4ZTlmMzBhYWNlMWMzZjBmOTk0ZDNjMTUyYmU3NjBkNTEyNzgwNTExNjJmNTc2ZjdmNmEwNDk0ODQ2YmY?username=tg_0ypy6s61
+tvbs新闻台,https://gptapi.passwdword.xyz/live/encrypted/OGYxYWMzYTgwZmZjOTljYThjMjU0ODgwM2Q4NjZjNTA6NTZjOTQwYmY1OTYyNTA4ODQ1NWYyOGFiOTc0MTcxYTZkZmI4ZjUxZDBhODgwYjA3OTllOTNmNmZlYWMxMjNjNmY4ZDAwZGZhYzQwNDgwYjUxOTFiYjcwMmNiNWIyMjFmNzM2MDFjNGNhMWNhNDA1MGVjOThhNTFjNDA2Yjk3NWIyM2E1NmY4MjBiNzNmZWE1ZTBjNTM4ZjUwYTU0NGQ4ZTNjY2VhZDQxMjg2OWQ2MjAxZjBiNjcwNGZmNmI4NWZmNjQzNjM3YWUwMzUzZmE2MmUzYzExOTVkYjBhYWUzNjlhNDMwZDQ5MTI1YjQ5NzZmMzFiMTk4NmYyYjA0Y2UwMzQ5MDM4ZGVlNDczMDg3YjI1NTE5YzFhZmJjMjY1N2Q2YTFhZmM5ZjQxNmNiZmI3NmEwZTIwYzQyYjVkZTM1MzUxNWMyYTEyMTRhOTA5MTFlNTVhMmM4MTA0MzRlNTJlNWQyYzNmY2ZlZmM1YmU2ZmNjYjU0YzBkZWM2YzQ2ZGVlNTE5MmZiYjY3YWZmNDU1Yzc4ZTBlZDljNDRiYzVmZDQ?username=tg_0ypy6s61
+tvbs,https://gptapi.passwdword.xyz/live/encrypted/NmRmOTQ2NTllYTFlMGZmZTU3MTFkMDM2MWVmMjZhNTI6ODc0ODNiNDRiMjdjMzJjNGFjZGRkODNlODY0OGNjMzQxMjBhMGI1MTUxOWY2YTA0YjgwNWVkNGZhZTFlZWY3MGYzZDhkMGUzMTE2ZGQ2MjNkZWM0NjFhMmEyZThjOTZhOWQyYjEzODNmNTVkZDQ0YjlhNTlkZGI2MDczNGE3NDgwY2E3NDZkNzcxZTYwMTFlOWI1NjUzYjVlNTczN2E2ZjkyNzM1M2YyYTkzN2UxMDNiMmZiNTdjYjllNWMyZjJhZjQ0YWRiYTQ1MzViODhjZTJjMDdlMTkzZjVkNTE0NzhiNTg1NjRiYmExM2RkYmNhZDM2Yzc1Zjk3ODhmZjdjYWZjZmZmMGYwODc5MWIxOGNhYThmM2Y3ZDEzMjA5MDNmMGZkMDllN2Y2YjA1NzViZmMwMjc4MDFiZmRkMzMwMDNhMjMwMTBlODdiMTk2NDBiM2JkOTkxNjA4YzE0NWU4NWYxZGIwMDVkZGIzOTJiODNhYzRlMjQ3NzgwYTViNDA5Y2M0ODlmYTNhYWM1OGNhNzVlNTA0NjBlZjBiZWU0NjQ?username=tg_0ypy6s61
+中视新闻,https://gptapi.passwdword.xyz/live/encrypted/ODIyYTI1ZDRkNzdlOWJhNDlmMjBhNTE0NTM2YjkyNTI6ZDczMGE4MWI3M2I5OTYyMTVjOWU4N2NiOGE4NmZkYzgyYmI2NzI5NDZkM2M5Mjk3YzljMjk4YzRmMTgzZmZlZDFhNTc4ODM5MjQwNjU2NDQ4OWU5MDhlY2M5MTk4ZGJlZTFkMzAwNTEzNDI2MWJlZTg3OWNlMmE3MjY4OTk3OWI5NTI2YzU3NjY5MzIxYWE3MWU3MThkNWQ3MjM1ZjllODVjNjNlYmExOTI3MmQ3ZmU0OTkxZmQwNzI5MGYyNjFkYjQ3N2Q5ZTk1Zjk1Mjk2YTk1NTM0ZmU5MGYzMTc4OTlhYWZiMjc5NWQ5N2NlNTM2YzY1MDcwZGFhYWQ0NjgxY2JlZGI3NGNlOGNmNTZlYTc2NWY2MDg0MGJlMjAyZGRlZmIxOGRmODcxNmNmNTVlNmU3MzkwODNlYjliNGE0MzAyMTIyNDRiYzMwZGI1NDNlOTY1MjdiYjk1MzcwYWQ3YTE5MTRiNzQ2NjI3MDY3N2UwZDE1Zjg0MjAzMzI3NWM4MWNkZjE5ZTk0ZTI3MmZiYTM5ZTcyYjY1MmI2ODYxM2Y?username=tg_0ypy6s61
+镜新闻,https://gptapi.passwdword.xyz/live/encrypted/ZWUxYjk5YzE3M2UyMWU1NjRmMzZlYzNmMmY0YWVhN2Q6NGQzNTBiOGYzZjgxMmE4NGU0MWMxMzM5ZDJmZjQ4ZWE5ZWNhN2IxZDA0ZDQ2N2ZlOTY3NTgwNGY4MTMyN2QxYmE2M2EwNTczN2UwYjU2MjA0MjY3NTkyYWZmNjM1ODcxMjRkMTRjZTQ3ZTRlNzBiOTlmODMwMGViYjMyZWE4Y2UxYzdjMGE5ZmQ5M2NlZWE3MTRiNWFhMTZiODFmMzM5NjZlODkwZjk3NWJlNjMzNGMzYjQ1OTYyNTA5MTgyMjYzMjczNWQzZmVmMzhhNGFmYjYzYzc3ZGUwZTFkMDcwZDRiMzM1YWFkZjgxYmMxNDQ4NDhlZTgwZDRiYzU2NGEzMGVlZTc4ZGJiNzUxM2NiZTJlMzdiYzIxZTY1MGQ0OTBhMDk4NTRlZjhjZmZhNzU2MmU5OWJjNDIzMmFjODI2NTQ0ZGQ3ZTgzNTQwMmE1MjNkZDIzYmYyZjJhYmE5Nzk3NDRiYWU4ZDhjOTViZjRmOTQxOWRlZGMyOTAzNzEzMDNjNjMxMjI0ZTExMmYwOTY0MmExMmUyMDU4ZjJiNWU4NDE?username=tg_0ypy6s61
+CATCHPLAY电影台,https://gptapi.passwdword.xyz/live/encrypted/N2M4NGM4YzJmMzM4ZmJjOTdiNzNiNzlhOWJjNDkxNjg6YzZjZTlhMDAxOTc0ZmYyNDI1MjQzN2YyNDRjNTU4ZmNhYzFmMThkOWZkY2EzMzM4MzY1NTg4NTY0NzE3YmI1NTY3ODRmZDc4MDE0MTYyMzRmODU4OTdlNjUzMjIzYTIyMTYxMDJmNDFmNWE1M2ZhMDRiMDdhYzA3Y2VhZTY1NWIyY2ViZjZjNWE2MzQxNmVmNmM4NGE3MDgzMTVkNWMwY2FkYjg4N2FmYzIzODFmNmJhNjliM2IxMWQwZDg4ZDRkZmQ2ZDExYzcxNzQyZDE2OWFhNGUxZjBiNWI3N2FkODcxNjNkZjg5N2Q4MmIyNjNkZTUwODI0YWE4YzFmMThiOWE1Yjg3MzczOWUzM2NmN2UxNzAzOTQ0NmI1NzVjM2EzZDBkM2QyMzhlNjNlYmNjOGZjMjJlNzJjZjlhODcwOTMwNjhlN2I4YWNkZGZjN2ZmZTBmYWIzNmFhMWVjMTViNzEyMjJlZDlmYjJlM2YxYTRkYWE3NjU3ODdhOTRkZmVjYjNlNGQ1ZDBmMjI2MTQ1ZDg1NzBlMDM4Y2MyMWE4Yjk?username=tg_0ypy6s61
+TRACE,https://gptapi.passwdword.xyz/live/encrypted/OGY3YjM5ZTdlYTI0ODE0ZjI3YTAwYTFjOTM3YTU2OWY6OWZkYzNlNGJmYWViNjEyZmFiYzJiMWQyOTJlMzMyOGM3NTZhOWYxZjhlNDM4NDA2ZGRiYzViMzk5ZDkzMTgwZjgwMDQ5NDI1MjYzOTZjZTZjMDZkMjI3OTVlM2M3ZDM1YmQ0Y2U3MDcwYWQ0NTBmODJiOTA0NGY4MGMxMTM0ZTI1ZDBiNGQzNjgyOTQyNTI5OWFjYTU4OTY5MTY4N2ViYWU1OTE5Mjc1YTc3NTE4ZWRhMTkwNTAzOGI5NDY3NDY5NjU3ZDJlMmY1ZmJlNDdkOTA1MzQ0ZjY5NTYzY2IzNWEwMGQ4NDk4OWQyYTczYmRhNjA2OTI0NGU3NjAyYTBmZjIzOTcxMDU1NWY3OGIxY2I5YWU0MzE0OTU1ZWNkMjdkZTRjYjVlYmY2ZTk3MWExMDdhMWMzZWRkNmFjMDM4MWNhNWRlMDlkNDZmNDBjYTRhNGUwZDMwMzNlZTA5YjQ0MTlmYzQ2MmUwMjQ1ZGUwZTE4MWQyOThiMDc4MjRlOWRmZTczY2IwOGQ2ZTdmOGI0Nzk4ZWE0MThiOGYwOTljZDk?username=tg_0ypy6s61
+阿里郎,https://gptapi.passwdword.xyz/live/encrypted/ZTZlMGUxYzQ3NjcwYTZjODhjOGU4YzA1NDgyMmNlYzk6OWNkYTU2Y2FhZWNhMTk4Njk4YTNjNTQ5MWM2ODQ5MzdmYzcxOTgzYmZiYzYyNzdlYjJhNzU0M2Q0YmFlZWY4YzdhOWRkNmQ2ZjY0NmI4NGUxMmMzODcyODM4MGUwNzVjNDkzYjYyM2EzNmQxNTIzZjRmZDQ5OWY3NTA5ZmQwNGNmNjZmZTQ5MDAxN2IzNzFhZjE4ZDVjYTBhYWU0N2QwZDQzYmE2OTFmMmQyYzExZGRiZWQ2OTE3OThlOWRhMWI3NzIzMzk3NTg0NjM5ZjMxNDc5MDY4MDZiZGFiNWY0MjY2ZDBhZGQ1NzRlZmUwZDk2NTU0N2ZjN2I3MGNkNzBkZWVhYmVkYzI4ZmFkNzlmM2FiMGJhZTViZjlmMDIxZWE0NTJiYzk2YThlNDQwM2VjNDFkMTFkZWEyMjUwMzFjN2QwZGMwNTk3ZjE4M2JmOWVhOGE5YmFmY2IxNzAzMGRlODgyNzMxNGE0YjNjM2VjNGYyZGE3NzRlOWY4ZGVjODBmMGUzZGVkZjE1ZjM3M2I1ZGM2MGM4NTFmZDA5YzlmODM?username=tg_0ypy6s61
+中视经典,https://gptapi.passwdword.xyz/live/encrypted/NmVkOTM5ZWY4NmI2ZTVhOWIzNmZiNGZkN2RhZjg4ODc6ZDg4MzM3MGEwY2Q2M2M4YmU2YWFlZWE2NWU5ZDk2YjE3ODdlN2M0MmU1ODAxYWY0ODFiOWNiZTdmYjU1ZjlmYjk4MTI0N2Q5NzlhZjY1MjRhY2IyMjY4ZTkzNmIxZjgyN2Y4YWRmMGNkMDQ3YTI0MmEwOWJiNzlkMDMyNmQ4ZjY1YjRjZTJjODYxZGU1YjYwNWU2ZmE1NjA5Zjg3ZTkzNDc5ZDllNzQ2ZmFmYmQyYzY5MWYzOTRlMzljZjM3MzM3MGQzMjdmODM4ZjQ5ZjNjNTdiODFlNTQ0ZDU2ZGE0MjY2NjU2N2Q2MjM4MWZjNGI4NjUxZjdhMTUzNjg4YjAwOTA1NDBjNDk4YzA2MWUyZjMyZGY2MGNiYjNlNDZlY2IyMjZkNTZmMTVjMjQwMTc4M2NiYThkNmFjNDY3YWViNzYxOWZmMzEwYmJjYTRhNWI3Y2UwOGNiZTM1OGEyYjc0YTg0Y2MyYzM3ZWYyN2RmZGU5Mzg1M2I4YzgyZDE1MmQzNDc5MDQ5NWE5NTFkY2UwYmY0YzQzODJlZDU1ZjYwN2Q?username=tg_0ypy6s61
+TRACE,https://gptapi.passwdword.xyz/live/encrypted/ZTNkYjRlNDJiMjBlMjlmYmM0MWViMmQ1NGI3MmQzYTY6Njk4OWE0MGZlNzY0NzI5Y2Q0ZWRkZGEzMTViZDU1MTE0ZDIwNWZmZjBkYjU3ZWNiODlmM2M5ZTVhMjk5MmEyYWUxOGY4Y2VjOTIxNDUxYjU4ZWJkNzk5ZDhjNDgyYThkOTEyMmIzMzIwM2ZkNTdmZjU4NWU3YWVkYThjYjg5NjM1ODE2ODY2MGI2OWYwYmM3MTE1NDliNTY5OWE1YWY3YzM4MDVkMmZhNTNlNDk3YTA4ZGEyNTc4MDE2NzcyYjhiYWJkNWY5ZjM2NDVhM2JkMmFhY2EyZjc2MDk3NGNiZTVhYjlhYTA2ZDVmNDRiZGY0MDQ0OTJkYmRhODhmOGViOTM2YWJmZTEwMWJjYzNmNjdhZmUyMWJmZTUyMzg1OWExMWJmZTM4NTA0Y2I1NGJmNWFiMTUwYTI4OTlhNjY0MTk3MDFkYmE3ODNkM2MyZWQ4NTIwYjA4OTQxZTkyMDY3MDBjNGI0ZjRkYWNjMjdjOTk0MTc3MmJjOWIxMWMwMzY5M2MyOGFhMjdhNTAxOWNlOGRhY2UwY2VhYzQ5NDhmY2E?username=tg_0ypy6s61
+MEZZO,https://gptapi.passwdword.xyz/live/encrypted/MDI0MTQ2YzlkNmU1ZDVjN2MyOGU0MWY5YTE0ZTRhZTA6ZGFhMWI5NDdhNDhmYTQ1ODcxNDk1MDg2Y2VlODJkZDE3OWNjZTAwNDBiZjcxN2EwMTI1NzU5NjdiOGJiMDZmMjE5ODdhNmI1MmNjMWVlN2ZjMGIxYzJiZDFmYTIxNmI0MDJkNzQ5Y2Y1NDI4OGU1ZmZkY2M3N2ZkOWFmZDdkNDQwZjFjMjlhOGIzMDdlYjY5ZTczMTBkMzc4OTA1ZmY5MzRjOGQ4ZDZlNjY0MjJlZGZjMTA2MmYwZDAyODkyZmNhMTBlMTIxMWRiNmZlZGZiYTgzNzgzZGI5NDBkZDYyOTI4N2NkNWE4OWZmMjcyOGVlZWM4YmEyYzZjNDEyMDhhYjAzYWQ3YTJhZmNlOTIwY2U4ZGZkYzIyODdiNGQwZGU3NjZiOTExODIwMmQ5OTUzOGNiNjBlNmVmYjc1ZTBiYWM2MDg2ODk1YzI0MGZkYjNhMGE5YzJhYzJkOTU1Njk2OWM3Y2Q0MTJlZmVlNjExZTUzNmY0MjdlMzVhYzQzYjJlMjYzMDExNDkxOGY0MGM1YWFiMDg2YTdjNmFkZDE5NmQ?username=tg_0ypy6s61
+国会频道1,https://gptapi.passwdword.xyz/live/encrypted/Zjg2ZDQ0Mzc2N2ZhMmZmZGJkZDJhN2JkZWY4OWE3MDY6M2NkZjkwOTBjYTFhMDU3ZjliMDVkYmJmNDA5NTNhNmIyNTkxOWQ2MWNiYjAzM2NmN2RkNDUzZDA2ODVmNmMwYzEzZmIzMTU4NDllMjFkYzQ4MWNjMDBlZTU4NTJmODYzZjUxZjM1OTc5ZGZlMTEzZTgzZDkzMDc2NjZiNmU5MTM0ZWQwMzdjZTYxZjMwOTI0MzhhMzFkOTkwZGI4M2Y1MmMyN2JiMGQ2Yzk1ZWQ0YzNkYmU2YmYyNDUzMzQ0NTgxMDkzZWFmNDRiYjdmMzE0ODlhYTM1MzU3YzhmODY4Njc5MTNlNWI0YjA4YmY0NjljZTA5NDQ5NzQ2NzljZWJiYmNiNjVkYzFjMDNlODMyYWJlMDVmZGUzOTQwNTQwYTYwMWFmZGU0YzE1YmI5MjBjNGVhMzFmOGRhNzI1MWIyYTIxMjdkOGIxNTA3YWMzY2JmZTk1M2Q3MzkyYzE4ZTk4M2NkMzk1YjI3NjMxMTdjOGEyZDZlNTEwY2Q1ZjlkMWQyZjU1YWE4NThiNDBmMWU0OGVjNzQ3ZmRiOTA4MjFmYTI?username=tg_0ypy6s61
+国会频道2,https://gptapi.passwdword.xyz/live/encrypted/NGM4OGExN2RjNjdiNWRmY2VmNmQwNjhhNjk0ZDQ0OTg6MDk0OGVhYzk2Nzg1MTJjNzZiNGJmNDMzYmUzZjRiMjdjODM2NTc4OWI5OGU1ZGE1N2FjNTUzOWEwMDM1ZGE1MTQzYzBjYjY1YzA2YmJmM2VkYjYyYWJlNmZkMjZkZTRjNTczZGQ0NDcwYmU4NGY5ZDVmZjdjMzNhMDQwYjk0YzM0NjMxNzQ3MmFhNDEyN2I0YmI0OTFlYTA2MjNhODk1NDVjZTAyOTRlNGEzOWRkMGYxZDIwZmQyZDkxMTZjODBkYTMwNjJjNjA0Y2JjNmJkMWU1OGM5MDUyYzFkNDg4ODgyNDc4YTJhMWU2ZDU4YzQwZGJhNTQ2NjgwNDc1ODcyNDdmMTEwNTBiOWYxZDE5ODA0YjgxNWFlMDdkNDNlNGZiMDhmYzlhMWM1NTcxNmJjMTU4ODZhODExMzIzMjhhN2JmZjA0ODEwOWQxZjllNTkxMjVhYmZlN2Y5NjVkNmE5OWVjM2VkYmI1MTJlYmMwNmVhZWRlMzNiOWQzMmZhZTI2ODkxODhhNTRmMDAzM2Q4MjY1ZmUyZmE5OTQyZWZmZWY?username=tg_0ypy6s61
+智林体育台,https://gptapi.passwdword.xyz/live/encrypted/MmY1YjEyZDIyMzUxNDI2NjkxNzFhODExOWM0ZjVlZWY6MmRkZTdlZmI4YjU1NjQ3NTIzZjAzYWIzMWQwNmQ1MjhmOWI3MzY0MDhmM2Q0ZmM4ZWQxNzlhMWVhMGJjNDJkNWQ2M2QwZTA3YmUxMTYxZmQ0YmI0N2M0NGViMjNkZWYzNDYwNmYzZGJiNjJkZjdjOGJjMTdjNWU1NWQ0Y2NkODllYWI3NGFlNTU2NDNlMjIzMTE3MDg2ZTEzMzFlOWM5ZGRmNzQ2YjNhNzA3NWYxMzFhODE3YjEzM2FiNmIxNWVlMzk2YmY3NDIzNWE5NTU3YzQ3MjRjZmMzNTcxZmE3OWVjNzAyNGI2YzRiZGMwNmJlM2MzZjdhYzIyNjRlZjdhZWUwM2RlNWE5ODZlNGViZWNmYWFmNzQwODQyNzNmZmZiYWViOWRiNjVlMGNmMDllOGEyM2E5NDkzZmViYjg2NTFkMzVmYTE4NzZkMDEzYzQ0ZDUzYzI4NDJlMWFmZTU5YTIwYzUwNjQzNDlmYmVkNTU2OTljOTAzNWRiOWUzMzY1M2UyMWE0NDNiZjU0NmFlMTIzMzZhOTY3NmVhYmI1YjA?username=tg_0ypy6s61
+国际财经,https://gptapi.passwdword.xyz/live/encrypted/MzE3NzFjMzcwYWU3Y2I0NDczMjUzMWVmYzg1MmI1NTQ6NGJmMWZiYjFmN2M1NThjM2RmMzIxYmI3YTE1NTk4ZTg1OTQxYTU0ZWY0ZDg4ZTQ1MTRlZmE5N2YwOWE2YTI5NmRhZWRlMjllOTg4MmJkMTU3ZjlmY2MzMDE4NzkzZGFlZDA4ZDI4ZjU5NWZlNjEwZjNkN2MzOGVkMTM5NGI4Y2RiOTM2YzJiOTk5MDBkZjA3YzRjMDhjZmRhNjNiODYxOTFlZDQzOWIxZWI1M2MyMzdmY2RiYmI5NGI5ZDI3MWQ4Y2IzYjc3YTU2NjIxZjFiYzU3YWY4OGE5M2MzMDJjZGZjMzYyMGQ4Njg5MDk0OTZhYWJkOGU1NWJmOWU5YmU4NGQ0ZWE4NGMxODdiZDA3ZDM1MDZhZDI3N2Y1OGI3YWFiYjgwYzg2NDY0MGRkZjJmMTQ1ZGIwYTAyMTI2MTJiMDI1YzgxNzFmNTcyMWQ0MWVjZmM4NTlhNDliMDFlMzhhZDE1YjljYTJmNTBjYjI5MTczYjJiNmE5NTFhOGU2YTg3ZmE0NDdkZmRmOWVlZDViZWNmM2Y2OWRmYzkyZGE0OGQ?username=tg_0ypy6s61
+第1商業台,https://gptapi.passwdword.xyz/live/encrypted/NzU4Y2ExZGRiOThlYzIxOGQ4MWFjZjAxYjYzNDllNzM6NTVlM2QzODMxM2VkOTlkOGQ5ZjFkZDQ0MjRlZjExMGQ4ZjNmMWZiYWYzMGY3YjYzNGE5OTdhNjE0OGJkN2FlYjU3YzczYjFkMTRhOGYxYTBlMTk5YjE1ODNhYWMzODg1NjgzODljYWEwODI3MDEzNmFhMmI4NWYyZjZlZTFhNjdiNmYyODEyNzBjZmJlNzk3ZWU5Nzc0YzI0MWQ0YTMzNTZlNzI0Y2U2ZDhkMjM1ODljZGVkMWJlNmQ3ZmRkZjVkYWVhOTA3ZDM0MjgzZWVhZDU2YjY1N2EwZTY2OWM1OWRjNDc0ZjZjOGZmODczZGMwZjVjY2NiNzc5Mzc4NDQ0YmY0OTYwYjYwYWQ0YjNjZGZhNjVlY2U0MWE4MWI1YzQxM2Y2ZDAzOWFkNDk5MzFiZTcxOGJhOTc3MjhkOTNiMmI2MDRkYTY0OWZlMWExOTYzNGZjZjcxNDdjMjZkYjZmOTFiNDA1ZWU3NGZiMWU0ODI1NTUxODhlNTdlZjE3MWEwNWMwMWZlZDdlNzdlYzNhZmFjNjVhN2M3Yjg2YzU1YzY?username=tg_0ypy6s61
+东森新闻,https://gptapi.passwdword.xyz/live/encrypted/MmIyYTA5OTFlMTY0MWE1OWRiOGExMTFhOTM1NzVkNjY6NWU1NzAzZTlkZWQ2ZTM0ZTZjMmYwMzY4NTQyZDlhYTBkZjYzODFjYmQ3YWFmNTU0NGY0YjJlMmFkNmMyZmY3NmFkMjM1ZmIxNGUwZDlkODdjNzg0NDkxMDIyYWIxMmE2MTFhMWQ3NmFiYmY3YWQ4ZjBjMGRlZjEyNDUzOWE3ZGZjZTk5NWE5YTEyMmY4MjYxODQ2MWZiYTAwMTI2OGM4MWQ2NmE0ZWExOTllNThiZDIyMWE4ZDQzMmUxNmJjMGUwZDlkODgxYWFlMWZkNzA0MDJiYjMzNmZmYjgxMWM3MmRhNTYyYjBjOTE3ZmFiYjllYzU2OGY1YjVlNjU3NDFlYzEyYmMwYzVmNjE4YTZjNGI2Y2FiYWEyZTY1MjcxYjBlODc4N2ViNjQzYmY4YTYxYzE2MTNkZTIxNjg5MmZkNTA0NWVmNTIzOTA0YmIyNmJkYTlkY2NiZjcxMjA3NGQwYzdiYjllNzY1YmFkODU2NzkyMjA4MzcwN2I3ZjJiMTFkNTJmOTAyYjViZWM0ZTY3MmNmMDg4NWJkODFhNzgyZjc?username=tg_0ypy6s61
+东森财经新闻,https://gptapi.passwdword.xyz/live/encrypted/NTBmOTIxZDQyZTY0MzRkOTQyMWExODA0ODkwZGI5OGI6MzkyZGUzZGMzNTNhYWYzYWQxOTc1MWRlZjI3NWQ4ZDg4ZGI0MzhkOWRmNDI5NDEyZmMwNDY1NzA5NjEwMmRhNDdkZTIyNGMzMjBkZjEwOTAzYmFmNjY1ZDZmMWRlOTkxY2JjMmE5Y2U1NGMxNTkxYmZmZTYzMjM5NmQ0ZDQyMmMyNGFiYjIzNTgzYTNhOTAyZDQ5NmYwNTc1ZWNhYzdmZDQ1MDAwNDIzYmE1Mzg2YzNiMmZhNWNiOTRkNWNmYmIxMzdiOGJhYjU2NWM3ZjNhZDBkY2RjYzAyMDkzMGQ2MDg5MDMwMGVmZDJiYWRjNWU1ZjA4NGFiMWJkZTA4NTM1Y2FmYTliMTIwZTIwOGJkMDZiMTVmODFjMDlkNzI2NTBmZmFjOGFlYzVkZmVjNTIzOGQwYWVkNDNjNjIxZWM2NTliZmM4NGExM2M5YjFkNzQ0ODJkYzAwOWJkMjQ2ZGVmYjllZmFkZTJjOThlMjYxMzI3ZTI1YmQ1ODkxMjdjZjI5NDFiYmY2M2MwZWVhMjJhZjM3YmM0YjM4NjRlYTI4YjI?username=tg_0ypy6s61
+民视,https://gptapi.passwdword.xyz/live/encrypted/ZmMzODI4ZjQ2NDY3MDM2NWU1YzJhNGM5OTdjNmIwMzk6ZDMxMmNhYmRkNjRlOTM5OWRjNjRiNDI2ZGM2OGRhMDhkMmUwNzI2MDdiOTY5ZDEwMjcyNDNmZGY3MDQzMzE5MzJkMTFmZTI5OTM1YTAzZjg1YjQ2MjY2ZDhjMjEwMWM4NDFkZDRmNDU4ZWIxMzAxNmE5ZmMxNTU2NjlhOTk1ZjdiOWZlMzljNmJlMTlmNWM0NjBmM2E3NWEyYmZlMTM0M2JlNjE5MGIxMzdhNDNjZWI3MWViZDZkOGU1MDI5OTFlYzJiYmQ4MDFmNDZjNmEzMWJkZTYyZWQxNzMyNWUxZDc4Mjg2Y2VjY2E2YzNmODA0ZDIwZDMxY2Q5NTViYjYxMzQyZGY2M2JmNmUzYjcxMmU2MGI5ZWI5NTNhMjc3ZDMzYzc3YjI5NjE0OWQwOTMzNjc5MWMxYjhjOWI5ZjkzODRjNWZlMDY5YTJmNmJlNDA4ZTNlODM0YjU1ODQyYWRhYTljMmVmNTRhMDEyOTMwOTMwNDE1YTVjMDUyZjY0ZTVhZjk5MDhjOWI5MDYzZDcxOWU2MzM4OWVmMjkwNGNmMzk?username=tg_0ypy6s61
+民视台湾台,https://gptapi.passwdword.xyz/live/encrypted/MjI0MjY1YWUzMTliYjFlYjEyNmY5ZWQ4YmI4Yzk4NTE6MDVjZDFiYWI1Zjg4M2I0NzYzMjM3OTkyOWQxZjExNjk2ZDNhYzhjYjA4NDY3YmE4MmUyMzgzY2U0YzBjMjgxNWVhMmJiNmIxNzRjZTcyYjM3OTRkYWMxMDkwODVmMGNjNGJlZWQ1MzBmNjgyMTAyODUyYzZiNTBkM2IzMzg1MDUwNjQ4ZmMyMzgxMmIyZTk4ODkwM2YwMTQ1MThlYzdhOTRkMWFjMDRjZTQzMDUyN2Q1NmI2NjZiMDNiNmYwMTBkM2JlOWFlM2ZkNjU0OWEwNGVlMjVlYjRkMTZjZDgzZDE0MTU1NGZmYjg1MGY2NTM4YTRiYzg2ZWM3MGRmY2U0MzhjZmFjZjllODUzYTZjMTlkMTJjZGU2YWU2NTJlOTI5NmQ0OTUwNGM1YTU0ODYwNmExODQwZjZmNzFlZDdiMDFmYjM5N2Q4MGM0N2E4ZjVjYWQ5NWNhZTQ5OTgzNGQxOWM4Y2YwOThiOTllNTFjMjY0ODljY2JjNjdmMGM4YWMxZWVkZmE3NmNkNTZjMDEzNWM2OWU5ZDkzODA5MDBlZjQ?username=tg_0ypy6s61
+美国之音,https://gptapi.passwdword.xyz/live/encrypted/YWMyYzM0ODc1MDM0MGExOWFiODZlOTAyMmIyZTM0YmU6MmM3OWMzYzA5MzY1ZmUyM2JmYTg3NjhmNmU0N2FkNGY0OWEwZDI3ZGQ2ZmFkNTdjZDY5ZGU1ZmQ3NGY0OWNiYTQyOTYyZTljNGMxNzI3NTUxODIyYjVlOWZiZTc1OGE3MDFjZDY5MjMwMmMzZGNiMzJmYmNhNGE5OTQ3NTYwNzVlYzExYzJiOTNhZmNjZTZiZWYxMWIxMWY2NThkOTUwZWQ2OTllNTkzYTFmMDFjMTA4Y2FjODMyYmRiZTUwNmZlY2RhZjllMDZhMTcxYzI0ZGNlMzFjMzVlZjYyMjAyZGFlZWY5ZWYyMmMxNzAwNTJjYmZlMjJiODg3ZmFmMDMyNTBmZTRjNzk5NjMzMjJkNTEyODY0Mzk4ZjU4ZTRjYWZkMTJjYTJmOTY0M2UyMWIyMzA1NTE2YmJmNDBhMTJiNTExNTY2YTJiMWYzNDQxOWZkZGMyYzM3ZWJhMGM3MDNjNTQ2MjNjMDFlNDVkZDJjYzUwMmE4ZDg4NDkxNjY5NTE1YzQ3YzFjNjA2YThkZTQ4MWFjYjExODk2M2JkZjYwY2Q?username=tg_0ypy6s61
+民视旅游,https://gptapi.passwdword.xyz/live/encrypted/ZTRhYmE1N2FjOTNhZDBiZDg2NzVkZjc5OGVhMTM1N2U6NzgwMTNjZjcyNDBmMzdlNWE1ZGI0MDc5YWEyZDNhNGYxODc1MWExNDhkZWM5NjA3OWU4YmUwYTljMWMzZjI1NDM4ZDk0OWYxNzZlYTFjZTkyYWMyZjFiZjE1Njk3MDJlYzRlNjlkYmMxODE0NWI1ZTAwMDUxYTZlYTU1YzgzOGQzYjlkYWY3ZjVjY2NiZDkyYmMyM2ZjNjgxOWM2ODIyMzQwZWVhNjNiNjAzNTk5N2Y1NTQwZTQ3NmE3YTM1YmViNWNlMTAyYjY0OTE5ODg2NDJlZTcyODJmNTBhNjFhMDcyNWU2ODQyOTNlYWIwOGU2YzM4YzgyMmZlZTFjNWQ2YTgzNzRjMjBiZTZjNmEwNDg0YjM5MjkxNzE5MTRlY2UyMmYwOGE2NDM0YTYzMjRmYzNlMTg2NTk1ZWI0NjgxMTdkZDE0NjZmNzZiNmRhOTkzZDYwZmRiNmZiZTJjYzAzZDMzZTRhYmM5NzBjZjNhZDAxZDY0MWFlZTA1MzA4YTUyYTAyODdhOGVkOGU0ODliMDYyMWQxMTQ1NDZiMjk1Y2Q?username=tg_0ypy6s61
+民视影剧,https://gptapi.passwdword.xyz/live/encrypted/Y2RkM2EzNzcxNjVmNjczODQxZmMwNDJjMzJiYWM4NGE6NGUyNDNjNTliYjNkNjkwNjJkODhiZTM5NzU3MDAzODBhMTQyOWEzYzVkZTJjMmRjZjgyODBkOTM2OGM2NDE5MDEyZTA5MzA1NDU4ZGRkMmZhMDgwYTZiYjEwYTQ4NTg5ODlhNDFhMWRhMGEwYzM5ZTQ3MmM0YmU1YWFlNjQwN2Y2ZmMxMGM1OTYzOTkwNjRiZTliOGMwYjM0NTE5MGU4OTM1ZDYyNDhkYmZjOWQ1MjA4Mjg3MTI4YmU1OTk5MmU5ZTY5OThlYTkzNmFmYWY1ODExZTkzMDRjODk0MWEwZjQyYzBhYmE5YzA0MGM2ZTIyYjZiMzNlMDVhNmZjZjU0NTE0ZWQ1NGJkOGMzMzczMDE2ZTRkZGE5ODVhODFmZTJiMjk0ZGUwMmRkOGVlY2UxZDAzMmNkYTYzMWYxMzg3MDc1OGMyMjQ5ODY3ODZmODdjNDRhMWYxNDljNDY5ODY2N2IxMWM4M2ExNDFmZDZiZGRmMTRkZjI4ZDcwYmRiYjRiNzdkM2Q2YzFhY2VjNmVlOGRiNGMyNDBmMzdiMjg2N2Y?username=tg_0ypy6s61
+半岛新闻,https://gptapi.passwdword.xyz/live/encrypted/MDFlYTBiYjNjNjE4ODc3YjI1ZTM4MWZkOTgzZjM2YzE6MDZhNzg2OTM2ZTk3ZmU2NDdkYzI0MzI1Y2FkYTI1NzI3ZDUwYzZmYmU1YzA4MDQ5N2RlYTNmMDA2OGRlNWJlNTljMWMyNjY5NzEzZDFjYTI1ZWU3MGVjNjc5ZjEzZmYyNGNjMGMwNTg2ZjliYTNmYmJiMjcyN2YyYjY0NGU5NTY1ZGRmNTNjYWNmMjNlMDdiNGE1ZThjYTUxYTMyZGQ2YjdjNjg5MTA0MDVhZjAxYjlmYmVmYTkwMGRlYzk2OWQwNmI1Y2JlMWU5OGU3MDcyOTkxNjhlZWUwZTNmMGVhN2Q2YTU3M2JlOGQ3MDZiMTA3NzAyM2Q2YWFmNTg4NmYzNjQzNmYwOTdkNGY0MmZkZDUwMjBlYTlmNGE1OTU5YmU3NWY1ZjFhNTAxNDBiMWI4ZTEyNzY4ZmMxMTk2YjIxZmNmMTJjNTRiYWQ1NTgwODA2YTRkNmVkYTI3M2U3ZjYyMWRkOWZjMDQ1OWIzNDM1ZGM5ZTAzZTdiNDQ0NTcxNzNkNzY1OWU2NzIxZjA2OTRkMWEwYzczOGY1MWE3OGRkMmM?username=tg_0ypy6s61
+民视新闻台,https://gptapi.passwdword.xyz/live/encrypted/MjkxYWI1MzlmYTk2YzUyNjllM2FhYzY1YTk1NWIxYjI6ZmVkNGM2NmQ4NWRhMDFhYjdiNTdhN2VmMmEyYWJjZmY3NmQwYjhkN2M5NTM3M2YyNmI3ZDkyMDZjNDdiMjk2N2I5N2YxMzkyODhmZWZjNDljZDJjZjA1MjUzOWU4YzMzZmZkNTlkY2NkYzllNTdkZTNlNWU2NzY5ZDg4ZGVkMWU3YjFiY2Q2OWJiMTEyMDk1OTliMjcwMmFmYjA4OWZjZTJmNGM2NmM0Y2Y2NmU5MTk4M2UwZWQ5ZDNkMWMzYjE4NzA4YTdmZDkzZDQ4ODE2Mzk1ZjY4YzkwMTg3NjQxOTExY2I5NmQ4ODMwNzI3ZjQyN2FjY2ExNTgwYzM2ZDFlNmZjYWU4NWQ1ZjY0ZGQ4NGIxOGI1MjI5MTlkNGNkNzYzY2M3YjVjOWEyZGNlN2EwNGEyYmFjOGVlY2MzMTMwMjg5ZTk1YzZjMWU5Yjg4YTdjOTk0YmM1N2ZhYTA4OWYyMzY2Mzc1NDQ3Y2I5MmQ0NGYxZjczNzE1OWJiZGJkZjU4MWE5Nzk1MDM5YTc5Njg1ODMzZjMzZmNiYjY0MTExMDM?username=tg_0ypy6s61
+影迷數位紀實台,https://gptapi.passwdword.xyz/live/encrypted/N2IzMDc0NDEwZWU1NTU1Yzg5ZDE0NzFhMTBmNGJjYjA6OTgxZTY2MjgzMzY4NTMwZTAxZjNmYmVhMTAwYjAwY2RlYzI3Y2Q0MGE4MWM1ZTNmMmFlNTRkODBjOWZjNGU1N2E3MjA3MWZkOGMxNmNlNDZkNDAzZTZmMjMxZTRlYzkwNWFiYzY4YjVhZjYzZDBlYmU2MzJiMmRiMWMwZjg0YTlhMWFjNDUyNzkxM2Q5NmM3MDJjYzk4MDg1YzFmNTcxYTFhMjc4MjdmNDMyMjk3YjY3YzU2NDdhOTQ2ZmZjZWNlNzdmYzhlMTZmYmI0ZGE0Y2QwZTcyNWM0OTFjNzhhNTVhMTA3MWI1MjJhZTZlY2FlNzlkZjFhZGFhNjA0ZWQ3MDUxZjdiMGQ5ODcyYjNiNGEzOWZkOTZhMGRlM2FkNzZhZTVhMGIyMGQyZGU2NTQ0MzE1ODRiYmM2NzUyZjUxMGI3MjViYWMyZTcxNjRmMzZhZDIwMThhNTE2NzRjOThkOWI1Y2UzOTJhOGVkZTRmNzllNWFjZmFjNjYxNDQ1ZGU1ZTMyZmY1YWQ2ZDE1NzJlMWIwZDEyNjEyZWRmNWNhYzU?username=tg_0ypy6s61
+好消息,https://gptapi.passwdword.xyz/live/encrypted/MmJhNjk3OGYxZjg4Zjk4ZTkzMjQzMmM2YjUwYjU3NTQ6ODdlMDE4ZDM2Yzc1MTYyNmVlODQ5Y2RkNTQwZTlmMDFiYjUwZGMzZDU1ODVmNzA5MjNhZDI0MTUxYTU1YWI0OGQ4MDdmYWVmYmFjNDc5ODE2MDVkMDY2MmM3N2QyZDY3ZjNmNDU1NjUyMzM5OWJhZmNiMDMwM2RlYjc5MTE2ZjQzMTUzNzBkYTdhNmRmNDRlNjI5NzY5ZTNkMjU5NzU2NTEwZjhkZWFjNTE5N2QyODg0MTI5YzE2NmZkYjU5MmQ4NjkyNDIzMDA1MzM2YjQ0MzUxYWMzODJlOGE1ZWM1Mzk1YjU3ZDE3NGMxZmNmNTFkMmE0MzYxMTcwYmM4NmFhMjRkMWExOWFmZmY4NTVlZGEyOTc3MzZlNDVmNTEyZWZlMDJmZGUyNmJkNDJlNjE5ZWQyMjc3YzU0ZTY2MzU2ZjFjODc3MzJhZjQxMzdkMjkwMDAwZmJhNDJmZGUwZTY4NzRkZWI5OTQ3YjA5ZTUyMmU3ZWMxNmRmNzM1MGQ3NzcxYjBhYWVlMjM3NDgwMTE3MzYwNWM0ZDk2YWY0ZjM0ZmE?username=tg_0ypy6s61
+好消息2台,https://gptapi.passwdword.xyz/live/encrypted/ZjFkNzc2ZjIwMzI1MDdhYTEzYjU5NzIyMzFmYzU3MmI6OTVhMjg4NDdhYzg4YzRjMDFiZTk0YTZjMDRhYWI2YzE1NTMxMTEwYTViNDdiOWFhZDNkODVkNGFmYWQzYWIyMDBlMmFhZjQ5NmFjMTdlZmNjZDNlNjgzM2M5OThiZjlkNWNhZjA5NTM1NGU0Yjk3MTE3YzY1MDAxZDhjZjczY2YyMTRlZmU0MGUyMmJjNzYzNThlMzc3YTkyZDU0MjE3NjNkOTM1N2IzMWI5ZGI1OTI0ODlmZTY2MTQ1ZDZhMjI4NDlmZGMyNTQ0ZjZmYTA0MDdjMTNhYzU4ZWY0ZTgzYWQyY2U5MDY2NWQ4ZjRkY2ViZjMxZGMxODM4ODEzZmI1ZTk3YjUwMTg5NjMxZTg4Y2M0NDgwMTYzYjZmZGVlZjZkNDg3OWNhNzMxYmQ1YTFkMjc5NmZhNzgxOGZlNDEzN2QyNzc5NWZiYTgzNGJiOTNlYjY4MDBkM2FkMTFjYjUzOTNmMGQ3MjU0OTJiN2MzMGViMTMxNzBmZDEyNTc1OWNhN2YwNGU3OWFmZmQxNDYxZGM5Y2NiMmJkMzAzZmIwMTc?username=tg_0ypy6s61
+龙华卡通,https://gptapi.passwdword.xyz/live/encrypted/YTUxYTJiNTYyZWExNTE5Y2FhYmE5ODdiMzljMzRkYjk6YmNmNjE5ZWZhYWI2MWYxMTU1MjA2YzUzMmU3NTk0ZDY2Y2MzYWFlNDM2ZmQ2NWU0YjNkMDIzZDdiOTIyYTk2ODYxZDJjOGMwMmY0MGMyM2IwZjM4YTQyZTNmMTI3ZmI1M2JkMWY5YzUxMTg3ODIwYTIyZmUwYmY5ODRkMTgxMGFmMzY4NjFlYjhkYjRhMTk0N2FiODNhMmI5NjhlYjhkMjg5ZWFhZmE3NWE3ZGU2MGQyYTM3ZGMyNTg5ZjcwODlkNThmMzY3MGIyYmYwYmMxM2QyN2M4YjQ1YjNhZmM0MmExZWNiMjM4MWZkODBiMGZjMGUxYzMwY2Y2YjU1ZTVhMTVhOGFhNWM2ZWM5NmEzYTgyZTg3YTBkZjIyZGFkOTVkODUxZTA1ZmU2NGY5YjFhZjgwYzhlMDEyNGRhMjZmN2YzYWU0ZTU2NjE2MmJlMmRiMjYwNTRlMjY2M2UwNmQwYjAwMDhjZGNmOGJjNTEzYmQ4YzljMzQwZThhZDE5ZWRmNmY2ZTUzNDFhZmY4ZTc4Y2FlMTE5MjM4YTc1NjMwZDlmMmEwNzRlNjFkZjM3MDNjOTQ3NDYwMTcyN2Q5YWRhZA?username=tg_0ypy6s61
+龙华洋片,https://gptapi.passwdword.xyz/live/encrypted/YTlhYWQzMTZlMDE4ZDA1NWM0ODYyYjMwMTg2NDhlYWU6NjFlYjUwNDhkYjdkYWE3MjNkYjUxMThjMTM4MzBlYmNhYzMxNWUxMTI4NzRmMGY4Njk0NzJhN2VhNDA0MjVjNzg2M2YwN2MzYzU0N2I2ODk3MjYxNmQwN2ViZmY2M2Q3NjEzNGViMDgyZTE3YWY5ZmU1MjY5YzIzOTZiMzI1MzU1ZDYyNmY1ZjUzZjQ1NmNkYTc3ZDlhZDNmNWZmMmM0ZjdjNTBhMzY1MjhkZGFmNzY5N2YwODllMGNlMWZhMzhiMGZhN2NiMjI4YWIwMGI4MWFlMzJmMGEzYjA0Y2Q4NGY0NjZkOWI3ZmYxMDJmZWFlMDkxMDRjNTM2ODg3Y2QxMDNlZDg3ZDE3YzEyZTJlYmJjYTM1NTNhYjk4NWQxY2JhMGE3Y2I4ZmUwYzYxYTk4ZWViOTFkODNlMTk0YWIwYzg0YjczZTI3M2E3NjNlZTAxYjI2NzNkMzRhNGE3NTdmODIyNTA0MTJiYTYwNjljNGMxMzNjNWZlMTc5NTRjMjRjZWZlOGEwYjA2Mjk0NmExZmQwZGQ5ZjhhMTkxYzMwZTFmYmZlMzczZDU0NzBmM2Q4YTYwOWM0ZDVkMmZiMmI3Yw?username=tg_0ypy6s61
+龙华电影,https://gptapi.passwdword.xyz/live/encrypted/Y2JkMzZmOWFmMjMzMzA3ZWFhNjcxN2I4MThmZWRlZTM6MWJmOWM0MjlhYmU3OGFlM2UyYzM5YTNmYWRjYjFhYzg5ZGJiYzRkYmYzZmZiYzZkMTM1ZjM0NjIzYzliNWY2YWRhYzVhMGRlNTNlNTc5Y2YzYjA2ZGRjOGM4OGRkNjZkMTcxMjNmNjU2NmFhODVmZjJiNWNhNWJhOTNhZTA2OGFmNzFlMTdiOTM3MjNjNTgxMDllOTFjMjVjZjg4NWUzMDY0OGZjMzc3ZTJlNmJlZjJmYmFkMGRlNDZiNzJkNDFiMDg2NjM4OGE1OWMwMTdiOTM2OTNjODFkZjdiYjJjNGNjMTQ0ZjQ5OTA5NmJmYmRmNTVkOGE5N2FhZDRmYzlkYTBlNDVlNjNjOWRhMGU1NDFkZjJmMmYyMDYzMTMxMWEzOTI1Zjg0MzBjNWY2OGVmOTE1ODc3ZTliNTYwMjdkMmY5ZGYxNjU3ZmJmY2ZmZWJiYjNiYmQyYjQyNWM1YTg4NmVjNDc3YTA3ZWIzYzgyNzc1NmViY2Q1ZWNlOWYwNjYyNmI3ZGEyYmU2MTgxYzUzMWVmNjgwN2VlNzQzZDdkOTg5YmYwYzhhYWIyNTgxMDVjZTE2NWQ5MjhjMzMxOTg3OA?username=tg_0ypy6s61
+博斯魅力,https://gptapi.passwdword.xyz/live/encrypted/OWI1YWIyY2ZlZjM5ZmZjMjJmMTE1OGNjNGI2OWI2YTc6YjVjNTRmODIyM2ZkNzYxMjJlZjI3NzlmNDg1ODJiOGJkZGNiMzJiZDhkZjdkYThiN2VjYmExMzkyMWYwYjkwMmQ5MGM5Yzg5MWI3YTVhZGMwNDJhMTcwZGQyNDJkNWFjOTViNTdlNjllYmNiMjMyZGRmYWViYmY3OTdmYWE5NmI3MTEzNDlhYTFjYjlmNjkyY2Q1MWZiMTY3NTFiZDU2YzlmZGMxZjQ3NmVhOWVlNWRkNTNkNGM1OTA4M2JkYjY1Y2RiOWFiMDdkYmU0MTZmYWNkMDU0MzMyNzZlYmZiYzMzMjZiMjFjYzA0ZDZjNTczY2E4YTE5Y2EzZWM2MGM2MDc1OTZhMTQ3NDhlZDNiOGJkZjQ4OGJhNjdkZGU3NTU1NjgzNDA4ZGJiN2U1ODgwZDkwOTgwOTcwYWMyMjkxYmZjMzc2Njk4N2M1NTUzZjNhYzlhOTIxODVjMDA5OWNmNDYyYzIxMmY0MmMxYmY3YzBhZWVhMzg1MGM3NDNlMmI4ZjIwYjY0Y2QzMWQ1NzJkMmRiODY2NGE5ZmJjZTA3YWU4ZjNlZWQzZTg5ZDZiYjRiZGUzY2E5ZDU4YTYzMmQ0NA?username=tg_0ypy6s61
+博斯高球1,https://gptapi.passwdword.xyz/live/encrypted/MmEwNzYzOWE3NDE4ZDQ5MWIxNjczNzUwMjFiYWQyYTQ6OWJhMThlNGI5MWU0Y2ExNjY5OGI0ZDI1M2Q1MmRiMjgwNWM2YTRhOTA5YzZlNDQ1NTNmMjE0OGFlMTY1OTVkMzk4ZWE0YWU2MWI4MTYxNjg3ZWExMDRiMGM2Mjc4ZWEzOTg4NTlmNTFlNDY3YzI3OTg4ZWU4ZGJkMmY4NDk0ZmExMDNmMDJkNmI2MzAxMThiNTJkOGIzNjdhNTdjZGI1YTZiNDczOGMxNGQwYWRkZjkyZTMxZDIwZjE4NDRlOWQ5NDQ2MTEyYmJjMjdlYzk4ZWY3ZGFlYzkxYjY3ZTdkYmU2ZjY2MGE1NGQ3NGIxZjA4NjU5YzE1ZDk2NTE4YmE3NDIxNjMzYzkzNjFhODFkNDBkZmI5OGE4MmY4OWEzYmQyNjUzMzQ5YTVkZWM2ZTAyZGZjZjZmNmI0Y2I2YTgwNjc4NTg0YTNlN2I4YzUxM2VmYTZiMmNjZDk4ZTljYjBiNzY4ZDUxMTUwYmEyOTBjYjcxYTQzZjc5YmY0ZmIzOWMyM2NhMWY5NDMzNmQ4ZWZhZWRlNDdkZGMwZWNkMjhkYmJmOWI4MmRmMTNjOTc2MzBmMWZkZmIzN2NiODhmZWZjNg?username=tg_0ypy6s61
+博斯高球2,https://gptapi.passwdword.xyz/live/encrypted/NzY4ZDhkYWNkZmQ5MTgzODVhMjAwOGU5MGIxMDJlN2U6MDc1ZjFkZTBmNTA4MzU1M2E0NjIzNDExOWFiZjg1YzliNWExNjVjNTkyM2I5YWI3NGU1OWJmOWVhZjM5NWY4ZTg4YWFhYmFmYWZlOWRkNjUxYWVlOGU4ZThiYzBkNDY3YmJhMzE4NmQ2NzZhY2Q1NzJmYTQ1NGQ3MzIwMGZmMjQ1MjFkNzk4OTNiNWYxMWQ3OWE1ZDUwZWYxODVmNDhmZjY2ODBmNDg3N2U1NDcxY2E3NTFlNTk0ZWZlOGYxMDJmOTQ1NGY2ZDY5NWU3Zjg0MGE0YWQ2YTI0MDNkMGViNThiMDZmNGM3ZDUwYTgxM2VlZDNiOTY3Nzk2ZTlhMjM1MzJiOTBjZTI1NTBiZGY0YWI0NWRjMzc0YjM3OTQ0M2Y1NDcwODhjMzlmZTRiNGE4OGUzYmU5MWY3ODA4MzVlZWZiNTE5NjAwZDU1ZWVkZGIxOWJiNDEwNGFkZmU1YTMwZWFjNmExM2ZhMjVhYzJlYzI3OGUzZTJhYTIzOGQ5MDM0M2MxNzZhOTQxMjhhZTY2Y2VjNjcwNDUwZDQ0Yjk3M2ZjNDk0Yjg3OWNhY2IyYWEyOTE1ZWU5ODQxNDEwNGVhZg?username=tg_0ypy6s61
+博斯运动1,https://gptapi.passwdword.xyz/live/encrypted/NTgwNDczMzAyNDQyMzgyNDhmODMzMmIyYTMwOWRlYWQ6ODFkMjBjMzQ2Mjg2ZjBkM2ZmNDgwYjViMTM3ZjNlOGIwMjg5YjQ5MjRhZmNhYzk0OWY5Y2M2YzhhZGYzZjhkN2E2ZTZmOTEyMzFhOWRlMGEyMzcxNTMyNDI1NjFkNmE0M2NlMWVkMTE1NmQ4N2U2ZDVmMzIyM2QyNDY1NjVkNjRiZGRhNzQwZGQ5MzhhNjIxZWYzYzFhNWI3MTMxNjFiYWQxYWU2ZGIyZTA1NzUwNTcwYzkwNTRiNDQyZDU4ZWEyM2JlZDc1NmExYTVlY2U4YjM5NzIyMDJiMjFjMGI4MzNhMjU5YzlhODMyMDkwMjdhZjliYjBjMmY2MTIxMmI1ODNmZDI2YzA1Y2UwNGM5ZjljZmM1MjYxMjBlNjNhNjdkZDExMWEzY2UxMGQzZjE4ZGEzNDg5MWZlZGY2MmI3MTAzNzEzMzA5MTRhNWFkYTBiODMxN2YwYWNkMGE4NzkxOTM5N2JkMmYzZTJlOWZhOTQwNDM2ZDI3MDMxOTYwMmNlNjVjYTJlMTNlOGEzOTE3NTZiY2QxMjUwMDQyM2M0MGVjMTQ2MWIzYTAxNWUyYWZiMGJkY2IwMDdhYzM5MWNhMA?username=tg_0ypy6s61
+博斯运动2,https://gptapi.passwdword.xyz/live/encrypted/NTg2MmZlZGIxZDYzNzE1YzY2ODAxMmFhZDQzZDM3M2U6MmVmN2Y3NDUxNmUyOTYyMWI0ZWNhMWFjMTZjY2ZmNDI4ZmI0MTlhMWU5Y2NkZjMwOTVlMGFkOThmZGQyY2IyMDA3Nzg3NmI1YmFhZTgzOTY3OGIzYTlmMjAyZjM2MGQwNWQxNzcwMjMwNTU1ZTM1MjcwZjQyYWVjNGMzM2I2M2QwYWM5OGFkYjQyZWE0OGE3MmMzMzFiYWY2ZDM4NGI5NWZkMzRhMWEzOTM1NDdmYzZhN2IxZWFmMWZlZmY0YTA1YTYyZmQ2MjFhZmE3ZGY4MWIzZWEyZmVlYjg3M2I4ZTI0ZjYwNTAxZDdkYzdlMjgzN2UzMzM1OTRlY2I2MWU4ZmM2NzFmZjJkZTNhNTM3MTkyZDU0M2UyNDhhOTEyYmZlYjYzZDQ4NWU5NDgwZmMyN2IyN2UxMzk1YjlhZTAyOTBiNWQxNjkwOGMxNDUzNjU3OTEwOGIxYzE0YzczNmY5ZTY2YzQ0YzFlMDM2OWFmYTAwMWVmOTM1Yjg3MzNhMGZkNWFjZDZiNzMxNjM4MTQ3ZTlhMjZmODhmNTcxODY2NzEwYjBlMjU5OWJiZTNkZDRmNzhkZGQzNGMzMWFhMWNhNg?username=tg_0ypy6s61
+博斯网球,https://gptapi.passwdword.xyz/live/encrypted/OWY3ODI3YTA5MzQxNjgxM2E3ZmJjNzg1OTIzYmY4MTc6Mjc3ZDM1OTU1OWE3YjkxMWE3ZDg4NGMyMDA4M2FhMjUyYTM3MWY2NDMzYTI4ZDNhYTQ5YzkzYWRiZDc3MGRhZDU3MTcyNjhlMzUwMDM4NmNkZWNiOTRhYTE3ODQ3MjIwYjAyMGE0MmI4ODZjMDk1OTg5YzQxMTcyNDQwNGViYzgzZjA1YTA1NzRmMWU2YzVlM2UzODI0MzU5MTIwYzFmNzg0NDg3NDA1NDg4NWJjMmJhYjY2NWQxZGY5Y2VhYThhZmQyNTA5ZWU2N2QyZjQzNjhmOWZiZTU1YzFmNDU4YjExMTE5YzZiOTJiMGIyZDQ4OThiNjY0YzI0NmYxMDU4NjFiYmI0NDNiMGU3NjVjNzM3NjM1ZjRmYzY3NjA0N2I2NTAyM2I0NjkzZGFmNGNiMTlhM2EyNmNjNWMwOWM3MjQwYmYxNjlmNGFkNWZiNDc4OWJmZWJlMTI3MWJkZTZkYmU0MzBjMWMwYjk3N2Q4YjBmYTdkNzBhMzg2OWZmNTA3NTVlZTEwN2FjNDU2YTJiYjIyN2UxNTczNjU3NGM0OTJlOGUzNTJmZTJiNzYzYWZiZmE2ZGMxOGYyY2Q2MzhiNQ?username=tg_0ypy6s61
+博斯无限,https://gptapi.passwdword.xyz/live/encrypted/ZDc3MGFiNjYyNmY1NTQyZjE2ZjFjYTVkMTBhNDVhYzI6NjhhN2QyYTYzMDQzYWM1MmM1MmViYmQ2NGEzMjE4NTg5MTFiY2RhZjFmMWQ2NmNkY2ZlZWQyYjVkNzU3MDc2NzVhYjQ5MDliZmZmOTlhNzBkZDVhM2ZjOTgxMDVjZGY5MTc3YmMxNzZiM2M3YmU0ZTViYzhiODYzYjc3YjE5NTAxZDJmNzcxNjViNDczOGExM2FiN2Y5Nzg1Zjk3ZmMwODYxMDBjNWE2MTgyMTAzZWUzMjEwYWRjNzMxMmIzYmVlYzJiMmQ2YzRkYjE5OWRhODhiMjg3MDdiMjg1NWM1Y2FhY2QzODhkYzllNmE3YzYzMTIzOTJlNmE1MmEyOTYwMGI3OTAwMThhYWY5NDkxM2MwYTE1ZjEyODZmODE2ODEwNzY0ODc3Mjk5MDRmNGZjOGFmYTliM2EyOGExOTBkMDgzY2UwYWRkMjQzM2YyMTNmMWYyYThiZTQwMGEwYzQ2ZWI0ZDcyMzdkMDI2MzNmNGQ3MjY2OWUwYjc3YTU0MjYxMjk0MTM2NDVkMWJhZDliZDI4MGI3OWQxMTI3ZTg1ZDcxMjQ3NDNhNzI0YjhmZGFlZDc3MTRhMDIwNzA5NWE4Yw?username=tg_0ypy6s61
+龙华日韩,https://gptapi.passwdword.xyz/live/encrypted/NWVjNmVjMDgxYzU0YTc1MzkwM2JlOGIyMzg5ZmUxOGU6ZWY4NzI5NmY4MDcwNjg1MDBjZDdkYmEwZDQxMGQyNjY3MWU2MmE0YTZmYTYxYzY2NzhjY2NiYzk4MWE5NjA4OGVmM2ZiYjIzNjRmNTg0MTAxOGEwMzhiNDNlMDdiYjRlMGVmODlhOTBjZjgwZjQ1ZTI2YmY2ZDJlYTg4Nzg1MTk2ZmI3OWNiNzFhMmRmM2ExNzAwZmRmZDg0ZGRkNDhlMWE0OTlmNDEzZjRiOWQ2ZGMzM2ZkM2IyMDRiNWEzZmUzY2Q0OWFmNmI2NzA5Nzc1MDc4ZDlhYmE1YzExMzdmZjk0MGU2ZDFkNWY2YTUyMGM3MWUzYTViZTlmMmI1Nzg3Y2M5OGM0OGExYWFjZGMzMmY1NmZjOTIwNjBlYzI2ZTZhODU4YzVmNDgyNjFmNzU1NDY1OWZhZmE1NTlkZjM3Y2JlOTlmM2IzZjBiMzBlYTUzZGNmZmVmNjVkNTAzNDdjZmFhMmVlOTc4MjZmZjJmODk5Y2JhYTRlMTE3YTgxYWEyN2NjNjhiNzBmNDg1ZTBjYTEwYmQ2YWU3NGVmOTFkNzA5NGUyZGQzNmI4ZDBlZjBhNDhjMWQxMDk2YmIxZTU0OQ?username=tg_0ypy6s61
+龙华偶像,https://gptapi.passwdword.xyz/live/encrypted/ZGM5YWMzMDU3Y2EwN2Q5ZjkwOGMyMjkzM2NiMzBkNjc6NjJmMmExYTBlMThiNDFjODZiMjczNTZkZmUxZGFkNzc3OTBmMTdhYmY3ZDZiMGExMmE5MzdlM2I3MzhkZTA2MjRkY2UyNzAzOGU0OWZlZWVmZDIwYjNjMTE4YTExMTM1Y2E0YjkwN2NmYWZiNzcyZDI0YjllNmY4MmE1YmE2OTlkNmU0NmRhMTEyYjE1YjM2MmNlZTMxZGZiYzg0M2Y2NmUwMzJiMmY4Yjc1MzA4ZGNmMTFiNWVlMWM2OGE5MDk1ZjBkZDVlNWU0ODk1Mzc4ZTNiMGRkY2ZmNDIzN2JhYTc3Y2Y0MTNiM2UyYjA2ODk5Njk2NTEwOTZlZDc4Njc0ZmI5M2QzZTBhZDZiNzFkMGExNjlkM2Y1NDBjMjE4MDk4NzgxMWUyYTYxMzY3MjhjM2RmMDc4NDM1NGRjNzI3NTE4MTEyNDVkMWM1MWY5NGE4NjQyYTA2NTNhZmM0M2NkM2E3ODk3YTI0ZGFjNzE5NGU4MzY4NDhhNGQ3NGM3YWFiMWYyMWQ1YjA0NmU4ZDI0ODU3MTQ2NjhkN2Y5NThlOGNjNTFmZDk0NTUzNzgwOTQ3ZWU0MjM5MTlmNjNjZjBjYg?username=tg_0ypy6s61
+博斯无限2,https://gptapi.passwdword.xyz/live/encrypted/MjY4N2M1MThhYTYzZjM2YzU1ZmZmMTdhZDViYTNmZjY6N2U5ZmUwMzZmZDI5N2MyM2U1YjVjZjczZDRjMjFmMDQyMDljOTViZTE4MzkyNWYwZGFkNTQ1NGJiZjhiNTZkYzhiMDkxZDExNTBkMTQ5ODU2ZGVhNmY5ZTkzYWE3Njk1NGY3MjE1NDAzNGJmYjg5MGEyNWUwNjBmNDE3YjViZDBjYTNmYWZjYjJmN2ExODY0MWM4OTdlNzM4NDYyZDNjNGUzZDExM2E3Mjk5MGU0ZDg0YzZiMGM3ZjU2MjlhOGQzNjEzMTVkMDRkMGU4MDNiNDE5ZjdhNDNiNTRjZTY3NDJjNDRkZWQ5MzI4MzRiODFlMmU1N2UxMTNhMjBlZDJkOTcwZjE3Zjc2ZmY1OGRmZTllNGNmYTNkOGU0OWU3MWUzM2IwZjUxYzVmYmY0NzIyMGMzOTg2MDI5ZWU0M2MyZDIzMzMwZmZiYjljZWRjNWE0ODg3MjZjMmZkM2Q3YzNlZWI4OWFmNGJkNDAyM2IxMTZmNTZhMzY5NDgxZDc3MTk2MzgxNzFjOWQ3NjY1ZGRkY2QwN2E0ZmY2ODkzZDQ0NDk1YjMxYmMzOGQ2ZTk5ZWZkMmVhMzcwNWViNWJjY2FlZA?username=tg_0ypy6s61
+寰宇新闻台,https://gptapi.passwdword.xyz/live/encrypted/ZmJkNGVhNzcwOTkxNWIyMjY3OTRmNGFjNWFiMDYyNDY6NDZmYmIwYTlhNzlmNzZhNGIyMTgzOTc5ZjFjMGQwYTlhY2RkZjkxZDJiZmYwZWMxYjZhNDQ5ODMwYjdkMTg2YmFkZmM2ZWY1YmQ3ODkxY2JlMDAzZDA3NGFkNWM3MmJjNjk3ZTYwNTRkOGUzNDMxMzExN2M2NThmOGNkOWYzNjgyMjBlZmMxZWQwOWUyOGVkYjViMTdhZDMyNDUyZjQ2YTg1MzQyYThiN2RiMGNmYjJlNDZkNGUxMTdlNzc4YTE2ZTgzMmM4MjkzZTQ5ZGIyOTJkOTVlYWY3YzFiM2FhZjg0M2Q0YjkyODgwNTIzODUxOGI1NDQ2NjI4NTE1ODA4MDI3NTJjZGY2ZmY5NmJkMGJkMzJjYjk2YjUwNmY4YzFiYjZjNjE0ZmFhODFmNmM3MjM2NGRjNjNlYjNlNzJkOGZlM2NiYjQwMGJkZTRlOGQzOGQ3NTMzMWY2MDBjNzUwYWU5MWRkZjg3N2UxNmU5YTIwMzgxYTkyMmMwMGQ4MzVmM2IyNDcxYzA3ZDE1MGE4YTNjZjhmN2FjMTNjODgxMTg?username=tg_0ypy6s61
+寰宇新闻台湾台,https://gptapi.passwdword.xyz/live/encrypted/N2ZkZTg0NDFlZTlmZWMzMjlhZTFiNWRhMjUzYmJkOWY6MDQ1OGU2YjEzZmEwYTM3ODZlNGNlMTE1YjYwM2M4YmZmNzYxNmE3OTU0YjMzZGZmMDNmZDkwYmQ1OTRhZjdlYTc5YjY0ZDE0NWEyOTJhYjg3OTBlOGVmOTZhMmFiZjhhZjdhOGFmOTdlNGVhY2I1MTRjMDZjZmRkMzdjNmFmMmZmYWY5ZDU0ODZhY2VmNTI0NjlhMmM2MjU2ZjIyMDhjYzA3ZjE5NTBmZDRjYjZjYjUyYjkxZWU4ODliNWE2MWEyZGMxZjhkNmU5ZWY1Njc2NWIzOTExYTY1OWVjZTk4OGRmNjIyNzBmZGU5NzQ5MmJhZjU0MjJiZDU1NTVmZDIzNTBiNjE3MTc0YjNkYzAzMGRlZjAxOWQxNzA5YzQzZDdmY2E4OTQ0YWE4NjMwNjc4ZjEwOGZhMjA5NDMxZDUxZTAyYzQ5Y2E3OGUyZjJhNzkzMzVmMTA4NjcyNTkzNGE0NWFmYmNhNzg5NTJjMGE0N2NmMjQyNjU1ZGZhNGI5NGU2N2JmOGNkMGM4NzAzN2NlMTk3MzcwMTliZWNmNDY0Y2M?username=tg_0ypy6s61
+亚洲旅游台,https://gptapi.passwdword.xyz/live/encrypted/NTM2ZTc3ZTQ3OGIwODExNmY0OWIwMmE1NTgwN2U0M2Y6NjhiNzA4YmRhZDc1ODdlZDgyM2Q3OTFlMTA0MjVmZDYzMGQxNmM2MGE5NDVlMWRlZmZjOTViODI4MmUxNGU4ZWFlZGRiZDBmYTQ2ODAzMmMzMzYwZTZlYzlhNjZiN2Q4NmYzYWUxNGQ4NmU2NGExOWM5ZDUzZWM2NWQwYjc5MmEwNmY4YjAwZGYwMDQ0Yzg1MjlkMWU1MzBiMDAxZGZjZDE4OWUyNTM2NGVkNGU0NGI0YjM5MmU5MWMxOTQyYTcxZjUyNTZjNjk2NjJlYTc1MmM1YzMwYjY2N2FjMDA1NzMwMTNiM2QwOTJiNmJhYjBiOWYxYTJjZTc0Y2Q1ODFjMDI3OGZmMGI0NmU2YTMzOTliM2ZjNDVmMDRiNWUxNjNhZDZmYzA5YzI3OGI3MjY5MDAwNWY0M2I1NjgzNzc3MTYwNWIyOTgyNTFlOGYzYTFlNzFjYzE1ZWI5YjQ3OTE1NmQ3MjNjOTc1ZTM3NWM1MWIxODRhM2M4NWJmYTk2ZjFlNzYzMjM1YmIyMTVlNzJjNjUzOTI4MjU1NzQ5NTkzNDA?username=tg_0ypy6s61
+龙华戏剧,https://gptapi.passwdword.xyz/live/encrypted/NTRlNjU4ZGYzNjdiYjg2NmNlNTJiOTU4YmE0ZjVlNzc6ZjYzOWZjZDMyMTgyM2NhMDg5ODA3OGQ5OTk5OWIwYjcxMGJkMTdjYjc4MmVkNjNkZDE4NWJjMmRiMjc3Y2NiZTZmNzE5NWZhMzYyNDc3YWIxMDViMjRkM2ViZmY0OGU1OGZjOTE3MTNlMDIwMTYwY2NhNmFlMDRhOTYwZDlhZWFjODYyYjRlMzc4MGM0ZWRiMGFkZThjZmY4ODUwODBmOTZmNDE0MGU4ZDMyZGE4YjI5NzkxZTMxNmVhMzZkODIzZmEyN2RlOGZmMTA5MDkwNTMwNDZhMzM3MzNkNGQ1YTIyMDBlODAyYmMyN2VhN2E3MGQ2NDRiMjA1NTA1MDU0MjAyYTdmOWFmMzAyY2JkZjFlMDY4ZmY1NDRmNTdiOTlkZDUwOWNlMmE0MDlmMjVkODc4ZGMzOTEyNGNlNWViZGU4N2Q2ZGNiNmY3MWVlZDYzNTUzOTQwNTgzZGYyNGE0MTA4OGI4MDkyYzEwNzM3MTk5MjRkNzUzOWVmNGQwM2YzOGZkOGNhMzhmY2Y3YTM3MWY4YzI2OWU0YWViZjI2NzRlMjg3Mzg2MmY2M2VkYTA2NzU4OTVlODI4ZGEwMDcxYw?username=tg_0ypy6s61
+Smart知识台,https://gptapi.passwdword.xyz/live/encrypted/OGU1MThhNjgyOWUxZmJlOWMwZjg3NzgzZTI1ZWUwODY6MGMxODNmMTlhNmI2ODRkYWQwMTgxZDc0YjA0MDBjZDU4MzZhYmI5MDgxZTIzZTdkZGI0NjYzYWNiNzc2ZTA1NTllMmYyNGQ5ODQyMTk5NWQwZTQyMGVlNWZhMDViYmFjNTllMjQyZDQ2YjQwMTQxYmM3YWY2MWVkNDYzNTFlZjlmZWVhYjBlMzA5ZDZmYmUyNTMwNmRmNGY4OTQ5YjcyNzNhZjExMjYwNjVjYWEzMTc5OTFiNWM3Y2MxNDRlNzMyZThlMzhiOTM3MDYxZGYxOWZmZmYyZTI0MzBkNGQ5Zjg2OWI2YmUyYzFjM2Q0YWI2YzBkMjVmOWI1OGY3YjdhYTc3MjI4NDdjNGM2OGExY2U4MjRjOTgxMmM1NTk2NmM2YWNkYThhYmQzOTcxMWQyOWU2NDJmMWY2MmE3ZjU0MWE4NmMyNTFjODMyOTc5ZWJiMzEzMjViYzU0MzM3NzMxNGNhOTQxMjVjMjU3MTNlYzc0MzA5NjBjNjRiMWYwMTY5NmIzYjg3OWFjN2M4NDQ2Mzc3NDAxYjY0OWNhMWQxNTllNzk5NDYwY2MyNjUxYWI2OWE5ZTk5YjhhOGE3MzgxZA?username=tg_0ypy6s61
+生活英语台,https://gptapi.passwdword.xyz/live/encrypted/MWE0NWVmODU1MzRkMjQ3MjUzZDVmMWViMDc1MmZkZmU6Y2NlYjQzMjU2ZDhmYjAxNjhiYjRlM2NjNjk1ZDRhNzY2OWY1MTk1NjYyMjM3NTY5MzRiYjc0OTQzMTQ2ZjY0NTc3NzNiMTM1YjRiZjYzOWE5NzA4Y2E4N2I4NGZmNmI0ZGU3OTRkN2RhMjYxMGNkNjBjMmFmNTJkMmFiMjZhZmRmOGEzY2U0NzI4M2JlZWVlNjZlMGM2OGY5ZjdmOTI2M2QwOTgzNzU0YTAzNGM1NmMwZjc2ZTZhOGJkMmM0MjBmMmU1M2ZjMWE2YTk1OTU1YTI3ODQxYjdlNzM0M2QzNTljYmQ3MGM4OTkzNzU3ZmYxNmE0N2NmZjk5OTRjZjI3NDVjMDlkNmVmN2E4ODNiMmMxODQzYzE0OGIxODkwMzk3OTZhZGU5MTlkMzM2OTMxYzNiNGU1MDE3N2FiZTc2ZjkyMWU1NGUyMDA4NmVmZGVjMDY0MGNjOGIwMDU4Nzc3ZTg1M2FiMDI4ODI3OGFhZDQ0N2U3OGUzMTdhYmMxYjU4OGIzOWMzYWM4MzYzZWM3N2RlODI3NjA3ZTExOTA2MDFkNjk4YzYxZjlhMmJkYWU2M2VjZDNjOTU0NTIyMTJiMQ?username=tg_0ypy6s61
+龙华经典,https://gptapi.passwdword.xyz/live/encrypted/MmMyNzNmZmNkZTk1MjY5ZGRiNTMyNDliOTc4NjY5NmI6MGI2MGU2OTNlOTcwNzdjNmVhOGNiMzA0MTBlMzE2ZTQxYmFhYTJkNWIyZjRiMWYxMjQxYmU4ZjkyMTViZWMxNWY2Y2I1NDE5Mzg4NDViMTRmMjdjOWExMGMzNTMzMGRhYWZhZDkxNWZmN2QwZTA5ODYxNzAxYjUxYjhmMThlMmYyZTkyYzI3YmI0NTFjN2E5NzJlNmEyMzhlNWM4ODNlNmZlNjAxMDlkMmNkZTYxMDBjZDUwNDg5NWRlNTIxM2UzYmU0ZDUxM2JmZmY2ODkzYmYyZDE3OWMxNWI5ZjkyY2UzNWEzOTEyYzNhMmQxOTM0MmU1NTFiYTAzMmNlOTRiYzU5MGJlNTUwNDMzNzVkZTA1NWE5YzhjNzQwNWFiMjFmYjQ2NzkxOTJhYTc3NDM1ZTk4ZTQzZmYwYzc4NWNkNGNkYTBjMDkyNDRmNzg1M2YxOWUwZjk3NmE2NWY5ZDExNjQ0NzY0NmFkNGNjYzE2MmY4MmQ4OTdhZjY2YWRmYTcwZTg0OGQyZWI2MGMzZjVkZGY2NjVjNGM1N2EzMTBlZGUxYzc4Y2U5MWM2YmNiOTA4Yjc5Y2JkNWU5OTJmZWJhYw?username=tg_0ypy6s61
+台湾戏剧台,https://gptapi.passwdword.xyz/live/encrypted/MjFjMmEzMGViZTExMmU0NGNiM2Y1NWQwOGYzOTMyMWI6YjhjNmRlM2VhZTg2YzQ3MTY2ZGU1YzIyMWQwNTRhZGVhMzMwNDljOGVkMjY0MmMyNGRjNzhhMjY0YzEwYTAxNWM3ZWQ1YWE1NjQ4ZjdmNDA0MWVlMzAwOGUyZDQzN2I0YTVmYzA2OTI3NzNiZTRhZjMxMzlhNGFiZTk5ZWNiMmIwOTQ2ZDcwYzMxZjgyOTFkMjliMDg1ZDgxNGI2YmVhYmM5MDZjMmViYWRkNDliNTEyZGMxZDg5ZDU1M2UyM2Y3YTJjNWJlMWNkZGIzZmUxNTY4NmViYjFjNDFjMDU5M2I0MDAwZGQxZmI5M2ZmNTJhYjJhM2RmZmM5ZjFkNjM0MWUwYzI5MDg0N2M0Mjg1NWY3OGM4NzgwZTU2MTMyMGQ3NDRhZjIyMjBjOGRkZTZlMTk1ZTRlNjA4Njg5MWZiNTQwMGIyMTI4YjhiMjZlODkwMjg3MzI1MTE1MmVmNmQwYTZjODE0NmY5YWMxMThhMTQyOTlmYjM0MDE3MWRhYTkyYTcyNzc2MjRkYTVhY2ZiZTY5MjBlZDZjNGIzYTJkYjEyYWY1NzE5MjZhYjYxZmI5Mzg3ZWQyNzJjZWYyN2JmYg?username=tg_0ypy6s61
+斯玛特源,#genre#
+Elta体育1台,https://gptapi.passwdword.xyz/live/encrypted/MzlkNmEzZDU2OTZmODc1ZTg0NWVkNzgxNjk0YzgzNWI6ZGE5ZDRjOTRiMDQxOGE3MWRkZjE3MGMwNzA4M2IwYmZlNjU3OGI5M2ZiZGMwZGIzNGJlMDY5ZDk1MDU2YmU2Yjc5ZTM1MmM4MDMwY2Y5YTIwOTc5MGNkNjYxOGRhZDIyMjJiYTU4MjBmMWFmMGJjYzAwN2YzMTBmODlhNTM4ZGYwMzM1NThhZDUxM2EzOTY2MDdhYWFkNmQzNGYwZWM5YmIzZjQwYzEzMzIyYTI3Y2U2MzI0ZGViYThhYzBhZTFhOWRmMTE0ZTczMDkyNjAwZmJhOGM5OThhM2QzMjc2MmFiODkxYWY1NzQwZmU4NzVjY2MwYWE1ZWRhMTE0ZWNmODFiZDAzNDI5ZGYwMDYwNjkzNTk5ZThmOWMxOWRlNjQ3MDg0MWUxNTc4OGQxM2I0YmU3MTU1OTc2N2QyYzI3MDRhOWRkZDQ4ZWI2OThmMzhmZDM4MDQwMzhhNTJmOThiNGEwMDhkMmEzMTQ3ODBjMGUxZjFkNmIwNjgyMDA0ZTg3?username=tg_0ypy6s61
+Elta體育2台,https://gptapi.passwdword.xyz/live/encrypted/NmUyN2Y2ZmQzNjQ3ZjBiNzNhMmZlZjkwNWFjZGY5OGM6MDNmYjE3N2UzZmE3ZGVmYWRjY2ZkMTUzMTM5YjYyZjEzMGFkNmQwOTY5Yzc5N2VjYTA3YTdjYjc2NzVhNjhhYWRkZjA0YTc2YmUwMDU3MzU4NzhkYmRhZGE5MWMxODM2MDI1YTNlMDhlMzdlOWViYTQyNjE0YjljYzFjYTQ3NWU0Njk2NWM2ZGRmODA0YjI1YzEwNTUwMzcwNDU0YTA2MjI5MWUxZGJjNmI1NWM5NTNjMWQ2ZmRmNTQ4M2MyY2Y1OGYyY2MzM2M3NzdhNjc1MjAwM2M2NjdjMDhkYmU3Mzc1ZDUyMWYwMjBmNzg4ODk1OWZiMWUzYjQ0ZTgwNjhiYTRiODM5M2FlZWU1ZDEyYTExZTYzY2ExNzM5YThiNWY0ZWEyZGJhNDhhYjJhMTEwN2Q2NDI0Zjg3NDQ1MDNjZjU2YzE0ZjVjMGJlOTFiMWQwZTE2NzhjZWM5NzliY2JkNmYxMWUzNDRlZGRlYmVmMGY3NTQ4ODQ3MmExMjMyNmNi?username=tg_0ypy6s61
+Elta體育3台,https://gptapi.passwdword.xyz/live/encrypted/YTRiYzE4MjQ1NDY2ZDFjZmNhNDM3OTE4MjJmYWU4NDY6ZTZlZjVjN2JkOTYyZjc4ZjJlMTVjZDFlNzdkYWJiMzgyZjE3MmU2N2U3NDFmOWE0NDQ0NDIxN2RhMTQyYWU4MjhkODU2OGExNDk1Nzc1NDJjMWYxYzUwYzdlMDdlYjY4MDQxYWRkMWJiMWMwMGYzMzBlNmFjZmU1MDBiZTYzYmI2ZDUzYmRkZjAzMDU0MTFmMjJmMjZlZWFkNGJjZTJhYjJhNWRiMjM4YTg1MjcxZTVkYzA1OTI5NmQ5NTE1MDk1MjRmNWQ1ZTNhOGM5MTg5MDgwMWMwMzMxNzU2NzM4Y2IyYThkMzc3MjU5Njc2MzBmZDk5ZGMwYmJjNWM5ZDUyNzdjN2IxYjFhZjFkOWY4YWE2NGMxNWFlYTk4MDA0NmIxNWJlNGE4Yjg3NzFjOGNhODUwMmY2NDA1OTEwYTkyNGNiZDc5NjEyNzdhNThiNWRiMWMxZWM5MzFiNjRiNWFjZDcwYWE0MjY5N2Y0MDQ4MWY1Mzc2ZjNjYmVlZDNjOWRl?username=tg_0ypy6s61
+DAZN 1,https://gptapi.passwdword.xyz/live/encrypted/YmEwMmQ3ZmM4MTg0NTYzYmEzM2VmNmRiMjNiYjhkZTM6ZTQ3MWNlYzc5OGU4ZjNhYTMwNzc0YTJjYzk3ZDM3ODQzYWM4NGQwNzBlOWM2YmNjYzE1ZWUyZDI0NjMwNDI4Nzk4NzJiMzU1N2E1NGZiNGY1OWIwNDI5MTY1ODA5MDU4MjQwYzczM2M2OWMzOGI5MTZlZDczZjk4MzM2MDM0MWI5Njg0ZDU1YmJiYWYyMTc1NjNmNDdhMTZjM2Q3MGI2ODY1NGQ4NjQwNDNiMmQyNDUzNjY2ODkwMjY2Mzk5MTZmM2U0YjZkNTFkYTRjMjk2ZTg1MzBkN2FmMzkzMGNjYTllMmMxMWI0OWMxOWQyMDAwYmNjZWQ3NDJhYmNhMDUwNWFjNmY0YzA0ZjY5ODQxMTI4YmFkZGJkOWIwNzczZjNjZGRhYjkyYjFkMGNmODkyNTRmNTAwNDgyZTk3ZjI4Mzg3ODk4NjUxYTIwZGJhZmIzNmQ3NjFkMmU1ZTkyZjliNQ?username=tg_0ypy6s61
+DAZN 2,https://gptapi.passwdword.xyz/live/encrypted/NTgwZmYxMTRhNmVmYzYxYTQwOTJhZjhiYzM1OThiZGQ6NjhhNTk1ZjA1ZDdjMzFiZDdjMTFhNWJlNWQzZDZmOGYzYmQ5ZTQyYmUzMGI5ZTFjNzMwMzlhN2I4ZGVlMzY4ZjA4YjhiZGY1MmM4MDc0MTU2NjM3MzI4MWUzMjBhZTdlNDlhMDIwYzIzOTU4YzVkYWJlMzZjZDJiZjBkM2Q5MTJhYWFhYjY4MzYwNDgzZjE5MzJhMjk1Y2Q3MjVkMGZjMmIxNDViMmI2ODM0NmYwMTJiMDMwOTg5NDQ4NTExOTk4NDhkYzFiMjE0Zjc1YmQxMjgyNTcxM2QxYTk4MDgzMTIzYjg5NWM5OWMwNWVmZDI3ZDRiY2Y5YWI1ZDJkMGQwZWU5NDA5ZWJjNDA4ZDk4NTAzNGFiM2NmZjZlYzM5NTVlNzQxNWE5Nzk0NTNmNzVlMWE2MmFhMTkxZjQ3YTY0NTEzNTIxZmY2NGFjMDU5YzU2ZmUyNDgwYTQxMjkwYjczYw?username=tg_0ypy6s61
+TVBS 歡樂台,https://gptapi.passwdword.xyz/live/encrypted/ZWE5MzdkNTUyOWQwMTQ1MjIyZTcwYmVlOWFjMjUxOTQ6N2NiYzIwODMyYzdjNDA4OTg4MGIxOTc5MmUxNjBlZjBkMTBjMzYxYzFhMDdjMDhiNmE3NjVkY2NiY2UzM2M3OTg3ZTk5NmM5MzNlMTZlMTY0M2VmM2UyNDEyNzY5NjhlYjhiOTMxOGRjOWVkYzQxZTA0ZWQ2ZTY0YjQ0NjMwN2IxMjk4YzAyZWU2Njc4ZGZiMTUzZGU3NWI1MTc3NTgzMzZlOWJjOWEzMDc5MTI5OTU5ZTg4NWNjYTg5Y2M1YzU3MTY0MTcxODU0OTU4MGFhMzFkMTBiMWRhZTA2ZGE2YjJjZWI1YmEyODQzZDdlZGJlNTNiMGI5YTYzNzEzMGYwZDllYjRlY2Y5NzgyYmEwZTA3ZGVjM2M0YWU3YTE1Y2Y5OTRjZGEzMTI2N2E0MDE1YTg4YzZjNDU3YmU3NTM0ODQyMDdhZjRiYmNmMTJkZmU2YjdmM2ViNjAwNGI3NWM2OTQyNTU3YjlhNTI1NWFiNWVjZmM4ZWRmMjZlOWZiYmI0?username=tg_0ypy6s61
+TVBS HD,https://gptapi.passwdword.xyz/live/encrypted/N2YzNWM2OTg4NjY2MWMzOTBhZWI3ZmZhMzljOWVlMjM6ZmRhMGQyY2M4MzAwNDNjM2VmZGI0ZGZkM2E2NzhiOWVjMjJhM2U1MmNmYjllMDMzZTlmMmE5NGMxMDhiYzFkODUxYTc1NjcyMTRmYjNiZTFhMDNmN2Y0MGVmNTFhN2ExMzFmMGI0OWJmZWUxNjQwYzUzZWU1MzhhYjBlODUzMjIyY2FjMDIxYzQyNjUxMzllZjM0NmQ5OGFiNjVhMzhhNmEzODg2NGFjNTIyZDBkMjQzYzhhYjQ2NDBiYmJhNmY1NDVjNzNhZjg0ZGE0NzQ0MzgwOGE1MmJiMGI4MDFmZjdhMmI5MWNmMDU0NjQ2N2MwMTY2MzkyZTU1NmQ3NjBmMDIyODA3YmIyNzNlNzExMDgzN2VmNjlhNTlmMzNlMmFiOWIwNTlhOWIzN2I2OThlYmQxYWRiMmU2NzFlZTQ2NmYyZDMzMmJjZjgyNmU3MWZmZDc0NWRlN2I5ZWZmMTZjZA?username=tg_0ypy6s61
+中天娱乐 CTI Entertaiment,https://gptapi.passwdword.xyz/live/encrypted/ZWY0OTI3NDQzNDY0M2Y3MThhNWY2ZmM0YjE5YmU2MzQ6ZGU3ZjRkMjE0ZjFhYTQwNzJjZWM0YjA0MjYyOGY0OWQzZmNmZjE2MGVhMzA1YWZlMTNkMTgwMzUwMjY1ZTlhYmNiMzg4MTQzZGY3MGRkNjc4ZjM3YmU2OWMyMTc2MGIwODMxZDY3ZTcwYmRiMDRkODc1ODhkMThiYmQ1MTVjM2QxMzRiMDQ2YjA2YWI4YjQwZjFjZTNlNTM5Y2NhYWVjYzdmMzE1MmE4NGY4YjQ3NDE3NjI0M2YwMDg1N2VmNjNhYzE5ZWYxNDcwMTU3NGE1MTA5NDdmZTIwZDEyNDIxMGQzYzM2MmJlYjBlY2JhMWRmNjAwMDgwMjg2ZWMxZjJiYjljNmFmNjk3NWYzMTAzNDgyMzZhNDFlMDFlNjUxODJhODdkN2ZkMWEyZmU2NDg5MDI1NzM1NWNlNDFlMmEyMzA4M2ZmNTU1OTliM2RmMzdkYWI4OTM3NzkxMTE5MzE0ZA?username=tg_0ypy6s61
+中天综合 CTI Metro,https://gptapi.passwdword.xyz/live/encrypted/MTE1ZjZmYTkzNDY0Yzk1ZjE0NGMzNzAwM2M1ZjczMmM6NjM1YWQ5Y2Q0YzgyZGY5ODdmMzFkNjNlNWQwNTI3YzZkYTdjYjBmN2NlMGU3ODNmMzJjMjU0MThlMWQ3YWU1N2I2YzE3MDc3N2RkOTU1MGYzZjk4Zjk2ZDNlNzQ0NTdkNjY1ZTNiN2ZkODI0ZDZlZWI0YjdhYzRhNzRiY2YzZjM4ZmJkNzRlZDYwMmVlNWM4ZWUxNWZkZTYyZDkwMGVhOGRlZGY0ODc4YTgwNWMwNzdiODRmNWUxNjA0ZjcxZDA2NmUyNDJiYTdmYWI5MDJhZTRhZDQ4NDlkNjU5ZDA4NDEzYzkxNTdiOTYwYzU4MGY3M2ZkN2IwZGI0M2JhYzIyOGJkOGE1YWUzNzlhNWY5NzYwNmJhODQ5NTc1OTcyZDNjYmRiNDExMzdmYWEyNTk1ZmEyZWYyMDk5MWExYjYwMzBjYzEzZjM5Yjk0YWRmZjFmNTFjMWNmMWIwYjE3OGY4YQ?username=tg_0ypy6s61
+中天亚洲台,https://gptapi.passwdword.xyz/live/encrypted/NGYzOGE3OTY1YWJlM2FmZTRiY2E0YTkyZDUxMmNmNmM6NzMzMDRhOTE4OWFmNDgyMDY4YmM0OGVmNDRkMDMxNWE3ZjM4MmE4NzUzNzAyOWQwNjAwYzNiNDIyYTA5MmZkODE1MDVhYjBjMTI1ZjcyYWEwMTIxMGI1MzczN2QwZjVhZTY3M2EyYzk1NjBhZWUzMGVkNjFiZDlmODY2NjI2NGE4MDg0ZDE3MDZlNzk0MjA4OWFjYTQwZDZjZTlkZWUzZDFjZWVkNWM0YzQwMjRkMGU5OTFkNDU2ZmY3ZjUyMzc2OWM1MWFjYmQ5ZTI4NmRlYTNiZTdmODAxYzIyZTBhN2IwNThiNmU2YmJiZWI0MmQzODY5MGY1OGJmMTUzZGRlYTYwZWQ3NDE0MWZkODYzYzAzYTZmMWE5ZDA4ZjMxYTZkMmE1ZDAzOTM1MzQzNTA2YTJjOWMyOWM0Y2E4NjE5NjRmZTNmMWE5MTNmNjU5NmI3MmIzYThlMGI5YjEzZmVjZA?username=tg_0ypy6s61
+台视 TTV HD,https://gptapi.passwdword.xyz/live/encrypted/ZjI2YTk2OTNjNDQ3ODNmN2MyODhhMGY2ZWZjOTllMmY6MDUyY2Y2NjcyZDNlMWRlMmM2NGQ0YTgxZmIxMTEzZTdhZDkzZDVlNDA3NDY0MjEzNTYyMjA3NGRhYWVmMWMxNDZhYmY2OTQ5N2ExOThjNzg0YmJhZmQwY2U4ZWEwOGEyNTgzODhmZDNjNGNiYmEwMmEzYzQ3ZTA2MTAyZGQ5NTg0ZTcyN2RiYTA0YTZmZGQ0OWY3NzllNWZmMTA1YmRlMzg1OGMxMjZlNjgyMWQyYzBiYjRiODcwZTE2Yzc5MTdiOWQyMzdiMWJiMzhhZDdjMmExMjM4YmIyYWE1ZjgzYzk1NGE5MDVkODY0OWE1YTE1NGVkOTUzNzM3NDM4Y2JkZmVmZTk0NDYwMWRhODAxYzI4NzY5YmFlNzRhNWQxY2UyOWEwY2I2ZGM5ZmE0MGNjZTY2MGFmYTBjMzQzZTJkMTc0YjJlZTRhYjZhYTE4MmU1YThmMjE5YjQzOTU4OWU4OQ?username=tg_0ypy6s61
+台视综合台,https://gptapi.passwdword.xyz/live/encrypted/NmM3Y2NkOTJlZTQ4YjgyZmZmY2IxNWE3YTJmMzdkNTg6ZTFlZmI3ZTVkMTZjZjEwOWJlMjVkNmMyNzQ0ZDkwMTYwNjNlZDQ3YjQyNDdhMTI0YWE2ZWIyZWViMTQwNzJmOTBiMTYwNmM1MDQ5MTRjZjIzN2E0MDcyY2U3NWRmYWZjY2NkNDA5NzkwYWQxNGVkOTdhOTljMmVmZDg5MjNkNzIwMzVjYmE4MDVmMGQwYjNhNmYwOTZlN2RiZmIyMGRjNjIyMDM2NDg0YjJlMDYwMWJjYTUxMDk0OWI2NWU0ZDkyMmI0MTY2NGZiMWIyOWExMjJlMjgzNmZmM2M3MTRiMjBjZTdmNjYxM2FlNzdhOWNhYjJmZTU2OTExNWViNDlhMjYyOWJlMmZjYzEwYjI5MjRiMWMxNWJmMWI4YzkzYzVjZWQ3ZDU4NDY3MjE0MDMxN2FkMDBmZGNiMDdhMjdkMDAzYTIxODE1Y2MxMGE5MDJlYTBmN2E3MjQwNTFiM2RmOA?username=tg_0ypy6s61
+中视 HD,https://gptapi.passwdword.xyz/live/encrypted/YjEwMjI0MjYzY2E1NjZhMDJiYTM0ZTE4YThjODc0MDk6OGE5YWRjMGVkNDM1MDJjMDEyNGExYTRiZjc2OThkOWI3ODBlNGEwOGMwYzE1YmE4NTk4NjZmYmE0MzAzOTFjZTIxMGUzYzA4Y2Q3MjRjMjdjMGNmNzg1ZDQ5OGE4NWY2NGJlY2FhOTJmNmE0NjYwMjM5ZTU0Njg5ODI0YWJlNGE2MWVkNjU5OWIzNzFiZjlhMzZkNzUwOTMwNTA5NjNjNGRkNDdkYTAwN2E5YzBmZjlmOTU0NzFkMzk5Y2YxNWUxZjU0MzcyZDQwNTJiYWI0Njg3ZTk1MTJkODFhMTU3NzUwZWQ5N2VmMGExMzYxMzAxMzk3ZDNlMWI2YWUwNTEwM2MxZTM2MjU5YTk5MzhjYmIzNjM2NGE0ZDI3YzE3Mjk1YWIyZWNkMGE2NmFkMjQ1MmE4OTU2YjFhYWM4NTUzZjI2ZTIxMmM4ZGE2MzI5MjU4ZjAxZmJlN2UxMTQ0NGI2YjAzYjc4OThhMzQzZjI3ZTVmYjVhOTMwNGRlZmYyNWZi?username=tg_0ypy6s61
+民视 HD,https://gptapi.passwdword.xyz/live/encrypted/YmI4MjJjNTcyYzEzZDc4MTBiMGY4YmRhYTU1YTRmZTM6ZWJlMzFlNjVmMjVmYTYxMzYxOWEwZTYwOTk0ZDAwOWRmZWIwNjQzYzE5ZGQ4OTBkNmE1MWQzZjBlMzI2ZTA1Yjk2ZDA0YmFiY2E2NjdiNWNlZWFjYmNmMzJkMTA5NjdlZjkzZTc0YmMwMGFkZDE1ODRkNWIwYTM0NGFiZTA1OWUxMzEwNTFhOGRjMTRmMjAzMTg5ZmEyMzliZTY3ZWVkYmQ5ZmQ4ZDRlNGNlOTc3YzMzMzVhY2FkYzhiNTRiMTA1M2QzNzA5NTRiNWNmNTU1ZjBjZmI4Y2MyOTZkYTYzOTA5NDdkMjIzNDI1ZTJhZTkxMjZkNGMyNTIzYjFjMzA2ZDY0ZDRmZGJlM2Q3MjVjZTdiOWZjNTk5YzJjOTYwZGZjMzc4ZTU0NGQwNjM1YTA3OTA4ZDUwMTU1YzllMGE4ZGQyYWJlMDk2ZGJjMDQ4YzJkM2QxZGIwNzRmMDhkMmRhOA?username=tg_0ypy6s61
+民视台湾台,https://gptapi.passwdword.xyz/live/encrypted/NDJlODk3NmJkY2MzMTc0NzY0OTg0NWQ0YjlhMmUzMGU6MWJlNDA2YTM5NGFmOTQ1YTQxMTRmMThhM2I0MmUwZTVkNDc3MTc2NWFiOTc1ODBiZGRiNzNmNDJlM2U2NTBlZWQ0MzIwZmRkZmYzZDNmZTQ1NTM3Mzk5MGE4MWZkNTRmOTQ0ZjRiMTg1MjFiY2I5OWRlNzQ0MDNmOGE3Mjc3MmI2ZGUxNDZlYzc4OTIwNTczOWE1NjI1N2Y0ZWM5NTc0MDk3ZTI2ZjA0NGRlMjZmNWFjMjkyNTJmMmFmZGRkYWIxYjY5MGNjMzVmMDI1MzI0YWFmMzVlYWYzNzFlMDAwNTliOGVkZGUyYjUxMTM2NjgyYmUzYmVkOGIwMzMzYTNkMzYxNDQxMTA1ZGIxYmU0MTlkNTgwYzQzYjM2ZTIwMTczZWVlYzIzOTQ5MTc4ZDQxNGViMmJlNzRjNzg5YThmOTE1NGY4MTViNTdiMTM2YmNjOGQ2OWVkZjRlMDhjODU1ODE2M2FiZWM2NDVhZGQ0ZDhhZjE1M2Y3ODdiYWY0MDkz?username=tg_0ypy6s61
+华视 CTS HD,https://gptapi.passwdword.xyz/live/encrypted/M2JlYTNhMWRiNmUwY2Q4YWE0YjM4MzQwMzA4ZjY4ZGE6MjkyZGI4OTAxNjU5MjcxOThkMTExM2Q2ZGQwOGI5NjFjODdjNmI3ZGEzNzg3YzJjMTcyNGY1YTZkNmVmYWE2MGNmYjExZjkxNGI3MDNlOGI5ZGZlM2FjZDhjZDk5NTAxYTQ3NGEyNWIwN2M2ZmU4M2VkMzE5YjNhZDdiOGM4ZGJlNTI1MmVkZTMzMzVhODA3YTBmZGU5MjNlZTM2YjkxNDdjYjlmMGVjODUxZGJiYTRjMjRkZGY0NGE2MzdiYmJlNGU5ZDNmMDc4YmZlMjgyMzg1YWU5NDNkMzBhNjliYTQ3OTg2MjZjNTVhYjdkMWUwZDMwZThkZjhkZjU3ZWMxOTc1Y2NhNGYyM2RhZTExYjRmNTVmZWI1NGU4YmZmZTRmZTQ1Y2JiMDc1NTdhYzE1MTJhN2IxMjNiNTcxYzhjZGU4MmM1NTNjN2E5ZDA2ODI2ZmEyMjFlNDNmYzU3NjcyZQ?username=tg_0ypy6s61
+公视 CTV,https://gptapi.passwdword.xyz/live/encrypted/OTE2YjRjZTBiNmQ1ZTJlNmVjYTEwZGI0MzEyZDhlZWQ6MGI4NjA1ODFkMjk0MzBlYzFiMjFkZmRlZDM3NGRkOTNlMDc4YzQ0NGY3NjkyNDgwNjlkZGIzNTVhMTZjNDQyNzllOTg4YzVhYTEyMTQ2YWU0NDEzODA2ODY3NDgxYTMyMWE2MDRlZGRiNDNkNmVmOGM5NzliMzk1ZWU5ZTE5OTAwNWVhNWM2YTJkYzQ0NDU4MDM3NDY3N2EzZjAyMjkyMjg2ODE1ZjIwMTAzODBjNzEyMTg0MjNlOTE3MTg4MWU5MmI0NzY3MTZiODlkYjAyMzFlYzBkYzY4NGU2NTM2NjU3YWM1MDZlNjEwZDRlODY1MDQ2NjhjZWMyZGJlNzc1NDc4M2ViNzk4Y2Y5YzE3ZTM4ZDJjNjU4ZDBiODBkYmJkODVlNDljMTI3YWFlMjNlM2U2ODA1Mjg5ZDk0ZWZiNmRjNDFjYzliNTUzMmY3ODQyYTEzNTg2ODQ3MWE2ZTY3Nw?username=tg_0ypy6s61
+八大第一 GTV First,https://gptapi.passwdword.xyz/live/encrypted/M2I5ZjU4ZGYzN2RhZTI5M2MxOTQzODVhMjk0ZmRlNjU6YTExZDk5NjE3MWI5YmU5YTgwMzc0OTM3ODM3MTk0MDJkMjNiNDg1MmQwMDdkNTNjZGNmOTUxNGI4NWIxZWMxM2YxNDEzNTViZjhkMGYxZGFlNDA2YzVhYWQ2YmQ3ZGY4MTQ3OTcxNjkxNjgxZDBhODlhOTA0ZDkzYTdhODViZTkwNzFkYjIwYTllYWMxMzQ3NjgyZDA5ZTI5ZWMzZDNmMTRlMmMxZWM2MDJiZjcyYTY3NmU0Y2NlNTIyOGQzY2M5ZjVhZWRhNGQzYjk5MmZjNTQ2Y2ZlZWE5ZjBkMzBmZGU2NjQ5ZmMwNTI3NWEzMGIwYzM2N2Y4ZTM1YjI1NzljNjEyMzNmNDgzYTNmMjNkNGQ1NjFlYzA0MDBhN2UxM2EyZDRlNDU4ZDcwNjYxNjQ0YjMxZWE1MDI4YjZhOWQ0ODU2YTFlNTRhNGNmNjYxZTU0ODViZGYwYTZlNDcwNjU5Yg?username=tg_0ypy6s61
+八大综合 GTV Metro,https://gptapi.passwdword.xyz/live/encrypted/MDdkZmVhOGMwZTU0YTE3OWYwNzBkMzE3NTM0OTZmZWQ6MjgxZTE2ZDYzZGNhZGQ5M2FjNGI2NDBkN2Q2MTY2NTYxZjMyNmNjMDlmYmNjM2ViOTUwNGJlMmM0MGNjMWRiYWFmOTg1YmZiNmE2YmMzZTlkMDcyMDYzMGYyMmU0ZGI4ZTM4MDhiM2VkYTMyYzI4ZmY0YTkwYTRjODZhZWI0M2I1YTljNWJiNjdiNzI0MmYyMDE1NjBhNTgyMDE2NDlkZjlhYzBhOTU5Mzk0Njk3ZWE2NzRmMzAxMzg1MmM1YjE2NDE0ZmI5OTMwYWM0MGNjY2UyYWFhMWY0YmM2ZTA0NDQxZTlmOTIxY2RhYjZjMGIzMWZkNTM5YTRlZDg3ODk5NDBjN2Q5Mzg4NTkxZjRmNDY1Yjg4MTU2YzIyZDQ2ZTU0ZGZhMTI0ODIxZjgyNjE4OGFmMGY3ZGYyZjZiNWEyODJiNmQzMmY4OTRkNTkzNjdiMDkwMjQ5NDAxNzQyZTU0OQ?username=tg_0ypy6s61
+八大戏剧 GTV Drama,https://gptapi.passwdword.xyz/live/encrypted/ZTU3ZWY2YTllYzA0MjVhMzU2MjJmNWMyMTkzMWRhYjk6OWE0NzkyOGYyMzM3NTU4YjkxMWM1MWE0YTRiZDlmY2JhZTYwNjk5ZmZjNDBlOWI0MjcxZmJiZGY5YmU5NmNiNDJlYjMwOTlmYjkyZTU1NDc5MzIxMWI4M2Y3MWM0ODMzY2ZhZjNiNjhmOWJlYjgyYzRjNzRlMjU0NjY5MzY0YjBmZDc3NTI1NzdiODEwNDJmMzE2YzQyOWU5NGU2NmZiNTdiNmVkM2U4MjVjYzUwMTg3OWQ2ZDYzZDliMDA3NDFkMmJhYmZhY2ZkN2E4ZWQzNTNiNDUxNGIwNTJmMWY4MWM4ZWMwOGQ2MjEwY2NhODdkYzZlOWMyNjlkMDJhY2E5ZGQ5OTIwODJhMWQwMzUzMGM4MzcwMWNiNjEyNjhiOGRhYWRkOTVmZTlhM2Q3ODY5Y2FlN2FkZjhlZjU4ZDVkMzg3NmViYzhlYjBkYTM1YTlhYjA3M2I2OWY1MTg4OWIyMw?username=tg_0ypy6s61
+八大娱乐 GTV Entertainment,https://gptapi.passwdword.xyz/live/encrypted/ZDBiYTMxYTRkNGIzNTQwZDk0ZTE2ZTczMWJmZGUzZTc6MDIzMWUzMDYyZjdjNzE1YjY3NDFlMGZmNTFhYWQ3ZDExMjNhYjlhMTdhY2JhY2NiNDlkZGU1NGZlYjEyYTc3ZTQ2NDk5ZjY5NDIzMTEyNmM5NDc5N2RlNmY1Yzg5NDY5MjMxOTYyNWIyYmQ5NmE0ZDMxMDA0YTc1NDAyMmI2NTdkOGE4NDg4ZTE3YjE3ODg4ZjMwODA4OTI0NzhmM2NiNjQ2NzA5MTgzY2E0ZGQ2MGEyMzE4ODQ3NjUxZDVlMjA5MmRmMWNjMDY1NDVhYTFjNzM3NmY2MTMxYzFmOGM0ZDk0MDRlMTEyNWMxNzE3ZjBmMGViMTJmMDU2YjhmNGFiYTI0ZTgxMzlkNDY4YzExMjlmMTE4MWU1Y2FkOWE4NzNhZTNmYTAzNTg2YzZlN2MzMjljZDMwOTEyODJkMmIxNzFmNDFmNmRjZTk0ZGJmOTMyM2FkN2EyNGQ4ODdiNjFmZmQ0MWY2MjVjNzI0OWQ1NzViNTdkNWQ4OWM0MWRhNzQ1?username=tg_0ypy6s61
+HBO_HD,https://gptapi.passwdword.xyz/live/encrypted/NTIzYThhMzBmYWEzZGFiMTM1YmQ3YjBhODQ3MzYwYjc6YzhmMjkwODEwNTU4NzBiOTViMGNkMGY1YTRjYzBhNmIyODFjNjdiYWQxNDU3YTI1MWQ3ZGY0Mzk4ZmJjZDBmZjg3MWIzMWE1M2ViYWFhY2IwNGRkZTQ2ZjlkYmRiY2FhZmQ3NjEzNGI5YWE0NjZmY2M3MDM4ODFhNWMyMzM2NTQ4ZmQ2ZmM0ODRjOTczNzQ3MmI4NmIxNjc4ODU2NjhmM2MzZmQzMTYzZDc2N2RkNzhkMmFkOGIyZTI1MzY3ZDQ2NzM2MDA3NDVkNDk1ZGY4OTc1NmJiOTZhYTI5NDM0NDUwODhlMTJmNDlhOTkyNDFkMTJjZmIzYjAxZjEwYmFiOWIyOTc5N2UzZWZiZGEyNzUzZDE0YWEyNzg3YWM1OWU2M2FmM2Q0MDZhZDRmMjc3ZGI1YjE4YjkzN2UyYzgyMjA5YzE4NWRhZGRmY2QyNDNkZTIwNDZkYjMzZDg2ZmMyNw?username=tg_0ypy6s61
+HBO_HITS,https://gptapi.passwdword.xyz/live/encrypted/MTc1ZjAwN2VkYWE4YTljNjM5Mjg4YzRlNGZjOTFjYjU6ZDk2M2JjZTIwM2EzYzJlNWUyNWE4ODcwNWE4NjhkMTlkNDg1ZTc4NGM4NmI2MDEwYjY4NDkyNDU5ZWMyYzY4MjRhZTdhODlhYTE3ZTIzNDVkNjA2NTNlNjljZDhhMTg0ZWY4MmM5MTdlZmExMzE5NmU0OTc2OGZlMGIwNjg0N2VlMmZkZmVhYjgwMDkzMzdlN2NlNWYyMjYyMTEyZGM4MjE2NzNlMmQxZDlhZjg0ZmYzMTQ3ZDVmYTljYjI5ODExMTc2NmM3OGEzYzg4ZDIzNmY3YzA2MTA0NjE0MTI5NmM1NmU1NGRjNmQ4MjZiN2YzM2E0ZjgyOWEwZjExOTY2MWNjMzY5ZDBiMzRhNmNlYTNjMDRhYzQ5ZmE5MmQ0ZDkyNWU5NDkzMGVkY2M1NDA2YzU2YjFmNjJiODgzZjczZDg0YTA3OGY2MDhkMzhkNWE0M2NkY2I5ZmJkYjBlNjRmZA?username=tg_0ypy6s61
+HBO Signature Taiwan,https://gptapi.passwdword.xyz/live/encrypted/ZTFiNWNiNzc0YmYyMmEwY2E0NGEyYTFlYjExOWUwZjI6ZjNiYzk1ZmMyMjE0MjFlOTM0M2I2M2U0YmMzZGI4Zjc4Nzk3YjBhM2VlMGY3YWM3OTZlNGQ4ODQ0MWE2ZmI1ZTk4YzY2ZmVkNGZiNWEyMjFjZWMwY2ZkNWY0NjZlNzQ3Nzg4NDEwMjRlMmY3YTUzNWFmYzRlYmZhNzk1ZGE4NmFjMjYxNjRiZjBhZjAyYzk0MjgxZTBkZDllM2Q2MmQxOTQxNWJiNmRhNzVkNzIxMDUzZDJmY2Y2OTViMmY0ZWRhMjQ3N2FkZjczMDNiN2RjYTk5MWYwZmZiYjYyNmRhNzRmYTA5Y2MzZTBjZDdmODU0ZGU4ZDVmNGNjNGI0MGQwMGQzYzc0MTIyODFkMTFmM2ViNDlhZWUxMTg3N2QxNzFkMGM2MzVlMTMxYTBlMjgwNWM0Y2FlMzk5YWFlZDYzMDBlMWU3MTFhZTcxMGUxNDBjYWUzYWFkN2Q1M2Q2YjcwZWIyYzdhZGY1ZTBlYjFiZWY1MThiZWYzMzUxZmI4OTIz?username=tg_0ypy6s61
+Hollywood Movies,https://gptapi.passwdword.xyz/live/encrypted/Y2NmNTQ0MTgwMzI0NDMwOTlhYWJiMDZkMjExNDE3NTY6ZDFkNDlkMTMzZWFlMTc5Y2RlZTkyM2IyNzU2ZjNlODUzMDQ3MTRjMzEzNWZhMmZmYWM5OTkxNTkwOGZjMDE5YzBmOTA2NjJiYmQ3YjdiNjI3NjBmYzY4MTM4YjVhZGU5NGE5NjZhY2NmYjA5MThiMDBhZjMzZmFmMGE5ZTBjNDQ1M2U3MTUzMzFiMzlhYmUwYmQzN2FkYzE5YTgyZDFhOGVjZGQ3OTdiOTFlZGJkOGFiZDRlZGVhMjRkOGYwODM0MzhhZDZmOGRkOTM2YjMxOTI1OGYzMDIzMjk5MjY2MzhkYmVhNWQ3Y2EyOWJkMDE1MmIxNjY2OWUwMjY5OTBhNTFmMzZiNDY5MGMwNDdjYzMyODFkZTgzNmQ4NTNmMTQ5N2VmZGRlOTNmZDM3MGI1Y2Y0MzdmYjc4ZWJiY2M2NDNjOTljYTE3ZTk1OWY0MWQ4OGQxN2Q5ZjViNmM0NzI4YjFjYjMzNzU4NWU4ODMxYTlkZDMxZTZmZTZmNjZjZGQ1?username=tg_0ypy6s61
+三立台湾 Sanli Taiwan,https://gptapi.passwdword.xyz/live/encrypted/MGM2MmM0M2E3ZWNhMjFlMDNlY2ExZDBmNDIzNDQ5OTc6NzEyNjlmMjc1N2EyZjQ1YTk5Yzk0YWNmNTgxZmM4NmRjYzQ1ODJjNzdhOGQ4MDJhYjNlNGRlOGEzYTAwODM4YWNmMjQ0ZjQ2OTgyNzRiYzljNGZkYTBiY2JiYWM5MzllYTU2MzI4MWMzZWJlODNmZWNlNTcwNTg5NjQ1ODg1MmVmZTVjZjBhM2QzM2Y1ODJmNGIyZGFhNzdiY2M3NzZhOWU5ZTcwOGMxNzAwZmFmNTk3OWRjYTNhMzIwM2VmM2VkNGE4NWViYWVmY2JjODUwMGQyMGI2ZTEwOTlkMDVjZTBkZDZlMWZlNWQ0NGI1OGU1MmExOGIzMDk5MjU2ODU4MTQ1ZjUwMjhhNzRjODMyZmZiZWNlNDZjOTkwODBkZmYyNTk5NGQ0NmExYmQ1NWRjYTYyYjUzMGViZmY2YzBiZThiMjgwNjI0NTYwNGVlYzY4ODVlYjVjZTM3MDA1MGRkMQ?username=tg_0ypy6s61
+三立戏剧台,https://gptapi.passwdword.xyz/live/encrypted/ZDRjODk2Y2FjMWI4Y2IwMTM2NzNiMGU2NTU2MjE5Yzk6OWExMGNiNTBiYTRhMWExNTQ2MjBlN2VlMTNiZTY5OWM2ZDM0NDZiNjFmNDM3ZjQ3NmI0YThhYzViZDYzMjFlZTg0ZGU3ODAyYmFkYmZkMTJjNTc4OWY4MTA1NWM2NDllOGIyOTRjZmNkMGY0NzZiNDMzNWYyMDAzZjBkNDA4YTE0NzhkZGM1Y2VjNmQxOWUxN2UzODMyYWMzYTYzZGY4MDVkNjJjNzNlNDE4YzQ4YjA2ZjdjMDEyYzhkYjU5M2NmMzZjZTlkZDg4M2E4M2NiMjcwMjAwZmQxNzI5MTU5ZjI0NDdjMzcxZjc3MWFhMjhiNmE1ZGFlMWQxNTY2Zjk5ZTJjMjZhNDQxNDYwOWI1YWZiOWNjZWIzMTZjMDI2OGJkZGEwZGY3NmZhYzUxOWIzNmQ3M2IxNTYwMjljNjhiODEwYjUwNDJlMmY4YTc1YjE5ZDBjN2I5MDAzZTNlYjk0MjNlNGVlZTY2ODI4M2U4NWM0NTI0NzI2NzFiNGNjNjE5?username=tg_0ypy6s61
+三立综合 Sanli Metro,https://gptapi.passwdword.xyz/live/encrypted/MTk1YmIwM2FlMDg2NzQxOTRjNDhjMzA4ODljZjRkY2Y6YzViNWY0MTc3NTk3ZDA2MGE4MWU3ZjA5MmJjYWU4NWQ5OGYzOWQzZTZiYzA0NmZmYTI2ZjllM2U3ZDBkZDViNGUwN2QzNDY3ZDdmMWIxZDI3YzlhYjJmNTllZDJiNjBjNDZhNGIwMDE5ZDRjZTM0ZDg2Mjk1Mzg4M2RjNDM4MzdkMjc4Njg0YzZmZTk1Y2NlYTU3YWI0NjUyNTEyNzA0ZTU3Mzk0YmNiMjUwOTlhZTBiYWQzM2U4NGZjNzdlMWViNzAwNjAxNjQ4MDg5NWFiOTBhMmU1MjAwNjY5NDk5NGZiNWRkZWEyMTAxOGY0MDEzNDkxN2ZlNDhiYTNhNjVlZjU4YzY3ODQyN2IxODY1YTYxNWIwYmFiOGQyY2IxYzQ4NTA4MDY0ZDhjOTJkOTdlZWIyNWI2NDNmN2EzN2ZlYmQ4ZDk0ZWVhZTcyMDM5Mzg4M2IyNGNiNTA2OTI1N2U5ZQ?username=tg_0ypy6s61
+三立都会台,https://gptapi.passwdword.xyz/live/encrypted/NTE4Y2QyN2VkZTYxM2JiOTU1YzNiOWNlODJlMTI1YjQ6NTVjMjY3YWFjYWE3ZmZmNTUxZWU1NmMyMDNkNGQ5ZGZlMTQwMzE4YzkwMTM2ZDQ3NTU1YjFkZGViMjg0NTliMzA0Y2JkMGI5ODhiMTBhYjhhMGE0MWQyZjI1MjBjYTk3NDJmNDdiYzZlNzc0ODlhYmU1MzMyYjE3ZmFjMjFmYTUzMmUyYzhmMTkxMWI1Mjk2NDI5NjFhZTAyNWUxNWE4MTZjYTAxNDljNmUxMGM1M2RiODcwZmUwOGQ5NzY3NjE5ZWJjYjk1ODczMDhiMmIyNWZkOTQ4YmU5NTNiNDIwNGRiNGNjNDRjZWUxZDkwMWIyMTM5M2E4NTVhZTE0OTFlN2M4YzZjNjI3ZDk0ZGVhZjY5M2I0YmFjM2IyMmE5YWVhY2IxNDhkOTA5YTI5ZTlhYmI3MWVhNGUwNzE5YjhlYWM3MTQxNmVhZjNlNWIxMzVhYjc1MWIwNWJkNTRiZWRkZjc5OTAyMmY4MDJhMzgyYmQyZWE5NDQ1NWM0YjUwM2Rj?username=tg_0ypy6s61
+东森综合 ETTV Metro,https://gptapi.passwdword.xyz/live/encrypted/MmVlZTdjMzdjMTJkYTgzMjVhNzNmNGZkYjk5ODc5ZjQ6ZmI4OTAyYjA0OGFhMDljMGRlZGI5N2I0N2Q5NDQyM2E2NDZmZDUwMWQwNjA1YTQ0Y2JhZjhmMWVlZTgyMTllMjE2OGU1ODU4MDlhZThlYzAzNmE5YTBmODQzOTJjOGFlOWQ2NTA3ZTA3YzdkMTgzZWQ2M2Y5ZDRlOTllNTU5MGNkYTEwNzNmZDZmYWNjZTkzZjg2NjcyNjdhNWFiMDQ1NTEzMDFhNzYwNThjYWJhNTJmNTVkNjQ2ZDZmODEyMTU5MWUwYTAyMGViNTdlYzRiNjZhMzczNTFhYTU2NDhiN2FiN2QyY2QzZGM2Y2I0NDFlOTZlODZlNzgxMjA4MWIzMjRmOGZlNmJjMjEwNDlhOTFiMGVmZjIwNzA5MWM4MzE4NWNlOWMzY2IwYjUzZjc2ZDJlYzAxN2FjZDQ0MDhkYTYwMDNiYjY4MGQ0OTRhMTUwZDMxYTY5NjA4OTZiMjlhYw?username=tg_0ypy6s61
+东森戏剧 ETTV Drama,https://gptapi.passwdword.xyz/live/encrypted/OWI5OGI4MmQ1ZDk0YWRhZmZmNDYzY2I5ZmZkZTkwNzk6NjhjODMzZTY4NmE4YjE4ZGI5NTI3MzMyNWQ3ZWUwMWI5ZmRkYzY0MGY1MzhhOTc3NDY5ZTU2YzE3ODZlNzUzYzBkOTI3NDNiOTZkNTBmMzg2MDJiYmUxMmU3NjY4ZDA2NjU1ZmM1ZmRhMWQ5YWExNmZhMGUzZTFlZDQzYzA2ZTJlODAwNzQzNDZmMTcyOWI0ODAzZDFjYTZlMDJmZjc4MDAwMGQ1MzhlOGVjZjI1N2FkOTczYTQ5MGQ2YWY3ZTlkMzU0OGI5ZmEyODcxMzdlZjMyNTgxMjlhMWJkNzA1YjVjZTk1YmQ1OWRkMDljODg0OWI3Y2E1NTQ4N2RjMjQ3YzQ4NzRjM2JjNjMwN2VkOWMwMGIyMTRmZjBlZWI0ZWIyN2QwZDYwZjYxOTE1ZWU4YzY4NTIwMTdlYmI0MzBmNDIwYWUyNzdiNDRlMmZkNGVlYTM2MDQxM2I2N2MwNDQ5Yg?username=tg_0ypy6s61
+公视2,https://gptapi.passwdword.xyz/live/encrypted/OTRhYzNkODFkY2Y2ODhkZjU1OTVlZjQ5MTkyOWU5MTc6YTM2MmNlYmVkMDgxNzQwZTU3YzBkYWM2OGZhMWNjNzE3MjM4ZTc5OWMyZjk5ZDhmNWNkYjY5NGI3ZTE0MzJiZmQ5NTc1MjU1NTYyOGViODc3ODgzYjJjMWU0MzdlODFhZjNmZDEwMDdkNGE0ODMyMTI4MzVjYTlmNDRmZWU4ZDQwYTBhNzNlOWRmYjk5OWFmNTdhNGY4OTIwMmRjN2QzODJjNGMzMzg5YWY0NDQ0MmFjYmNmOWQzNTNlMGZmOGJmN2NlNzQ4MzZmNTM2MTkxNTlhNTBhZmE4MTI1MWRhNDhjMjAzODNhMDE4MDM5OGUyNjJmZWQwZmQ3YjZkZTUxMzdmMmZjMjBmMzcwZDM3ZDViMzlhN2NkN2FjZWU5YmI3ZTFjM2RmOTdmMjAyYmQ4NmU2NDA5N2Y1MWRkNjczMDE3ZjMwMzJhY2RjNmNkNTk3YTgzNjg3YzFkOTgzZjJhNw?username=tg_0ypy6s61
+大爱1台,https://gptapi.passwdword.xyz/live/encrypted/ZWY2NGQ3OTE2MDQwNTBiNjcyODhhMGZlYTE2YzAzYjM6NmNiNmI0ZjJlYTBlNDlhNzgzZDUxZjRhMWI5YzViYzQ2YWUyYjIyOGRjODJjYzJiYmQ3OTkxMDk1OWIwZmVlOTcxOGUzMWM3MDBhZGIxN2NkZmJmNzAzYTQ1YjYwNGNjNzYwZmQyZGExZjlhZjNiMjMxNmNkZDdiMDEyYjg4Y2FhYjY1ZTUzN2JmYWM1YTZiYzFlMGVkODk2OTQyMGY4YTBlZDFlZWRiNTUyM2RiYjgwNzM0MDNmYWM1NmU2OGU5YjdlMzc0NzNjZTExMjgxMDAwNDQ4OWVmOGZjOGE4OGVjOTk0MjZmNzhlMjZmOGM0NDFmODk4NWMwOGYzMDUxMmNjMDJiOWFkNTc3MzM0MGNmMjI1Y2E5MzQ3MTUzNjNmZDkwMzc3ODQ3ZTYzODViYTQyYWEyZmUzMTQ5NWRlMzgwZjIxMTc1MmYxOWUzYmQ0ZTEzNGJmOTZjMDhhNWQ2Zg?username=tg_0ypy6s61
+龙华戏剧 Lunghua Drama,https://gptapi.passwdword.xyz/live/encrypted/YTAzNzZlZDRjNmI3MTUyMWQ1MDE4ZDYwNTM3NzQ5NDU6Y2RmZDg1MmE2MmI1NjY0M2NiYjU5MmMxMjQ1ZGQ1NzVlOTI5ZWM4MGMzMWUyNDkyOWM0YjY3NGRmMTM1MjMxMjA0NGQ2NzZhMDY4YTUwNWQ1ZjMwMDA3MGNhNTVkMTViYTQwN2I0ZjMzZGZjNzYzMzcyNGM5OGNiNTk2NDkyMTQ3MjkxZmM5MGEyZDRjZTFiYWM4OTYyODNkNDkyMzM1YTNmM2I2ZjRlMGFjNjE3NjA4ZWZlNjhkMDI5YmM0OTRlYjUyMDAwNjAwZDdmOTliYzg4NDRkNmQzZTQyYzFkZWIxOTdmNWIzMDg3N2U5OTBjYjQ2OWY5MGE1MDIwMTY0NjkxMTBiNzgyYjgxMjAxNjJkNjk5YjE2ZWNjMTVkMzcwZDUzNGNiMzAxMGJlOTFmZTYyZTk3MGMxODNmY2NlYTNkNmZlNTVkNmE3ZTczYjU4Y2NjZGE3MjgxNzhmYjllYTgxMWJmYzA0MTg0N2IwZWMxOGRlM2MwMDcwOGY3YWEx?username=tg_0ypy6s61
+龙华经典台,https://gptapi.passwdword.xyz/live/encrypted/YWMzNGU3MWY0MjY4ZmExMTgwMDZmN2IzZTJhYjdlNjY6MGNlMGNiMWE5MmE5MjFiZGQxM2NjNDJlZDM3ZjQ5YzIzY2UyNDk2MDNjMTYwNThhNThhMmUyNmFlNWNiZWQ1MGIzYjAxZDk5MTIzYjA3NTg2YTExNmUyMzczMmI0Y2M5YjFkYzM2ZWY2YWY4M2E0YTIzZmVhN2FhMjU5ODRhZjg5Mjg1ZmNkMWVlYTdhNzUxYjQ2MmU1ODg0Yjk5NzdjNzZkMzQxYzAxNTAzMDVjNmZjZGM1YjA2ZTEzYzFhODYyYTE0NjZiZjkyNzlkMjEyNTUyNzdmMWIwMzYxMmE5Y2IzMDBiZDc0OWIyZDE1Njc2YjM0M2ZlZDhlM2RhYTFhYzZlNjhlOWQ4OTRjMGE0MTQ1YzI1MWEwMDdmNzFhZjY0YWJmZmIwNjI0NjFkZTEwODc0ZjIyZmE2Nzg3NGIzNmZlMzI1MWU1N2MwNzQzODM0NGQ0MmM0NTFlOWU4MDExNzk0ZWEzOGFkZmY4ZDI0ODM5ZDE2ZDViMDllYWFiMDg2?username=tg_0ypy6s61
+龙华偶像,https://gptapi.passwdword.xyz/live/encrypted/YmZjOTE0NTNmZWI1YjI5MGUxYjRmYTE3M2FhNGI2MWI6MTAxNTg2NzU5OTJhOTRmYTNjMjM1OTgzN2NmYmZiOTkwNGY3ZTU4YmVhNTdiOTBhMGJmN2FmNmJiOTA3ODA0ODljOGIzZDI1NDA4NzA4NWIyZTM5NDBhMzNiN2Q2Y2NmNTM2ODM3Y2RkNmJkNzg5ZmQ3MmZkNjQyNDM4NjUzNTkyODM3YWU5MThkM2Q2MjI3ZmM0ZTQzNTQyN2UwYWViYWQ0ZTU5Yzk0NDA4ZDFiOGE5MmVjYTQ3ZTc1YTBiZGU1MDlkZTk4ZTVmMDlmMzFmNTkzM2ZkNmI4OThiOGU0MjVjOWIxMDUwZGYwNjY1NzVmZGE2MzNhZDkyNmUxZjFjYzM2NjJkNThmNjhhZTY3MWEwMTA0YWZkZjA3ODUxNjc2MWEwODZlZDBmMTZiOGM4MzU4MzliNjZlMGUyZTA2MGIzMjliZWM0ZWQ1NDIxODBmMjExZTQ0YmFmZjY2YjU1ZTdlZGJkMTE3YzYwZGMxZjU1YzFlYzY2OWQ2MGMxNGI5?username=tg_0ypy6s61
+AXN Taiwan,https://gptapi.passwdword.xyz/live/encrypted/OTQxNGQ5MTc4N2YxOGNlMzlhZDQ4M2Q2MzJkNjZiNDY6NjM3NTgyYTY1MDUxYzM5Nzg2MmE5MDFkOTZlNDkwNDBkN2ZmM2FmNmM4NmExMWMwMTQ2ZDEyNTUyN2M4OWJjODJjYTMzNDRmZWVlNjZjZjA2OTgzYWJjYzRkOTczMThhYmNmODlkMmFjNTVkZDE0MzE5YTNjZmU4OGE5NjNiYzVkZmFmODhjZGZhZjRiNWZjYmFmZDQzNTMyOWMxNDIxYzg4Y2Q3NDU1ZGE4ZWUyNjY1NmIyMThkZTc5MzUzOGRjMzljY2JkMTkwZTA4ZDU0NWQ2YzBiYmY3OTU0MGFiODVhNWIyNjhlOTk2MTNkYTEwNDgyNjc5NjMzYjA5ZTcyZjE2YzRiODNmMjQ1MWNmYTc1OGJmZTgwOTBhNjkzZTZmZjcwOWY1NTkzYWIyNDY1ZTZmYzg4MDg2NjA4Yzk1OTE3YzFjZDg0MzdjMmNhMjA3MWYxZjBhNTMwMzBhN2UyZA?username=tg_0ypy6s61
+靖天国际台,https://gptapi.passwdword.xyz/live/encrypted/NWIwYWZkYzMwN2U0OTgxNTc5YzRlMGQ4YTkzMDIwOTA6M2E4YjU0N2I5NWFlY2YyMGJlMDhjNDE5OGQzOWE3NWRhMzE5NmQ4NDQyZjc4NGMzMTU5ZDIzYTRhNmNmYjVkYWIwZGEwMzQzNWU5NTE3NjBmMTkxNzYyZWY3ZDYxZDMzOGRmYzY2MWJlMzQzMzhlNWU2YWRiY2I1MDE1N2VlZjVmYjBlYjY2NmM1MjEyZDYwOGFhYWY3OTU4MzdjM2RlNjIyYWNjNGI5ZmU1ODZhYzkzN2JhY2VkOGY2ZDUwOTUzNDY2MjMyMzdiNGQ5ZjQ1Yjc5YWU0Yzk1ZTA4ZDJhYjMwYjhkN2I0YjA2MGNhNjAzNzdlNDkxMjZhMjkwNTlmNjIwNjZmNmJhMmM1ODI1YzBiNDY5Zjk5ZThiMDg5NDE0MjkyODdhMWI4NTZmNWE0NzExYzcwMjM1NDQ2NjI0MWY1YjFkZGRmOWFlMTRmNjk0NGI0ZWY4ZGJkZmY2NWJlZmI3MzAzYzgzY2ZiYWVlZjM1YTQ2NWI5NjhlYzRlMDVi?username=tg_0ypy6s61
+CINEMAX,https://gptapi.passwdword.xyz/live/encrypted/YzAyYWU1NzRkYmY2ZjE1YTZlZmVhMWYxMzQwMTkyYjM6N2QyMGE2YzA3YmJiYTdmNjRlNzZhMmQ0MzdmZjQ5YTRjZjY0NGYzMjNkZThhYjAyMGU3ZjRkMzNlNTc5ZTNjYjMwYzYzNTVjMWY5YmIxZjc1NDgyZGMxMWQxMWZjMmEzYTg2ZGVkYjhhYzA1NTc2YjczYzQ5Y2QzMDA5ZTZiZGQwMTY5MGUzNDBkNzY0ZjNhM2MyMWMwN2FjZjU3M2VjZGExNWU5ZThlN2M3MDhhMDRiYjcwZGQ4OTY0MmI5ZmQ4ZjA0OTkzN2YwOGM1ZjIwZDFlMGRmODkxNTU3MGM3MzRiNmY1MTQwMzIzN2ZlNzkzODdkYjhmMjI4NmY0NDkzMmU0NmQ5YjY0Y2EwNjAzOWZjMzE2N2U5NDg3ZTU3ZjY1MDYwYWY1OWMwZWY2ODUwOGE3MjU2ZTUyNjEyYjc2NWZmYzRjYjgyZjdmMGE4ZmQwOWZjYjY2MzY4NzQ4NjU3YQ?username=tg_0ypy6s61
+年代新闻,https://gptapi.passwdword.xyz/live/encrypted/ZGY2YTZlZDgzMTcyNjAyNmFiMDg2MzZjODU5M2EwMmQ6NWMxYzdjYmI2ZTM5ODM3MzUzMTFmYTY2ZTY5OGNkNzBiNzVkNTk3NDVmMDYzZWJkMWI2OTQxOWVlNjQ5ZDU2Yjk1MzZkYWI1Y2FkNmE0ODI0NjEyMjVlZjY2ZjQ1YzdiZTY4NTIxYzdlYTg5NTAxZWY5MjdlYzhiNzNjYmI1NDMzYTlkNzU2NmNhNGRlZTEyYTQzMzM1MDE4YzE2ZTU0ZWQxOWFmNTczNTAzNGIyZjA3ZjU3ZGU2YzlhM2JjNzgzMDY5MDg0OWU5YWJmYzM5ZWViNzVlZTQzMjM4MTM0OGMxNWUyOWNjYzY3NjcyNzNjZmIxNTg4ZTJjMGU0YzdlMjAyMjNjOTMxOTE4YTE1Y2I5ODEwZmRiYTdiZjMyZWQ3ZTYzMDE0MjIwYThmNzE3ODMwNWJjMWFmOGE5ZGRjY2U0ZTNhZWIxMjAyZTcwMjQzNmJkODRmZThmNWE0YzFjYjZiYmM5ZGU1NDllZThiZTlhZTMyZjg0ZGZhYmRiZWM5?username=tg_0ypy6s61
+纬来日本台,https://gptapi.passwdword.xyz/live/encrypted/NTAxYTMzY2FiM2U3Nzc3MDU5YzlmNDllYjQwMzFjMDk6YzQ1MmUwMDgwNGU2YmExOGJiNjQ5ZWY3ODEzZjQ4ODI5ZGUxZjAzNDkwYTE2ZmNiYmM2N2VmNzIxZjRkZGJkOGE1M2U1OGIyZDQ2MDEwZGE2ZmU5MjJkN2M5M2Q4Y2I2MDFkODgyN2I5YzQ1M2Y5MjViMGM4MmIzM2JiZTA4ZWM0NDBmYmZmMmJkNWYwZDlhMTBmMTUxMTVkYjg0OTVjOWE5ZjBjMDk5ZThhNTAxYmIwZjY1YmJhNzNmMTkyNjMxMzAzNGMzNDZhMzY0Y2I1Y2NjMjgxOTMwNmZkM2I4NThkNmFhN2ZlMDk2YmE2YTQ1ZTA3ZDVlODBmMjVjMjkzYTg0NjdmYjZiMzI3ZjE3ZjgxYzMxZmRmYzc5MzA2ODNmMWJjYjkwYmM0Nzg1MjZkNGRjZTE5ZjIyNjEwODE0NjNkYmI3ZWRmYjkwNDFlMzFiYjUzMmNmNTE5ZTFkMGQ5MjAzYjliZGE4OWJiMjYzMzUwZmYzZTM5ZjliNjY0MGJj?username=tg_0ypy6s61
+纬来电影台,https://gptapi.passwdword.xyz/live/encrypted/YjE4NmE0NzgyY2JmZjg5YjkxZGExZjI1NjQyOThmNmY6M2Q4MDZkMzRkZWFmNjQzMjIzNTZkZjNmMjdjZTc2OTYzZTRiNjE1ODAyNjgyZWY5ZTcwMzA2OWM0MGVlMTRjZGJmMmE1Yjc5ZjhlZmIyNTMxN2QyZTQ1YWY3MzY4ZGRmYzQxYzA5MWU2NGZlYWFjZmY0ZDdjY2E4MGI0ZWE5ODdmNmM0ZDkyMWJlMDdhMjg4ZGU0MDU1ZWM3MDI5MWZjMGY5ZTRiOWUzNDBlYjI4NDAxYTEwZjg4ODg0MDJkZjUyMzMxYTY2NTFlYTAwZGE3YTU5YTg5YzYwZWM4ODYxYTE1ZTFmMzY0OTBmZWRlMGZlOTAxOWUwMWVjZWYyOWFmNGJjN2UxOTVjMjZhNzEyOGU0YzgxM2M2NjZlYWM5ZDkwZTY0YWM3ZmRjNWI2YzY4N2U5ODY4NzI2NWZlYjExNmIxOThmY2E0NTU5NDE3Nzk0MjM2NjAwZjkxYTkyNDllYzFhMTU1NDQzNmM4NzljYmIzYmJjYjU1ZmM0MjdjMzJh?username=tg_0ypy6s61
+纬来体育台,https://gptapi.passwdword.xyz/live/encrypted/YWI2N2M3NzZlNDRmMWQzNmEwM2FhNDRjZmQyYzU5MDE6OTdmMzJjOWZmYjgzNTliNzU3Yjk0Njg0OTQ3YTFkNjAzNWFiYTgyN2ZiMDUxZDAxNGZkMDI0Y2QyY2M4MTIxMjY3MTFkYWQ4N2I3NDQzY2MxMzhjNTBmNzg0YTFiODRlZjJhMDUwYmNkMzBlYjA2OTBmMGExMGFmNDFlNmYyM2UzZjUxODc0ZGYzYThlNDE5OTYxYWU0N2JjMWNkMjE5ODIxZTVhYWRjNDM1OGY4MjQ2OTlmM2FlOGQyYmQ2N2E2MDFjMzZjNTEyZWRjMTI4NjU4NWZhNGI5MmYzMzI0NmU4OWIwZjE3OWZhNzI4ZmQ5OWMxYzVjYmVkNDljM2VmMWM4Yjk5MDQzNDU4NTg5M2NkN2Q4NDI3YjU3NTY2N2ViYTJhNjNlNTE3Zjg4NDZkOTkwZGJjODM5Y2M3ZjgyMjE1OTcxZTE2NjdjMTg2ZDkyMDdlMzBjZTk4MTdiZWUwNjJhM2I2NmM0MGRmMWIxYTM4MDJjZmYxMzdkNDU1ZjE0?username=tg_0ypy6s61
+纬来综合台,https://gptapi.passwdword.xyz/live/encrypted/ZGM5OTY3MTRmMzA2OTNmNWU3YTU5NGMxNzZjNDFkZTc6MWExNTViM2VkMDMxOWM0YmNkMTAwZDdlYzFjMmU3MmVjOWM1ZjRkMjAxNmQ4NTMyMzlkYzc4ZjQzMmNhMWMwMjc3MTlhYWFhMzg3ODc3ZTE0YjJhNmQ4OTRkYmY1ZDJkMDgwZWJmYTRlOGVjYzM1N2E0NWU1NmNiMzQwMjgxMzU5NGZlMGJlY2MwYTY5YTQzNWE4MWQ5OGNlOTJkZDk1MjZkNTY0NDUwMDIxMzdiYTliNzA1MWIwZTJhMzJiYmMxMTk2OWIwMDJiOGMzMTFlOTYyNmE0MjM3NjBiN2JiYzFiZjExMjRiMjczMjY5Yjk1ZWM0N2Q1MjgzMmIwOGNhZjVjMDFjODQ0OTQ1NTRjYWIzNzE1OTkxMmViZGYwNWExMTkzOWU0NDExN2U0NjNmODRjOTM2NzIyOGQxZGIwYmY0N2U5MDYxYjM0N2VlY2VjMjJiYjlkMjRiZTQzN2ZkMDc2M2M0MmUxMWExOGE4YzFkMzYzMjRhNjc5YzFlZmFm?username=tg_0ypy6s61
+纬来育乐,https://gptapi.passwdword.xyz/live/encrypted/MmY5NGE2ZWM4NTJjYWVhYmNkZjA2MDJlZTVmZWQ2YjA6N2FlNWM2MDY2NjQ4NGMwOWY4ZTQzNGQ0MDU5YjFiZjQ3YTM1YWZlNTM1YjlkNjhhYWQxZWRkNzZmMjM0NWRkYTRkZDc5ZTQxYzg1OWI3OTY2MzBlNTY2ZDUwMDA4ZTQ1MmIzOGZiNWZlYjU2N2E1NDJiNzc3ZjQ4ZThiYmFlOGNmOGI3MDBiYjBkNGI0NzVjNDc0MzEzMGZlNmIxOWJiYzU4YzU0Mzc0OTc5OGUyYTYyYzdiNmRjYTQ1OTA0MzYzYjU5MGMzMWJkZmNlOGY3MGQyZGZmNjM3NWIwYzc5YTBhNzg2NDY4NjA2ZmZlYTA4OGY4ZjQzZGI3ZWFlYjg4N2IyMDEyNGNhMTQ5YWNlYzNlMzIzZmZlMTU5MjA4M2QzZjJhNmUxMzhmYjhlYTIwMGRkZGNkOTNhM2U2NTc3Mzk2YWRlYWFkNmRkNjI0NGViZmE5NGJjZjNlYzM3YmMxNQ?username=tg_0ypy6s61
+纬来精彩,https://gptapi.passwdword.xyz/live/encrypted/NzczNjczMTI3NTk4ODYyODBjMjJhOWI1MjQwMTIwMTI6NDVkZjBkNzExYzg0Nzg1NTNlM2Q2YzA3YzUyZmYzM2M0NGNjN2U5ZmMyNjIzYmViOGI1MDQzNWI2YzVlMWQwMThiNTRiNTU3MWIxNzFiNTFlOTJlOGM0OTZkNDA0NTc5MjgxY2I4MjFhNmJjNDMxNzJiODYzNWVjZGRlYmYxZTQ2N2Y2Njk4MzhmNDQ5OWFhZDEwN2I2ZjE4MTdlNzlmYjI5ZWU0NDVjMDE0ZjUyOWZhNDAyNmEwOWIzNDYyNWUzODNiNDBmMjU0NGFhNzdkNGYyYzhjM2MzM2QwZWM5MjMzMTAxMzAyNWJiMDY3NmRhMjk3YWFkYjhmYjRkM2RiZDU2YzYxZDYzODAxZjZhM2ZhMGU0MTRhNTQ4NDNmOTU4ZTEwOWNiNGJkMmE4ODQxNGQ1MzU1MTRmZGI2M2Q4NzAzOTcxM2IyYTc5ODc5ODk3MjZhMTA2YTE0MjMxMTg2Zg?username=tg_0ypy6s61
+DW (Deutsch),https://gptapi.passwdword.xyz/live/encrypted/NmYxYzJlODIwZmM0OGZmNWY0ZDY5YTJmYjg4M2E1NTY6M2ZiODU3YWUzMWFiNGJiZGFiY2ZjNmQ4MmExYjkzNzRhZGE2Y2I4NGFjYjRmZDQ2M2I5OGYwZjNmOTQ2NzMzMjRjZWVmM2I4MzVlMTU2YmJiMjQ0NDRlMDkzMzY3YjQ5ZDI2NGQxZTgwNjdmYzJhNjFjZDcyMTVjYTlhNjE3NzhiMzYxOTFiN2FmN2E2Mzk2MDgyZTM4OTA3Zjg4MWUxZWUzN2JlYmI3NGJhY2ZjOThjYzYxYzdiMjYyZjY2ZDE3MTdiMGVjODZhYWY4NTg4NGUxMWU2NzJmNjMzNGZjOGVlMTdmMDlhYmYyYTJkNmQ2ZjZkMjczYzI4ZWM3NTJhM2JhOTQxOTE2MWM2ODBhMzNjYjlmY2VhNDYyNzhhMGM2N2RiNTNhNjE4M2FiYzIyZmI4ZWRlNWM5NDdhYzk5MDAwNmE1OGI1ZWU2MzI2NWM0ZGVhNmZiZTlmZjM5ZmY1Nw?username=tg_0ypy6s61
+好消息 2,https://gptapi.passwdword.xyz/live/encrypted/MjI1ZjA1MGY0MmY3Mjk1MmM4NmFkYmU1NTkxZTEwMGI6NzI1MjU5OWJmMmU0Yjg5NGE2MDRiZTYzNWFmZWIyNTMyY2RmMGY2YTBlY2M4YjdmMGJiYzJkYTk3MWE5YzNhZTJmMzBhYmYzN2ZhNzNlYmNjMDYxMjVhNzZhNDcxODMzMDc5ZmQxZGM1OTAxMTI1M2M1ZDM2YjQzMDYyYTBhZWY0MmZiZDc5YzU1OGM3ZGU5NTBjYzExY2IwNjdjNWRjMjhlMjcyYjI4MWI4Y2JlOTI5ZTc3MjQ0OTZmNTA1ZDVmZmM5NGVhOTQ1ZDJjMzQzODExM2ZlOTQ0YjM3MjFjN2Q3MjBjNmJiN2YxMDZmYThkNzBhOWE4NjY1OGFjMGNmZGQ4OWQ0YjcyZTdhOTE5MzQxMDdjZmQ5ZDM1ODQyMTg1NmU5OWJlNTE4YzIwNTE0YzViOWQ5YzhiM2U0NDE0NTNlYTVhN2JlYjg2YzhkMzlhMThlNjhmM2UyNjZmODgyOA?username=tg_0ypy6s61
+大爱2台,https://gptapi.passwdword.xyz/live/encrypted/NGI1NmFkZjM2NWU4YzI1MTk2NDlkNTI4YjQ5NDBjYTU6MTI1YzgwOTQxOThmMjI1MWVmMmRiNmU2NmVjODYzNTBlMDJmYmJjZTBlZTg2ZWJhOTc3YmJiZjU3ZjRkZjFmYjg4ZTIzMzI1ZjRhMjE3YjFkOWNmNWI3MWUyZTg0OGY1OGFlNDdlYTRlYTU2Mjg0NTcwYjk2NzZmZDBiN2QzOWZmZmQ5YWUyMjkxYzhiNTU5ZWU3NmQ1OGRkOGU3NWU1N2ZhNjk3YTMzOTBjOGE5ZTE2ZDQ2OTllNWQzYjY1ZjVlYWUzYmE4Nzg3YTI5NDQzOGM1MWU0ZWQ2NmNhOGQ3YTMwYmI2NDc1Y2YyODg0MjU2YjY3MGVkODE1M2VmZTA0ODA3MjIyODE5NTRkOWExM2I0NzlkZjg3NzdmYzgxZTBmMjkwNTFhNjBiZjI3OGMzOTUzOWNjZmIxOTcwOTAwZjM5NWM4ZTJmYjE4YmVkN2ExNGY3NDUyYmMxOWQ5NDU2MA?username=tg_0ypy6s61
+亚洲美食,https://gptapi.passwdword.xyz/live/encrypted/MjRhMzA0MzllNDQ1ZDJmZjlmMjYxZDlkZTIwZmU3ZGU6MmE4YWYxNzdiMjczMmE1NjNjZDQ1MDQ2Y2I5YmY4OTg3ZTc4OTgyNDVmMDhiZGZjZmQxMDY4MTU4OTBjZjExZWM2YTIzZTM3MDlmM2RiYWJjNjFmMjVjN2ZiOGQ3YWEzY2EyMTVjYzBkODljNmYzNTBlMGJmNDllNzBlYzIwMzlkYTlmNWMyZjYxODU0MzY5ZDk2ZDQzYjdiM2E5OWE1ZGMwMTA1NjRiNWNhZjY4YjAwMmRlODVlYWQwNDc2M2UxNmU5ZDk0ZWVhMWNiMGE3MDJlNGQ3YzlkM2Y2ZTRkNTdhZDQyZGVjMDFhZDRhYTIwZTU2MzYyM2ViZWQxMzYzOTBiY2Y1MTc4ODFlNmEzN2JiYjdiMzhlYWIwNWFmMTgxZTdkOTI0NTBiNDI5M2JmOGViNjE3ZjU5ZDNjZDFhZGJhMjNiZDJkZTk1YmNiNDE4NGMyMmQyYzJkY2NlNzg0Mg?username=tg_0ypy6s61
+亚洲旅游 TLC Asia,https://gptapi.passwdword.xyz/live/encrypted/MGM1MGE5NTI5NjdjMTYyOGI1Zjk2ZDM4MzEyOTZjZDc6NmYzZjhjMWFhMWZkOTU0MmE5NmNlNjgxYWVmNTQ4NzE0ODdiM2MyNWFhMzM0MGU1NjI2YjMxNTIxNjA5OTNkZWQ2MTMzZWRhYWU2Mzg3NjNkYjA4YTU2ZTZlNTEyODc2YWI3NTdhYTg4NjBjM2ZjY2U3YmNkNTQwMDZmNmY5ZTcxMDIxNGJkNDJkNjA1NGQzNDViZGRkMGRiYjRmMDkxYmQ2MDlkMWZlZmJiZTU4MzA4NWI4ZWEyYjlhNTY1ZDhhNWVhMWNkYmY0YWQ1NzZjZDY1YmJmZGI2OWNhMzZkY2Y0YmU3Yzk3NGFjNzVlOTdhZWJjMWIxOTE4OTY1ZmFlYjM3NjgyNDM1MDU4ODI2YWJkNjc3NTAyMDY3YWJmNmIxODYxOWJhN2E3MGU3NWQ4NjIwNGU3NTM5ZjkxNmFmYTkyYThkOTliODA1NDFiYjNjMjlkZTU5YWMwNThlNzBjMg?username=tg_0ypy6s61
+东森电影 ETTV Movie,https://gptapi.passwdword.xyz/live/encrypted/ZjViZDFhZDY5ZDkyMGZjZDkxMjhkZjEyMjhmZTNmYWQ6MmVhYjJmYjE0YWNmMTQwZTczZjVmZWM3MWRkM2YzNWI0ZTlkMmYwMzI3Y2FjZTE0YmZlYzE2YjdkMWYxNWM0MzEyZDk3MGM4MjYyNTc2YjFhZWMyZjE3NGExNGQ0MDlmODIwMzAzNzNhMmQ3MTc3MDFhYTEwNzQ1MDA0ZTM2ZTg1Mjc4MTc2MWEwYTJhMTYxMWY2ODE5YmQ5MGVlY2U3MDlkY2FhOTk5ZWNlMWI5YzI1MzZmMzhjYTdlOTEyMGVjYjQ3ZWRlMzhhMTZlZjk2NTJmMTBlNTc2MTQyZDIyMTNiNWEwNzRlNThlMjZjZTZhNWM3YWE1YWY2NWU4ZDU2MGVjNjc0NGU5ZjY5MTJkZDU5ZjYxZWU3YzAzZTQyOTRjZmE1MzA3NmJkZTRmZmMzYmJlNTE4MjAzOWYxMGZlN2Y3Y2ExZmNkYTQwOTUwYWQ0MDFmYmUxNGFkNzU3MDE5OQ?username=tg_0ypy6s61
+Arirang HD,https://gptapi.passwdword.xyz/live/encrypted/MWU4YmYxZDg5NGQ2NzYyZGM2ZTI0MDdjZWViNDZjNjk6YmUxMzU5M2Q4NDBhZWNjNjc0N2U3MWJiOTcyYTI0NTk0YWVlODQxNThiOGU1MmM1OTk3YTdjODNhMjM3YmE3MzdkOTUxY2ZjMDllYTg4YTkzZjI1Yzc3YmRhOThhOTZiMWVlYjJmMzU0MmUwNmI4MDQyNDRiZmY2MTYzYzdhOTNlYmYwM2YyOTEzMWQyNDNjN2YwZWRkZWUzZjU4NDhhYWZhMzZmNTQzNzQ2NTI4MjZmN2I4NGEzYmNmYzIyMDRmYzEwMTJiYTVhNjY0YjU0ZjhkOGE5MGZlN2U0NDgwYjI3ZjY4YjJlZTk1MTllMWZjNTA5NDUzNWFhNDNjMzJlMGM2NjJkYjJjNDJjZDFkNDE2ZDRiNWYwMTFmYmE0ODc0Yjg1NWE0MWQyNzMxM2Y4YWZlYThjMzdjZGI1YTYwMGY0OThmYzkxZGQ5MWM4YjM2YWNjYWI3Y2NhN2NjYTE1Mg?username=tg_0ypy6s61
+博斯运动 1,https://gptapi.passwdword.xyz/live/encrypted/YWRhNjc4ZmU4NTZiMDg2Nzg3ZWQyODU1NTMwMmYwZjA6YjUzZTY5YjhiYjFkNWE2NjcxZDlhMmExMTU3ZmY2NjRjNWM3ZWU1YmNkOThhMzhhNTI1Mzc3MmFkNTIzNjE0ZGNlN2IxMTIzOWMwYTM4OGU1OTZjZGZmZDJkNmJiOTA2NTAxMDFiYWM2OWI0OWUwYWE4ZjkyOGZlMDljYjBiZTM4YjViZjJhMjNjN2YyODQ0NDJhNThhMTUxOGQ1OGIwOGE0MTc2YzkxZTRkYjk5ZTYxNzU2MjhmNGE5Njg3MTllZTdhYmJlYWY3OWRkODM3NDcxZWQ2NDViOGNkMmIxN2M5YTI5YWM2YmQ0NzQwYWQyNjEzNzA4ZjBiZjI4YTE4OTg5OGYyZjk4YmU2YjNkMjI2MThkOTBmMWI3ZjcxZjIxYjRhZmNiYmM3ODNiMTZmZjQ0NzU3YzQxZmQ4OTkxN2QwMzk4MDg0ZDZlNTNjODdiZDU0ZjYwM2MzZTlhOGNjOTg4MmIxOGM1NTI1MTc5MWQ4ZTM2MmZkYWY5ZTIxZWMx?username=tg_0ypy6s61
+博斯运动 2,https://gptapi.passwdword.xyz/live/encrypted/ZWVkYWMyZjg0NjA2NjIxOTI5YTM5MjY3MjgwZDIzNWQ6OWU2MjU4MTVlNWVmMjU2Njc1MTEzNzZhMzc0MDI5MDdjYTdmNzQ4ZGU4MDQ3YTI4ZTczNjZhNTYzOGE4NjY0Yjk1ZDI0NTZhNDE5YzgzMzg1OWNiNTRmMWZjMTY0NWZlZjk1OGJkYTcxY2JmODYyODg1MTI1MWYwMTY1NDYwZjcxMjIyYWQ0M2Q5MGQyYWVhMTdmYTMyNzg4Y2QyNmI1MjUyNjg1NTA5ZTUyODU1NTNjODFlMzMyOWE0NzMzYTY5OGI2NWEwM2FmNmI5ZGNmZjY2MWM0NDdlYjc1MTkwMTczZDIxOTA0ZjQ0MTNmMGQwN2UzNTlhZDM4YzgwZGQzMWNlMWE3MmIzNDRkZWMzMjQ0YmVkZGU1MzAzMDEzMTRkYTA1ODNmODZhZTQzZTg0ZWFlZGY2ZWU3OWM1N2M3NGQyNDQxYzM4ODVkYzU5MTVkNzZhMzQwMzVlMTUwMmY4NzI1ZTMzNzg2MjU1Y2RjOTBlNjQ4ZmMyMTRlMjBjNTQ2?username=tg_0ypy6s61
+东森洋片 ETTV Western,https://gptapi.passwdword.xyz/live/encrypted/MTczYWI4NmFkYTY0ODVhNDc4MTQyMjQ5NzRkNjZkOTE6ODljMzMzODM1ZmNmNmE5MjllZDg5NWMwY2M1ZDdmOWY4ZGI2ZWJiMDlhOTIzOWMxYTAzNmEwZGVlMGNlNjE2YTA5MTFhOTZmNzZiMzRhOWY0ZmY0YjA4ZGZmOGIwNTUxMzAyYTVkZWU4NmE0MDA2ZWE0NzExMDA0MjNiMThiYTU2MzY5ZjEzYTMyMDUwM2ViODI1M2I0MGQ0NDBjYjQzZDBmYzkwZGY3NjBiYTgyZDcyNTNmNWYzMmVhZmFhNTM4MzA3ZmI0YTAzYjA4ZWNlYTM5NDc0MWI2ZTY3OTBmMWJmNjJhMDMzNmFkMzQ4MzJjNGU1MzAxYzljMjU1NDgwZWU3ZDkwYWRiMzkxZTlmODliM2ZhOTAxMTcxMDMwODcxZWE2ZGU2ODA3YzE4YTQ5NDNjMjZlYWI0MmYyNzkzMTMxNGM3MTFhOTkzOTRlNzQxZDAxMjk1MTY3YWVkZGM0Nw?username=tg_0ypy6s61
+龙华洋片 Lunghua Western,https://gptapi.passwdword.xyz/live/encrypted/ZmZhYWMzYzZjMGRhMTc0YThlNDk2YTRmZmNhNzRhZTE6ZTE0MWUwZTRjZGYyZGRlNjRiODNmOTU0MzI5NzFlZGUyNGM2NmVlOTQ0ZDY5M2Q4ZjQ4OWQzZGVkNTg3OWY1NzNlODZhYmQ1MWFlZWJmMDUyZTA0Y2UzZDc5N2JlYTg3YzhjMmI5MGQwZThjZDRjM2JkNDUyYjVhYzM5MTQ1MTY4MGQ4NTJjMjZmYjMxMGUwMzdlNTdmY2Y5ZDBhYTc3ZTQ5NmVkYTNlNDc2YmM2YmIxMDhkM2EzZjhkMjdiMjQxZTMzZmIxZDg3ODkyNzRmMWViZTAyYThiMDQwNjQyNzRkNjc3ODIzNjAyNDE5YWYxYWY4N2FlOWExNWUyMmUyNmI3MjkyYjJjOWUwOGY4YWZmZTc5NTdhOWQ3MmI2NzQxZTljMDhkOTlhN2IxNGMxMzkyZDBiMjVlNGUxMjRiNGRjZThlYjYyNWYzNThiY2Q5YzBmN2M5NWViOGUzYWQ3NTZmZGI0ZDM5ZTljNmRmYTVkNDRjNTA5NGUxNDZmM2Jh?username=tg_0ypy6s61
+博斯无限,https://gptapi.passwdword.xyz/live/encrypted/N2QwNzE5ZWFlN2M3ZWU0NWFkODYxZWJhYzU3YWU1NDE6NTY5ZWE0YTExMzQ4MzE5NmU4OTM3YmU5ZDNjZTRlZTZkODc4Njc3MjhlZjYzOGFmZTZkZTRkNmUxNTIwYTFhZTM0N2UwYTU3ZGUwOGVhMzJlYmIwYTE5ZDJhM2YyOTk4NDUwZjM2Y2FhZmMyY2VkNzZlMGI4N2M0ZWZiYTAzMGRlMmM0NmRkMTRiNzI5NjBhMTk3Y2MxMmRhNzlmYzEyYTI0MTA1ZTQ2N2ViYzA1NDI4N2RjNmNjYjc2YjdhOTJiZDY1MWY5YWRkZmIxMTkyOGFhMWJmMWNiZTAyZjg2ZjIxNDRhN2ExNGViYTJmYTZmYWQzMTQyNjA5NGVmYTgxMjc5MTgzMDkzYjQ3ODIzYTNkMmFiNDUwMGM4YzExMjFiODlmNjM3NzY5ZGEzMWQ5N2UyMmY3MDU0OTFlMDhhNDM2Yzk4ZDdkY2VhMjNlNzEyYzkzNzliMTA4NzNiNWQ3YjhkZDc1MzNiMzI3Yzg3N2FjMjE2NmI2MDMzOTk5ZTQx?username=tg_0ypy6s61
+MTV Live,https://gptapi.passwdword.xyz/live/encrypted/NzVjMDQ2ZjdiMTNjNGE1YmNkNTIzOGUwYzZkY2QwNWU6NTg4OGMzMDZjYjc4ZWNlNGFlY2FjNmEyM2RhZjdkZjVkNzc1NDQ3NjM0NDc2NWExMDM1ZDYyZjhjYTc1YTBkMWI0YzY0ODYyYTlkZWJjZDQxYTJiMmZjZmJmZDMxYWQ4MzMwYTQzM2MwYzlhZWJhMDJlODc3ODhlYTFiNzViMTdkOWI3ZTE1MDEzN2I1ZTRjM2RiNWY3YzYwMzk2ZThlNTdkYzQ3ZWY2Zjk0YTg0OWYwZmMyNTUxNGUzZTdhZmQ2N2E5NDAzMWMxOWE4YmEzMjM3MDFmNWIwZDVkYTZiYWQ0ZDkwN2FhYWRiMTUxOWQ5NTE4NTcyMDFkOGFhZTI1YmVjOWEwNDYxMTA4OWU2ZDlkMTUwYWVmOWZkOGQ3ZTc3ZDkxZGRjOTFhOWNhNTcwZGIyZDRkMTFlMjkwNzk0MDYzN2RhZDFiYjA5NDA5ODI0NzFjMTlkNTk4MmZlOWIwNw?username=tg_0ypy6s61
+龙详时代,https://gptapi.passwdword.xyz/live/encrypted/NjliZWI3YjllZDFlZjEyYjE3NTQ0MzE4YjE5ODFkYTA6ZGE3YzFiMmUzYjc3MTY4YjIzMjYyOWI3ZDUwNTQxNzc0ZWZhZTU0NjZhYjQwYWY1ZDgzZGUxYzcyNTFmNzU5MGM0YTUzZTFhMzk1MGQ5ZWUzNDczZGUzYzZiZWQ2MzdmY2Q5MDBlOGIyNjljN2Y0YmI0ODJiOWZhODAyN2EzNjBjNjhiYmM4NjAxNTk1NTAyZWQzZjg3NjZmN2ZiZTJlNDE0Zjc4MDcyMGEwOTFmODk0MjJkNGRlNjlmZTczZmIwOGJlMGJhNDZmMThkYjM4NjA5ZjZiZTcyNWI5YTg4ZTc1YzI2NDNhMWFkN2Y0ZGI2Yzc5OWRiMzA3ODVlM2E1ZjJjZmM0YzYxZTE3NzI0ZWI5NGNlMThhNjcyNzkwNmFhZmMwMjIyY2I3MThiNGFhZTE0Yjk0MDA4ZTM2NWRjYjYwZWYxNTA3YmNkZDYxMGUzNTkzYzFiOGUxNWQ5Y2IwOGFkYTQyZDQ1NjUxNzM3MzM3NDcwMTE4NDA4OGNkMmI0?username=tg_0ypy6s61
+EYETV 旅游,https://gptapi.passwdword.xyz/live/encrypted/NTQ4YzI1MWRlNGQ5YmZlZWI2OWMyNjJiZjM2ZTRkYmM6NmRmMzU0YjkzYzBlZTVmMGY3Zjg3YWJiNWMzODc5ZmYzODFhN2VhNGVlNjE5NjhhMzRjNjUwNTY0NTdmNjQyOTEwNzRmYjQzMWU5MmYzNjQ0NDA3NTEwYTNjODg0Yjk5ODBjZThhNmRhZDdiNzY5MzhmYTM5MDVhNDZkMzM4YjQ4NzQzZTEwMmFiM2NhMzI1YmNiMWZlYWZkNWVmMzU1NzJhOThlMDEyMGY2NzBkZjBhOTFhYWIzZWM2Y2QxYjNkNzdhNGU3OTMwZGExZGIwZTEzZDQwNjRjMThlY2YwODlmZGU5MTgxOWVmNzA3YzViODFlOWQxZjU5YzExODg3OTEyZTY4MTUwNTE2NTM4Njk4NWQ1Njc0NmM3YzNiMDA1YmZjNWYxNDUxOTI1YjI4ZDYxNGUyYjdiMWQ5OWRkZjlhMDhhMTA0NmIyMTc3MTA4NmQ1YjYzMzBjMmY5YmUwMjM5MDM1MjJlYTk3NDdiZWMyZDM3NDhkNjFiZTlhMzg4?username=tg_0ypy6s61
+靖天卡通台,https://gptapi.passwdword.xyz/live/encrypted/ZGE0OTE4NzlhZTZlNmVkZTNhMjg0NTgyYWUyODZhZWE6YzQ2YjU3YTEyNTg3Nzk3Mzg4YzA0ZjM5ZDUwYTkxMmEwM2YyOWYwNTFkMGU3OTIwNjBkYjE5ZmRmY2EzNjdhNGQ4ZGZlYjA2MGZmNjU5MjNiZDQwNzY0NTQxMjNlNDBlMDljN2U2N2I4ZTllMjQ3ZGVkOGJiM2ZkYzNiMWFhZjBjNjU5MThjNWI0ZmU0ZDU4NWIwMDg2YzkxNmEwZDZhYzI0MDlhMWU3YzQ1MGVjNDQyYTBhODhmNGMyNmRhZDhhY2ViMmYyYzU4MzE2YWM5NDg2ZDlhMmRjYTc1YmY5YzYwMTBkYTgzZDkwYmUyOGIwNTI5ZTA5ODY5ZGM2OTJmYjA4NTRhYjQ1MzU5MjZkYTY3ZjQyMDhkYzFhODkyY2Y3NDYyMzBkOGY3ODIxYzhmYWQzOGRhMzgwYWQ4NzBhMWExYTMzY2M5YjVmMWQ4NGVlZjViZTcxNjJlMzNhM2VjM2IwMzE3MDIwY2E4N2I3MTk3NjkyMDZhZjE2YTFmOWY3?username=tg_0ypy6s61
+EYETV 戏剧,https://gptapi.passwdword.xyz/live/encrypted/ZGViNDliMzA5ZDkzNjExNTI4ZTc1NmIwNzAxYTNiNzI6MjFmZTMxZjJlM2I0N2ZlMzc2ZmRkNDM2NTA0ZTRhM2UwZmI1MGIwMDYyMDUyZjE3NjE5YjhhMjMyZjYyODVhZGY3ZDNjZGRjNGU3NzY3NjUxNjFhMTViMDFiODI5NWE3YTVlZTM5MTdjZDI4Mjk1Y2M0ZTVlZDM2M2YzNTZkZDk1NDBjYmY4NWMxZTM1Y2E3YzNlM2M2NWEyOTRhYWJkYmUyMzJlOGY3NjNkNjQyNjNkYzIzZjRmODJlNmI2YzVhNjhiODM1MmI5NDJkMzkxNmI1ZTQyYTJlNGIzNTRjMjc2MmY5N2RjOGY4NGZiYmE3ZTAzZmQ3MDIzOGYyNWVmZjI2Y2NjMTBiZmFhZTQ1MzZlZTlkZGE2M2IwNmZjOTI1OTI1M2IyM2ZjMTk1NGMwMjMwMWQ1NWE4MjVkMzZmNTBjZWZkNzVhZGRmODQ1NjI0Y2JlYThkNWFmNDcxN2UxOWJiODk1YTc3ZmExZGNiNWFjOGY2Yjc2NjI3NWI0MTg4?username=tg_0ypy6s61
+卫视中文台 Star Movies Chinese,https://gptapi.passwdword.xyz/live/encrypted/YjNmM2ZmNzI3MTdkYmM1NzljNTUxY2NlODExMzBhODM6MjkzZDMwOTk2ZDg4ZTU3YjBjZTZlYzdhOGZhNDQ1ZTQ5Yjc0YjRhMDYzNDRiMTM1ZGM4N2U1OWY0ZjU3YjljZjM4OWRjMTg2OTNiOTMzMjkxZDdhZTk4ZjJjZGJlM2MxMWZmZjAyZjcxOTEwNzY5MGJmZmRkOGEwMjdlYzZhOTY2YTNhOGM1OTVlMmIzN2Y4N2UyYjlhODg2OThjZDA3M2Q4ZmU0N2E3MDc4MDZlZTdkZDE3MTViYjYwMTJlZmRhOTYyNzUwNGQ3OWQ0ZDVlZTViM2Q5NWQ3NzNlNDhiODE0MTEzZTVmMWZhYzhjODNjZjY4NGNkZWQxNzJhMzBmM2MyNTQxZDJjYjU1OTFkMDc1OTM1OGUzOTY2ZmU1YzlhNmZhNjQxZjZiNzhjMzE4Y2ZmODY0NzY5MWMyZGMyMzllYmMwYTVjMWRlOTZlOWUxYWI2OGMyN2RkN2ViMDcxMzRmMDZlMzA5Y2NmYzlmZTgzMGJmMGEzYWUzYzczYjQ4?username=tg_0ypy6s61
+东森幼幼 Yoyo TV,https://gptapi.passwdword.xyz/live/encrypted/ZDgwY2U3NzNmYWQ2MDIzYzBhZDRiYmQzMzgzYTgzZWY6NTViZDQyMmE0ZDMyYjkyZDQwOGQ0OWE1MGI4ZTM1MTRkNTY5NDMyMWFjMzUxMmVmYTFkYzZhNThhZjY0NWE1OWQ4MTY5NjZkZTRmNjU4ZWVmZWZjZDhmNDUzZTllZWNhYzk2ZTA3NTZiZmU1ZDI3YjNlYmFkNDAyNjQ3NzllZWYzNGVlM2M4ZGIwNTAyNTI4NTA2OGExYzllNmU2YmUwNDY1NGRmNzBmZGM2ODRkMzJiNTc4MGMzY2U1Zjg4ZDk0ZjUxZGU3OTQ4NTEzZTBlMjEzZjk2ZjlmYzdjMDg4ZjcyMTE4OTExYmQ0NTk5M2YxYzdhYjZiNjI1ZDFiYTNjYTZiOGY0ZjA1OTY0NDIwMzc4Y2M0NTgxMmViZDE4NmU1ODYzMWU2OGZlM2QzZjY2NTViMmIzMjA5ODczNGFiYTQ3ZTI3N2NmYmY2NjE0ZWExNGE1NjZmZDUwZTc3YjcxNg?username=tg_0ypy6s61
+美亚电影,https://gptapi.passwdword.xyz/live/encrypted/NTUxMzE3ZGY1YjczZTE4NmUzNzkxNmY1NmIzMzhjMzA6ZjBkNTYxMjlmMzRlYmQ0MDZlYTgyYWFjODMyNGFhNDlkZGM3MDNhMjU5OGI5N2M1ODg3NTY3NDNmNzgxYThlYWM3ZWI0YjRjMzMzYzQ1OWI5OWIzOThiZjMyOGE5M2RlODRhMGI0NzM3OTJlZTQ4NGQ5YTA5MmUwZjc2OGVmMDA5YTcwZGNkOTc2NzkwYWJlOTExNzU2NDk2MDNhM2JkOGJhYjRjYzQyYTQ3OTE5NmFjNDkxNjYyMDEzMmZiZGJiMzM2MzNhZmY1ZmFiMmM0OWRkYWQ3MjMxY2RkZDczOGYyNjc0ZjVjZjA4YmI4YWI0NjA4MDg0YTU0ZTU1ZjM5NDdkZDhiZmVhOTdmYTViYTRjMGUzZTg0MWIzOGQwYjllODI4MDEzYjY1ZmQ4ZmVhZDkwN2JmZDgwYzMzNWMxYzJiNzU4MTNlZmVjNTExNDJhN2FkOGUzZDI1YjRkMDI5NDYyYjUwZTUyYWQxMWM4MzI4ZGFhYmZkODA4MGNkMTc4?username=tg_0ypy6s61
+爱尔达戏剧台,https://gptapi.passwdword.xyz/live/encrypted/NDk5NWRmM2IzMmI1NGVkNjFlODgzNTMzMjgwZWM4NWQ6NGY4OTNmYjI1YTU5YzhhNTlkYjFlYTg2ZDVmZTM0Yzg4ZjU3OGFhYThlMjNiZGUyM2Q3YjA2MGZiZDM0NTc0Y2NhNzJlMWVmMmE4YWI1NDRmMmVmNmQ3MTUyOTllY2NmYjZlOGJlMTkxMzEyNzQ0ZGJkNGUyYjc5YjAyOWQxMDFmMjIyOGZkNDIwM2RmNTI4ZDkyN2Y2NGQyZDA3MmY4NTc4MTQwZGIwOTZjMThlZTA1MGI2NzAzMzdjOTEyY2RiYzhjZDMyMDE3Mjk4ZjlmNTdlYTg2ODIxODA0YTQ3NTA1MWE2ZTk1MzNjNDI1NTIyNTQ4ZTRhZGI0ZGM0MWQzZjIxODUxODUwNzUyMmEyMDgwZjhlMDAzNDI5MmI3NWZmYzBiNTE4MDE1NzU2ZjMxYjQyNTg1OTBjZTc2ZWFlMWRiN2IyMDBkYzVlYzVkN2ZlY2FlNTNiNWU5MDc3ODhkNGI4YjRjNTQwODA0ZDlkZGExMTBjMTY5NjlmZTc5ZjRi?username=tg_0ypy6s61
+TVBS News 新聞台,https://gptapi.passwdword.xyz/live/encrypted/MWVkMjA4MmIwNTkwZTA3YmQwMmMyMGQwMTY2NGU4MWQ6MjVkZTg4ZTIyNDViMDdmOTY2NDI4ODBjYWZhZTc1ODYxOGYxNDViOGU3NzJjZTc1NmU4OGYwYTQzYjIxNDc4NDQ2MjE4YmJkZDQ0NjNhM2QwM2ZlMDk5ZThhNTZlYTYzM2I4OTYyZjRlYmEzYzY4MmNiMTY2MDdkNTEwYzc4NjFhMDkxNjUxYTJlZGI0ZmU3MGU4MGNlODBkMGUwZjVmNDAzZjg1MTA4NmIwMGZmOWU5ZGQ0Y2NmMGFlYjUwY2QxNjBkNWQwMzQ4Yjg5NDk5ZTllZjNiODU3MzJjZjU4NDhmOGM2Y2Q5NDk2MmEyYzI3MWUzNjdhNThiN2JiZjNiYjA4YWJjYWJkZTY2MWM3NmQxMmRiNDhkMGNhZjZkNjI3YTMyYWZhOTY4Zjk5YjUzNGY2ZDQyNzIyNmM0MzE5MDQ4NTYxOTdhNDEwNGZlMWQyMTkwZjE3YzYwMjk3MDE0MQ?username=tg_0ypy6s61
+東森新聞 ETTV News,https://gptapi.passwdword.xyz/live/encrypted/MjVhNTk2ZmMzNmQwYWY2ZWI4MmJmZjY2MjQyMzVkNTk6M2NiMzg2MmM1YjVmMDVjYzlmYzBlMDY2ZWFhZjAxMjAzYmVhYTM3ZjYwYTI5ZmJiMjhhNzE2YjU0Y2E4ZTJmNmEzZDM0NTFiMWUwMjFkOTFhMDAxNzhlYzM2YzQ3ZWNlNDQyMzZlZmUyNzFhOGYyOTRiZjA1MjVmNWU3NWYyMzk1ZjY3OTkyMmFkMWM0OGJhODFiZDM3MmY0Y2Q5MDhkOGQ2MjE5M2ZmOWZjMjM0YzI4MzdlMjBjN2Y0MzMyZDQyYzU0YzJmYTY1Yzc2YTFmZWQzZTUyZWFjMDhhOTI5OWU0ZTI5MWFiYjMwM2ZlNWY2Y2NiMGEwMWZiNjJmNTgwMmJmZmU4MDZlYjY5ZDNkNWQzYWRhYTVkM2ZlNjA0Y2NkMDA5NWQ0OTAzNjBmYjk1ZmUwNmRmYjM1YTc3MTY2MjljOTQyMDg3Y2JlNTQ3NzdiYjVhY2JkOTU2MWVlN2FmNA?username=tg_0ypy6s61
+東森財經新聞 ETTV Business,https://gptapi.passwdword.xyz/live/encrypted/ZDZiMjBkOGFiYmFjMzAyNGJhNjk2MWRjMDM3NWI4MmU6YzNkN2ViY2U2OTlkOTQwZDI3ZjE1N2Q5OWU3ZjUyMzJjYzRjOGZiNTkzZTg3ZjhmZTYwZDcyMzMyMGExYjcyY2ZhY2U4Mjk2NTZiYmQ1ZjU5ZDA0ZWIwOGNhZTM1NjZjNzYwYzlkNTRlOGMxN2JlNWUzNDMzMWViNjgyZGVlNWUwZTE4YmYyMmNjYjNkYWRlNzEzNzBkZWFlYzFiMTgzMjhhNWJlOWVjOWUzMjQ1NmRkMWI2YzU5MzliZjE0MGNlOWY5MWRhMzE1OTRjODMwMWYwMTdlMmU4NDhiOTI1NjVhODg3MzM0ZGMwZTMwOTU1MDg1NTlmNDY4MWNkMjVhMzBjZDBkNDBiZGJhMTljNWU3NDI3ODQ1ZjRiZTIxY2U2MTNmYTNlODk4ZWM3ZDIwYWUwNTlmNTBhMjk4YjEzN2ViZDU0OTRiMWUxNGZjOTRjNWFlMmY1MzBhNGYwNGMyOWJhZDBlNjcyNTA0MDQyZTg0MmYyZjdkZjFiNWNiZDVj?username=tg_0ypy6s61
+中天新聞 CTI News,https://gptapi.passwdword.xyz/live/encrypted/OTdiNGZmMzFjNjJkZGY2MDM4MTM0MDZiMGM0ZDM0NGU6NWI1NDQwMzA4NDhlZjU1ZGMyNDY2ODIxODFjMDJkYTFjMTI4ZmFjNmRjZGQzNzY2YTc0ODc5YWJkZWVmMDRhZGIxNmNlZGRlZWE1ODdjMjA5MzMzZjVhMGVkM2M5NzY2MzgyYjMwNWYzY2Y4Y2VmMzJkMGRkYWZlYjU5NGM4OGY2OTZmZmQ2ZWRhZTllYjRlYzMwZTk2YmE4NTA3MDI2MDdkOGM2NDJjYTAwNDExOWVlOGJiMGViN2M4MmQyNTY2YWM0OTI1MWI0ODFmYTY3ZWI4YmI5NzdlYjMzN2Q3OGU3NTEzN2FlYWZlMTU5YWUyMTg1OGEwYmM0Y2I4ZTRhYjQ2MGQ2OTk4Y2UyOWZlNzBjM2RmNzc0NTA2M2I1MWMyNjZiYjY5YTViNmYxOWYyNWQwMTE5MjExN2RiYjM3Zjg4MzU4ZjI1N2JjMTgwNzFiZjVmOGNiY2QxNjdmM2M1Mg?username=tg_0ypy6s61
+非凡新聞台,https://gptapi.passwdword.xyz/live/encrypted/MWY5ZjkwYzQxNTk2MmIxNzJlZWY4NjVmZjkzN2UyMTE6Zjg1YzBmZGNmZTgyYmU0N2UwNjE3MjU4NjczMjdlNWZkMTI0MjUyZWQ3OWUwZmQyMTlmYTJhZDI5OTk3OTQ2ZGVlMzZmOTBhOTliNTM2M2YyY2E5MDJhNzI3NjMwZjE0ZmZhNWI5MDE5NjMwMzlkYWFlNmIzMWE2NzVhMDQ1Y2E3NmM3MmYwNGQ3MDBhNmExNGY5N2QyNzc5Y2Y3MmE4OWQ3MDQ3OTFmNGZlMjMxMzNmN2E5NDc4MjhjMThkYWNlZmY4NjI2ODcxNTNiZTI3OTVlOGY1NzcxMjk3OTVhNWRhODYyYzY3NGM3NTQ4OWRkNzFkN2U5ZDNmMGE0ZDZlMGY2M2RjMjIwZWVkMmU1ODM0ODA4OGJmNGYxOGY5OTgxN2I0ZTFiZTFiMGJjOGMwNmFiYmJiNDVhNzMxMmM1MmE1MTE0ZjFhZTJlOTIwNTdlMzY4MDYxNGNkM2YyYTA1NjQzY2RkM2I1MzVlZWUxZDMxNDQzMzFmNDBhOTMxNzc4?username=tg_0ypy6s61
+台視新聞台 TTV News,https://gptapi.passwdword.xyz/live/encrypted/ZTAwNjBmYTkwY2YyNjg4NTdmMDk5NTkzMTcyYjk2NjE6NTAwYjQ3ZDc2NTMzMGRjMTYzZjM2ODIxMjBmNmI0NGI0NzY2M2E0YTk2ZDgwZThlNjgxN2MwNjAwYmQzMDM4ZDQyNzlmMjhmY2ZlNGIwNzk3OTY1YzkzYzdhNjFmYzlhYWM5YjMwMDdiZjlkMzc4ZDMyZWE4MTgwNDNmY2EwMGYyY2ZkY2JlY2NhYTNiOGE5YmI4OTBiNjU3ZWQ4ZDMzOTA4N2YxNTRjMzgwN2FkMjkzZjgzYTg1ODM3YTZlNTVmNDI0ZmRjNDY2NjkzZWJkMTU2ZGUxNjQ1OWM3YzNhN2MwMTUyZWFjYWJjN2NlYjFiNWRiZWE3MzRmNTgwZDdjZDVkM2FhZWMwOGZiNjA4NTk5YTAzZjE3YzNkOGRkOGQwM2NiZGU0MmQwYmE0YWVmYTY5M2JhZWEwNmUwYjliM2E5NGVjMDI3NzZjODQzNjlhOGJlZDhhNTE0NWEzMzc4NQ?username=tg_0ypy6s61
+民視新聞台 FTV News,https://gptapi.passwdword.xyz/live/encrypted/YmRjYzkyMzgxZmVlNWE0NjIxZDNhMGRlZWRiM2U1ZjM6MDhjZGQ2ZDYwYjdkYTllYjI0YjE5ODgyYTY0ZjVjNTEyZmFjMzc0YmJiNDg1ZjRiNTA3M2Y4MTczMDNjNDg3MGIyMGIzY2EyZmIzOTM4OWU5YjhiNGE2Y2I0YzU5YmIxNzBjNmUwYzUxZjcxNDE1ZTY0ZjMwMmNhMDQ3N2VmMTc1OGNmZmU4ZTkyODA0OGYyYTM1YTUxY2UyMzY4MTUwZGViOGQ4NTgwMGY4NjJlMDdmN2VjZGViOTMxNjc2ODk4NDY3MWE3ODQ2ZDRhZDUxYzZjOGFhOGMyN2ZmYTc0ZDg5MjkyYzliMTg3MTEwODg1OGNhNTg0MzA1YTI1MDgzNjJhNWU0MDg2OTk4YzgzMjA3MTYxMzcyYjE1MzY3ZTVhYmViYTgwMGE0YjU3YzgwYjIyNDZkOGU5NmJmNTJiMmU2OGVhZWQ5NzIyYTZmOWZjNGFiNGNmN2E1MDI2NWFkZjVjY2VkYTBiZjk1ZTNmMjc4ZTkyZjhhZDZmYWU4ZTc0?username=tg_0ypy6s61
+寰宇新聞台,https://gptapi.passwdword.xyz/live/encrypted/YzM2YmZiMmMyMDc5ZWUyZjJlYWQ0YjAzZmQ3MTViNjU6ZWYwZjkwYWY1MDVlZWVkYmY3NjNmMjNmOGI5NTc5YmRiNzM5ZDQzYmQ1NmQzODgxOWRjYjAxYzZiNWNiMTNhMTU2YTAwZjczNDNhYWZhZTVjZjQ3YjZhOThkODhkNGJmMzlhNjFhN2M4YjI2M2RhODc5NGQwMzI0MGJiZTE4ZGUyZjNlNzAxOWZkMTBjM2FkOTg2Yjk1ZjM5YjA3ZmJmOWY4MGNlZjFhMDZiNDI5MTE0ZmE4ZDc1NjhkMDE3MWVhZTUzNTI5ZWFkYzg0ZTdhOGRiYjRlNzBjODhlZjViZWQ4YWFjNTQzNDY4MWNjZWJjYmQ3OGI4OWZhYWE0Y2YwZGUyZmJhOGM5MmNiZTYzOTAyZWI2NGMwZGUyY2NmM2E4Nzk3NWJmOTI0N2FmNDhhOTM3Y2IzYTU4ZGQyYjk4YWM2NTE3MDk5ZjgzYzVlMjFlZmU5NzY5OTI3ZDc2YmUyZWQ4NDQzN2JkNDZhYTk1Y2ViZGNmNGEzOWNkMmMwMmI1?username=tg_0ypy6s61
+中視新聞台,https://gptapi.passwdword.xyz/live/encrypted/MGQxYzg0YjBjNWMzM2ViMGE4MDU2ODJlYTM4YTEwNzQ6MzhhYTFhNzU4NzZkYjlhYmMwM2VjYWNmNzIyNDJlZDUzYzAxZWY3NGY5MTYwMjg1YjJhOTlhMmVmZWM4Mjc5ZDRjNDc3Nzc4YTM2MDcyNjY5ZDI4MjcwOGI3ZTEwNDkwZjI0MGVlZDgzMmIyMTc4M2I1ZThjNTQ5ZjY3MTZjODIwN2VlNzU3OTYwYzUwMmQ4ZTI4M2VhM2YyNzY2NDZmOTRiZjg4YjViMzkyODY2OWFlNzQ0ZDU3ODcwNjJiODVhNGRiZDJmMWY3ZjkzYjI5NjgwYTg2OThhZWU0YWUzNDUxM2M4OGIxMzU2MjdlM2QwZDdmMTY5MmI5ZWYwZWJjYmZmNmQ5ZGNhNDBhMTJmMmM5YmUzODk5NTkxZWJjNTQ4ZTcwYTdhM2YwMWIzYjYzMWE4ZDUzMmFhYTRjMTM1YTdlZTY5ZDc2YTA0NzBhZGU4ZmMwNzMyOGUyOTMxNDQ4ODI5YWRiNGMwYzgyNDk0NGZlZWU0Zjg3NDdiNTZlY2Ey?username=tg_0ypy6s61
+探索频道,https://gptapi.passwdword.xyz/live/encrypted/NjcxZWE3YjYyYzYzYWJhMDFjNzk4MzZiNTBmNjIzY2U6NmU0ODdmZDZmZGQ1ZWQ3OWI0Mzk5ZWFkMzc1MmQxNjE3NGUwNmU4NDExZmQ5ZWU3OWQyMDZjOWYxNjUwNWUxOWQ1Y2U1ZDQ1MzViOTNiZTY0MDBmZjk3Nzc5Y2NiMmY2Yjc1MTY1YTlkNGE5MmExZWU0MTllMTM1ZTk0NzExM2U5YTllNWM2M2JjMDc2MGI2OTRkYWM2Njg2YmJmYTE0MWUwMDM2MDk4MmZjZDE1OTE2Y2NkN2IzMjhmMzNlMjQ5YjcyZjRmM2ExNGU0NDcxMjFlYTQzYzVjZDc0ZmJmZDcyM2FjNTdkZGEzMGQ0ZTI1MzQ5YmFhNDc2NGZjMWIyZGU5NTgwOTU2OTNiNDA1YzhjMDE3MGQ0YWYyNjczZGQ1NzgxMDExYTNiNjhlZWViNDU1MWY3YjUyNWE1ZDhjNGIxMDdmZTAzMDEzMmJlMzMyNzFmNmI2MmZkYzgyYmM0NDgxMDczNTg1ZWQ0OGQzNjExNmUyY2YyNzE3ZDhkMGE0?username=tg_0ypy6s61
 大人,#genre#
 完美,https://ppt.cc/fgXIWx
 松1,https://ppt.cc/fEFVsx
