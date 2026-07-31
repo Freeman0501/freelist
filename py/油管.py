@@ -826,11 +826,11 @@ CATEGORY_FILTERS = {
     
     '新聞直播': [
         _filter_group('region', '地區', [
-            ('台灣', '台灣 新聞 直播'),
-            ('大陸', '大陸 新聞 直播'),
-            ('香港', '香港 新聞 直播'),
-            ('美國', '美國 新聞 直播'),
-            ('國際', '國際 新聞 直播'),
+            ('台灣', '台灣新聞直播'),
+            ('大陸', '中國新闻直播 China News Live'),
+            ('香港', '香港新闻直播 Hong Kong News Live'),
+            ('美國', '美國新聞直播'),
+            ('國際', '國際新聞直播'),
         ]),
         _filter_group('channel', '頻道', [
             ('TVBS', 'TVBS 新聞 直播'),
@@ -1849,6 +1849,8 @@ class Spider(Spider):
 
     def _fetch_search_first_page(self, key):
         search_url = f'https://www.youtube.com/results?search_query={quote(str(key or ""))}'
+        if '直播' in str(key or ''):
+            search_url += '&sp=EgJAAQ%3D%3D'
         r = self.session.get(search_url, timeout=10)
         html_str = r.text
         data = self.yt._extract_json_after(html_str, 'ytInitialData') or {}
