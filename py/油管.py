@@ -19,7 +19,7 @@ YOUTUBE_CLASSES = [
     {'type_id': '最新新聞', 'type_name': '新聞'},
     {'type_id': '新聞直播', 'type_name': '新聞直播'},
     {'type_id': '漫劇', 'type_name': 'AI漫劇'}, 
-    {'type_id': '即時影像', 'type_name': '即時影像'},  # 新增
+    {'type_id': '即時影像', 'type_name': '即時影像'},
     {'type_id': '幼教', 'type_name': '幼兒教育'},    
     {'type_id': '音樂', 'type_name': '音樂'},
     {'type_id': '日漫', 'type_name': '日漫'},
