@@ -19,7 +19,7 @@ YOUTUBE_CLASSES = [
     {'type_id': '最新新聞', 'type_name': '新聞'},
     {'type_id': '新聞直播', 'type_name': '新聞直播'},
     {'type_id': '漫劇', 'type_name': 'AI漫劇'}, 
-    {'type_id': '即時影像', 'type_name': '即時影像'},  # 新增
+    {'type_id': '即時影像', 'type_name': '即時影像'},
     {'type_id': '幼教', 'type_name': '幼兒教育'},    
     {'type_id': '音樂', 'type_name': '音樂'},
     {'type_id': '日漫', 'type_name': '日漫'},
@@ -112,6 +112,12 @@ CATEGORY_FILTERS = {
             ('熱血', 'AI 熱血 漫劇'),
             ('溫馨', 'AI 溫馨 漫劇'),
         ]),
+        _filter_group('duration', '時長', [      # 新增
+            ('全部', ''),
+            ('短 (<10分鐘)', 'short'),
+            ('中 (10-30分鐘)', 'medium'),
+            ('長 (>60分鐘)', 'long'),
+        ]),        
         _filter_group('platform', '頻道', [
             ('关关解说', '关关解说'),
             ('破晓动漫社', '破晓动漫社'),
@@ -123,46 +129,53 @@ CATEGORY_FILTERS = {
             ('星河剧场', '星河剧场'),
         ]),
     ),
-    '即時影像': [  # 新增
-        _filter_group('region', '地區', [
-            ('台灣', '即時影像 台灣'),
-            ('日本', 'Japan Livecam'),
-            ('韓國', 'Korea Livecam'),
-            ('美國', 'USA Livecam'),
-            ('歐洲', 'Europe Livecam'),
-            ('亞洲', 'Asia Livecam'),
+    '即時影像': [  # 增強精準區域與真直播過濾
+        _filter_group('region', '地區選擇', [
+            ('台灣全區', '即時影像 台灣 LIVE Cam 監視器'),
+            ('台北/新北', '即時影像 台北 新北 陽明山 象山 貓空 Livecam'),
+            ('宜蘭/花東', '即時影像 宜蘭 花蓮 台東 龜山島 東海岸 Livecam'),
+            ('阿里山/日月潭', '即時影像 阿里山 日月潭 奮起湖 二延平 Livecam'),
+            ('高雄/墾丁', '即時影像 高雄 墾丁 壽山 旗津 愛河 Livecam'),
+            ('台中/清境', '即時影像 台中 合歡山 武嶺 清境 Livecam'),
+            ('桃園/新竹/苗栗', '即時影像 桃園 新竹 苗栗 石門水庫 Livecam'),
+            ('彰化/雲林/嘉義', '即時影像 彰化 雲林 嘉義 Livecam'),
+            ('澎金馬離島', '即時影像 澎湖 金門 馬祖 離島 Livecam'),
+            ('日本全區', 'Japan Live cam ライブカメラ 日本'),
+            ('富士山', 'Mount Fuji Live cam 富士山 ライブカメラ'),
+            ('東京地標', 'Tokyo Live cam 東京 渋谷 新宿 ライブカメラ'),
+            ('京都/大阪', 'Kyoto Osaka Live cam 京都 大阪 ライブカメラ'),
+            ('北海道/雪景', 'Hokkaido Live cam 北海道 ライブカメラ'),
+            ('沖繩海景', 'Okinawa Live cam 沖縄 ライブカメラ'),
+            ('韓國全區', 'Korea Live cam 韓國 Livecam'),
+            ('首爾/漢江', 'Seoul Live cam 首爾 漢江 Livecam'),
+            ('釜山/濟州島', 'Busan Jeju Live cam 釜山 濟州島 Livecam'),
+            ('美國地標', 'USA Live cam 紐約 Times Square 洛杉磯 Livecam'),
+            ('歐洲景觀', 'Europe Live cam 倫敦 巴黎 阿爾卑斯山 Livecam'),
+            ('泰國/東南亞', 'Thailand Live cam 曼谷 芭達雅 Livecam'),
+            ('全球精選地標', 'EarthCam World Live Cam 全球地標 監視器'),
         ]),
-        _filter_group('type', '類型', [
-            ('交通', '交通 道路 車流 即時影像'),
-            ('觀光', '觀光 景點 風景 即時影像'),
-            ('天氣', '天氣 氣象 雲圖 即時影像'),
-            ('街景', '街景 城市 街道 即時影像'),
-            ('自然', '自然 生態 動物 環境 即時影像'),
-            ('港口', '港口 船 海港 即時影像'),
-            ('機場', '機場 航班 飛機 即時影像'),
-            ('車站', '車站 火車 高鐵 即時影像'),
-            ('活動', '活動 展覽 現場 即時影像'),
+        _filter_group('type', '主題類型', [
+            ('風景觀光', '即時影像 風景 景點 觀光 Live Cam'),
+            ('高山氣象雲海', '即時影像 武嶺 阿里山 氣象 雲海 雪景 Live'),
+            ('海灘海洋港口', '即時影像 海灘 墾丁 旗津 港口 海邊 Live'),
+            ('交通車流機場', '即時影像 國道 交通 車流 機場 飛機 起降 Live'),
+            ('動物生態水族', '即時影像 動物 生態 貓咪 鳥巢 水族館 Live'),
+            ('城市夜景街景', '即時影像 城市 夜景 街景 360 Live Cam'),
         ]),
-        _filter_group('source', '來源', [
-            ('YouTube直播', 'YouTube 直播'),
-            ('政府監視器', '政府 監視器 CCTV'),
-            ('即時新聞', '即時新聞 直播'),
-            ('交通局', '交通局 即時影像'),
-            ('觀光局', '觀光局 即時影像'),
-            ('4K', '4K 即時影像'),
-            ('8K', '8K 即時影像'),
+        _filter_group('quality', '畫質規格', [
+            ('4K超高清', '4K 即時影像 2160p Live Stream'),
+            ('8K全景VR', '8K 360 VR 即時影像 Live'),
         ]),
-        _filter_group('channel', '熱門頻道', [
-            ('台灣即時影像', '台灣即時影像'),
-            ('Japan Live', 'Japan Live Camera'),
-            ('Korea Live', 'Korea Live Camera'),
-            ('Earth Cam', 'Earth Cam'),
-            ('Skyline Webcam', 'Skyline Webcam'),
-            ('Live Earth', 'Live Earth 360'),
-            ('World Live Cam', 'World Live Cam'),
-            ('即時影像監視器', '即時影像監視器'),
+        _filter_group('channel', '熱門官方頻道', [
+            ('阿里山國家風景區', '阿里山國家風景區管理處 Live'),
+            ('台北觀光即時影像', '台北觀光即時影像 象山 Live'),
+            ('高雄市政府觀光局', '高雄市政府觀光局 Live'),
+            ('Japan Live Camera', 'Japan Live Camera'),
+            ('EarthCam', 'EarthCam World Live Cam'),
+            ('SkylineWebcams', 'SkylineWebcams Live'),
+            ('東海岸國家風景區', '東海岸國家風景區管理處 Live'),
         ])
-        ],    
+    ],    
 '日漫': _with_year(
     _filter_group('title', '熱門作品', [
         ('海賊王', 'onepiece ワンピース'),
@@ -230,14 +243,12 @@ CATEGORY_FILTERS = {
             ('角落小夥伴', '角落小夥伴 Sumikko Gurashi'),
         ])
     ),    
-    '短劇': _with_year(
-        _filter_group('region', '地區', [
-            ('大陸', '大陸 短劇'),
-            ('台灣', '台灣 短劇'),
-            ('香港', '香港 短劇'),
-            ('韓國', '韓國 短劇'),
-            ('日本', '日本 短劇'),
-            ('泰國', '泰國 短劇'),
+    '短劇': (
+        _filter_group('duration', '時長', [
+            ('全部', ''),
+            ('短 (<10分鐘)', 'short'),
+            ('中 (10-30分鐘)', 'medium'),
+            ('長 (>60分鐘)', 'long'),
         ]),
         _filter_group('platform', '平台', [
             ('抖音', '抖音 短劇'),
@@ -1646,7 +1657,29 @@ class Spider(Spider):
         page = int(page)
         filters = ext if isinstance(ext, dict) else {}
         query = self._build_category_keyword(cid, filters)
-        videos, has_more = self._search_youtube_page(query, page)
+        extra_params = {}
+
+        if cid == '漫劇':
+            duration = filters.get('duration')
+            if duration:
+                # 映射 duration 值到 sp
+                sp_map = {
+                    'short': 'EgIIAW',
+                    'medium': 'EgIIAQ',
+                    'long': 'EgIIAw',
+                }
+                sp = sp_map.get(duration)
+                if sp:
+                    extra_params['sp'] = sp
+
+        videos, has_more = self._search_youtube_page(query, page, extra_params=extra_params)
+    
+        # 保留原有的直播过滤（如果需要）
+        if cid in ('即時影像', '新聞直播') or any(kw in query.lower() for kw in ['即時影像', 'livecam', 'live cam', 'cctv', '直播']):
+            live_only = [v for v in videos if v.get('is_live') or '🔴' in v.get('vod_remarks', '') or 'LIVE' in v.get('vod_name', '').upper() or '直播' in v.get('vod_name', '')]
+            if live_only:
+                videos = live_only
+
         return {'list': videos, 'page': page, 'pagecount': page + 1 if has_more else page, 'limit': len(videos), 'total': len(videos)}
 
     def searchContent(self, key, quick, pg=1):
@@ -1922,26 +1955,47 @@ class Spider(Spider):
         videos, _ = self._search_youtube_page(key, 1)
         return videos
 
-    def _search_youtube_page(self, key, page=1):
+    def _search_youtube_page(self, key, page=1, extra_params=None):
         page = max(1, int(page or 1))
         cache_key = self._search_cache_key(key)
+        if extra_params:
+            cache_key += '_' + urlencode(sorted(extra_params.items()))
         session = self.search_page_cache.get(cache_key)
         if page == 1 or not session:
-            session = self._fetch_search_first_page(key)
+            session = self._fetch_search_first_page(key, extra_params=extra_params)
             self.search_page_cache[cache_key] = session
+    
+        # 确保 pages 列表存在
+        if 'pages' not in session:
+            session['pages'] = []
+    
+        # 加载需要的页面
         while len(session.get('pages', [])) < page and session.get('next'):
+            debug_log('loading next page', {'current_pages': len(session.get('pages', [])), 'has_next': bool(session.get('next'))})
             data = self._fetch_search_continuation(session)
+            if not data:
+                debug_log('no continuation data', {})
+                session['next'] = None
+                break
             videos = self._extract_videos_from_api(data, 30)
             session.setdefault('pages', []).append(videos)
-            session['next'] = self._extract_continuation_token(data)
+            # 更新 next token
+            new_next = self._extract_continuation_token(data)
+            session['next'] = new_next
+            debug_log('page loaded', {'page_num': len(session['pages']), 'next_token': new_next[:20] if new_next else None})
+    
         pages = session.get('pages', [])
         videos = pages[page - 1] if len(pages) >= page else []
         has_more = bool(session.get('next')) or len(pages) > page
+        debug_log('search_youtube_page result', {'key': key, 'page': page, 'videos': len(videos), 'has_more': has_more, 'total_pages': len(pages)})
         return videos, has_more
 
-    def _fetch_search_first_page(self, key):
+    def _fetch_search_first_page(self, key, extra_params=None):
         search_url = f'https://www.youtube.com/results?search_query={quote(str(key or ""))}'
-        if '直播' in str(key or ''):
+        if extra_params:
+            search_url += '&' + urlencode(extra_params)
+        key_lower = str(key or '').lower()
+        if any(kw in key_lower for kw in ['直播', '即時影像', 'livecam', 'live cam', 'live camera', 'cctv', ' 4k live', '8k live', ' live']):
             search_url += '&sp=EgJAAQ%3D%3D'
         r = self.session.get(search_url, timeout=10)
         html_str = r.text
@@ -1965,6 +2019,7 @@ class Spider(Spider):
         token = session.get('next')
         api_key = session.get('api_key')
         if not token or not api_key:
+            debug_log('fetch continuation missing', {'has_token': bool(token), 'has_api_key': bool(api_key)})
             return {}
         url = f'https://www.youtube.com/youtubei/v1/search?key={quote(api_key)}'
         headers = self.header.copy()
@@ -1976,9 +2031,16 @@ class Spider(Spider):
             'X-YouTube-Client-Version': session.get('client_version') or '2.20240310.01.00',
         })
         payload = {'context': session.get('context') or {}, 'continuation': token}
-        r = self.session.post(url, json=payload, headers=headers, timeout=10)
-        r.raise_for_status()
-        return r.json()
+        debug_log('fetch continuation request', {'url': url, 'token': token[:20] + '...'})
+        try:
+            r = self.session.post(url, json=payload, headers=headers, timeout=10)
+            r.raise_for_status()
+            data = r.json()
+            debug_log('fetch continuation response', {'has_data': bool(data), 'keys': list(data.keys()) if data else []})
+            return data
+        except Exception as e:
+            debug_log('fetch continuation error', {'error': repr(e)})
+            return {}
 
     def _extract_continuation_token(self, data):
         tokens = []
@@ -2043,8 +2105,55 @@ class Spider(Spider):
                 return None
             title_obj = renderer.get('title') or renderer.get('headline') or {}
             title = title_obj.get('simpleText') or ''.join([x.get('text', '') for x in title_obj.get('runs', [])]) or 'YouTube Video'
-            dur = (renderer.get('lengthText') or {}).get('simpleText') or 'YouTube'
-            return {'vod_id': vid, 'vod_name': html.unescape(title), 'vod_pic': f'https://img.youtube.com/vi/{vid}/hqdefault.jpg', 'vod_remarks': dur}
+            
+            # 判斷是否為真實直播 (Live)
+            is_live = False
+            
+            # 1. 檢查 badges (如 LIVE / 直播)
+            badges = renderer.get('badges') or []
+            for b in badges:
+                b_ren = b.get('metadataBadgeRenderer') or {}
+                label = str(b_ren.get('label') or '').upper()
+                if 'LIVE' in label or '直播' in label:
+                    is_live = True
+                    break
+            
+            # 2. 檢查 thumbnailOverlays
+            if not is_live:
+                overlays = renderer.get('thumbnailOverlays') or []
+                for ov in overlays:
+                    time_status = ov.get('thumbnailOverlayTimeStatusRenderer') or {}
+                    if time_status.get('style') == 'LIVE':
+                        is_live = True
+                        break
+                    text_runs = (time_status.get('text') or {}).get('runs') or []
+                    for r in text_runs:
+                        txt = str(r.get('text') or '').upper()
+                        if 'LIVE' in txt or '直播' in txt:
+                            is_live = True
+                            break
+            
+            # 3. 檢查 viewCountText (如 "1,234 人正在觀看" / "watching now")
+            if not is_live:
+                view_text_obj = renderer.get('viewCountText') or {}
+                view_str = view_text_obj.get('simpleText') or ''.join([x.get('text', '') for x in view_text_obj.get('runs', [])])
+                if '正在觀看' in view_str or 'watching' in view_str.lower():
+                    is_live = True
+
+            dur = (renderer.get('lengthText') or {}).get('simpleText')
+            
+            if is_live:
+                dur = '🔴 4K 直播中' if '4K' in title.upper() else '🔴 直播中'
+            elif not dur:
+                dur = 'YouTube'
+
+            return {
+                'vod_id': vid,
+                'vod_name': html.unescape(title),
+                'vod_pic': f'https://img.youtube.com/vi/{vid}/hqdefault.jpg',
+                'vod_remarks': dur,
+                'is_live': is_live
+            }
         except Exception:
             return None
 
