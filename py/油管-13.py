@@ -1976,7 +1976,7 @@ class Spider(Spider):
         media_base = f'http://127.0.0.1:9978/proxy?do=py&type=media&vid={vid}&quality={quality}'
         # 預設為 direct 直連分段，避免本機 9978 阻塞死鎖與逾時
         direct_segments = str(self.extendDict.get('seg') or 'direct').lower() != 'proxy'
-        buffer_sec = float(self.extendDict.get('buffer') or 5.0)
+        buffer_sec = float(self.extendDict.get('buffer') or 15.0)
         min_buffer_pt = f"PT{buffer_sec:.1f}S"
         duration_pt = f"PT{int(duration or 0)}S"
         mpd = f'''<?xml version="1.0" encoding="UTF-8"?>
