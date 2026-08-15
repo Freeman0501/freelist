@@ -1930,13 +1930,31 @@ class Spider(Spider):
         quality = params.get('quality') or '1080p'
         data = self.getCache(f'yt_{vid}_{quality}') if vid else None
         if not data:
-            return [404, 'text/plain', '視頻緩存已過期或不存在']
+            try:
+                raw_data = self.yt.extract(vid)
+                audio_track = self.yt.choose_audio(raw_data.get('formats', []))
+                all_tracks = self.yt.choose_video_tracks(raw_data.get('formats', []), quality)
+                wanted_name = 'HDR' if quality == 'hdr' else 'SDR'
+                video_tracks = [x for x in all_tracks if x.get('track_name') == wanted_name] or (all_tracks[:1] if all_tracks else [])
+                data = {
+                    'video_tracks': video_tracks,
+                    'video_item': video_tracks[0] if video_tracks else {},
+                    'audio_item': audio_track or {},
+                    'audio_url': audio_track.get('url') if audio_track else None,
+                    'duration': raw_data.get('duration') or 0
+                }
+                self.setCache(f'yt_{vid}_{quality}', data)
+            except Exception as e:
+                debug_log('proxy mpd extract fallback error', repr(e))
+                return [404, 'text/plain', '視頻緩存已過期或不存在']
+
         audio_url = data.get('audio_url')
         duration = data.get('duration') or 0
         video_tracks = data.get('video_tracks') or [data.get('video_item') or {}]
         audio_item = data.get('audio_item') or {}
         media_base = f'http://127.0.0.1:9978/proxy?do=py&type=media&vid={vid}&quality={quality}'
-        direct_segments = str(self.extendDict.get('seg') or 'proxy').lower() == 'direct'
+        # 預設為 direct 直連分段，避免本機 9978 阻塞死鎖與逾時
+        direct_segments = str(self.extendDict.get('seg') or 'direct').lower() != 'proxy'
         duration_pt = f"PT{int(duration or 0)}S"
         mpd = f'''<?xml version="1.0" encoding="UTF-8"?>
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" type="static" mediaPresentationDuration="{duration_pt}" minBufferTime="PT1.5S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011">
