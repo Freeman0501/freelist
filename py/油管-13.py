@@ -100,6 +100,9 @@ def _with_year(*groups):
 CATEGORY_FILTERS = {
       'AI音樂翻唱': (
         _filter_group('type', '類型', [
+            ('AI翻唱', 'AI翻唱'),
+            ('AI音樂', 'AI音樂'),
+            ('AIMV', 'AIMV'),
             ('西游封神榜', '音樂封神榜'),
             ('三界好聲音', '三界好聲音'),
             ('天庭好聲音', '天庭好聲音'),
