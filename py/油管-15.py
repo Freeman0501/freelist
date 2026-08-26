@@ -1880,83 +1880,33 @@ class Spider(Spider):
         try:
             data = self.yt.extract(video_id)
 
-            # 處理直播
+            # 1. 處理直播 (HLS 直連，最流暢)
             hls_track = next((t for t in data.get('formats', []) if t.get('itag') == 'hls'), None)
             if data.get('is_live') and hls_track:
                 headers = self.header.copy()
                 headers.update(hls_track.get('headers') or {})
                 return {'parse': 0, 'jx': 0, 'url': hls_track['url'], 'header': headers, 'format': 'application/x-mpegURL'}
 
-            # 取得優先中文音軌
-            audio_track = self.yt.choose_audio(data.get('formats', []))
-
-            # 取得視訊軌道清單
-            all_tracks = self.yt.choose_video_tracks(data.get('formats', []), quality)
-            if quality == 'hdr':
-                wanted_name = 'HDR'
-            else:
-                wanted_name = 'SDR'
-
-            video_tracks = [x for x in all_tracks if x.get('track_name') == wanted_name]
-            if not video_tracks and all_tracks:
-                video_tracks = [all_tracks[0]]
-
-            def _has_valid_range(item):
-                if not item or not isinstance(item, dict):
-                    return False
-                init = item.get('initRange') or {}
-                idx = item.get('indexRange') or {}
-                return bool(init.get('end') and idx.get('end'))
-
-            if video_tracks:
-                playable = video_tracks[0]
-
-                # 只有當視訊與音訊軌道皆具備完整的 DASH 初始化與索引 Range 時，才封裝為 MPD
-                can_use_dash = (
-                    audio_track
-                    and _has_valid_range(playable)
-                    and _has_valid_range(audio_track)
-                    and int(data.get('duration') or 0) > 0
-                )
-
-                if can_use_dash and (playable.get('acodec') == 'none' or audio_track.get('audioTrack')):
-                    cache_data = {
-                        'video_tracks': video_tracks,
-                        'video_item': playable,
-                        'audio_item': audio_track,
-                        'audio_url': audio_track.get('url'),
-                        'duration': data.get('duration') or 0
-                    }
-                    self.setCache(f'yt_{video_id}_{quality}', cache_data)
-                    mpd_url = f'http://127.0.0.1:9978/proxy?do=py&type=mpd&vid={video_id}&quality={quality}'
-                    headers = self.header.copy()
-                    headers.update(playable.get('headers') or {})
-                    debug_log('using dash mpd with chinese audio', {
-                        'vid': video_id,
-                        'audio_track': audio_track.get('audioTrack'),
-                        'audio_itag': audio_track.get('itag'),
-                        'video_itag': playable.get('itag')
-                    })
-                    return {'parse': 0, 'jx': 0, 'url': mpd_url, 'header': headers, 'format': 'application/dash+xml'}
-
-                # 若無法走 DASH MPD，優先檢查是否有影音合一的 progressive 格式
-                progressive = self.yt.choose_best_progressive(data.get('formats', []), quality)
-                if progressive and progressive.get('url'):
-                    headers = self.header.copy()
-                    headers.update(progressive.get('headers') or {})
-                    return {'parse': 0, 'jx': 0, 'url': progressive['url'], 'header': headers}
-
-                # 若無 progressive，直接輸出直連格式
-                headers = self.header.copy()
-                headers.update(playable.get('headers') or {})
-                return {'parse': 0, 'jx': 0, 'url': playable['url'], 'header': headers}
-
-            # 備選 progressive
+            # 2. 優先選擇 progressive 格式（影音合一單一串流，預設繁體中文語系，100% 絕無 60 秒斷流問題）
             progressive = self.yt.choose_best_progressive(data.get('formats', []), quality)
             if progressive and progressive.get('url'):
                 headers = self.header.copy()
                 headers.update(progressive.get('headers') or {})
+                debug_log('using progressive direct play', {
+                    'vid': video_id,
+                    'itag': progressive.get('itag'),
+                    'client': progressive.get('client'),
+                    'height': progressive.get('height')
+                })
                 return {'parse': 0, 'jx': 0, 'url': progressive['url'], 'header': headers}
+
+            # 3. 備選視訊直連
+            all_tracks = self.yt.choose_video_tracks(data.get('formats', []), quality)
+            if all_tracks:
+                playable = all_tracks[0]
+                headers = self.header.copy()
+                headers.update(playable.get('headers') or {})
+                return {'parse': 0, 'jx': 0, 'url': playable['url'], 'header': headers}
 
             raise Exception(f'沒有可直接播放的 {quality} 視頻流格式')
 
