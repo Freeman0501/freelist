@@ -1059,6 +1059,20 @@ class YouTubeLite:
             return tokens.get(f'{client_name}.{context}') or tokens.get(client_name) or tokens.get(context)
         return None
 
+    def _client_priority(self, item):
+        client = str((item or {}).get('client') or '').upper()
+        if 'IOS' in client:
+            return 100
+        if 'TV' in client:
+            return 80
+        if 'ANDROID' in client and 'VR' not in client:
+            return 60
+        if 'WEB' in client:
+            return 40
+        if 'VR' in client:
+            return 0  # 避免優先選到 ANDROID_VR，因其後半段 Range 請求會被 YouTube 403 斷流
+        return 20
+
     def choose_playable(self, formats, quality=None):
         all_videos = [x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') == 'none']
         candidates = all_videos[:]
@@ -1078,9 +1092,9 @@ class YouTubeLite:
             candidates = all_videos
         if not candidates:
             return None
-        # 畫質優先，編碼順序 VP9/HDR > H264 > AV1。保留 VP9 Profile 2 HDR，
-        # 只把 AV1 放到最後，避免默認選到 itag 701/702 的超大 AV1 分段。
+        # 客戶端穩定度優先 (IOS/TV > ANDROID > WEB > VR)，其次畫質與編碼
         candidates.sort(key=lambda x: (
+            self._client_priority(x),
             self._video_codec_priority(x),
             int(x.get('height') or 0),
             int(x.get('bitrate') or 0)
@@ -1090,6 +1104,7 @@ class YouTubeLite:
             'quality': quality,
             'itag': selected.get('itag'),
             'height': selected.get('height'),
+            'client': selected.get('client'),
             'mime': selected.get('mimeType'),
             'codec_priority': self._video_codec_priority(selected),
             'candidates': len(candidates),
@@ -1113,44 +1128,39 @@ class YouTubeLite:
     def _is_risky_best_video(self, item):
         codecs = (item.get('codecs') or '').lower()
         return 'av01' in codecs
+
     def choose_video_tracks(self, formats, quality=None):
         videos = [x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') == 'none']
     
         # 根據 quality 設定畫質過濾
         if quality == '4k':
-            videos = [x for x in videos if int(x.get('height') or 0) >= 2160]
+            filtered = [x for x in videos if int(x.get('height') or 0) >= 2160]
         elif quality == '2k':
-            videos = [x for x in videos if 1440 <= int(x.get('height') or 0) < 2160]
+            filtered = [x for x in videos if 1440 <= int(x.get('height') or 0) < 2160]
         elif quality == '1080p':
-            videos = [x for x in videos if 1000 <= int(x.get('height') or 0) < 1440]
+            filtered = [x for x in videos if 1000 <= int(x.get('height') or 0) < 1440]
         elif quality == 'best':
-            # 選最高畫質，沒有上限
-            pass
+            filtered = videos
         else:
-            # 默認至少 1080p
-            videos = [x for x in videos if int(x.get('height') or 0) >= 1080]
+            filtered = [x for x in videos if int(x.get('height') or 0) >= 1080]
 
-        if not videos:
-            # 如果沒有符合條件的，取所有視頻
-            videos = [x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') == 'none']
+        if not filtered:
+            filtered = videos
 
-        # 按畫質從高到低排序
-        videos.sort(key=lambda x: int(x.get('height') or 0), reverse=True)
+        # 優先以 Client 穩定度 (IOS > TVHTML5 > ANDROID) 排序，確保後半段 Range 不被 403 斷流
+        filtered.sort(key=lambda x: (
+            self._client_priority(x),
+            self._video_codec_priority(x),
+            int(x.get('height') or 0),
+            int(x.get('bitrate') or 0)
+        ), reverse=True)
 
-        # 優先選擇 VP9，如果沒有則選擇 H264，最後才是 AV1
-        vp9 = [x for x in videos if self._video_codec_priority(x) >= 3]
-        h264 = [x for x in videos if self._video_codec_priority(x) == 2]
-        av1 = [x for x in videos if self._video_codec_priority(x) == 1]
-
-        # 選擇最高畫質的 VP9，如果沒有則選擇 H264
-        selected_videos = vp9 if vp9 else (h264 if h264 else videos)
-
-        # 按畫質排序
-        selected_videos.sort(key=lambda x: (int(x.get('height') or 0), int(x.get('bitrate') or 0)), reverse=True)
+        top_client = filtered[0].get('client') if filtered else None
+        same_client_videos = [x for x in filtered if x.get('client') == top_client] if top_client else filtered
 
         # 分離 SDR 和 HDR
-        sdr = [x for x in selected_videos if not self._is_hdr_video(x)]
-        hdr = [x for x in selected_videos if self._is_hdr_video(x)]
+        sdr = [x for x in same_client_videos if not self._is_hdr_video(x)]
+        hdr = [x for x in same_client_videos if self._is_hdr_video(x)]
 
         tracks = []
         if sdr:
@@ -1164,16 +1174,13 @@ class YouTubeLite:
             item['is_hdr'] = True
             tracks.append(item)
     
-        if not tracks:
-            # 如果還是沒有，取第一個可用的
-            item = self.choose_playable(formats, quality)
-            if item:
-                item = item.copy()
-                item['track_name'] = 'HDR' if self._is_hdr_video(item) else 'SDR'
-                item['is_hdr'] = self._is_hdr_video(item)
-                tracks.append(item)
+        if not tracks and filtered:
+            item = filtered[0].copy()
+            item['track_name'] = 'HDR' if self._is_hdr_video(item) else 'SDR'
+            item['is_hdr'] = self._is_hdr_video(item)
+            tracks.append(item)
     
-        debug_log('video tracks selected', [{'name': x.get('track_name'), 'itag': x.get('itag'), 'height': x.get('height'), 'codecs': x.get('codecs')} for x in tracks])
+        debug_log('video tracks selected', [{'name': x.get('track_name'), 'itag': x.get('itag'), 'height': x.get('height'), 'client': x.get('client'), 'codecs': x.get('codecs')} for x in tracks])
         return tracks
 
     def _is_hdr_video(self, item):
@@ -1186,7 +1193,7 @@ class YouTubeLite:
         candidates = [x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') != 'none']
         if not candidates:
             return None
-        candidates.sort(key=lambda x: (int(x.get('height') or 0), int(x.get('bitrate') or 0)), reverse=True)
+        candidates.sort(key=lambda x: (self._client_priority(x), int(x.get('height') or 0), int(x.get('bitrate') or 0)), reverse=True)
         return candidates[0]
 
     def choose_audio(self, formats, preferred_lang='zh-Hant'):
@@ -1195,6 +1202,7 @@ class YouTubeLite:
             return None
 
         def _audio_priority(item):
+            client_score = self._client_priority(item)
             track = item.get('audioTrack') or {}
             track_id = str(track.get('id') or '').lower()
             disp_name = str(track.get('displayName') or '').lower()
@@ -1203,27 +1211,28 @@ class YouTubeLite:
             # 優先級 1: 繁體中文 / 台灣 / 國語
             if any(k in track_id for k in ('zh-hant', 'zh-tw', 'cmn-tw', 'zh-hk')) or \
                any(k in disp_name for k in ('國語', '繁體', '台灣', '臺灣', '中文 (臺灣)', '中文 (台灣)', 'chinese (taiwan)')):
-                score = 100
+                lang_score = 100
             # 優先級 2: 其他中文 (zh, cmn, 簡體中文)
             elif any(k in track_id for k in ('zh', 'cmn')) or any(k in disp_name for k in ('中文', '普通話', 'chinese')):
-                score = 80
+                lang_score = 80
             # 優先級 3: 官方預設音軌
             elif is_default:
-                score = 50
+                lang_score = 50
             # 優先級 4: 英文 / 原聲
             elif 'en' in track_id or 'english' in disp_name:
-                score = 20
+                lang_score = 20
             else:
-                score = 10
+                lang_score = 10
 
             bitrate = int(item.get('bitrate') or 0)
             is_mp4 = 1 if item.get('ext') == 'mp4' else 0
-            return (score, is_mp4, bitrate)
+            return (client_score, lang_score, is_mp4, bitrate)
 
         candidates.sort(key=_audio_priority, reverse=True)
         selected = candidates[0]
         debug_log('audio selected', {
             'itag': selected.get('itag'),
+            'client': selected.get('client'),
             'audioTrack': selected.get('audioTrack'),
             'mime': selected.get('mimeType'),
             'bitrate': selected.get('bitrate'),
@@ -1282,10 +1291,10 @@ class YouTubeLite:
 
     def _call_player_api(self, video_id, api_key, context, referer, visitor_data=None, sts=None):
         clients = [
-            {'client': {'clientName': 'ANDROID_VR', 'clientVersion': '1.65.10', 'deviceMake': 'Oculus', 'deviceModel': 'Quest 3', 'androidSdkVersion': 32, 'userAgent': 'com.google.android.apps.youtube.vr.oculus/1.65.10 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip', 'osName': 'Android', 'osVersion': '12L', 'hl': 'zh-TW', 'gl': 'TW'}},
-            {'client': {'clientName': 'TVHTML5', 'clientVersion': '7.20241104.09.00', 'userAgent': 'Mozilla/5.0 (ChromiumStylePlatform; Linux x86_64; smartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36', 'osName': 'Android', 'hl': 'zh-TW', 'gl': 'TW'}},
             {'client': {'clientName': 'IOS', 'clientVersion': '21.02.3', 'deviceMake': 'Apple', 'deviceModel': 'iPhone16,2', 'userAgent': 'com.google.ios.youtube/21.02.3 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)', 'osName': 'iPhone', 'osVersion': '18.3.2.22D82', 'hl': 'zh-TW', 'gl': 'TW'}},
+            {'client': {'clientName': 'TVHTML5', 'clientVersion': '7.20241104.09.00', 'userAgent': 'Mozilla/5.0 (ChromiumStylePlatform; Linux x86_64; smartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36', 'osName': 'Android', 'hl': 'zh-TW', 'gl': 'TW'}},
             {'client': {'clientName': 'ANDROID', 'clientVersion': '21.02.35', 'androidSdkVersion': 30, 'userAgent': 'com.google.android.youtube/21.02.35 (Linux; U; Android 11) gzip', 'osName': 'Android', 'osVersion': '11', 'hl': 'zh-TW', 'gl': 'TW'}},
+            {'client': {'clientName': 'ANDROID_VR', 'clientVersion': '1.65.10', 'deviceMake': 'Oculus', 'deviceModel': 'Quest 3', 'androidSdkVersion': 32, 'userAgent': 'com.google.android.apps.youtube.vr.oculus/1.65.10 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip', 'osName': 'Android', 'osVersion': '12L', 'hl': 'zh-TW', 'gl': 'TW'}},
             context,
             {'client': {'clientName': 'MWEB', 'clientVersion': '2.20260115.01.00', 'userAgent': 'Mozilla/5.0 (iPad; CPU OS 16_7_10 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1,gzip(gfe)', 'hl': 'zh-TW', 'gl': 'TW'}},
         ]
