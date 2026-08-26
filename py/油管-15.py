@@ -7,10 +7,14 @@ import json
 import html
 import time
 from urllib.parse import quote, unquote, parse_qs, urlencode, urlparse, urlunparse
+
 import requests
 from base.spider import Spider
+
 sys.path.append('..')
-DEBUG_LOG = '/sdcard/Download/youtube_trace.log'
+
+DEBUG_LOG = '/sdcard/Download/0712youtube_trace.log'
+
 YOUTUBE_CLASSES = [
     {'type_id': '最新新聞', 'type_name': '新聞'},
     {'type_id': '新聞直播', 'type_name': '新聞直播'},
@@ -42,6 +46,7 @@ YOUTUBE_CLASSES = [
     {'type_id': '遊戲', 'type_name': '遊戲'},
     {'type_id': 'Vlog', 'type_name': 'Vlog'},
 ]
+
 CATEGORY_QUERY = {
     '日漫': '日漫',
     '幼教': '幼兒教育 兒童學習 早教 啟蒙 親子',
@@ -72,21 +77,25 @@ CATEGORY_QUERY = {
     '遊戲': '遊戲 實況 電玩',
     'Vlog': 'Vlog 生活 日常',
 }
+
 CATEGORY_ALIASES = {
     '連續劇': '劇集',
     'movie': '電影',
     'game': '遊戲',
     'documentary': '紀錄片',
 }
+
 def _filter_group(key, name, pairs):
     return {
         'key': key,
         'name': name,
         'value': [{'n': '全部', 'v': ''}] + [{'n': n, 'v': v} for n, v in pairs]
     }
+
 def _with_year(*groups):
     years = [{'n': '全部', 'v': ''}] + [{'n': str(year), 'v': str(year)} for year in range(2026, 1957, -1)]
     return [{'key': 'year', 'name': '年份', 'value': years}] + list(groups)
+
 CATEGORY_FILTERS = {
       'AI音樂翻唱': (
         _filter_group('type', '類型', [
