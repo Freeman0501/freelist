@@ -7,15 +7,18 @@ import json
 import html
 import time
 from urllib.parse import quote, unquote, parse_qs, urlencode, urlparse, urlunparse
+
 import requests
 from base.spider import Spider
+
 sys.path.append('..')
-DEBUG_LOG = '/sdcard/Download/youtube_trace.log'
+
+DEBUG_LOG = '/sdcard/Download/0712youtube_trace.log'
+
 YOUTUBE_CLASSES = [
     {'type_id': '最新新聞', 'type_name': '新聞'},
     {'type_id': '新聞直播', 'type_name': '新聞直播'},
     {'type_id': '漫劇', 'type_name': 'AI漫劇'}, 
-    {'type_id': 'AI音樂翻唱', 'type_name': 'AI音樂翻唱'},     
     {'type_id': '即時影像', 'type_name': '即時影像'},
     {'type_id': '幼教', 'type_name': '幼兒教育'},    
     {'type_id': '音樂', 'type_name': '音樂'},
@@ -42,6 +45,7 @@ YOUTUBE_CLASSES = [
     {'type_id': '遊戲', 'type_name': '遊戲'},
     {'type_id': 'Vlog', 'type_name': 'Vlog'},
 ]
+
 CATEGORY_QUERY = {
     '日漫': '日漫',
     '幼教': '幼兒教育 兒童學習 早教 啟蒙 親子',
@@ -72,31 +76,26 @@ CATEGORY_QUERY = {
     '遊戲': '遊戲 實況 電玩',
     'Vlog': 'Vlog 生活 日常',
 }
+
 CATEGORY_ALIASES = {
     '連續劇': '劇集',
     'movie': '電影',
     'game': '遊戲',
     'documentary': '紀錄片',
 }
+
 def _filter_group(key, name, pairs):
     return {
         'key': key,
         'name': name,
         'value': [{'n': '全部', 'v': ''}] + [{'n': n, 'v': v} for n, v in pairs]
     }
+
 def _with_year(*groups):
     years = [{'n': '全部', 'v': ''}] + [{'n': str(year), 'v': str(year)} for year in range(2026, 1957, -1)]
     return [{'key': 'year', 'name': '年份', 'value': years}] + list(groups)
+
 CATEGORY_FILTERS = {
-      'AI音樂翻唱': (
-        _filter_group('type', '類型', [
-            ('西游封神榜', '音樂封神榜'),
-            ('三界好聲音', '三界好聲音'),
-            ('天庭好聲音', '天庭好聲音'),
-            ('三界蒙面猜猜猜', '三界蒙面猜猜猜'),            
-            ('華夏夢之聲', '华夏梦之声'),     
-            ('藍夜AI歌曲','NightBlue 夜藍 Original Music'),
-        ])),    
       '漫劇': (
         _filter_group('type', '類型', [
             ('奇幻', 'AI 奇幻 漫劇'),
@@ -921,7 +920,6 @@ class YouTubeLite:
         self.player_cache = {}
         self.extract_cache = {}
         self.sig_plan_cache = {}
-        self.nsig_cache = {}
         self.extract_cache_ttl = int(self.config.get('extract_cache_ttl') or 300)
 
     def extract(self, url_or_id):
@@ -998,26 +996,14 @@ class YouTubeLite:
             if item and item.get('url'):
                 formats.append(item)
         debug_log('normalized formats', {'count': len(formats), 'cipher_count': cipher_count, 'progressive': len([x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') != 'none'])})
-        is_live = bool(details.get('isLive') or details.get('isLiveContent'))
-        if not is_live:
-            for resp in responses:
-                resp_details = (resp or {}).get('videoDetails') or {}
-                if resp_details.get('isLive') or resp_details.get('isLiveContent'):
-                    is_live = True
-                    break
-        if not is_live:
-            for resp in responses:
-                hls_candidate = ((resp or {}).get('streamingData') or {}).get('hlsManifestUrl') or ''
-                if 'yt_live_broadcast' in hls_candidate:
-                    is_live = True
-                    break
-
+        if not formats:
+            raise Exception('未獲取到可用播放地址')
         data = {
             'id': video_id,
             'title': details.get('title') or video_id,
             'duration': int(details.get('lengthSeconds') or 0),
             'formats': formats,
-            'is_live': is_live,
+            'is_live': details.get('isLive') or False,
         }
         self.extract_cache[video_id] = {'data': data, 'expires': time.time() + self.extract_cache_ttl}
         debug_log('extract complete', {'video_id': video_id, 'cost_ms': int((time.time() - extract_started) * 1000), 'formats': len(formats)})
@@ -1071,20 +1057,6 @@ class YouTubeLite:
             return tokens.get(f'{client_name}.{context}') or tokens.get(client_name) or tokens.get(context)
         return None
 
-    def _client_priority(self, item):
-        client = str((item or {}).get('client') or '').upper()
-        if 'IOS' in client:
-            return 100
-        if 'TV' in client:
-            return 80
-        if 'ANDROID' in client and 'VR' not in client:
-            return 60
-        if 'WEB' in client:
-            return 40
-        if 'VR' in client:
-            return 0  # 避免優先選到 ANDROID_VR，因其後半段 Range 請求會被 YouTube 403 斷流
-        return 20
-
     def choose_playable(self, formats, quality=None):
         all_videos = [x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') == 'none']
         candidates = all_videos[:]
@@ -1104,9 +1076,9 @@ class YouTubeLite:
             candidates = all_videos
         if not candidates:
             return None
-        # 客戶端穩定度優先 (IOS/TV > ANDROID > WEB > VR)，其次畫質與編碼
+        # 畫質優先，編碼順序 VP9/HDR > H264 > AV1。保留 VP9 Profile 2 HDR，
+        # 只把 AV1 放到最後，避免默認選到 itag 701/702 的超大 AV1 分段。
         candidates.sort(key=lambda x: (
-            self._client_priority(x),
             self._video_codec_priority(x),
             int(x.get('height') or 0),
             int(x.get('bitrate') or 0)
@@ -1116,7 +1088,6 @@ class YouTubeLite:
             'quality': quality,
             'itag': selected.get('itag'),
             'height': selected.get('height'),
-            'client': selected.get('client'),
             'mime': selected.get('mimeType'),
             'codec_priority': self._video_codec_priority(selected),
             'candidates': len(candidates),
@@ -1140,43 +1111,44 @@ class YouTubeLite:
     def _is_risky_best_video(self, item):
         codecs = (item.get('codecs') or '').lower()
         return 'av01' in codecs
-
     def choose_video_tracks(self, formats, quality=None):
         videos = [x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') == 'none']
     
         # 根據 quality 設定畫質過濾
         if quality == '4k':
-            filtered = [x for x in videos if int(x.get('height') or 0) >= 2160]
+            videos = [x for x in videos if int(x.get('height') or 0) >= 2160]
         elif quality == '2k':
-            filtered = [x for x in videos if 1440 <= int(x.get('height') or 0) < 2160]
+            videos = [x for x in videos if 1440 <= int(x.get('height') or 0) < 2160]
         elif quality == '1080p':
-            filtered = [x for x in videos if 1000 <= int(x.get('height') or 0) < 1440]
-        elif quality == '720p':
-            filtered = [x for x in videos if 700 <= int(x.get('height') or 0) < 1000]
-        elif quality == '480p':
-            filtered = [x for x in videos if 400 <= int(x.get('height') or 0) < 700]
-        elif quality in ('best', 'hdr', 'sdr'):
-            filtered = videos
+            videos = [x for x in videos if 1000 <= int(x.get('height') or 0) < 1440]
+        elif quality == 'best':
+            # 選最高畫質，沒有上限
+            pass
         else:
-            filtered = [x for x in videos if int(x.get('height') or 0) >= 1080]
+            # 默認至少 1080p
+            videos = [x for x in videos if int(x.get('height') or 0) >= 1080]
 
-        if not filtered:
-            filtered = videos
+        if not videos:
+            # 如果沒有符合條件的，取所有視頻
+            videos = [x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') == 'none']
 
-        # 優先以 Client 穩定度 (IOS > TVHTML5 > ANDROID) 排序，確保後半段 Range 不被 403 斷流
-        filtered.sort(key=lambda x: (
-            self._client_priority(x),
-            self._video_codec_priority(x),
-            int(x.get('height') or 0),
-            int(x.get('bitrate') or 0)
-        ), reverse=True)
+        # 按畫質從高到低排序
+        videos.sort(key=lambda x: int(x.get('height') or 0), reverse=True)
 
-        top_client = filtered[0].get('client') if filtered else None
-        same_client_videos = [x for x in filtered if x.get('client') == top_client] if top_client else filtered
+        # 優先選擇 VP9，如果沒有則選擇 H264，最後才是 AV1
+        vp9 = [x for x in videos if self._video_codec_priority(x) >= 3]
+        h264 = [x for x in videos if self._video_codec_priority(x) == 2]
+        av1 = [x for x in videos if self._video_codec_priority(x) == 1]
+
+        # 選擇最高畫質的 VP9，如果沒有則選擇 H264
+        selected_videos = vp9 if vp9 else (h264 if h264 else videos)
+
+        # 按畫質排序
+        selected_videos.sort(key=lambda x: (int(x.get('height') or 0), int(x.get('bitrate') or 0)), reverse=True)
 
         # 分離 SDR 和 HDR
-        sdr = [x for x in same_client_videos if not self._is_hdr_video(x)]
-        hdr = [x for x in same_client_videos if self._is_hdr_video(x)]
+        sdr = [x for x in selected_videos if not self._is_hdr_video(x)]
+        hdr = [x for x in selected_videos if self._is_hdr_video(x)]
 
         tracks = []
         if sdr:
@@ -1190,13 +1162,16 @@ class YouTubeLite:
             item['is_hdr'] = True
             tracks.append(item)
     
-        if not tracks and filtered:
-            item = filtered[0].copy()
-            item['track_name'] = 'HDR' if self._is_hdr_video(item) else 'SDR'
-            item['is_hdr'] = self._is_hdr_video(item)
-            tracks.append(item)
+        if not tracks:
+            # 如果還是沒有，取第一個可用的
+            item = self.choose_playable(formats, quality)
+            if item:
+                item = item.copy()
+                item['track_name'] = 'HDR' if self._is_hdr_video(item) else 'SDR'
+                item['is_hdr'] = self._is_hdr_video(item)
+                tracks.append(item)
     
-        debug_log('video tracks selected', [{'name': x.get('track_name'), 'itag': x.get('itag'), 'height': x.get('height'), 'client': x.get('client'), 'codecs': x.get('codecs')} for x in tracks])
+        debug_log('video tracks selected', [{'name': x.get('track_name'), 'itag': x.get('itag'), 'height': x.get('height'), 'codecs': x.get('codecs')} for x in tracks])
         return tracks
 
     def _is_hdr_video(self, item):
@@ -1209,7 +1184,7 @@ class YouTubeLite:
         candidates = [x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') != 'none']
         if not candidates:
             return None
-        candidates.sort(key=lambda x: (self._client_priority(x), int(x.get('height') or 0), int(x.get('bitrate') or 0)), reverse=True)
+        candidates.sort(key=lambda x: (int(x.get('height') or 0), int(x.get('bitrate') or 0)), reverse=True)
         return candidates[0]
 
     def choose_audio(self, formats, preferred_lang='zh-Hant'):
@@ -1218,7 +1193,6 @@ class YouTubeLite:
             return None
 
         def _audio_priority(item):
-            client_score = self._client_priority(item)
             track = item.get('audioTrack') or {}
             track_id = str(track.get('id') or '').lower()
             disp_name = str(track.get('displayName') or '').lower()
@@ -1227,28 +1201,27 @@ class YouTubeLite:
             # 優先級 1: 繁體中文 / 台灣 / 國語
             if any(k in track_id for k in ('zh-hant', 'zh-tw', 'cmn-tw', 'zh-hk')) or \
                any(k in disp_name for k in ('國語', '繁體', '台灣', '臺灣', '中文 (臺灣)', '中文 (台灣)', 'chinese (taiwan)')):
-                lang_score = 100
+                score = 100
             # 優先級 2: 其他中文 (zh, cmn, 簡體中文)
             elif any(k in track_id for k in ('zh', 'cmn')) or any(k in disp_name for k in ('中文', '普通話', 'chinese')):
-                lang_score = 80
+                score = 80
             # 優先級 3: 官方預設音軌
             elif is_default:
-                lang_score = 50
+                score = 50
             # 優先級 4: 英文 / 原聲
             elif 'en' in track_id or 'english' in disp_name:
-                lang_score = 20
+                score = 20
             else:
-                lang_score = 10
+                score = 10
 
             bitrate = int(item.get('bitrate') or 0)
             is_mp4 = 1 if item.get('ext') == 'mp4' else 0
-            return (client_score, lang_score, is_mp4, bitrate)
+            return (score, is_mp4, bitrate)
 
         candidates.sort(key=_audio_priority, reverse=True)
         selected = candidates[0]
         debug_log('audio selected', {
             'itag': selected.get('itag'),
-            'client': selected.get('client'),
             'audioTrack': selected.get('audioTrack'),
             'mime': selected.get('mimeType'),
             'bitrate': selected.get('bitrate'),
@@ -1307,10 +1280,9 @@ class YouTubeLite:
 
     def _call_player_api(self, video_id, api_key, context, referer, visitor_data=None, sts=None):
         clients = [
-            {'client': {'clientName': 'IOS', 'clientVersion': '21.02.3', 'deviceMake': 'Apple', 'deviceModel': 'iPhone16,2', 'userAgent': 'com.google.ios.youtube/21.02.3 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)', 'osName': 'iPhone', 'osVersion': '18.3.2.22D82', 'hl': 'zh-TW', 'gl': 'TW'}},
-            {'client': {'clientName': 'TVHTML5', 'clientVersion': '7.20241104.09.00', 'userAgent': 'Mozilla/5.0 (ChromiumStylePlatform; Linux x86_64; smartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36', 'osName': 'Android', 'hl': 'zh-TW', 'gl': 'TW'}},
             {'client': {'clientName': 'ANDROID', 'clientVersion': '21.02.35', 'androidSdkVersion': 30, 'userAgent': 'com.google.android.youtube/21.02.35 (Linux; U; Android 11) gzip', 'osName': 'Android', 'osVersion': '11', 'hl': 'zh-TW', 'gl': 'TW'}},
             {'client': {'clientName': 'ANDROID_VR', 'clientVersion': '1.65.10', 'deviceMake': 'Oculus', 'deviceModel': 'Quest 3', 'androidSdkVersion': 32, 'userAgent': 'com.google.android.apps.youtube.vr.oculus/1.65.10 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip', 'osName': 'Android', 'osVersion': '12L', 'hl': 'zh-TW', 'gl': 'TW'}},
+            {'client': {'clientName': 'IOS', 'clientVersion': '21.02.3', 'deviceMake': 'Apple', 'deviceModel': 'iPhone16,2', 'userAgent': 'com.google.ios.youtube/21.02.3 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)', 'osName': 'iPhone', 'osVersion': '18.3.2.22D82', 'hl': 'zh-TW', 'gl': 'TW'}},
             context,
             {'client': {'clientName': 'MWEB', 'clientVersion': '2.20260115.01.00', 'userAgent': 'Mozilla/5.0 (iPad; CPU OS 16_7_10 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1,gzip(gfe)', 'hl': 'zh-TW', 'gl': 'TW'}},
         ]
@@ -1352,7 +1324,7 @@ class YouTubeLite:
                     data['_client_name'] = client_name
                     data['_client_ua'] = client_ua
                     results.append(data)
-                    # 如果 ANDROID_VR / TVHTML5 / IOS 已經拿到完整音視頻流，直接返回
+                    # 如果 ANDROID 或 VR 已經拿到完整的音視頻流，且包含中文/預設音訊，可提前返回提高效能
                     if len(results) >= 2 and direct_video and direct_audio:
                         debug_log('player api multi-source ready', {'client': client_name, 'direct_video': len(direct_video), 'direct_audio': len(direct_audio)})
                         return results
@@ -1448,51 +1420,19 @@ class YouTubeLite:
 
     def _decrypt_nsig(self, media_url, player_url):
         try:
-            if not media_url:
-                return media_url
             parsed = urlparse(media_url)
             query = parse_qs(parsed.query)
             n_value = query.get('n', [None])[0]
             if not n_value:
                 return media_url
-
-            transformed_n = None
-            if n_value in self.nsig_cache:
-                transformed_n = self.nsig_cache[n_value]
-            else:
-                code = self._get_player_code(player_url)
-                if code:
-                    transform_func = self._extract_n_function(code)
-                    if transform_func:
-                        try:
-                            res = transform_func(n_value)
-                            if res and isinstance(res, str) and len(res) > 5 and res != n_value:
-                                transformed_n = res
-                                self.nsig_cache[n_value] = transformed_n
-                                debug_log('nsig transform success', {'old_n': n_value[:15], 'new_n': transformed_n[:15]})
-                        except Exception as e:
-                            debug_log('nsig eval error', repr(e))
-
-            if not transformed_n:
-                transformed_n = n_value
-
-            # 替換 query 中的 n
-            query['n'] = [transformed_n]
-            pairs = []
-            for k, vs in query.items():
-                for v in vs:
-                    pairs.append(f"{quote(k)}={quote(v)}")
-            new_query = '&'.join(pairs)
-
-            # 替換 path 中的 /n/xxx
-            new_path = parsed.path
             path_match = re.search(r'/n/([^/]+)', parsed.path)
-            if path_match:
-                new_path = parsed.path.replace(f"/n/{path_match.group(1)}", f"/n/{transformed_n}", 1)
-
-            fixed = urlunparse(parsed._replace(path=new_path, query=new_query))
-            debug_log('nsig applied', {'changed': transformed_n != n_value, 'len': len(transformed_n)})
-            return fixed
+            if path_match and path_match.group(1) != n_value:
+                new_path = parsed.path.replace(f"/n/{path_match.group(1)}", f"/n/{n_value}", 1)
+                fixed = urlunparse(parsed._replace(path=new_path))
+                debug_log('n path synced', {'old': path_match.group(1), 'new_len': len(n_value), 'changed': fixed != media_url})
+                return fixed
+            debug_log('n present', {'n_len': len(n_value), 'has_path_n': bool(path_match)})
+            return media_url
         except Exception as e:
             debug_log('n sync error', repr(e))
             return media_url
@@ -1578,8 +1518,6 @@ class YouTubeLite:
         for pattern in [
             r'\.get\("n"\)\)&&\(b=([a-zA-Z0-9_$]+)(?:\[(\d+)\])?\(b\)',
             r'\.get\("n"\)\)&&\(b=([a-zA-Z0-9_$]+)\(b\)',
-            r'\.get\("n"\)\)&&\([a-zA-Z0-9_$]+\.set\("n",([a-zA-Z0-9_$]+)\(',
-            r'var\s+b=a\.split\(""\),([a-zA-Z0-9_$]+)=',
             r'([a-zA-Z0-9_$]+)=function\(a\)\{var b=a\.split\(""\)',
             r'function\s+([a-zA-Z0-9_$]+)\(a\)\{var b=a\.split\(""\)',
             r'([a-zA-Z0-9_$]+)=function\(a\)\{a=a\.split\(""\)',
@@ -1591,58 +1529,22 @@ class YouTubeLite:
         if not name:
             return None
         body = self._extract_js_function_body(code, name)
-        debug_log('n function found', {'name': name, 'body_len': len(body)})
+        debug_log('n function', {'name': name, 'body_len': len(body)})
         if not body:
             return None
 
-        helper = self._search(r'([a-zA-Z0-9_$]+)\.[a-zA-Z0-9_$]+\(b,', body) or self._search(r'([a-zA-Z0-9_$]+)\.[a-zA-Z0-9_$]+\(a,', body)
-        helper_map = self._extract_helper_object(code, helper) if helper else {}
-
         def transform(value):
             arr = list(value)
-            parts = body.split(';')
-            for part in parts:
-                part = part.strip()
-                if not part:
-                    continue
+            for part in body.split(';'):
                 if 'reverse()' in part:
                     arr.reverse()
-                    continue
-                m_slice = re.search(r'\.slice\((\d+)\)', part)
-                if m_slice:
-                    arr = arr[int(m_slice.group(1)):]
-                    continue
-                m_splice0 = re.search(r'\.splice\(0,(\d+)\)', part)
-                if m_splice0:
-                    arr = arr[int(m_splice0.group(1)):]
-                    continue
-                m_splice = re.search(r'\.splice\((\d+),(\d+)\)', part)
-                if m_splice:
-                    idx = int(m_splice.group(1))
-                    cnt = int(m_splice.group(2))
-                    del arr[idx:idx+cnt]
-                    continue
-                # swap helper
-                m_helper = re.search(r'([a-zA-Z0-9_$]+)\.([a-zA-Z0-9_$]+)\([ab],(\d+)\)', part)
-                if m_helper and m_helper.group(1) == helper:
-                    op = helper_map.get(m_helper.group(2))
-                    arg = int(m_helper.group(3))
-                    if op == 'reverse':
-                        arr.reverse()
-                    elif op in ('slice', 'splice'):
-                        arr = arr[arg:]
-                    elif op == 'swap' and arr:
-                        j = arg % len(arr)
-                        arr[0], arr[j] = arr[j], arr[0]
-                    continue
-                # direct swap a[0] = a[j]
-                m_swap = re.search(r'[ab]\[0\]=[ab]\[(\d+)%[ab]\.length\]', part.replace(' ', ''))
-                if m_swap and arr:
-                    j = int(m_swap.group(1)) % len(arr)
-                    arr[0], arr[j] = arr[j], arr[0]
-                    continue
+                m = re.search(r'\.slice\((\d+)\)', part)
+                if m:
+                    arr = arr[int(m.group(1)):]
+                m = re.search(r'\.splice\(0,(\d+)\)', part)
+                if m:
+                    arr = arr[int(m.group(1)):]
             return ''.join(arr) or value
-
         return transform
 
     def _extract_js_function_body(self, code, name):
@@ -1829,58 +1731,21 @@ class Spider(Spider):
         play_urls = []
         try:
             data = self.yt.extract(video_id)
-            formats = data.get('formats') or []
-            hls_track = next((t for t in formats if t.get('itag') == 'hls'), None)
-            
-            # 1. 判斷是否為真實直播 (Live Stream)
-            is_live = bool(data.get('is_live') or (hls_track and 'yt_live_broadcast' in str(hls_track.get('url') or '')))
-            if is_live and hls_track:
-                play_sources.append('🔴 官方直播')
-                play_urls.append(f'{safe_title} 直播${video_id}@live')
-            else:
-                # 2. 普通點播影片：動態識別可用畫質階層 (4K/2K/1080p/720p/HDR)
-                v_formats = [f for f in formats if f.get('vcodec') != 'none']
-                has_4k = any(int(f.get('height') or 0) >= 2160 for f in v_formats)
-                has_2k = any(1440 <= int(f.get('height') or 0) < 2160 for f in v_formats)
-                has_1080p = any(1000 <= int(f.get('height') or 0) < 1440 for f in v_formats)
-                has_720p = any(700 <= int(f.get('height') or 0) < 1000 for f in v_formats)
-                has_hdr = any(self.yt._is_hdr_video(f) for f in v_formats)
-
-                if has_4k:
-                    play_sources.append('2160p 4K')
-                    play_urls.append(f'{safe_title} 4K${video_id}@4k')
-                if has_2k:
-                    play_sources.append('1440p 2K')
-                    play_urls.append(f'{safe_title} 2K${video_id}@2k')
-                if has_1080p:
-                    play_sources.append('1080p 高清')
-                    play_urls.append(f'{safe_title} 1080p${video_id}@1080p')
-                if has_hdr:
-                    play_sources.append('1080p HDR')
-                    play_urls.append(f'{safe_title} HDR${video_id}@hdr')
-                if has_720p and not has_4k and not has_1080p:
-                    play_sources.append('720p 高清')
-                    play_urls.append(f'{safe_title} 720p${video_id}@720p')
-
-                # 若上述階層未命中，回退到最佳可用軌道
-                if not play_sources:
-                    tracks = self.yt.choose_video_tracks(formats, 'best')
-                    for track in tracks:
-                        height = int(track.get('height') or 0)
-                        kind = track.get('track_name') or ('HDR' if track.get('is_hdr') else 'SDR')
-                        name = f'{height}p {kind}' if height else kind
-                        quality = 'hdr' if kind == 'HDR' else 'best'
-                        play_sources.append(name)
-                        play_urls.append(f'{safe_title} {name}${video_id}@{quality}')
-
+            tracks = self.yt.choose_video_tracks(data.get('formats') or [], 'best')
+            for track in tracks:
+                height = int(track.get('height') or 0)
+                kind = track.get('track_name') or ('HDR' if track.get('is_hdr') else 'SDR')
+                name = f'{height}p {kind}' if height else kind
+                quality = 'hdr' if kind == 'HDR' else 'best'
+                play_sources.append(name)
+                play_urls.append(f'{safe_title} {name}${video_id}@{quality}')
             debug_log('detail dynamic sources', {'video_id': video_id, 'sources': play_sources})
         except Exception as e:
             debug_log('detail dynamic sources error', {'video_id': video_id, 'error': repr(e)})
-
         if not play_sources:
-            play_sources = ['1080p 高清', '1080p HDR']
+            play_sources = ['SDR', 'HDR']
             play_urls = [
-                f'{safe_title} 1080p${video_id}@1080p',
+                f'{safe_title} SDR${video_id}@best',
                 f'{safe_title} HDR${video_id}@hdr',
             ]
         vod = {
@@ -1925,86 +1790,91 @@ class Spider(Spider):
         else:
             video_id, quality = raw_pid, '1080p'
 
-        if quality not in ('live', 'best', 'hdr', '4k', '2k', '1080p', '720p', '480p'):
-            quality = '1080p'
+        if quality not in ('best', 'hdr', '4k', '2k', '1080p'):
+            quality = 'best'
 
         debug_log('playerContent', {'flag': flag, 'pid': pid, 'video_id': video_id, 'quality': quality})
 
         try:
             data = self.yt.extract(video_id)
-            formats = data.get('formats', [])
-            hls_track = next((t for t in formats if t.get('itag') == 'hls'), None)
-            is_live = bool(data.get('is_live') or quality == 'live' or (hls_track and 'yt_live_broadcast' in str(hls_track.get('url') or '')))
 
-            # 1. 優先處理直播 (HLS master m3u8 直連，最流暢原生秒開)
-            if is_live and hls_track and hls_track.get('url'):
+            # 處理直播
+            hls_track = next((t for t in data.get('formats', []) if t.get('itag') == 'hls'), None)
+            if data.get('is_live') and hls_track:
                 headers = self.header.copy()
                 headers.update(hls_track.get('headers') or {})
-                debug_log('using hls live stream', {'vid': video_id, 'url': hls_track['url'][:80]})
-                return {
-                    'parse': 0,
-                    'jx': 0,
-                    'url': hls_track['url'],
-                    'header': headers,
-                    'format': 'application/x-mpegURL'
-                }
+                return {'parse': 0, 'jx': 0, 'url': hls_track['url'], 'header': headers, 'format': 'application/x-mpegURL'}
 
-            # 2. 點播高畫質處理（DASH MPD 視訊+繁中立體聲音訊直連分段，徹底解決 360p 畫質極低問題）
-            wanted_quality = quality if quality != 'live' else '1080p'
-            all_tracks = self.yt.choose_video_tracks(formats, wanted_quality)
-            wanted_name = 'HDR' if wanted_quality == 'hdr' else 'SDR'
-            video_tracks = [x for x in all_tracks if x.get('track_name') == wanted_name] or (all_tracks[:1] if all_tracks else [])
-            audio_track = self.yt.choose_audio(formats)
+            # 取得優先中文音軌
+            audio_track = self.yt.choose_audio(data.get('formats', []))
 
-            if video_tracks and audio_track:
+            # 取得視訊軌道清單
+            all_tracks = self.yt.choose_video_tracks(data.get('formats', []), quality)
+            if quality == 'hdr':
+                wanted_name = 'HDR'
+            else:
+                wanted_name = 'SDR'
+
+            video_tracks = [x for x in all_tracks if x.get('track_name') == wanted_name]
+            if not video_tracks and all_tracks:
+                video_tracks = [all_tracks[0]]
+
+            def _has_valid_range(item):
+                if not item or not isinstance(item, dict):
+                    return False
+                init = item.get('initRange') or {}
+                idx = item.get('indexRange') or {}
+                return bool(init.get('end') and idx.get('end'))
+
+            if video_tracks:
                 playable = video_tracks[0]
-                cache_key = f'yt_{video_id}_{wanted_quality}'
-                self.setCache(cache_key, {
-                    'video_tracks': video_tracks,
-                    'video_url': playable.get('url'),
-                    'audio_url': audio_track.get('url'),
-                    'video_item': playable,
-                    'audio_item': audio_track,
-                    'duration': data.get('duration') or 0,
-                    'expires': time.time() + 300,
-                })
-                mpd_url = f'http://127.0.0.1:9978/proxy?do=py&type=mpd&vid={video_id}&quality={wanted_quality}'
-                headers = self.header.copy()
-                headers.update(playable.get('headers') or {})
-                debug_log('using dash mpd high quality', {
-                    'vid': video_id,
-                    'quality': wanted_quality,
-                    'height': playable.get('height'),
-                    'v_client': playable.get('client'),
-                    'a_client': audio_track.get('client'),
-                    'audio_itag': audio_track.get('itag')
-                })
-                return {
-                    'parse': 0,
-                    'jx': 0,
-                    'url': mpd_url,
-                    'header': headers,
-                    'format': 'application/dash+xml'
-                }
 
-            # 3. 備選 progressive 格式（若無分離音軌）
-            progressive = self.yt.choose_best_progressive(formats, wanted_quality)
-            if progressive and progressive.get('url'):
-                headers = self.header.copy()
-                headers.update(progressive.get('headers') or {})
-                debug_log('using progressive direct fallback', {
-                    'vid': video_id,
-                    'itag': progressive.get('itag'),
-                    'height': progressive.get('height')
-                })
-                return {'parse': 0, 'jx': 0, 'url': progressive['url'], 'header': headers}
+                # 只有當視訊與音訊軌道皆具備完整的 DASH 初始化與索引 Range 時，才封裝為 MPD
+                can_use_dash = (
+                    audio_track
+                    and _has_valid_range(playable)
+                    and _has_valid_range(audio_track)
+                    and int(data.get('duration') or 0) > 0
+                )
 
-            # 4. 備選視訊單一直連
-            if all_tracks:
-                playable = all_tracks[0]
+                if can_use_dash and (playable.get('acodec') == 'none' or audio_track.get('audioTrack')):
+                    cache_data = {
+                        'video_tracks': video_tracks,
+                        'video_item': playable,
+                        'audio_item': audio_track,
+                        'audio_url': audio_track.get('url'),
+                        'duration': data.get('duration') or 0
+                    }
+                    self.setCache(f'yt_{video_id}_{quality}', cache_data)
+                    mpd_url = f'http://127.0.0.1:9978/proxy?do=py&type=mpd&vid={video_id}&quality={quality}'
+                    headers = self.header.copy()
+                    headers.update(playable.get('headers') or {})
+                    debug_log('using dash mpd with chinese audio', {
+                        'vid': video_id,
+                        'audio_track': audio_track.get('audioTrack'),
+                        'audio_itag': audio_track.get('itag'),
+                        'video_itag': playable.get('itag')
+                    })
+                    return {'parse': 0, 'jx': 0, 'url': mpd_url, 'header': headers, 'format': 'application/dash+xml'}
+
+                # 若無法走 DASH MPD，優先檢查是否有影音合一的 progressive 格式
+                progressive = self.yt.choose_best_progressive(data.get('formats', []), quality)
+                if progressive and progressive.get('url'):
+                    headers = self.header.copy()
+                    headers.update(progressive.get('headers') or {})
+                    return {'parse': 0, 'jx': 0, 'url': progressive['url'], 'header': headers}
+
+                # 若無 progressive，直接輸出直連格式
                 headers = self.header.copy()
                 headers.update(playable.get('headers') or {})
                 return {'parse': 0, 'jx': 0, 'url': playable['url'], 'header': headers}
+
+            # 備選 progressive
+            progressive = self.yt.choose_best_progressive(data.get('formats', []), quality)
+            if progressive and progressive.get('url'):
+                headers = self.header.copy()
+                headers.update(progressive.get('headers') or {})
+                return {'parse': 0, 'jx': 0, 'url': progressive['url'], 'header': headers}
 
             raise Exception(f'沒有可直接播放的 {quality} 視頻流格式')
 
@@ -2106,7 +1976,7 @@ class Spider(Spider):
         media_base = f'http://127.0.0.1:9978/proxy?do=py&type=media&vid={vid}&quality={quality}'
         # 預設為 direct 直連分段，避免本機 9978 阻塞死鎖與逾時
         direct_segments = str(self.extendDict.get('seg') or 'direct').lower() != 'proxy'
-        buffer_sec = float(self.extendDict.get('buffer') or 15.0)
+        buffer_sec = float(self.extendDict.get('buffer') or 5.0)
         min_buffer_pt = f"PT{buffer_sec:.1f}S"
         duration_pt = f"PT{int(duration or 0)}S"
         mpd = f'''<?xml version="1.0" encoding="UTF-8"?>
