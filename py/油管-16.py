@@ -1674,6 +1674,72 @@ class YouTubeLite:
         m = re.search(pattern, text or '', re.S)
         return m.group(1) if m else default
 
+    def _parse_hls_streams(self, m3u8_text):
+        streams = []
+        curr_inf = None
+        for line in m3u8_text.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith('#EXT-X-STREAM-INF:'):
+                curr_inf = line
+            elif curr_inf and line.startswith('http'):
+                res_m = re.search(r'RESOLUTION=(\d+)x(\d+)', curr_inf)
+                bw_m = re.search(r'BANDWIDTH=(\d+)', curr_inf)
+                codec_m = re.search(r'CODECS="([^"]+)"', curr_inf)
+                
+                width = int(res_m.group(1)) if res_m else 0
+                height = int(res_m.group(2)) if res_m else 0
+                bandwidth = int(bw_m.group(1)) if bw_m else 0
+                codecs = codec_m.group(1) if codec_m else ''
+                is_avc = 1 if ('avc' in codecs or 'h264' in codecs) else 0
+                
+                streams.append({
+                    'inf': curr_inf,
+                    'url': line,
+                    'width': width,
+                    'height': height,
+                    'bandwidth': bandwidth,
+                    'codecs': codecs,
+                    'is_avc': is_avc
+                })
+                curr_inf = None
+        return streams
+
+    def _select_hls_sub_stream(self, master_url, quality='1080p', headers=None):
+        try:
+            r = self.session.get(master_url, headers=headers or self.headers, timeout=10)
+            if r.status_code != 200 or '#EXTM3U' not in r.text:
+                return master_url
+            streams = self._parse_hls_streams(r.text)
+            if not streams:
+                return master_url
+            
+            if quality == '4k':
+                candidates = [s for s in streams if s['height'] >= 2160]
+            elif quality == '2k':
+                candidates = [s for s in streams if 1440 <= s['height'] < 2160]
+            elif quality == '1080p':
+                candidates = [s for s in streams if 1000 <= s['height'] < 1440]
+            elif quality == '720p':
+                candidates = [s for s in streams if 700 <= s['height'] < 1000]
+            elif quality == '480p':
+                candidates = [s for s in streams if 400 <= s['height'] < 700]
+            elif quality == '360p':
+                candidates = [s for s in streams if s['height'] <= 360]
+            else:  # live or best
+                candidates = streams
+            
+            if not candidates:
+                candidates = streams
+            
+            # 優先選取 AVC (相容性最強硬解秒開)，同等下按解析度與頻寬最高排序
+            candidates.sort(key=lambda x: (x['height'], x['is_avc'], x['bandwidth']), reverse=True)
+            return candidates[0]['url']
+        except Exception as e:
+            debug_log('select_hls_sub_stream error', repr(e))
+            return master_url
+
 class Spider(Spider):
     def getName(self):
         return 'YouTube視頻'
@@ -1858,15 +1924,16 @@ class Spider(Spider):
             formats = data.get('formats', [])
             hls_track = next((t for t in formats if t.get('itag') == 'hls'), None)
 
-            # 1. 優先回傳 HLS Master 串流（直播與點播皆支援多碼率 4K/1080p/720p/360p 原生硬解秒開，全時段 100% 絕無 60 秒斷流）
+            # 1. 優先回傳 HLS 高清子串流（直播與點播皆自動鎖定 4K/2K/1080p/720p 原生硬解秒開，拒絕被預設 144p/240p 降級，且 100% 絕無 60 秒斷流）
             if hls_track and hls_track.get('url'):
                 headers = self.header.copy()
                 headers.update(hls_track.get('headers') or {})
-                debug_log('using direct hls stream', {'vid': video_id, 'is_live': data.get('is_live'), 'url': hls_track['url'][:80]})
+                target_hls_url = self.yt._select_hls_sub_stream(hls_track['url'], quality=quality, headers=headers)
+                debug_log('using high quality hls stream', {'vid': video_id, 'quality': quality, 'is_live': data.get('is_live'), 'url': target_hls_url[:80]})
                 return {
                     'parse': 0,
                     'jx': 0,
-                    'url': hls_track['url'],
+                    'url': target_hls_url,
                     'header': headers,
                     'format': 'application/x-mpegURL'
                 }
