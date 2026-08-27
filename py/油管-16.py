@@ -1121,11 +1121,12 @@ class YouTubeLite:
     def _video_codec_priority(self, item):
         mime = (item.get('mimeType') or '').lower()
         codecs = (item.get('codecs') or '').lower()
-        if 'vp9.2' in mime or 'vp09.02' in codecs:
+        # H.264 AVC MP4 與 AAC MP4 同屬純 MP4 容器，sidx 索引完美對齊，ExoPlayer 原生硬解永不 60 秒斷流
+        if 'avc' in codecs or 'h264' in codecs or item.get('ext') == 'mp4':
             return 4
-        if 'vp9' in mime or 'vp09' in codecs:
+        if 'vp9.2' in mime or 'vp09.02' in codecs:
             return 3
-        if 'avc' in codecs or 'h264' in codecs:
+        if 'vp9' in mime or 'vp09' in codecs:
             return 2
         if 'av01' in codecs:
             return 1
@@ -1140,37 +1141,39 @@ class YouTubeLite:
     
         # 根據 quality 設定畫質過濾
         if quality == '4k':
-            filtered = [x for x in videos if int(x.get('height') or 0) >= 2160]
+            videos = [x for x in videos if int(x.get('height') or 0) >= 2160]
         elif quality == '2k':
-            filtered = [x for x in videos if 1440 <= int(x.get('height') or 0) < 2160]
+            videos = [x for x in videos if 1440 <= int(x.get('height') or 0) < 2160]
         elif quality == '1080p':
-            filtered = [x for x in videos if 1000 <= int(x.get('height') or 0) < 1440]
-        elif quality == '720p':
-            filtered = [x for x in videos if 700 <= int(x.get('height') or 0) < 1000]
-        elif quality == '480p':
-            filtered = [x for x in videos if 400 <= int(x.get('height') or 0) < 700]
-        elif quality in ('best', 'hdr', 'sdr'):
-            filtered = videos
+            videos = [x for x in videos if 1000 <= int(x.get('height') or 0) < 1440]
+        elif quality == 'best':
+            # 選最高畫質，沒有上限
+            pass
         else:
-            filtered = [x for x in videos if int(x.get('height') or 0) >= 1080]
+            # 默認至少 1080p
+            videos = [x for x in videos if int(x.get('height') or 0) >= 1080]
 
-        if not filtered:
-            filtered = videos
+        if not videos:
+            # 如果沒有符合條件的，取所有視頻
+            videos = [x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') == 'none']
 
-        # 優先以 Client 穩定度 (IOS > TVHTML5 > ANDROID) 排序，確保後半段 Range 不被 403 斷流
-        filtered.sort(key=lambda x: (
-            self._client_priority(x),
-            self._video_codec_priority(x),
-            int(x.get('height') or 0),
-            int(x.get('bitrate') or 0)
-        ), reverse=True)
+        # 按畫質從高到低排序
+        videos.sort(key=lambda x: int(x.get('height') or 0), reverse=True)
 
-        top_client = filtered[0].get('client') if filtered else None
-        same_client_videos = [x for x in filtered if x.get('client') == top_client] if top_client else filtered
+        # 優先選擇 H264 MP4 (純 MP4 容器與 AAC 音訊 sidx 完美對齊)，如果沒有則選擇 VP9，最後才是 AV1
+        h264 = [x for x in videos if self._video_codec_priority(x) == 4]
+        vp9 = [x for x in videos if self._video_codec_priority(x) in (2, 3)]
+        av1 = [x for x in videos if self._video_codec_priority(x) == 1]
+
+        # 選擇最高畫質的 H264 (MP4)，如果沒有則選擇 VP9
+        selected_videos = h264 if h264 else (vp9 if vp9 else videos)
+
+        # 按畫質排序
+        selected_videos.sort(key=lambda x: (int(x.get('height') or 0), int(x.get('bitrate') or 0)), reverse=True)
 
         # 分離 SDR 和 HDR
-        sdr = [x for x in same_client_videos if not self._is_hdr_video(x)]
-        hdr = [x for x in same_client_videos if self._is_hdr_video(x)]
+        sdr = [x for x in selected_videos if not self._is_hdr_video(x)]
+        hdr = [x for x in selected_videos if self._is_hdr_video(x)]
 
         tracks = []
         if sdr:
@@ -1184,13 +1187,16 @@ class YouTubeLite:
             item['is_hdr'] = True
             tracks.append(item)
     
-        if not tracks and filtered:
-            item = filtered[0].copy()
-            item['track_name'] = 'HDR' if self._is_hdr_video(item) else 'SDR'
-            item['is_hdr'] = self._is_hdr_video(item)
-            tracks.append(item)
+        if not tracks:
+            # 如果還是沒有，取第一個可用的
+            item = self.choose_playable(formats, quality)
+            if item:
+                item = item.copy()
+                item['track_name'] = 'HDR' if self._is_hdr_video(item) else 'SDR'
+                item['is_hdr'] = self._is_hdr_video(item)
+                tracks.append(item)
     
-        debug_log('video tracks selected', [{'name': x.get('track_name'), 'itag': x.get('itag'), 'height': x.get('height'), 'client': x.get('client'), 'codecs': x.get('codecs')} for x in tracks])
+        debug_log('video tracks selected', [{'name': x.get('track_name'), 'itag': x.get('itag'), 'height': x.get('height'), 'codecs': x.get('codecs')} for x in tracks])
         return tracks
 
     def _is_hdr_video(self, item):
@@ -1203,7 +1209,7 @@ class YouTubeLite:
         candidates = [x for x in formats if x.get('vcodec') != 'none' and x.get('acodec') != 'none']
         if not candidates:
             return None
-        candidates.sort(key=lambda x: (self._client_priority(x), int(x.get('height') or 0), int(x.get('bitrate') or 0)), reverse=True)
+        candidates.sort(key=lambda x: (int(x.get('height') or 0), int(x.get('bitrate') or 0)), reverse=True)
         return candidates[0]
 
     def choose_audio(self, formats, preferred_lang='zh-Hant'):
@@ -1212,7 +1218,6 @@ class YouTubeLite:
             return None
 
         def _audio_priority(item):
-            client_score = self._client_priority(item)
             track = item.get('audioTrack') or {}
             track_id = str(track.get('id') or '').lower()
             disp_name = str(track.get('displayName') or '').lower()
@@ -1221,31 +1226,31 @@ class YouTubeLite:
             # 優先級 1: 繁體中文 / 台灣 / 國語
             if any(k in track_id for k in ('zh-hant', 'zh-tw', 'cmn-tw', 'zh-hk')) or \
                any(k in disp_name for k in ('國語', '繁體', '台灣', '臺灣', '中文 (臺灣)', '中文 (台灣)', 'chinese (taiwan)')):
-                lang_score = 100
+                score = 100
             # 優先級 2: 其他中文 (zh, cmn, 簡體中文)
             elif any(k in track_id for k in ('zh', 'cmn')) or any(k in disp_name for k in ('中文', '普通話', 'chinese')):
-                lang_score = 80
+                score = 80
             # 優先級 3: 官方預設音軌
             elif is_default:
-                lang_score = 50
+                score = 50
             # 優先級 4: 英文 / 原聲
             elif 'en' in track_id or 'english' in disp_name:
-                lang_score = 20
+                score = 20
             else:
-                lang_score = 10
+                score = 10
 
             bitrate = int(item.get('bitrate') or 0)
             is_mp4 = 1 if item.get('ext') == 'mp4' else 0
-            return (client_score, lang_score, is_mp4, bitrate)
+            return (score, is_mp4, bitrate)
 
         candidates.sort(key=_audio_priority, reverse=True)
         selected = candidates[0]
         debug_log('audio selected', {
             'itag': selected.get('itag'),
-            'client': selected.get('client'),
             'audioTrack': selected.get('audioTrack'),
             'mime': selected.get('mimeType'),
             'bitrate': selected.get('bitrate'),
+            'ext': selected.get('ext')
         })
         return selected
 
@@ -1301,11 +1306,11 @@ class YouTubeLite:
 
     def _call_player_api(self, video_id, api_key, context, referer, visitor_data=None, sts=None):
         clients = [
-            {'client': {'clientName': 'ANDROID', 'clientVersion': '21.02.35', 'androidSdkVersion': 30, 'userAgent': 'com.google.android.youtube/21.02.35 (Linux; U; Android 11) gzip', 'osName': 'Android', 'osVersion': '11', 'hl': 'zh-TW', 'gl': 'TW'}},
-            {'client': {'clientName': 'ANDROID_VR', 'clientVersion': '1.65.10', 'deviceMake': 'Oculus', 'deviceModel': 'Quest 3', 'androidSdkVersion': 32, 'userAgent': 'com.google.android.apps.youtube.vr.oculus/1.65.10 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip', 'osName': 'Android', 'osVersion': '12L', 'hl': 'zh-TW', 'gl': 'TW'}},
-            {'client': {'clientName': 'IOS', 'clientVersion': '21.02.3', 'deviceMake': 'Apple', 'deviceModel': 'iPhone16,2', 'userAgent': 'com.google.ios.youtube/21.02.3 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)', 'osName': 'iPhone', 'osVersion': '18.3.2.22D82', 'hl': 'zh-TW', 'gl': 'TW'}},
+            {'client': {'clientName': 'ANDROID', 'clientVersion': '21.02.35', 'androidSdkVersion': 30, 'userAgent': 'com.google.android.youtube/21.02.35 (Linux; U; Android 11) gzip', 'osName': 'Android', 'osVersion': '11', 'hl': 'en', 'gl': 'US'}},
+            {'client': {'clientName': 'ANDROID_VR', 'clientVersion': '1.65.10', 'deviceMake': 'Oculus', 'deviceModel': 'Quest 3', 'androidSdkVersion': 32, 'userAgent': 'com.google.android.apps.youtube.vr.oculus/1.65.10 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip', 'osName': 'Android', 'osVersion': '12L', 'hl': 'en', 'gl': 'US'}},
+            {'client': {'clientName': 'IOS', 'clientVersion': '21.02.3', 'deviceMake': 'Apple', 'deviceModel': 'iPhone16,2', 'userAgent': 'com.google.ios.youtube/21.02.3 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)', 'osName': 'iPhone', 'osVersion': '18.3.2.22D82', 'hl': 'en', 'gl': 'US'}},
             context,
-            {'client': {'clientName': 'MWEB', 'clientVersion': '2.20260115.01.00', 'userAgent': 'Mozilla/5.0 (iPad; CPU OS 16_7_10 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1,gzip(gfe)', 'hl': 'zh-TW', 'gl': 'TW'}},
+            {'client': {'clientName': 'MWEB', 'clientVersion': '2.20260115.01.00', 'userAgent': 'Mozilla/5.0 (iPad; CPU OS 16_7_10 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1,gzip(gfe)', 'hl': 'en', 'gl': 'US'}},
         ]
         results = []
         fallback = None
@@ -1337,17 +1342,16 @@ class YouTubeLite:
                 formats = streaming.get('formats') or []
                 adaptive = streaming.get('adaptiveFormats') or []
                 direct_video = [x for x in adaptive if (x.get('url') or x.get('signatureCipher') or x.get('cipher')) and str(x.get('mimeType') or '').startswith('video/')]
-                direct_audio = [x for x in adaptive if (x.get('url') or x.get('signatureCipher') or x.get('cipher')) and str(x.get('mimeType') or '').startswith('audio/')]
                 direct_any = [x for x in formats + adaptive if x.get('url') or x.get('signatureCipher') or x.get('cipher')]
                 has_streaming = bool(streaming)
-                debug_log('player api client', {'client': client_name, 'status': status, 'has_streaming': has_streaming, 'formats': len(formats), 'adaptive': len(adaptive), 'direct_any': len(direct_any), 'direct_video': len(direct_video), 'direct_audio': len(direct_audio)})
+                debug_log('player api client', {'client': client_name, 'status': status, 'has_streaming': has_streaming, 'formats': len(formats), 'adaptive': len(adaptive), 'direct_any': len(direct_any), 'direct_video': len(direct_video)})
                 if has_streaming:
                     data['_client_name'] = client_name
                     data['_client_ua'] = client_ua
                     results.append(data)
-                    # 如果 IOS / TVHTML5 / ANDROID 已經拿到完整的音視頻流，直接返回
-                    if len(results) >= 2 and direct_video and direct_audio:
-                        debug_log('player api multi-source ready', {'client': client_name, 'direct_video': len(direct_video), 'direct_audio': len(direct_audio)})
+                    # VR 明文格式最完整，成功後立即返回，避免再串行請求 4 個客戶端。
+                    if client_name == 'ANDROID_VR' and direct_video:
+                        debug_log('player api fast return', {'client': client_name, 'direct_video': len(direct_video)})
                         return results
                 if has_streaming and fallback is None:
                     fallback = data
@@ -1671,71 +1675,237 @@ class YouTubeLite:
         m = re.search(pattern, text or '', re.S)
         return m.group(1) if m else default
 
-    def _parse_hls_streams(self, m3u8_text):
+# =========================================================================
+# 模組一：直播專屬處理引擎 (LiveStreamHandler)
+# 專門負責官方直播、新聞直播與即時影像，支援 1080p 預設最高清與多解析度選單
+# =========================================================================
+class LiveStreamHandler:
+    @staticmethod
+    def is_live_stream(data, formats):
+        hls_track = next((t for t in (formats or []) if t.get('itag') == 'hls'), None)
+        return bool(
+            data.get('is_live')
+            or (hls_track and 'yt_live_broadcast' in str(hls_track.get('url') or ''))
+        )
+
+    @staticmethod
+    def build_detail(video_id, title, safe_title):
+        # 參考點播格式，預設排在第一位的是 1080p 高清，並提供 720p、480p、360p 等切換按鈕
+        episodes = [
+            f'1080p 高清${video_id}@live_1080p',
+            f'720p 流暢${video_id}@live_720p',
+            f'480p 標清${video_id}@live_480p',
+            f'360p 省流${video_id}@live_360p',
+            f'🔴 官方直連${video_id}@live'
+        ]
+        play_sources = ['🔴 官方直播', '1080p 高清', '720p 流暢']
+        play_urls = [
+            '#'.join(episodes),
+            f'{safe_title} 1080p${video_id}@live_1080p',
+            f'{safe_title} 720p${video_id}@live_720p'
+        ]
+        return {
+            'vod_id': video_id,
+            'vod_name': title,
+            'vod_pic': f'https://img.youtube.com/vi/{video_id}/hqdefault.jpg',
+            'vod_play_from': '$$$'.join(play_sources),
+            'vod_play_url': '$$$'.join(play_urls)
+        }
+
+    @staticmethod
+    def reorder_live_master_m3u8(master_text, target_quality='1080p'):
+        lines = master_text.splitlines()
+        header_lines = []
         streams = []
         curr_inf = None
-        for line in m3u8_text.splitlines():
-            line = line.strip()
-            if not line:
+        
+        for line in lines:
+            line_s = line.strip()
+            if not line_s:
                 continue
-            if line.startswith('#EXT-X-STREAM-INF:'):
-                curr_inf = line
-            elif curr_inf and line.startswith('http'):
+            if line_s.startswith('#EXT-X-STREAM-INF:'):
+                curr_inf = line_s
+            elif curr_inf and (line_s.startswith('http') or line_s.startswith('/')):
                 res_m = re.search(r'RESOLUTION=(\d+)x(\d+)', curr_inf)
                 bw_m = re.search(r'BANDWIDTH=(\d+)', curr_inf)
-                codec_m = re.search(r'CODECS="([^"]+)"', curr_inf)
-                
-                width = int(res_m.group(1)) if res_m else 0
                 height = int(res_m.group(2)) if res_m else 0
-                bandwidth = int(bw_m.group(1)) if bw_m else 0
-                codecs = codec_m.group(1) if codec_m else ''
-                is_avc = 1 if ('avc' in codecs or 'h264' in codecs) else 0
-                
+                bw = int(bw_m.group(1)) if bw_m else 0
                 streams.append({
                     'inf': curr_inf,
-                    'url': line,
-                    'width': width,
+                    'url': line_s,
                     'height': height,
-                    'bandwidth': bandwidth,
-                    'codecs': codecs,
-                    'is_avc': is_avc
+                    'bw': bw
                 })
                 curr_inf = None
-        return streams
+            elif not curr_inf:
+                header_lines.append(line_s)
+        
+        if not streams:
+            return master_text
+        
+        def sort_key(s):
+            h = s['height']
+            if '1080' in target_quality and 1000 <= h <= 1080:
+                match_score = 100
+            elif '720' in target_quality and 700 <= h < 1000:
+                match_score = 100
+            elif '480' in target_quality and 400 <= h < 700:
+                match_score = 100
+            elif '360' in target_quality and h <= 360:
+                match_score = 100
+            else:
+                match_score = 0
+            return (match_score, h, s['bw'])
+        
+        streams.sort(key=sort_key, reverse=True)
+        rebuilt = header_lines[:]
+        for s in streams:
+            rebuilt.append(s['inf'])
+            rebuilt.append(s['url'])
+        return "\n".join(rebuilt)
 
-    def _select_hls_sub_stream(self, master_url, quality='1080p', headers=None):
-        try:
-            r = self.session.get(master_url, headers=headers or self.headers, timeout=10)
-            if r.status_code != 200 or '#EXTM3U' not in r.text:
-                return master_url
-            streams = self._parse_hls_streams(r.text)
-            if not streams:
-                return master_url
+    @staticmethod
+    def build_player_content(spider, video_id, quality, formats, default_header):
+        hls_track = next((t for t in (formats or []) if t.get('itag') == 'hls'), None)
+        if hls_track and hls_track.get('url'):
+            headers = default_header.copy()
+            headers.update(hls_track.get('headers') or {})
             
-            if quality == '4k':
-                candidates = [s for s in streams if s['height'] >= 2160]
-            elif quality == '2k':
-                candidates = [s for s in streams if 1440 <= s['height'] < 2160]
-            elif quality == '1080p':
-                candidates = [s for s in streams if 1000 <= s['height'] < 1440]
-            elif quality == '720p':
-                candidates = [s for s in streams if 700 <= s['height'] < 1000]
-            elif quality == '480p':
-                candidates = [s for s in streams if 400 <= s['height'] < 700]
-            elif quality == '360p':
-                candidates = [s for s in streams if s['height'] <= 360]
-            else:  # live or best
-                candidates = streams
+            # 若為 @live 原始直連，直接輸出官方 HLS Master
+            if quality == 'live':
+                return {
+                    'parse': 0,
+                    'jx': 0,
+                    'url': hls_track['url'],
+                    'header': headers,
+                    'format': 'application/x-mpegURL'
+                }
             
-            if not candidates:
-                candidates = streams
-            
-            # 優先選取 AVC (相容性最強硬解秒開)，同等下按解析度與頻寬最高排序
-            candidates.sort(key=lambda x: (x['height'], x['is_avc'], x['bandwidth']), reverse=True)
-            return candidates[0]['url']
-        except Exception as e:
-            debug_log('select_hls_sub_stream error', repr(e))
-            return master_url
+            # 若用戶指定 1080p/720p 等畫質，緩存並回傳重構後以 1080p 優先的 Master 清單
+            spider.setCache(f'live_master_{video_id}', {
+                'url': hls_track['url'],
+                'headers': headers,
+                'expires': time.time() + 300
+            })
+            proxy_live_url = f'http://127.0.0.1:9978/proxy?do=py&type=live_master&vid={video_id}&quality={quality}'
+            return {
+                'parse': 0,
+                'jx': 0,
+                'url': proxy_live_url,
+                'header': headers,
+                'format': 'application/x-mpegURL'
+            }
+
+        raise Exception('未找到有效的直播 HLS 串流')
+
+
+# =========================================================================
+# 模組二：點播專屬處理引擎 (VodStreamHandler)
+# 專門負責普通點播影片，Progressive 直連零中斷 + ANDROID_VR DASH MPD 體系
+# =========================================================================
+class VodStreamHandler:
+    @staticmethod
+    def build_detail(video_id, title, safe_title, formats):
+        v_formats = [f for f in (formats or []) if f.get('vcodec') != 'none']
+        has_4k = any(int(f.get('height') or 0) >= 2160 for f in v_formats)
+        has_2k = any(1440 <= int(f.get('height') or 0) < 2160 for f in v_formats)
+        has_1080p = any(1000 <= int(f.get('height') or 0) < 1440 for f in v_formats)
+        has_720p = any(700 <= int(f.get('height') or 0) < 1000 for f in v_formats)
+        has_480p = any(400 <= int(f.get('height') or 0) < 700 for f in v_formats)
+        has_360p = any(int(f.get('height') or 0) <= 360 for f in v_formats)
+        has_hdr = any('vp9.2' in str(f.get('mimeType') or '').lower() or 'hdr' in str(f.get('colorInfo') or '').lower() for f in v_formats)
+
+        episodes = []
+        # 首推 1080p SDR (官方嵌入無限制模式，100% 對齊油管-12.py 全時段零中斷極致畫質)
+        episodes.append(f'1080p SDR (官方解析)${video_id}@embed')
+        if has_720p:
+            episodes.append(f'720p 流暢 (零斷流)${video_id}@720p')
+        if has_1080p or (not has_4k and not has_2k and not has_720p):
+            episodes.append(f'1080p 直連${video_id}@1080p')
+        if has_4k:
+            episodes.append(f'2160p 4K${video_id}@4k')
+        if has_2k:
+            episodes.append(f'1440p 2K${video_id}@2k')
+        if has_hdr:
+            episodes.append(f'1080p HDR${video_id}@hdr')
+        if has_480p:
+            episodes.append(f'480p 標清${video_id}@480p')
+        if has_360p:
+            episodes.append(f'360p 省流${video_id}@360p')
+
+        if not episodes:
+            episodes = [f'1080p SDR (官方解析)${video_id}@embed', f'720p 流暢${video_id}@720p']
+
+        play_sources = ['YouTube', '1080p SDR (不斷流)']
+        play_urls = ['#'.join(episodes), f'{safe_title} 1080p SDR${video_id}@embed']
+
+        if has_720p:
+            play_sources.append('720p 流暢')
+            play_urls.append(f'{safe_title} 720p${video_id}@720p')
+        if has_1080p:
+            play_sources.append('1080p 直連')
+            play_urls.append(f'{safe_title} 1080p${video_id}@1080p')
+        if has_4k:
+            play_sources.append('2160p 4K')
+            play_urls.append(f'{safe_title} 4K${video_id}@4k')
+
+        return {
+            'vod_id': video_id,
+            'vod_name': title,
+            'vod_pic': f'https://img.youtube.com/vi/{video_id}/hqdefault.jpg',
+            'vod_play_from': '$$$'.join(play_sources),
+            'vod_play_url': '$$$'.join(play_urls)
+        }
+
+    @staticmethod
+    def build_player_content(spider, video_id, quality, data, formats, default_header):
+        # 1. 官方解析模式 (100% 嚴格對齊油管-12.py 原版標準網址，TVBox WebView 100% 相容秒開)
+        if quality in ('embed', 'web', 'best') or not quality:
+            res = {'parse': 1, 'url': f'https://www.youtube.com/embed/{video_id}?autoplay=1', 'header': json.dumps(default_header)}
+            if spider.proxy_str:
+                res['proxy'] = spider.proxy_str
+            debug_log('VodStreamHandler using official embed parser', {'vid': video_id, 'quality': quality})
+            return res
+
+        wanted_quality = quality if quality in ('4k', '2k', '1080p', '720p', '480p', '360p') else '720p'
+        
+        # 2. Progressive 影音合一直連格式 (720p/360p 單條連線，秒開零斷流)
+        if wanted_quality in ('720p', '360p'):
+            progressive = spider.yt.choose_best_progressive(formats, wanted_quality)
+            if progressive and progressive.get('url'):
+                headers = default_header.copy()
+                headers.update(progressive.get('headers') or {})
+                debug_log('VodStreamHandler using progressive format', {
+                    'itag': progressive.get('itag'),
+                    'height': progressive.get('height'),
+                    'codecs': progressive.get('codecs')
+                })
+                return {'parse': 0, 'jx': 0, 'url': progressive['url'], 'header': headers}
+
+        # 3. 獲取視訊直連軌道
+        all_tracks = spider.yt.choose_video_tracks(formats, wanted_quality)
+        wanted_name = 'HDR' if wanted_quality == 'hdr' else 'SDR'
+        video_tracks = [x for x in all_tracks if x.get('track_name') == wanted_name] or (all_tracks[:1] if all_tracks else [])
+
+        if video_tracks:
+            playable = video_tracks[0]
+            headers = default_header.copy()
+            headers.update(playable.get('headers') or {})
+            debug_log('VodStreamHandler direct play video', {
+                'itag': playable.get('itag'),
+                'height': playable.get('height'),
+                'acodec': playable.get('acodec'),
+                'vcodec': playable.get('vcodec'),
+                'url': playable.get('url')[:80]
+            })
+            return {'parse': 0, 'jx': 0, 'url': playable['url'], 'header': headers}
+
+        # 保底返回官方 Embed 解析
+        res = {'parse': 1, 'url': f'https://www.youtube.com/embed/{video_id}?autoplay=1', 'header': json.dumps(default_header)}
+        if spider.proxy_str:
+            res['proxy'] = spider.proxy_str
+        return res
+
 
 class Spider(Spider):
     def getName(self):
@@ -1785,19 +1955,13 @@ class Spider(Spider):
         if cid == '漫劇':
             duration = filters.get('duration')
             if duration:
-                # 映射 duration 值到 sp
-                sp_map = {
-                    'short': 'EgIIAW',
-                    'medium': 'EgIIAQ',
-                    'long': 'EgIIAw',
-                }
+                sp_map = {'short': 'EgIIAW', 'medium': 'EgIIAQ', 'long': 'EgIIAw'}
                 sp = sp_map.get(duration)
                 if sp:
                     extra_params['sp'] = sp
 
         videos, has_more = self._search_youtube_page(query, page, extra_params=extra_params)
     
-        # 保留原有的直播过滤（如果需要）
         if cid in ('即時影像', '新聞直播') or any(kw in query.lower() for kw in ['即時影像', 'livecam', 'live cam', 'cctv', '直播']):
             live_only = [v for v in videos if v.get('is_live') or '🔴' in v.get('vod_remarks', '') or 'LIVE' in v.get('vod_name', '').upper() or '直播' in v.get('vod_name', '')]
             if live_only:
@@ -1814,80 +1978,27 @@ class Spider(Spider):
         video_id = did[0]
         title = self._get_video_title(video_id)
         safe_title = self._safe_title(title)
-        play_sources = []
-        play_urls = []
         try:
             data = self.yt.extract(video_id)
             formats = data.get('formats') or []
-            hls_track = next((t for t in formats if t.get('itag') == 'hls'), None)
             
-            # 1. 判斷是否為真實直播 (Live Stream)
-            is_live = bool(data.get('is_live') or (hls_track and 'yt_live_broadcast' in str(hls_track.get('url') or '')))
-            if is_live and hls_track:
-                play_sources.append('🔴 官方直播')
-                play_urls.append(f'{safe_title} 直播${video_id}@live')
-            else:
-                # 2. 普通點播影片：動態識別所有可用畫質階層 (4K/2K/1080p/720p/480p/360p)
-                v_formats = [f for f in formats if f.get('vcodec') != 'none']
-                has_4k = any(int(f.get('height') or 0) >= 2160 for f in v_formats)
-                has_2k = any(1440 <= int(f.get('height') or 0) < 2160 for f in v_formats)
-                has_1080p = any(1000 <= int(f.get('height') or 0) < 1440 for f in v_formats)
-                has_720p = any(700 <= int(f.get('height') or 0) < 1000 for f in v_formats)
-                has_480p = any(400 <= int(f.get('height') or 0) < 700 for f in v_formats)
-                has_360p = any(int(f.get('height') or 0) <= 360 for f in v_formats)
-                has_hdr = any(self.yt._is_hdr_video(f) for f in v_formats)
+            # 嚴格分流一：直播專屬選單
+            if LiveStreamHandler.is_live_stream(data, formats):
+                return {'list': [LiveStreamHandler.build_detail(video_id, title, safe_title)]}
 
-                episodes = []
-                if has_4k:
-                    episodes.append(f'2160p 4K${video_id}@4k')
-                if has_2k:
-                    episodes.append(f'1440p 2K${video_id}@2k')
-                if has_1080p or (not has_4k and not has_2k and not has_720p):
-                    episodes.append(f'1080p 高清${video_id}@1080p')
-                if has_hdr:
-                    episodes.append(f'1080p HDR${video_id}@hdr')
-                if has_720p:
-                    episodes.append(f'720p 流暢${video_id}@720p')
-                if has_480p:
-                    episodes.append(f'480p 標清${video_id}@480p')
-                if has_360p:
-                    episodes.append(f'360p 省流${video_id}@360p')
+            # 嚴格分流二：點播專屬全解析度選單
+            return {'list': [VodStreamHandler.build_detail(video_id, title, safe_title, formats)]}
 
-                if episodes:
-                    # 主線路（整合所有解析度切換按鈕，遙控器直接自由點擊切換）
-                    play_sources.append('YouTube')
-                    play_urls.append('#'.join(episodes))
-                    
-                    # 同步提供各獨立分線路，相容所有 TVBox 播放器型號
-                    if has_4k:
-                        play_sources.append('2160p 4K')
-                        play_urls.append(f'{safe_title} 4K${video_id}@4k')
-                    if has_1080p:
-                        play_sources.append('1080p 高清')
-                        play_urls.append(f'{safe_title} 1080p${video_id}@1080p')
-                    if has_720p:
-                        play_sources.append('720p 流暢')
-                        play_urls.append(f'{safe_title} 720p${video_id}@720p')
-
-            debug_log('detail dynamic sources', {'video_id': video_id, 'sources': play_sources})
         except Exception as e:
-            debug_log('detail dynamic sources error', {'video_id': video_id, 'error': repr(e)})
-
-        if not play_sources:
-            play_sources = ['YouTube', '1080p 高清', '720p 流暢']
-            play_urls = [
-                f'1080p 高清${video_id}@1080p#720p 流暢${video_id}@720p',
-                f'{safe_title} 1080p${video_id}@1080p',
-                f'{safe_title} 720p${video_id}@720p',
-            ]
-        vod = {
-            'vod_id': video_id,
-            'vod_name': title,
-            'vod_pic': f'https://img.youtube.com/vi/{video_id}/hqdefault.jpg',
-            'vod_play_from': '$$$'.join(play_sources),
-            'vod_play_url': '$$$'.join(play_urls)
-        }
-        return {'list': [vod]}
+            debug_log('detailContent error', {'video_id': video_id, 'error': repr(e)})
+            fallback_vod = {
+                'vod_id': video_id,
+                'vod_name': title,
+                'vod_pic': f'https://img.youtube.com/vi/{video_id}/hqdefault.jpg',
+                'vod_play_from': 'YouTube$$$1080p 高清$$$720p 流暢',
+                'vod_play_url': f'1080p 高清${video_id}@1080p#720p 流暢${video_id}@720p$$${safe_title} 1080p${video_id}@1080p$$${safe_title} 720p${video_id}@720p'
+            }
+            return {'list': [fallback_vod]}
 
     def _build_direct_play_url(self, media_url, headers, ext):
         header_query = urlencode({k: v for k, v in (headers or {}).items() if v})
@@ -1922,89 +2033,18 @@ class Spider(Spider):
         else:
             video_id, quality = raw_pid, '1080p'
 
-        if quality not in ('live', 'best', 'hdr', '4k', '2k', '1080p', '720p', '480p', '360p'):
-            quality = '1080p'
-
         debug_log('playerContent', {'flag': flag, 'pid': pid, 'video_id': video_id, 'quality': quality})
 
         try:
             data = self.yt.extract(video_id)
             formats = data.get('formats', [])
-            hls_track = next((t for t in formats if t.get('itag') == 'hls'), None)
-            is_live = bool(data.get('is_live') or quality == 'live' or (hls_track and 'yt_live_broadcast' in str(hls_track.get('url') or '')))
 
-            # 1. 優先回傳 HLS 高清子串流（直播與具備 HLS Master 之影片自動鎖定 4K/2K/1080p/720p 原生硬解秒開，拒絕被預設 144p/240p 降級）
-            if (is_live or hls_track) and hls_track and hls_track.get('url'):
-                headers = self.header.copy()
-                headers.update(hls_track.get('headers') or {})
-                target_hls_url = self.yt._select_hls_sub_stream(hls_track['url'], quality=quality, headers=headers)
-                debug_log('using high quality hls stream', {'vid': video_id, 'quality': quality, 'is_live': is_live, 'url': target_hls_url[:80]})
-                return {
-                    'parse': 0,
-                    'jx': 0,
-                    'url': target_hls_url,
-                    'header': headers,
-                    'format': 'application/x-mpegURL'
-                }
+            # 嚴格分流一：直播專屬播放引擎
+            if quality.startswith('live') or LiveStreamHandler.is_live_stream(data, formats):
+                return LiveStreamHandler.build_player_content(self, video_id, quality, formats, self.header)
 
-            # 2. 普通點播影片：高畫質 DASH MPD 串流（視訊+繁中立體聲音訊直連分段，ExoPlayer 原生硬解，徹底消除 360p 模糊與 60 秒斷流）
-            wanted_quality = quality if quality != 'live' else '1080p'
-            all_tracks = self.yt.choose_video_tracks(formats, wanted_quality)
-            wanted_name = 'HDR' if wanted_quality == 'hdr' else 'SDR'
-            video_tracks = [x for x in all_tracks if x.get('track_name') == wanted_name] or (all_tracks[:1] if all_tracks else [])
-            audio_track = self.yt.choose_audio(formats)
-
-            if video_tracks and audio_track:
-                playable = video_tracks[0]
-                cache_key = f'yt_{video_id}_{wanted_quality}'
-                self.setCache(cache_key, {
-                    'video_tracks': video_tracks,
-                    'video_url': playable.get('url'),
-                    'audio_url': audio_track.get('url'),
-                    'video_item': playable,
-                    'audio_item': audio_track,
-                    'duration': data.get('duration') or 0,
-                    'expires': time.time() + 300,
-                })
-                mpd_url = f'http://127.0.0.1:9978/proxy?do=py&type=mpd&vid={video_id}&quality={wanted_quality}'
-                headers = self.header.copy()
-                headers.update(playable.get('headers') or {})
-                debug_log('using dash mpd high quality', {
-                    'vid': video_id,
-                    'quality': wanted_quality,
-                    'height': playable.get('height'),
-                    'v_client': playable.get('client'),
-                    'a_client': audio_track.get('client')
-                })
-                return {
-                    'parse': 0,
-                    'jx': 0,
-                    'url': mpd_url,
-                    'header': headers,
-                    'format': 'application/dash+xml'
-                }
-
-            # 3. 備選 progressive 格式（影音合一直連串流，免代理，絕無 60 秒斷流）
-            progressive = self.yt.choose_best_progressive(formats, wanted_quality)
-            if progressive and progressive.get('url'):
-                headers = self.header.copy()
-                headers.update(progressive.get('headers') or {})
-                debug_log('using progressive direct stream', {
-                    'vid': video_id,
-                    'itag': progressive.get('itag'),
-                    'height': progressive.get('height')
-                })
-                return {'parse': 0, 'jx': 0, 'url': progressive['url'], 'header': headers}
-
-            # 4. 備選視訊單一直連格式
-            if all_tracks:
-                playable = all_tracks[0]
-                headers = self.header.copy()
-                headers.update(playable.get('headers') or {})
-                debug_log('using direct playable stream', {'vid': video_id, 'itag': playable.get('itag')})
-                return {'parse': 0, 'jx': 0, 'url': playable['url'], 'header': headers}
-
-            raise Exception(f'沒有可直接播放的 {quality} 視頻流格式')
+            # 嚴格分流二：點播專屬播放引擎
+            return VodStreamHandler.build_player_content(self, video_id, quality, data, formats, self.header)
 
         except Exception as e:
             debug_log('playerContent error', repr(e))
@@ -2013,10 +2053,12 @@ class Spider(Spider):
             if self.proxy_str:
                 res['proxy'] = self.proxy_str
             return res
-    
+
     def localProxy(self, params):
         if params.get('do') != 'py':
             return None
+        if params.get('type') == 'live_master':
+            return self._proxy_live_master(params)
         if params.get('type') == 'mpd':
             return self._proxy_mpd(params)
         if params.get('type') == 'media':
@@ -2024,6 +2066,30 @@ class Spider(Spider):
         if params.get('type') == 'single':
             return self._proxy_single(params)
         return None
+
+    def _proxy_live_master(self, params):
+        vid = params.get('vid')
+        quality = params.get('quality') or '1080p'
+        data = self.getCache(f'live_master_{vid}') if vid else None
+        if not data:
+            try:
+                raw_data = self.yt.extract(vid)
+                hls_track = next((t for t in (raw_data.get('formats') or []) if t.get('itag') == 'hls'), None)
+                if hls_track:
+                    data = {'url': hls_track['url'], 'headers': self.header}
+            except Exception:
+                pass
+        if not data or not data.get('url'):
+            return [404, 'text/plain', '直播串流不存在或已過期']
+        try:
+            r = self.session.get(data['url'], headers=data.get('headers') or self.header, timeout=10)
+            if r.status_code == 200:
+                rebuilt = LiveStreamHandler.reorder_live_master_m3u8(r.text, quality)
+                return [200, 'application/x-mpegURL', rebuilt]
+            return [r.status_code, 'text/plain', f'YouTube 直播響應錯誤: {r.status_code}']
+        except Exception as e:
+            debug_log('proxy live master error', repr(e))
+            return [500, 'text/plain', f'直播代理錯誤: {str(e)}']
 
     def _proxy_single(self, params):
         vid = params.get('vid')
@@ -2102,9 +2168,9 @@ class Spider(Spider):
         video_tracks = data.get('video_tracks') or [data.get('video_item') or {}]
         audio_item = data.get('audio_item') or {}
         media_base = f'http://127.0.0.1:9978/proxy?do=py&type=media&vid={vid}&quality={quality}'
-        # 預設為 direct 直連分段，避免本機 9978 阻塞死鎖與逾時
-        direct_segments = str(self.extendDict.get('seg') or 'direct').lower() != 'proxy'
-        buffer_sec = float(self.extendDict.get('buffer') or 10.0)
+        # 預設為 proxy 本機代理分段，帶上官方真實 VR User-Agent 轉發，徹底突破 Google CDN 60 秒 403 斷流限制
+        direct_segments = str(self.extendDict.get('seg') or 'proxy').lower() == 'direct'
+        buffer_sec = float(self.extendDict.get('buffer') or 15.0)
         min_buffer_pt = f"PT{buffer_sec:.1f}S"
         duration_pt = f"PT{int(duration or 0)}S"
         mpd = f'''<?xml version="1.0" encoding="UTF-8"?>
@@ -2212,7 +2278,7 @@ class Spider(Spider):
                 return [
                     r.status_code, 
                     content_type, 
-                    r.iter_content(chunk_size=8192), 
+                    r.iter_content(chunk_size=65536), 
                     resp_headers
                 ]
             else:
